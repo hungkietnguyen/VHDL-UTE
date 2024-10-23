@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/BT_ISE_XILINX/bai_445_dk_16led_2ct_std_tnv_ttr/dk_16led_2ct_std_std_tnv_ttr.ncd
+OUTFILE=/home/ise/BT_ISE_XILINX/bai_445_dk_16led_2ct_std_tnv_ttr/dk_16led_2ct_std_std_tnv_ttr.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5pq208
+WORKINGDIR=/home/ise/BT_ISE_XILINX/bai_445_dk_16led_2ct_std_tnv_ttr
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Fri Apr 14 01:56:36 2023
+
+drc -z dem_3so_ss_ud_4ts_xvn_ht7d_btn.ncd dem_3so_ss_ud_4ts_xvn_ht7d_btn.pcf
+
+DRC detected 0 errors and 0 warnings.

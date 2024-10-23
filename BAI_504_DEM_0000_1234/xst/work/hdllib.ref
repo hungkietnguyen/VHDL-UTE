@@ -1,0 +1,14 @@
+EN dem_4so NULL C:/.Xilinx/BAI_504_DEM_0000_1234/dem_4so.vhd sub00/vhpl02 1651050312
+AR dahop_4kenh behavioral C:/.Xilinx/BAI_504_DEM_0000_1234/dahop_4kenh.vhd sub00/vhpl07 1651050317
+AR chia_10ena behavioral C:/.Xilinx/BAI_504_DEM_0000_1234/CHIA_10ENA.vhd sub00/vhpl01 1651050311
+AR giaima_7doan behavioral C:/.Xilinx/BAI_504_DEM_0000_1234/giaima_7doan.vhd sub00/vhpl11 1651050321
+AR giaima_24h behavioral C:/.Xilinx/BAI_504_DEM_0000_1234/giaima_24h.vhd sub00/vhpl09 1651050319
+EN dem_2bit_select NULL C:/.Xilinx/BAI_504_DEM_0000_1234/dem_2bit_select.vhd sub00/vhpl04 1651050314
+EN giaima_7doan NULL C:/.Xilinx/BAI_504_DEM_0000_1234/giaima_7doan.vhd sub00/vhpl10 1651050320
+AR dem_2bit_select behavioral C:/.Xilinx/BAI_504_DEM_0000_1234/dem_2bit_select.vhd sub00/vhpl05 1651050315
+EN dahop_4kenh NULL C:/.Xilinx/BAI_504_DEM_0000_1234/dahop_4kenh.vhd sub00/vhpl06 1651050316
+AR dem_0000_1234_ht_7doan behavioral C:/.Xilinx/BAI_504_DEM_0000_1234/DEM_0000_1234_HT_7DOAN.vhd sub00/vhpl13 1651050323
+EN chia_10ena NULL C:/.Xilinx/BAI_504_DEM_0000_1234/CHIA_10ENA.vhd sub00/vhpl00 1651050310
+EN dem_0000_1234_ht_7doan NULL C:/.Xilinx/BAI_504_DEM_0000_1234/DEM_0000_1234_HT_7DOAN.vhd sub00/vhpl12 1651050322
+EN giaima_24h NULL C:/.Xilinx/BAI_504_DEM_0000_1234/giaima_24h.vhd sub00/vhpl08 1651050318
+AR dem_4so behavioral C:/.Xilinx/BAI_504_DEM_0000_1234/dem_4so.vhd sub00/vhpl03 1651050313

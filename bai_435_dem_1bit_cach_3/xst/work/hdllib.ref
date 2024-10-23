@@ -1,0 +1,12 @@
+AR lam_hep_xung behavioral /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/lam_hep_xung.vhd sub00/vhpl03 1678159027
+EN dem_1bit_btn NULL /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/dem_1bit_btn.vhd sub00/vhpl08 1678159032
+EN bounce_btn NULL /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/bounce_btn.vhd sub00/vhpl04 1678159024
+AR dem_1bit_btn behavioral /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/dem_1bit_btn.vhd sub00/vhpl09 1678159033
+EN dem_1bit NULL /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/dem_1bit.vhd sub00/vhpl00 1678159030
+AR bounce_btn behavioral /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/bounce_btn.vhd sub00/vhpl05 1678159025
+EN dem_1bit_btn_cach_3 NULL /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/dem_1bit_btn_cach_3.vhd sub00/vhpl10 1678159034
+AR dem_1bit behavioral /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/dem_1bit.vhd sub00/vhpl01 1678159031
+AR cd_lam_hep_btn behavioral /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/cd_lam_hep_btn.vhd sub00/vhpl07 1678159029
+AR dem_1bit_btn_cach_3 behavioral /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/dem_1bit_btn_cach_3.vhd sub00/vhpl11 1678159035
+EN lam_hep_xung NULL /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/lam_hep_xung.vhd sub00/vhpl02 1678159026
+EN cd_lam_hep_btn NULL /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/cd_lam_hep_btn.vhd sub00/vhpl06 1678159028

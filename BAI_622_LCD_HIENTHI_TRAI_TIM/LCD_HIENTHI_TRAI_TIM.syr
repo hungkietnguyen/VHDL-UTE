@@ -1,0 +1,474 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: LCD_HIENTHI_TRAI_TIM.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "LCD_HIENTHI_TRAI_TIM.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "LCD_HIENTHI_TRAI_TIM"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-pq208
+
+---- Source Options
+Top Module Name                    : LCD_HIENTHI_TRAI_TIM
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/.Xilinx/BAI_622_LCD_HIENTHI_TRAI_TIM/LCD_GAN_DL_TTIM.vhd" in Library work.
+Architecture behavioral of Entity lcd_gan_dl_ttim is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_622_LCD_HIENTHI_TRAI_TIM/LCD_KHOITAO_HT_TTIM.vhd" in Library work.
+Architecture behavioral of Entity lcd_khoitao_ht_ttim is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_622_LCD_HIENTHI_TRAI_TIM/LCD_HIENTHI_TRAI_TIM.vhd" in Library work.
+Entity <lcd_hienthi_trai_tim> compiled.
+Entity <LCD_HIENTHI_TRAI_TIM> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <LCD_HIENTHI_TRAI_TIM> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LCD_GAN_DL_TTIM> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LCD_KHOITAO_HT_TTIM> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <LCD_HIENTHI_TRAI_TIM> in library <work> (Architecture <Behavioral>).
+Entity <LCD_HIENTHI_TRAI_TIM> analyzed. Unit <LCD_HIENTHI_TRAI_TIM> generated.
+
+Analyzing Entity <LCD_GAN_DL_TTIM> in library <work> (Architecture <Behavioral>).
+Entity <LCD_GAN_DL_TTIM> analyzed. Unit <LCD_GAN_DL_TTIM> generated.
+
+Analyzing Entity <LCD_KHOITAO_HT_TTIM> in library <work> (Architecture <Behavioral>).
+Entity <LCD_KHOITAO_HT_TTIM> analyzed. Unit <LCD_KHOITAO_HT_TTIM> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <LCD_GAN_DL_TTIM>.
+    Related source file is "C:/.Xilinx/BAI_622_LCD_HIENTHI_TRAI_TIM/LCD_GAN_DL_TTIM.vhd".
+Unit <LCD_GAN_DL_TTIM> synthesized.
+
+
+Synthesizing Unit <LCD_KHOITAO_HT_TTIM>.
+    Related source file is "C:/.Xilinx/BAI_622_LCD_HIENTHI_TRAI_TIM/LCD_KHOITAO_HT_TTIM.vhd".
+    Found finite state machine <FSM_0> for signal <LCD_STATE>.
+    -----------------------------------------------------------------------
+    | States             | 12                                             |
+    | Transitions        | 30                                             |
+    | Inputs             | 6                                              |
+    | Outputs            | 12                                             |
+    | Clock              | CKHT                      (falling_edge)       |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | lcd_initial                                    |
+    | Power Up State     | lcd_initial                                    |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <LCD_E>.
+    Found 1-bit register for signal <LCD_RS>.
+    Found 8-bit register for signal <LCD_DB>.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0000> created at line 151.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0001> created at line 174.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0002> created at line 197.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0003> created at line 220.
+    Found 5-bit register for signal <PTR>.
+    Found 5-bit adder for signal <PTR$share0000> created at line 106.
+    Found 20-bit register for signal <SLX>.
+    Found 20-bit adder for signal <SLX$add0000> created at line 120.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  35 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred  32 Multiplexer(s).
+Unit <LCD_KHOITAO_HT_TTIM> synthesized.
+
+
+Synthesizing Unit <LCD_HIENTHI_TRAI_TIM>.
+    Related source file is "C:/.Xilinx/BAI_622_LCD_HIENTHI_TRAI_TIM/LCD_HIENTHI_TRAI_TIM.vhd".
+Unit <LCD_HIENTHI_TRAI_TIM> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 20-bit adder                                          : 1
+ 5-bit adder                                           : 1
+# Registers                                            : 5
+ 1-bit register                                        : 2
+ 20-bit register                                       : 1
+ 5-bit register                                        : 1
+ 8-bit register                                        : 1
+# Multiplexers                                         : 4
+ 8-bit 20-to-1 multiplexer                             : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <IC2/LCD_STATE/FSM> on signal <LCD_STATE[1:4]> with user encoding.
+-------------------------
+ State       | Encoding
+-------------------------
+ lcd_initial | 0000
+ lcd_cg_addr | 0001
+ lcd_cg_data | 0010
+ lcd_addr_l0 | 0011
+ lcd_data_l0 | 0100
+ lcd_addr_l1 | 0101
+ lcd_data_l1 | 0110
+ lcd_addr_l2 | 0111
+ lcd_data_l2 | 1000
+ lcd_addr_l3 | 1001
+ lcd_data_l3 | 1010
+ lcd_stop    | 1011
+-------------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 2
+ 20-bit adder                                          : 1
+ 5-bit adder                                           : 1
+# Registers                                            : 35
+ Flip-Flops                                            : 35
+# Multiplexers                                         : 4
+ 8-bit 20-to-1 multiplexer                             : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <LCD_HIENTHI_TRAI_TIM> ...
+
+Optimizing unit <LCD_KHOITAO_HT_TTIM> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block LCD_HIENTHI_TRAI_TIM, actual ratio is 3.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 39
+ Flip-Flops                                            : 39
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : LCD_HIENTHI_TRAI_TIM.ngr
+Top Level Output File Name         : LCD_HIENTHI_TRAI_TIM
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 14
+
+Cell Usage :
+# BELS                             : 315
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 19
+#      LUT2                        : 31
+#      LUT2_D                      : 6
+#      LUT2_L                      : 4
+#      LUT3                        : 20
+#      LUT3_D                      : 7
+#      LUT3_L                      : 6
+#      LUT4                        : 122
+#      LUT4_D                      : 14
+#      LUT4_L                      : 36
+#      MUXCY                       : 19
+#      MUXF5                       : 7
+#      VCC                         : 1
+#      XORCY                       : 20
+# FlipFlops/Latches                : 39
+#      FDC_1                       : 29
+#      FDE_1                       : 10
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 13
+#      IBUF                        : 2
+#      OBUF                        : 11
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500epq208-5 
+
+ Number of Slices:                      139  out of   4656     2%  
+ Number of Slice Flip Flops:             39  out of   9312     0%  
+ Number of 4 input LUTs:                267  out of   9312     2%  
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    158     8%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CKHT                               | BUFGP                  | 39    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+BTN0                               | IBUF                   | 29    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 7.932ns (Maximum Frequency: 126.065MHz)
+   Minimum input arrival time before clock: 4.023ns
+   Maximum output required time after clock: 4.134ns
+   Maximum combinational path delay: 4.632ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CKHT'
+  Clock period: 7.932ns (frequency: 126.065MHz)
+  Total number of paths / destination ports: 4174 / 39
+-------------------------------------------------------------------------
+Delay:               7.932ns (Levels of Logic = 6)
+  Source:            IC2/SLX_7 (FF)
+  Destination:       IC2/SLX_19 (FF)
+  Source Clock:      CKHT falling
+  Destination Clock: CKHT falling
+
+  Data Path: IC2/SLX_7 to IC2/SLX_19
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q           10   0.514   0.753  IC2/SLX_7 (IC2/SLX_7)
+     LUT4:I3->O            1   0.612   0.426  IC2/SLX_mux0006<16>219 (IC2/SLX_mux0006<16>219)
+     LUT3:I1->O            1   0.612   0.387  IC2/SLX_mux0006<16>229 (IC2/SLX_mux0006<16>229)
+     LUT4:I2->O            7   0.612   0.605  IC2/SLX_mux0006<16>298 (IC2/SLX_mux0006<16>298)
+     LUT4:I3->O            1   0.612   0.360  IC2/SLX_mux0006<16>2130 (IC2/N5)
+     LUT4_D:I3->O         16   0.612   0.948  IC2/N021 (IC2/N02)
+     LUT2:I1->O            1   0.612   0.000  IC2/SLX_mux0006<8>1 (IC2/SLX_mux0006<8>)
+     FDC_1:D                   0.268          IC2/SLX_11
+    ----------------------------------------
+    Total                      7.932ns (4.454ns logic, 3.478ns route)
+                                       (56.1% logic, 43.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CKHT'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              4.023ns (Levels of Logic = 2)
+  Source:            BTN0 (PAD)
+  Destination:       IC2/LCD_RS (FF)
+  Destination Clock: CKHT falling
+
+  Data Path: BTN0 to IC2/LCD_RS
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            30   1.106   1.072  BTN0_IBUF (BTN0_IBUF)
+     INV:I->O             10   0.612   0.750  IC2/RST_inv1_INV_0 (IC2/RST_inv)
+     FDE_1:CE                  0.483          IC2/LCD_E
+    ----------------------------------------
+    Total                      4.023ns (2.201ns logic, 1.822ns route)
+                                       (54.7% logic, 45.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CKHT'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              4.134ns (Levels of Logic = 1)
+  Source:            IC2/LCD_E (FF)
+  Destination:       LCD_E (PAD)
+  Source Clock:      CKHT falling
+
+  Data Path: IC2/LCD_E to LCD_E
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE_1:C->Q            3   0.514   0.451  IC2/LCD_E (IC2/LCD_E)
+     OBUF:I->O                 3.169          LCD_E_OBUF (LCD_E)
+    ----------------------------------------
+    Total                      4.134ns (3.683ns logic, 0.451ns route)
+                                       (89.1% logic, 10.9% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               4.632ns (Levels of Logic = 2)
+  Source:            SWP (PAD)
+  Destination:       LCD_P (PAD)
+
+  Data Path: SWP to LCD_P
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.357  SWP_IBUF (LCD_P_OBUF)
+     OBUF:I->O                 3.169          LCD_P_OBUF (LCD_P)
+    ----------------------------------------
+    Total                      4.632ns (4.275ns logic, 0.357ns route)
+                                       (92.3% logic, 7.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.15 secs
+ 
+--> 
+
+Total memory usage is 4513312 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

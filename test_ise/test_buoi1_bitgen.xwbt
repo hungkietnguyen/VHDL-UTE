@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/BT_ISE_XILINX/test_ise/test_buoi1.ncd
+OUTFILE=/home/ise/BT_ISE_XILINX/test_ise/test_buoi1.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5pq208
+WORKINGDIR=/home/ise/BT_ISE_XILINX/test_ise
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

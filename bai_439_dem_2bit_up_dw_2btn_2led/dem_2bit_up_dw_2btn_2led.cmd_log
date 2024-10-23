@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_439_dem_2bit_up_dw_2btn_2led/dem_2bit_up_dw_2btn_2led.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_439_dem_2bit_up_dw_2btn_2led/dem_2bit_up_dw_2btn_2led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "KIT_XC3S500E_PQ208 .ucf" -p xc3s500e-pq208-5 dem_2bit_up_dw_2btn_2led.ngc dem_2bit_up_dw_2btn_2led.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o dem_2bit_up_dw_2btn_2led_map.ncd dem_2bit_up_dw_2btn_2led.ngd dem_2bit_up_dw_2btn_2led.pcf 
+par -w -intstyle ise -ol high -t 1 dem_2bit_up_dw_2btn_2led_map.ncd dem_2bit_up_dw_2btn_2led.ncd dem_2bit_up_dw_2btn_2led.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml dem_2bit_up_dw_2btn_2led.twx dem_2bit_up_dw_2btn_2led.ncd -o dem_2bit_up_dw_2btn_2led.twr dem_2bit_up_dw_2btn_2led.pcf -ucf {KIT_XC3S500E_PQ208 .ucf} 
+bitgen -intstyle ise -f dem_2bit_up_dw_2btn_2led.ut dem_2bit_up_dw_2btn_2led.ncd 

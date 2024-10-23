@@ -1,0 +1,10 @@
+AR chia_10ena behavioral /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/chia_10ena.vhd sub00/vhpl01 1678766096
+EN dieukhien_chophep NULL /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/dieukhien_chophep.vhd sub00/vhpl02 1678766101
+EN dv_tsp NULL /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/dv_tsp.vhd sub00/vhpl06 1678766099
+EN dk_16led_2ct_au_dv_pst_tsp NULL /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/dk_16led_2ct_au_dv_pst_tsp.vhd sub00/vhpl08 1678766103
+AR dv_tsp behavioral /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/dv_tsp.vhd sub00/vhpl07 1678766100
+AR dv_pst behavioral /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/dv_pst.vhd sub00/vhpl05 1678766098
+AR dk_16led_2ct_au_dv_pst_tsp behavioral /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/dk_16led_2ct_au_dv_pst_tsp.vhd sub00/vhpl09 1678766104
+EN chia_10ena NULL /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/chia_10ena.vhd sub00/vhpl00 1678766095
+EN dv_pst NULL /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/dv_pst.vhd sub00/vhpl04 1678766097
+AR dieukhien_chophep behavioral /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/dieukhien_chophep.vhd sub00/vhpl03 1678766102

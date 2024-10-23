@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Fri Apr 14 09:55:04 2023
+
+drc -z DEM_3SO_HT_LCD_SO_TO_XVN.ncd DEM_3SO_HT_LCD_SO_TO_XVN.pcf
+
+DRC detected 0 errors and 0 warnings.

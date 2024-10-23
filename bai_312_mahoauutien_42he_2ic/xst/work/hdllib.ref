@@ -1,0 +1,6 @@
+AR mahoa_42he_if behavioral /home/ise/BT_ISE_XILINX/bai_312_mahoauutien_42he_2ic/mahoa_42he_if.vhd sub00/vhpl01 1676249311
+EN mahoa_42he_case NULL /home/ise/BT_ISE_XILINX/bai_312_mahoauutien_42he_2ic/mahoa_42he_case.vhd sub00/vhpl02 1676249312
+AR mahoauutien_42he_2ic behavioral /home/ise/BT_ISE_XILINX/bai_312_mahoauutien_42he_2ic/mahoauutien_42he_2ic.vhd sub00/vhpl05 1676249315
+EN mahoauutien_42he_2ic NULL /home/ise/BT_ISE_XILINX/bai_312_mahoauutien_42he_2ic/mahoauutien_42he_2ic.vhd sub00/vhpl04 1676249314
+AR mahoa_42he_case behavioral /home/ise/BT_ISE_XILINX/bai_312_mahoauutien_42he_2ic/mahoa_42he_case.vhd sub00/vhpl03 1676249313
+EN mahoa_42he_if NULL /home/ise/BT_ISE_XILINX/bai_312_mahoauutien_42he_2ic/mahoa_42he_if.vhd sub00/vhpl00 1676249310

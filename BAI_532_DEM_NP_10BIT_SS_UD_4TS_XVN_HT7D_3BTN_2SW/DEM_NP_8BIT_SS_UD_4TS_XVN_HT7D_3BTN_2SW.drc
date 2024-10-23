@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Mon Apr 17 04:57:35 2023
+
+drc -z DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW.ncd DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW.pcf
+
+DRC detected 0 errors and 0 warnings.

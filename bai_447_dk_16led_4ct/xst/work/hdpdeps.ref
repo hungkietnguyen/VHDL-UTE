@@ -1,0 +1,47 @@
+V3 27
+FL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/chia_10ena.vhd 2023/03/20.01:01:00 P.20131013
+EN work/chia_10ena 1679274690 \
+      FL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/chia_10ena.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/chia_10ena/Behavioral 1679274691 \
+      FL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/chia_10ena.vhd \
+      EN work/chia_10ena 1679274690
+FL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/dieukhien_chophep.vhd 2023/03/20.01:02:54 P.20131013
+EN work/dieukhien_chophep 1679274700 \
+      FL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/dieukhien_chophep.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dieukhien_chophep/Behavioral 1679274701 \
+      FL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/dieukhien_chophep.vhd \
+      EN work/dieukhien_chophep 1679274700
+FL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/dk_16led_4ct.vhd 2023/03/20.01:06:26 P.20131013
+EN work/dk_16led_4ct 1679274702 \
+      FL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/dk_16led_4ct.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dk_16led_4ct/Behavioral 1679274703 \
+      FL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/dk_16led_4ct.vhd \
+      EN work/dk_16led_4ct 1679274702 CP work/chia_10ena CP work/js_pst \
+      CP work/js_tsp CP work/js_tnv CP work/js_ttr CP work/dieukhien_chophep
+FL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/js_pst.vhd 2023/03/20.01:10:57 P.20131013
+EN work/js_pst 1679274692 \
+      FL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/js_pst.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/js_pst/Behavioral 1679274693 \
+      FL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/js_pst.vhd EN work/js_pst 1679274692
+FL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/js_tnv.vhd 2023/03/20.01:01:00 P.20131013
+EN work/js_tnv 1679274696 \
+      FL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/js_tnv.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/js_tnv/Behavioral 1679274697 \
+      FL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/js_tnv.vhd EN work/js_tnv 1679274696
+FL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/js_tsp.vhd 2023/03/20.01:11:22 P.20131013
+EN work/js_tsp 1679274694 \
+      FL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/js_tsp.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/js_tsp/Behavioral 1679274695 \
+      FL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/js_tsp.vhd EN work/js_tsp 1679274694
+FL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/js_ttr.vhd 2023/03/20.01:01:20 P.20131013
+EN work/js_ttr 1679274698 \
+      FL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/js_ttr.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/js_ttr/Behavioral 1679274699 \
+      FL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/js_ttr.vhd EN work/js_ttr 1679274698

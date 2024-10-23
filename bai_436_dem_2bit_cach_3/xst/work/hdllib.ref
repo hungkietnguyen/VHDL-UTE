@@ -1,0 +1,12 @@
+EN dem_2bit NULL /home/ise/Desktop/TT_TKVMS_VHDL/bai_436_dem_2bit_cach_3/dem_2bit.vhd sub00/vhpl06 1677546181
+AR debounce_btn behavioral /home/ise/Desktop/TT_TKVMS_VHDL/bai_432_dem_4bit_btn_cach_1/debounce_btn.vhd sub00/vhpl01 1677546176
+AR lam_hep_xung behavioral /home/ise/Desktop/TT_TKVMS_VHDL/bai_432_dem_4bit_btn_cach_1/lam_hep_xung.vhd sub00/vhpl03 1677546178
+EN debounce_btn NULL /home/ise/Desktop/TT_TKVMS_VHDL/bai_432_dem_4bit_btn_cach_1/debounce_btn.vhd sub00/vhpl00 1677546175
+AR cd_lam_hep_btn behavioral /home/ise/Desktop/TT_TKVMS_VHDL/bai_434_dem_4bit_btn_cach_3/cd_lam_hep_btn.vhd sub00/vhpl05 1677546180
+AR dem_2bit_btn behavioral /home/ise/Desktop/TT_TKVMS_VHDL/bai_436_dem_2bit_cach_3/dem_2bit_btn.vhd sub00/vhpl11 1677546184
+AR dem_2bit_btn_cach_3 behavioral /home/ise/Desktop/TT_TKVMS_VHDL/bai_436_dem_2bit_cach_3/dem_2bit_btn_cach_3.vhd sub00/vhpl09 1677546186
+EN lam_hep_xung NULL /home/ise/Desktop/TT_TKVMS_VHDL/bai_432_dem_4bit_btn_cach_1/lam_hep_xung.vhd sub00/vhpl02 1677546177
+EN dem_2bit_btn_cach_3 NULL /home/ise/Desktop/TT_TKVMS_VHDL/bai_436_dem_2bit_cach_3/dem_2bit_btn_cach_3.vhd sub00/vhpl08 1677546185
+AR dem_2bit behavioral /home/ise/Desktop/TT_TKVMS_VHDL/bai_436_dem_2bit_cach_3/dem_2bit.vhd sub00/vhpl07 1677546182
+EN cd_lam_hep_btn NULL /home/ise/Desktop/TT_TKVMS_VHDL/bai_434_dem_4bit_btn_cach_3/cd_lam_hep_btn.vhd sub00/vhpl04 1677546179
+EN dem_2bit_btn NULL /home/ise/Desktop/TT_TKVMS_VHDL/bai_436_dem_2bit_cach_3/dem_2bit_btn.vhd sub00/vhpl10 1677546183

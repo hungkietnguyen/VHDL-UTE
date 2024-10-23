@@ -1,0 +1,15 @@
+V3 7
+FL /home/ise/BT_ISE_XILINX/bai_413_chia_10xung_ena1hz_ena1mhz/chia_10ena.vhd 2023/02/20.04:03:06 P.20131013
+EN work/chia_10ena 1676865794 \
+      FL /home/ise/BT_ISE_XILINX/bai_413_chia_10xung_ena1hz_ena1mhz/chia_10ena.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/chia_10ena/Behavioral 1676865795 \
+      FL /home/ise/BT_ISE_XILINX/bai_413_chia_10xung_ena1hz_ena1mhz/chia_10ena.vhd \
+      EN work/chia_10ena 1676865794
+FL /home/ise/BT_ISE_XILINX/bai_413_chia_10xung_ena1hz_ena1mhz/chia_10xung_ena1hz_ena1mhz.vhd 2023/02/20.03:44:00 P.20131013
+EN work/chia_10xung_ena1hz_ena1mhz 1676865796 \
+      FL /home/ise/BT_ISE_XILINX/bai_413_chia_10xung_ena1hz_ena1mhz/chia_10xung_ena1hz_ena1mhz.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/chia_10xung_ena1hz_ena1mhz/Behavioral 1676865797 \
+      FL /home/ise/BT_ISE_XILINX/bai_413_chia_10xung_ena1hz_ena1mhz/chia_10xung_ena1hz_ena1mhz.vhd \
+      EN work/chia_10xung_ena1hz_ena1mhz 1676865796 CP work/chia_10ena

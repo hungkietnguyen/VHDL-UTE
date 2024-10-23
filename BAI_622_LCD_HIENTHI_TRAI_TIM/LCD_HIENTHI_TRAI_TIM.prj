@@ -1,0 +1,3 @@
+vhdl work "LCD_KHOITAO_HT_TTIM.vhd"
+vhdl work "LCD_GAN_DL_TTIM.vhd"
+vhdl work "LCD_HIENTHI_TRAI_TIM.vhd"

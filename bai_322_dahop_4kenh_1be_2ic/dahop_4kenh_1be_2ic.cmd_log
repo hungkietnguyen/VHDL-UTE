@@ -1,0 +1,47 @@
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 dahop_4kenh_1be_2ic.ngc dahop_4kenh_1be_2ic.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o dahop_4kenh_1be_2ic_map.ncd dahop_4kenh_1be_2ic.ngd dahop_4kenh_1be_2ic.pcf 
+par -w -intstyle ise -ol high -t 1 dahop_4kenh_1be_2ic_map.ncd dahop_4kenh_1be_2ic.ncd dahop_4kenh_1be_2ic.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml dahop_4kenh_1be_2ic.twx dahop_4kenh_1be_2ic.ncd -o dahop_4kenh_1be_2ic.twr dahop_4kenh_1be_2ic.pcf 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 dahop_4kenh_1be_2ic.ngc dahop_4kenh_1be_2ic.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o dahop_4kenh_1be_2ic_map.ncd dahop_4kenh_1be_2ic.ngd dahop_4kenh_1be_2ic.pcf 
+par -w -intstyle ise -ol high -t 1 dahop_4kenh_1be_2ic_map.ncd dahop_4kenh_1be_2ic.ncd dahop_4kenh_1be_2ic.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml dahop_4kenh_1be_2ic.twx dahop_4kenh_1be_2ic.ncd -o dahop_4kenh_1be_2ic.twr dahop_4kenh_1be_2ic.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f dahop_4kenh_1be_2ic.ut dahop_4kenh_1be_2ic.ncd 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 dahop_4kenh_1be_2ic.ngc dahop_4kenh_1be_2ic.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o dahop_4kenh_1be_2ic_map.ncd dahop_4kenh_1be_2ic.ngd dahop_4kenh_1be_2ic.pcf 
+par -w -intstyle ise -ol high -t 1 dahop_4kenh_1be_2ic_map.ncd dahop_4kenh_1be_2ic.ncd dahop_4kenh_1be_2ic.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml dahop_4kenh_1be_2ic.twx dahop_4kenh_1be_2ic.ncd -o dahop_4kenh_1be_2ic.twr dahop_4kenh_1be_2ic.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f dahop_4kenh_1be_2ic.ut dahop_4kenh_1be_2ic.ncd 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 dahop_4kenh_1be_2ic.ngc dahop_4kenh_1be_2ic.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o dahop_4kenh_1be_2ic_map.ncd dahop_4kenh_1be_2ic.ngd dahop_4kenh_1be_2ic.pcf 
+par -w -intstyle ise -ol high -t 1 dahop_4kenh_1be_2ic_map.ncd dahop_4kenh_1be_2ic.ncd dahop_4kenh_1be_2ic.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml dahop_4kenh_1be_2ic.twx dahop_4kenh_1be_2ic.ncd -o dahop_4kenh_1be_2ic.twr dahop_4kenh_1be_2ic.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f dahop_4kenh_1be_2ic.ut dahop_4kenh_1be_2ic.ncd 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 dahop_4kenh_1be_2ic.ngc dahop_4kenh_1be_2ic.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o dahop_4kenh_1be_2ic_map.ncd dahop_4kenh_1be_2ic.ngd dahop_4kenh_1be_2ic.pcf 
+par -w -intstyle ise -ol high -t 1 dahop_4kenh_1be_2ic_map.ncd dahop_4kenh_1be_2ic.ncd dahop_4kenh_1be_2ic.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml dahop_4kenh_1be_2ic.twx dahop_4kenh_1be_2ic.ncd -o dahop_4kenh_1be_2ic.twr dahop_4kenh_1be_2ic.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f dahop_4kenh_1be_2ic.ut dahop_4kenh_1be_2ic.ncd 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 dahop_4kenh_1be_2ic.ngc dahop_4kenh_1be_2ic.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o dahop_4kenh_1be_2ic_map.ncd dahop_4kenh_1be_2ic.ngd dahop_4kenh_1be_2ic.pcf 
+par -w -intstyle ise -ol high -t 1 dahop_4kenh_1be_2ic_map.ncd dahop_4kenh_1be_2ic.ncd dahop_4kenh_1be_2ic.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml dahop_4kenh_1be_2ic.twx dahop_4kenh_1be_2ic.ncd -o dahop_4kenh_1be_2ic.twr dahop_4kenh_1be_2ic.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f dahop_4kenh_1be_2ic.ut dahop_4kenh_1be_2ic.ncd 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 dahop_4kenh_1be_2ic.ngc dahop_4kenh_1be_2ic.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o dahop_4kenh_1be_2ic_map.ncd dahop_4kenh_1be_2ic.ngd dahop_4kenh_1be_2ic.pcf 
+par -w -intstyle ise -ol high -t 1 dahop_4kenh_1be_2ic_map.ncd dahop_4kenh_1be_2ic.ncd dahop_4kenh_1be_2ic.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml dahop_4kenh_1be_2ic.twx dahop_4kenh_1be_2ic.ncd -o dahop_4kenh_1be_2ic.twr dahop_4kenh_1be_2ic.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f dahop_4kenh_1be_2ic.ut dahop_4kenh_1be_2ic.ncd 

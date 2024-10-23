@@ -1,0 +1,14 @@
+AR chia_10ena behavioral /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/chia_10ena.vhd sub00/vhpl11 1679274691
+EN dieukhien_chophep NULL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/dieukhien_chophep.vhd sub00/vhpl00 1679274700
+EN js_pst NULL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/js_pst.vhd sub00/vhpl08 1679274692
+AR dk_16led_4ct behavioral /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/dk_16led_4ct.vhd sub00/vhpl13 1679274703
+EN dk_16led_4ct NULL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/dk_16led_4ct.vhd sub00/vhpl12 1679274702
+AR js_tsp behavioral /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/js_tsp.vhd sub00/vhpl07 1679274695
+AR js_tnv behavioral /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/js_tnv.vhd sub00/vhpl05 1679274697
+EN js_tnv NULL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/js_tnv.vhd sub00/vhpl04 1679274696
+AR js_pst behavioral /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/js_pst.vhd sub00/vhpl09 1679274693
+EN js_tsp NULL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/js_tsp.vhd sub00/vhpl06 1679274694
+AR js_ttr behavioral /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/js_ttr.vhd sub00/vhpl03 1679274699
+EN js_ttr NULL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/js_ttr.vhd sub00/vhpl02 1679274698
+EN chia_10ena NULL /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/chia_10ena.vhd sub00/vhpl10 1679274690
+AR dieukhien_chophep behavioral /home/ise/BT_ISE_XILINX/bai_447_dk_16led_4ct/dieukhien_chophep.vhd sub00/vhpl01 1679274701

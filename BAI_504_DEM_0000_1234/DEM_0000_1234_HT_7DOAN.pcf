@@ -1,0 +1,22 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Apr 27 16:05:24 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "btn0" LOCATE = SITE "P51" LEVEL 1;
+COMP "ckht" LOCATE = SITE "P183" LEVEL 1;
+COMP "sw0" LOCATE = SITE "P175" LEVEL 1;
+COMP "sseg<0>" LOCATE = SITE "P16" LEVEL 1;
+COMP "sseg<1>" LOCATE = SITE "P15" LEVEL 1;
+COMP "sseg<2>" LOCATE = SITE "P19" LEVEL 1;
+COMP "sseg<3>" LOCATE = SITE "P18" LEVEL 1;
+COMP "sseg<4>" LOCATE = SITE "P22" LEVEL 1;
+COMP "sseg<5>" LOCATE = SITE "P24" LEVEL 1;
+COMP "sseg<6>" LOCATE = SITE "P23" LEVEL 1;
+COMP "anode<0>" LOCATE = SITE "P3" LEVEL 1;
+COMP "anode<1>" LOCATE = SITE "P2" LEVEL 1;
+COMP "anode<2>" LOCATE = SITE "P5" LEVEL 1;
+COMP "anode<3>" LOCATE = SITE "P4" LEVEL 1;
+NET "ckht_BUFGP/IBUFG" BEL "ckht_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

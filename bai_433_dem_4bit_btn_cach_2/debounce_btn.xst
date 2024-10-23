@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/xst"
+elaborate
+-ifn debounce_btn.prj
+-ifmt mixed

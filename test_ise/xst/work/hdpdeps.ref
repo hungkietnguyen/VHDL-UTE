@@ -1,0 +1,6 @@
+V3 3
+FL /home/ise/BT_ISE_XILINX/test_ise/test_buoi1.vhd 2023/01/31.03:37:02 P.20131013
+EN work/test_buoi1 1675307676 FL /home/ise/BT_ISE_XILINX/test_ise/test_buoi1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/test_buoi1/Behavioral 1675307677 \
+      FL /home/ise/BT_ISE_XILINX/test_ise/test_buoi1.vhd EN work/test_buoi1 1675307676

@@ -1,0 +1,23 @@
+V3 11
+FL /home/ise/BT_ISE_XILINX/bai_430_dem_ngau_nhien_3bit/chia_ena1hz.vhd 2023/02/28.00:12:44 P.20131013
+EN work/chia_ena1hz 1677544338 \
+      FL /home/ise/BT_ISE_XILINX/bai_430_dem_ngau_nhien_3bit/chia_ena1hz.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/chia_ena1hz/Behavioral 1677544339 \
+      FL /home/ise/BT_ISE_XILINX/bai_430_dem_ngau_nhien_3bit/chia_ena1hz.vhd \
+      EN work/chia_ena1hz 1677544338
+FL /home/ise/BT_ISE_XILINX/bai_430_dem_ngau_nhien_3bit/dem_ngau_nhien.vhd 2023/02/28.00:32:11 P.20131013
+EN work/dem_ngau_nhien 1677544340 \
+      FL /home/ise/BT_ISE_XILINX/bai_430_dem_ngau_nhien_3bit/dem_ngau_nhien.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/dem_ngau_nhien/Behavioral 1677544341 \
+      FL /home/ise/BT_ISE_XILINX/bai_430_dem_ngau_nhien_3bit/dem_ngau_nhien.vhd \
+      EN work/dem_ngau_nhien 1677544340
+FL /home/ise/BT_ISE_XILINX/bai_430_dem_ngau_nhien_3bit/dem_ngau_nhien_3bit.vhd 2023/02/27.16:56:37 P.20131013
+EN work/dem_ngau_nhien_3bit 1677544342 \
+      FL /home/ise/BT_ISE_XILINX/bai_430_dem_ngau_nhien_3bit/dem_ngau_nhien_3bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dem_ngau_nhien_3bit/Behavioral 1677544343 \
+      FL /home/ise/BT_ISE_XILINX/bai_430_dem_ngau_nhien_3bit/dem_ngau_nhien_3bit.vhd \
+      EN work/dem_ngau_nhien_3bit 1677544342 CP work/chia_ena1hz \
+      CP work/dem_ngau_nhien

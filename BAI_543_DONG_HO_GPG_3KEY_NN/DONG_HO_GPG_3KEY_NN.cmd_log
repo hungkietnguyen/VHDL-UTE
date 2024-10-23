@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DONG_HO_GPG_3KEY_NN.xst" -ofn "C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DONG_HO_GPG_3KEY_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 DONG_HO_GPG_3KEY_NN.ngc DONG_HO_GPG_3KEY_NN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DONG_HO_GPG_3KEY_NN_map.ncd DONG_HO_GPG_3KEY_NN.ngd DONG_HO_GPG_3KEY_NN.pcf 
+par -w -intstyle ise -ol high -t 1 DONG_HO_GPG_3KEY_NN_map.ncd DONG_HO_GPG_3KEY_NN.ncd DONG_HO_GPG_3KEY_NN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DONG_HO_GPG_3KEY_NN.twx DONG_HO_GPG_3KEY_NN.ncd -o DONG_HO_GPG_3KEY_NN.twr DONG_HO_GPG_3KEY_NN.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DONG_HO_GPG_3KEY_NN.ut DONG_HO_GPG_3KEY_NN.ncd 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/DONG_HO_GPG_3KEY_NN.xst" -ofn "/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/DONG_HO_GPG_3KEY_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 DONG_HO_GPG_3KEY_NN.ngc DONG_HO_GPG_3KEY_NN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DONG_HO_GPG_3KEY_NN_map.ncd DONG_HO_GPG_3KEY_NN.ngd DONG_HO_GPG_3KEY_NN.pcf 
+par -w -intstyle ise -ol high -t 1 DONG_HO_GPG_3KEY_NN_map.ncd DONG_HO_GPG_3KEY_NN.ncd DONG_HO_GPG_3KEY_NN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DONG_HO_GPG_3KEY_NN.twx DONG_HO_GPG_3KEY_NN.ncd -o DONG_HO_GPG_3KEY_NN.twr DONG_HO_GPG_3KEY_NN.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DONG_HO_GPG_3KEY_NN.ut DONG_HO_GPG_3KEY_NN.ncd 

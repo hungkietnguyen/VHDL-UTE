@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/xst"
+elaborate
+-ifn js_pst.prj
+-ifmt mixed

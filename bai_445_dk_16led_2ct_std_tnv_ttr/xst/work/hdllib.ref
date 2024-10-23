@@ -1,0 +1,10 @@
+EN dk_16led_2ct_std_std_tnv_ttr NULL /home/ise/BT_ISE_XILINX/bai_445_dk_16led_2ct_std_tnv_ttr/dk_16led_2ct_std_std_tnv_ttr.vhd sub00/vhpl08 1678763203
+AR chia_10ena behavioral /home/ise/BT_ISE_XILINX/bai_445_dk_16led_2ct_std_tnv_ttr/chia_10ena.vhd sub00/vhpl03 1678763196
+EN dieukhien_chophep NULL /home/ise/BT_ISE_XILINX/bai_445_dk_16led_2ct_std_tnv_ttr/dieukhien_chophep.vhd sub00/vhpl06 1678763201
+AR dk_16led_2ct_std_std_tnv_ttr behavioral /home/ise/BT_ISE_XILINX/bai_445_dk_16led_2ct_std_tnv_ttr/dk_16led_2ct_std_std_tnv_ttr.vhd sub00/vhpl09 1678763204
+AR js_tnv behavioral /home/ise/BT_ISE_XILINX/bai_445_dk_16led_2ct_std_tnv_ttr/js_tnv.vhd sub00/vhpl01 1678763198
+EN js_tnv NULL /home/ise/BT_ISE_XILINX/bai_445_dk_16led_2ct_std_tnv_ttr/js_tnv.vhd sub00/vhpl00 1678763197
+AR js_ttr behavioral /home/ise/BT_ISE_XILINX/bai_445_dk_16led_2ct_std_tnv_ttr/js_ttr.vhd sub00/vhpl05 1678763200
+EN js_ttr NULL /home/ise/BT_ISE_XILINX/bai_445_dk_16led_2ct_std_tnv_ttr/js_ttr.vhd sub00/vhpl04 1678763199
+EN chia_10ena NULL /home/ise/BT_ISE_XILINX/bai_445_dk_16led_2ct_std_tnv_ttr/chia_10ena.vhd sub00/vhpl02 1678763195
+AR dieukhien_chophep behavioral /home/ise/BT_ISE_XILINX/bai_445_dk_16led_2ct_std_tnv_ttr/dieukhien_chophep.vhd sub00/vhpl07 1678763202

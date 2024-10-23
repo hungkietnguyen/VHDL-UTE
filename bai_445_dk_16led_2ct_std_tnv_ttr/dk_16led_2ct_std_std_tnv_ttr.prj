@@ -1,0 +1,5 @@
+vhdl work "js_ttr.vhd"
+vhdl work "js_tnv.vhd"
+vhdl work "dieukhien_chophep.vhd"
+vhdl work "chia_10ena.vhd"
+vhdl work "dk_16led_2ct_std_std_tnv_ttr.vhd"

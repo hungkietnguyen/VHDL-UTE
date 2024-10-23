@@ -1,0 +1,46 @@
+V3 23
+FL /home/ise/BT_ISE_XILINX/bai_438_dem_4bit_up_dw_2btn_4led/bounce_btn.vhd 2023/03/13.01:41:32 P.20131013
+EN work/bounce_btn 1678672458 \
+      FL /home/ise/BT_ISE_XILINX/bai_438_dem_4bit_up_dw_2btn_4led/bounce_btn.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/bounce_btn/Behavioral 1678672459 \
+      FL /home/ise/BT_ISE_XILINX/bai_438_dem_4bit_up_dw_2btn_4led/bounce_btn.vhd \
+      EN work/bounce_btn 1678672458
+FL /home/ise/BT_ISE_XILINX/bai_438_dem_4bit_up_dw_2btn_4led/cd_lam_hep_btn.vhd 2023/03/13.01:42:07 P.20131013
+EN work/cd_lam_hep_btn 1678672462 \
+      FL /home/ise/BT_ISE_XILINX/bai_438_dem_4bit_up_dw_2btn_4led/cd_lam_hep_btn.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/cd_lam_hep_btn/Behavioral 1678672463 \
+      FL /home/ise/BT_ISE_XILINX/bai_438_dem_4bit_up_dw_2btn_4led/cd_lam_hep_btn.vhd \
+      EN work/cd_lam_hep_btn 1678672462 CP work/bounce_btn CP work/lam_hep_xung
+FL /home/ise/BT_ISE_XILINX/bai_438_dem_4bit_up_dw_2btn_4led/dem_4bit.vhd 2023/03/13.01:54:17 P.20131013
+EN work/dem_4bit 1678672464 \
+      FL /home/ise/BT_ISE_XILINX/bai_438_dem_4bit_up_dw_2btn_4led/dem_4bit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/dem_4bit/Behavioral 1678672465 \
+      FL /home/ise/BT_ISE_XILINX/bai_438_dem_4bit_up_dw_2btn_4led/dem_4bit.vhd \
+      EN work/dem_4bit 1678672464
+FL /home/ise/BT_ISE_XILINX/bai_438_dem_4bit_up_dw_2btn_4led/dem_4bit_up_dw_2btn.vhd 2023/03/13.01:37:53 P.20131013
+EN work/dem_4bit_up_dw_2btn 1678672466 \
+      FL /home/ise/BT_ISE_XILINX/bai_438_dem_4bit_up_dw_2btn_4led/dem_4bit_up_dw_2btn.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dem_4bit_up_dw_2btn/Behavioral 1678672467 \
+      FL /home/ise/BT_ISE_XILINX/bai_438_dem_4bit_up_dw_2btn_4led/dem_4bit_up_dw_2btn.vhd \
+      EN work/dem_4bit_up_dw_2btn 1678672466 CP work/cd_lam_hep_btn \
+      CP work/dem_4bit
+FL /home/ise/BT_ISE_XILINX/bai_438_dem_4bit_up_dw_2btn_4led/dem_4bit_up_dw_2btn_c3.vhd 2023/03/13.01:54:17 P.20131013
+EN work/dem_4bit_up_dw_2btn_c3 1678672468 \
+      FL /home/ise/BT_ISE_XILINX/bai_438_dem_4bit_up_dw_2btn_4led/dem_4bit_up_dw_2btn_c3.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dem_4bit_up_dw_2btn_c3/Behavioral 1678672469 \
+      FL /home/ise/BT_ISE_XILINX/bai_438_dem_4bit_up_dw_2btn_4led/dem_4bit_up_dw_2btn_c3.vhd \
+      EN work/dem_4bit_up_dw_2btn_c3 1678672468 CP work/dem_4bit_up_dw_2btn
+FL /home/ise/BT_ISE_XILINX/bai_438_dem_4bit_up_dw_2btn_4led/lam_hep_xung.vhd 2023/03/13.01:37:53 P.20131013
+EN work/lam_hep_xung 1678672460 \
+      FL /home/ise/BT_ISE_XILINX/bai_438_dem_4bit_up_dw_2btn_4led/lam_hep_xung.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/lam_hep_xung/Behavioral 1678672461 \
+      FL /home/ise/BT_ISE_XILINX/bai_438_dem_4bit_up_dw_2btn_4led/lam_hep_xung.vhd \
+      EN work/lam_hep_xung 1678672460

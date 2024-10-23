@@ -1,0 +1,4 @@
+EN hextobcd_6bit NULL /home/ise/BT_ISE_XILINX/bai_362_hex_to_bcd_6bit/hextobcd_6bit.vhd sub00/vhpl00 1676342210
+AR hex_to_bcd_6bit behavioral /home/ise/BT_ISE_XILINX/bai_362_hex_to_bcd_6bit/hex_to_bcd_6bit.vhd sub00/vhpl03 1676342213
+EN hex_to_bcd_6bit NULL /home/ise/BT_ISE_XILINX/bai_362_hex_to_bcd_6bit/hex_to_bcd_6bit.vhd sub00/vhpl02 1676342212
+AR hextobcd_6bit behavioral /home/ise/BT_ISE_XILINX/bai_362_hex_to_bcd_6bit/hextobcd_6bit.vhd sub00/vhpl01 1676342211

@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/BT_ISE_XILINX/bai_511_dem_1so_ss_ud_ht_7doan/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/BT_ISE_XILINX/bai_511_dem_1so_ss_ud_ht_7doan/xst"
+elaborate
+-ifn dahop_8kenh.prj
+-ifmt mixed

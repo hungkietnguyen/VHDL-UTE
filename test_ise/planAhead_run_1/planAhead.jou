@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Thu Feb  2 03:23:54 2023
+# Process ID: 6092
+# Log file: /home/ise/BT_ISE_XILINX/test_ise/planAhead_run_1/planAhead.log
+# Journal file: /home/ise/BT_ISE_XILINX/test_ise/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/ise/BT_ISE_XILINX/test_ise/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  Y]]
+startgroup
+set_property package_pin P169 [get_ports A]
+endgroup
+startgroup
+set_property package_pin P175 [get_ports B]
+endgroup
+startgroup
+set_property package_pin P28 [get_ports Y]
+endgroup
+save_constraints

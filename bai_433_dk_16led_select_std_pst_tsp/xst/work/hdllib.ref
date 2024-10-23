@@ -1,0 +1,8 @@
+AR chia_10ena behavioral /home/ise/BT_ISE_XILINX/bai_433_dk_16led_select_std_pst_tsp/chia_10ena.vhd sub00/vhpl05 1678753399
+EN js_pst NULL /home/ise/BT_ISE_XILINX/bai_433_dk_16led_select_std_pst_tsp/js_pst.vhd sub00/vhpl02 1678753400
+AR dk_16led_select_std_pst_tsp behavioral /home/ise/BT_ISE_XILINX/bai_433_dk_16led_select_std_pst_tsp/dk_16led_select_std_pst_tsp.vhd sub00/vhpl07 1678753405
+EN dk_16led_select_std_pst_tsp NULL /home/ise/BT_ISE_XILINX/bai_433_dk_16led_select_std_pst_tsp/dk_16led_select_std_pst_tsp.vhd sub00/vhpl06 1678753404
+AR js_tsp behavioral /home/ise/BT_ISE_XILINX/bai_433_dk_16led_select_std_pst_tsp/js_tsp.vhd sub00/vhpl01 1678753403
+AR js_pst behavioral /home/ise/BT_ISE_XILINX/bai_433_dk_16led_select_std_pst_tsp/js_pst.vhd sub00/vhpl03 1678753401
+EN js_tsp NULL /home/ise/BT_ISE_XILINX/bai_433_dk_16led_select_std_pst_tsp/js_tsp.vhd sub00/vhpl00 1678753402
+EN chia_10ena NULL /home/ise/BT_ISE_XILINX/bai_433_dk_16led_select_std_pst_tsp/chia_10ena.vhd sub00/vhpl04 1678753398

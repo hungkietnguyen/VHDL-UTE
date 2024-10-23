@@ -1,0 +1,254 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p
+xc3s500e-pq208-5 DEM_1BIT_BTN.ngc DEM_1BIT_BTN.ngd
+
+Reading NGO file
+"C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEM_1BIT_BTN.ngc"
+...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "KIT_XC3S500E_PQ208.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+ERROR:ConstraintSystem:59 - Constraint <NET "led[0]" 	LOC = P28;>
+   [KIT_XC3S500E_PQ208.ucf(7)]: NET "led[0]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led[0]" 	LOC = P28;> [KIT_XC3S500E_PQ208.ucf(7)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led[1]" 	LOC = P29;>
+   [KIT_XC3S500E_PQ208.ucf(8)]: NET "led[1]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led[1]" 	LOC = P29;> [KIT_XC3S500E_PQ208.ucf(8)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "sw[0]" LOC = P175;>
+   [KIT_XC3S500E_PQ208.ucf(24)]: NET "sw[0]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sw[0]" LOC = P175;> [KIT_XC3S500E_PQ208.ucf(24)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "sw[1]" LOC = P169;>
+   [KIT_XC3S500E_PQ208.ucf(25)]: NET "sw[1]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sw[1]" LOC = P169;> [KIT_XC3S500E_PQ208.ucf(25)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "btn[0]" LOC = P51;>
+   [KIT_XC3S500E_PQ208.ucf(42)]: NET "btn[0]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "btn[0]" LOC = P51;> [KIT_XC3S500E_PQ208.ucf(42)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "btn[1]" LOC = P43;>
+   [KIT_XC3S500E_PQ208.ucf(43)]: NET "btn[1]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "btn[1]" LOC = P43;> [KIT_XC3S500E_PQ208.ucf(43)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "btn[2]" LOC = P32;>
+   [KIT_XC3S500E_PQ208.ucf(44)]: NET "btn[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "btn[2]" LOC = P32;> [KIT_XC3S500E_PQ208.ucf(44)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "sseg[0]" LOC = P16;>
+   [KIT_XC3S500E_PQ208.ucf(78)]: NET "sseg[0]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sseg[0]" LOC = P16;> [KIT_XC3S500E_PQ208.ucf(78)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "sseg[1]" LOC = P15;>
+   [KIT_XC3S500E_PQ208.ucf(79)]: NET "sseg[1]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sseg[1]" LOC = P15;> [KIT_XC3S500E_PQ208.ucf(79)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "sseg[2]" LOC = P19;>
+   [KIT_XC3S500E_PQ208.ucf(80)]: NET "sseg[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sseg[2]" LOC = P19;> [KIT_XC3S500E_PQ208.ucf(80)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "sseg[3]" LOC = P18;>
+   [KIT_XC3S500E_PQ208.ucf(81)]: NET "sseg[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sseg[3]" LOC = P18;> [KIT_XC3S500E_PQ208.ucf(81)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "sseg[4]" LOC = P22;>
+   [KIT_XC3S500E_PQ208.ucf(82)]: NET "sseg[4]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sseg[4]" LOC = P22;> [KIT_XC3S500E_PQ208.ucf(82)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "sseg[5]" LOC = P24;>
+   [KIT_XC3S500E_PQ208.ucf(83)]: NET "sseg[5]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sseg[5]" LOC = P24;> [KIT_XC3S500E_PQ208.ucf(83)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "sseg[6]" LOC = P23;>
+   [KIT_XC3S500E_PQ208.ucf(84)]: NET "sseg[6]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sseg[6]" LOC = P23;> [KIT_XC3S500E_PQ208.ucf(84)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "sseg[7]" LOC = P25;>
+   [KIT_XC3S500E_PQ208.ucf(85)]: NET "sseg[7]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sseg[7]" LOC = P25;> [KIT_XC3S500E_PQ208.ucf(85)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "CATHODE[0]" LOC = P3;>
+   [KIT_XC3S500E_PQ208.ucf(87)]: NET "CATHODE[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "CATHODE[0]" LOC = P3;> [KIT_XC3S500E_PQ208.ucf(87)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "CATHODE[1]" LOC = P2;>
+   [KIT_XC3S500E_PQ208.ucf(88)]: NET "CATHODE[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "CATHODE[1]" LOC = P2;> [KIT_XC3S500E_PQ208.ucf(88)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "CATHODE[2]" LOC = P5;>
+   [KIT_XC3S500E_PQ208.ucf(89)]: NET "CATHODE[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "CATHODE[2]" LOC = P5;> [KIT_XC3S500E_PQ208.ucf(89)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "CATHODE[3]" LOC = P4;>
+   [KIT_XC3S500E_PQ208.ucf(90)]: NET "CATHODE[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "CATHODE[3]" LOC = P4;> [KIT_XC3S500E_PQ208.ucf(90)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "CATHODE[4]" LOC = P8;>
+   [KIT_XC3S500E_PQ208.ucf(91)]: NET "CATHODE[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "CATHODE[4]" LOC = P8;> [KIT_XC3S500E_PQ208.ucf(91)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "CATHODE[5]" LOC = P11;>
+   [KIT_XC3S500E_PQ208.ucf(92)]: NET "CATHODE[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "CATHODE[5]" LOC = P11;> [KIT_XC3S500E_PQ208.ucf(92)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "CATHODE[6]" LOC = P9;>
+   [KIT_XC3S500E_PQ208.ucf(93)]: NET "CATHODE[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "CATHODE[6]" LOC = P9;> [KIT_XC3S500E_PQ208.ucf(93)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "CATHODE[7]" LOC = P12;>
+   [KIT_XC3S500E_PQ208.ucf(94)]: NET "CATHODE[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "CATHODE[7]" LOC = P12;> [KIT_XC3S500E_PQ208.ucf(94)]' could not be
+   found and so the Locate constraint will be removed.
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:    23
+  Number of warnings:  23
+
+Total memory usage is 4397088 kilobytes
+
+Total REAL time to NGDBUILD completion:  3 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "DEM_1BIT_BTN.bld"...

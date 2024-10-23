@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Sat May 20 02:12:31 2023
+
+drc -z nd_ds18b20_htsto_lcd_triac_ssbd.ncd nd_ds18b20_htsto_lcd_triac_ssbd.pcf
+
+DRC detected 0 errors and 0 warnings.

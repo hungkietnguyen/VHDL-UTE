@@ -1,0 +1,23 @@
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "KIT_XC3S500E_PQ208 .ucf" -p xc7a100t-csg324-3 hai_md_bcd_4so_ht_7doan.ngc hai_md_bcd_4so_ht_7doan.ngd  
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "KIT_XC3S500E_PQ208 .ucf" -p xc7a100t-csg324-3 hai_md_bcd_4so_ht_7doan.ngc hai_md_bcd_4so_ht_7doan.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o hai_md_bcd_4so_ht_7doan_map.ncd hai_md_bcd_4so_ht_7doan.ngd hai_md_bcd_4so_ht_7doan.pcf 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "KIT_XC3S500E_PQ208 .ucf" -p xc7a100t-csg324-3 hai_md_bcd_4so_ht_7doan.ngc hai_md_bcd_4so_ht_7doan.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o hai_md_bcd_4so_ht_7doan_map.ncd hai_md_bcd_4so_ht_7doan.ngd hai_md_bcd_4so_ht_7doan.pcf 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "KIT_XC3S500E_PQ208 .ucf" -p xc7a100t-csg324-3 hai_md_bcd_4so_ht_7doan.ngc hai_md_bcd_4so_ht_7doan.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o hai_md_bcd_4so_ht_7doan_map.ncd hai_md_bcd_4so_ht_7doan.ngd hai_md_bcd_4so_ht_7doan.pcf 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "KIT_XC3S500E_PQ208 .ucf" -p xc3s500e-pq208-5 hai_md_bcd_4so_ht_7doan.ngc hai_md_bcd_4so_ht_7doan.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o hai_md_bcd_4so_ht_7doan_map.ncd hai_md_bcd_4so_ht_7doan.ngd hai_md_bcd_4so_ht_7doan.pcf 
+par -w -intstyle ise -ol high -t 1 hai_md_bcd_4so_ht_7doan_map.ncd hai_md_bcd_4so_ht_7doan.ncd hai_md_bcd_4so_ht_7doan.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hai_md_bcd_4so_ht_7doan.twx hai_md_bcd_4so_ht_7doan.ncd -o hai_md_bcd_4so_ht_7doan.twr hai_md_bcd_4so_ht_7doan.pcf -ucf {KIT_XC3S500E_PQ208 .ucf} 
+bitgen -intstyle ise -f hai_md_bcd_4so_ht_7doan.ut hai_md_bcd_4so_ht_7doan.ncd 

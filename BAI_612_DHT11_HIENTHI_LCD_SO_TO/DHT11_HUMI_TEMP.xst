@@ -1,0 +1,5 @@
+set -tmpdir "D:/BT_TTVHDL/BAI_622_DHT11_HIENTHI_LCD_SO_TO/xst/projnav.tmp"
+set -xsthdpdir "D:/BT_TTVHDL/BAI_622_DHT11_HIENTHI_LCD_SO_TO/xst"
+elaborate
+-ifn DHT11_HUMI_TEMP.prj
+-ifmt mixed

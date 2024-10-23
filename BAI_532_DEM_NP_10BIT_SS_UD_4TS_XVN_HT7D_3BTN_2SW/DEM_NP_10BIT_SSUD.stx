@@ -1,0 +1,35 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEM_NP_8BIT_SSUD.vhd" in Library work.
+Entity <dem_np_10bit_ssud> compiled.
+Entity <DEM_NP_10BIT_SSUD> (Architecture <Behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> 
+
+Total memory usage is 4467996 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

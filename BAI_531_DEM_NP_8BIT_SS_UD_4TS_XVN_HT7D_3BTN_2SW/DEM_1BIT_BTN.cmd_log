@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEM_1BIT_BTN.xst" -ofn "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEM_1BIT_BTN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 DEM_1BIT_BTN.ngc DEM_1BIT_BTN.ngd  

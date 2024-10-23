@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/BT_ISE_XILINX/bai_506_ht_8so_8l7d/ht_8so_8l7d.ncd
+OUTFILE=/home/ise/BT_ISE_XILINX/bai_506_ht_8so_8l7d/ht_8so_8l7d.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5pq208
+WORKINGDIR=/home/ise/BT_ISE_XILINX/bai_506_ht_8so_8l7d
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

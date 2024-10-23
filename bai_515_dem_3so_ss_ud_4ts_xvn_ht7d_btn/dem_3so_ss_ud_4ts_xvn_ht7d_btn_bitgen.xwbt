@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/dem_3so_ss_ud_4ts_xvn_ht7d_btn.ncd
+OUTFILE=/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/dem_3so_ss_ud_4ts_xvn_ht7d_btn.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5pq208
+WORKINGDIR=/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

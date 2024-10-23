@@ -1,0 +1,7 @@
+vhdl work "LCD_GIAI_MA_SO_TO.vhd"
+vhdl work "LCD_GAN_DULIEU_4SO_TO.vhd"
+vhdl work "LCD_KHOITAO_HIENTHI_SO_TO.vhd"
+vhdl work "LCD_GMA_STO_GAN_DL.vhd"
+vhdl work "HEXTOBCD_8BIT.vhd"
+vhdl work "DHT11_HUMI_TEMP.vhd"
+vhdl work "DHT11_NHDO_DOAM_HTSTO_LCD.vhd"

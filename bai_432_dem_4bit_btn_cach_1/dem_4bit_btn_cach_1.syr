@@ -1,0 +1,462 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Reading design: dem_4bit_btn_cach_1.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "dem_4bit_btn_cach_1.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "dem_4bit_btn_cach_1"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-pq208
+
+---- Source Options
+Top Module Name                    : dem_4bit_btn_cach_1
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_432_dem_4bit_btn_cach_1/debounce_btn.vhd" in Library work.
+Architecture behavioral of Entity debounce_btn is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_432_dem_4bit_btn_cach_1/lam_dep_xung.vhd" in Library work.
+Architecture behavioral of Entity lam_dep_xung is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_432_dem_4bit_btn_cach_1/dem_4bit.vhd" in Library work.
+Architecture behavioral of Entity dem_4bit is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_432_dem_4bit_btn_cach_1/dem_4bit_btn_cach_1.vhd" in Library work.
+Architecture behavioral of Entity dem_4bit_btn_cach_1 is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <dem_4bit_btn_cach_1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <debounce_btn> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <lam_dep_xung> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <dem_4bit> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <dem_4bit_btn_cach_1> in library <work> (Architecture <behavioral>).
+Entity <dem_4bit_btn_cach_1> analyzed. Unit <dem_4bit_btn_cach_1> generated.
+
+Analyzing Entity <debounce_btn> in library <work> (Architecture <Behavioral>).
+Entity <debounce_btn> analyzed. Unit <debounce_btn> generated.
+
+Analyzing Entity <lam_dep_xung> in library <work> (Architecture <Behavioral>).
+Entity <lam_dep_xung> analyzed. Unit <lam_dep_xung> generated.
+
+Analyzing Entity <dem_4bit> in library <work> (Architecture <Behavioral>).
+Entity <dem_4bit> analyzed. Unit <dem_4bit> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <debounce_btn>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_432_dem_4bit_btn_cach_1/debounce_btn.vhd".
+    Found finite state machine <FSM_0> for signal <db_r>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 5                                              |
+    | Clock              | ckht                      (falling_edge)       |
+    | Power Up State     | zero                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 20-bit register for signal <dl_r>.
+    Found 20-bit subtractor for signal <dl_r$addsub0000>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <debounce_btn> synthesized.
+
+
+Synthesizing Unit <lam_dep_xung>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_432_dem_4bit_btn_cach_1/lam_dep_xung.vhd".
+    Found 1-bit register for signal <qff>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <lam_dep_xung> synthesized.
+
+
+Synthesizing Unit <dem_4bit>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_432_dem_4bit_btn_cach_1/dem_4bit.vhd".
+    Found 4-bit up counter for signal <q_r>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <dem_4bit> synthesized.
+
+
+Synthesizing Unit <dem_4bit_btn_cach_1>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_432_dem_4bit_btn_cach_1/dem_4bit_btn_cach_1.vhd".
+Unit <dem_4bit_btn_cach_1> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 20-bit subtractor                                     : 1
+# Counters                                             : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 2
+ 1-bit register                                        : 1
+ 20-bit register                                       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <IC1/db_r/FSM> on signal <db_r[1:2]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ zero  | 00
+ wait0 | 11
+ one   | 10
+ wait1 | 01
+-------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 1
+ 20-bit subtractor                                     : 1
+# Counters                                             : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 21
+ Flip-Flops                                            : 21
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <dem_4bit_btn_cach_1> ...
+
+Optimizing unit <debounce_btn> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block dem_4bit_btn_cach_1, actual ratio is 0.
+FlipFlop IC1/db_r_FSM_FFd2 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 28
+ Flip-Flops                                            : 28
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : dem_4bit_btn_cach_1.ngr
+Top Level Output File Name         : dem_4bit_btn_cach_1
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 7
+
+Cell Usage :
+# BELS                             : 79
+#      GND                         : 1
+#      INV                         : 21
+#      LUT1                        : 1
+#      LUT2                        : 2
+#      LUT3                        : 2
+#      LUT4                        : 7
+#      MUXCY                       : 24
+#      VCC                         : 1
+#      XORCY                       : 20
+# FlipFlops/Latches                : 28
+#      FD_1                        : 2
+#      FDCE                        : 4
+#      FDSE_1                      : 22
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 6
+#      IBUF                        : 2
+#      OBUF                        : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500epq208-5 
+
+ Number of Slices:                       18  out of   4656     0%  
+ Number of Slice Flip Flops:             28  out of   9312     0%  
+ Number of 4 input LUTs:                 33  out of   9312     0%  
+ Number of IOs:                           7
+ Number of bonded IOBs:                   7  out of    158     4%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+ckht                               | BUFGP                  | 28    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+btn<0>                             | IBUF                   | 4     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.956ns (Maximum Frequency: 252.784MHz)
+   Minimum input arrival time before clock: 4.034ns
+   Maximum output required time after clock: 4.221ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ckht'
+  Clock period: 3.956ns (frequency: 252.784MHz)
+  Total number of paths / destination ports: 355 / 74
+-------------------------------------------------------------------------
+Delay:               3.956ns (Levels of Logic = 21)
+  Source:            IC1/dl_r_0 (FF)
+  Destination:       IC1/dl_r_19 (FF)
+  Source Clock:      ckht falling
+  Destination Clock: ckht falling
+
+  Data Path: IC1/dl_r_0 to IC1/dl_r_19
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDSE_1:C->Q           2   0.514   0.532  IC1/dl_r_0 (IC1/dl_r_0)
+     LUT1:I0->O            1   0.612   0.000  IC1/Msub_dl_r_addsub0000_cy<0>_rt (IC1/Msub_dl_r_addsub0000_cy<0>_rt)
+     MUXCY:S->O            1   0.404   0.000  IC1/Msub_dl_r_addsub0000_cy<0> (IC1/Msub_dl_r_addsub0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Msub_dl_r_addsub0000_cy<1> (IC1/Msub_dl_r_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Msub_dl_r_addsub0000_cy<2> (IC1/Msub_dl_r_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Msub_dl_r_addsub0000_cy<3> (IC1/Msub_dl_r_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Msub_dl_r_addsub0000_cy<4> (IC1/Msub_dl_r_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Msub_dl_r_addsub0000_cy<5> (IC1/Msub_dl_r_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Msub_dl_r_addsub0000_cy<6> (IC1/Msub_dl_r_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Msub_dl_r_addsub0000_cy<7> (IC1/Msub_dl_r_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Msub_dl_r_addsub0000_cy<8> (IC1/Msub_dl_r_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Msub_dl_r_addsub0000_cy<9> (IC1/Msub_dl_r_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Msub_dl_r_addsub0000_cy<10> (IC1/Msub_dl_r_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Msub_dl_r_addsub0000_cy<11> (IC1/Msub_dl_r_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Msub_dl_r_addsub0000_cy<12> (IC1/Msub_dl_r_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Msub_dl_r_addsub0000_cy<13> (IC1/Msub_dl_r_addsub0000_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Msub_dl_r_addsub0000_cy<14> (IC1/Msub_dl_r_addsub0000_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Msub_dl_r_addsub0000_cy<15> (IC1/Msub_dl_r_addsub0000_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Msub_dl_r_addsub0000_cy<16> (IC1/Msub_dl_r_addsub0000_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Msub_dl_r_addsub0000_cy<17> (IC1/Msub_dl_r_addsub0000_cy<17>)
+     MUXCY:CI->O           0   0.051   0.000  IC1/Msub_dl_r_addsub0000_cy<18> (IC1/Msub_dl_r_addsub0000_cy<18>)
+     XORCY:CI->O           1   0.699   0.000  IC1/Msub_dl_r_addsub0000_xor<19> (IC1/dl_r_addsub0000<19>)
+     FDSE_1:D                  0.268          IC1/dl_r_19
+    ----------------------------------------
+    Total                      3.956ns (3.424ns logic, 0.532ns route)
+                                       (86.6% logic, 13.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'ckht'
+  Total number of paths / destination ports: 23 / 23
+-------------------------------------------------------------------------
+Offset:              4.034ns (Levels of Logic = 2)
+  Source:            btn<1> (PAD)
+  Destination:       IC1/db_r_FSM_FFd2 (FF)
+  Destination Clock: ckht falling
+
+  Data Path: btn<1> to IC1/db_r_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.106   0.532  btn_1_IBUF (btn_1_IBUF)
+     LUT3:I0->O           22   0.612   0.989  IC1/dl_r_mux0000<0>21 (IC1/N11)
+     FDSE_1:S                  0.795          IC1/db_r_FSM_FFd2
+    ----------------------------------------
+    Total                      4.034ns (2.513ns logic, 1.521ns route)
+                                       (62.3% logic, 37.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'ckht'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              4.221ns (Levels of Logic = 1)
+  Source:            IC3/q_r_0 (FF)
+  Destination:       led<0> (PAD)
+  Source Clock:      ckht falling
+
+  Data Path: IC3/q_r_0 to led<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             5   0.514   0.538  IC3/q_r_0 (IC3/q_r_0)
+     OBUF:I->O                 3.169          led_0_OBUF (led<0>)
+    ----------------------------------------
+    Total                      4.221ns (3.683ns logic, 0.538ns route)
+                                       (87.3% logic, 12.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 4.46 secs
+ 
+--> 
+
+
+Total memory usage is 615076 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

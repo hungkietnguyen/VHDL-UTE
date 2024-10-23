@@ -1,0 +1,23 @@
+V3 11
+FL /home/ise/BT_ISE_XILINX/bai_424_dem_nhi_phan_8bit_ss_ud_sw/chia_ena5hz.vhd 2023/02/21.01:15:16 P.20131013
+EN work/chia_ena5hz 1676942543 \
+      FL /home/ise/BT_ISE_XILINX/bai_424_dem_nhi_phan_8bit_ss_ud_sw/chia_ena5hz.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/chia_ena5hz/Behavioral 1676942544 \
+      FL /home/ise/BT_ISE_XILINX/bai_424_dem_nhi_phan_8bit_ss_ud_sw/chia_ena5hz.vhd \
+      EN work/chia_ena5hz 1676942543
+FL /home/ise/BT_ISE_XILINX/bai_424_dem_nhi_phan_8bit_ss_ud_sw/dem_8bit.vhd 2023/02/21.01:22:17 P.20131013
+EN work/dem_8bit 1676942545 \
+      FL /home/ise/BT_ISE_XILINX/bai_424_dem_nhi_phan_8bit_ss_ud_sw/dem_8bit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/dem_8bit/Behavioral 1676942546 \
+      FL /home/ise/BT_ISE_XILINX/bai_424_dem_nhi_phan_8bit_ss_ud_sw/dem_8bit.vhd \
+      EN work/dem_8bit 1676942545
+FL /home/ise/BT_ISE_XILINX/bai_424_dem_nhi_phan_8bit_ss_ud_sw/dem_nhi_phan_8bit_ssud_auto.vhd 2023/02/21.01:17:10 P.20131013
+EN work/dem_nhi_phan_8bit_ssud_auto 1676942547 \
+      FL /home/ise/BT_ISE_XILINX/bai_424_dem_nhi_phan_8bit_ss_ud_sw/dem_nhi_phan_8bit_ssud_auto.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dem_nhi_phan_8bit_ssud_auto/Behavioral 1676942548 \
+      FL /home/ise/BT_ISE_XILINX/bai_424_dem_nhi_phan_8bit_ss_ud_sw/dem_nhi_phan_8bit_ssud_auto.vhd \
+      EN work/dem_nhi_phan_8bit_ssud_auto 1676942547 CP work/chia_ena5hz \
+      CP work/dem_8bit

@@ -1,0 +1,3 @@
+vhdl work "dem_8bit.vhd"
+vhdl work "chia_ena5hz.vhd"
+vhdl work "dem_nhi_phan_8bit.vhd"

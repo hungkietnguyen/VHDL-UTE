@@ -1,0 +1,44 @@
+V3 24
+FL /home/ise/Desktop/TT_TKVMS_VHDL/bai_432_dem_4bit_btn_cach_1/debounce_btn.vhd 2023/02/26.09:45:03 P.20131013
+EN work/debounce_btn 1677546175 \
+      FL /home/ise/Desktop/TT_TKVMS_VHDL/bai_432_dem_4bit_btn_cach_1/debounce_btn.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/debounce_btn/Behavioral 1677546176 \
+      FL /home/ise/Desktop/TT_TKVMS_VHDL/bai_432_dem_4bit_btn_cach_1/debounce_btn.vhd \
+      EN work/debounce_btn 1677546175
+FL /home/ise/Desktop/TT_TKVMS_VHDL/bai_432_dem_4bit_btn_cach_1/lam_hep_xung.vhd 2023/02/26.09:45:03 P.20131013
+EN work/lam_hep_xung 1677546177 \
+      FL /home/ise/Desktop/TT_TKVMS_VHDL/bai_432_dem_4bit_btn_cach_1/lam_hep_xung.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/lam_hep_xung/Behavioral 1677546178 \
+      FL /home/ise/Desktop/TT_TKVMS_VHDL/bai_432_dem_4bit_btn_cach_1/lam_hep_xung.vhd \
+      EN work/lam_hep_xung 1677546177
+FL /home/ise/Desktop/TT_TKVMS_VHDL/bai_434_dem_4bit_btn_cach_3/cd_lam_hep_btn.vhd 2023/02/26.11:04:21 P.20131013
+EN work/cd_lam_hep_btn 1677546179 \
+      FL /home/ise/Desktop/TT_TKVMS_VHDL/bai_434_dem_4bit_btn_cach_3/cd_lam_hep_btn.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/cd_lam_hep_btn/Behavioral 1677546180 \
+      FL /home/ise/Desktop/TT_TKVMS_VHDL/bai_434_dem_4bit_btn_cach_3/cd_lam_hep_btn.vhd \
+      EN work/cd_lam_hep_btn 1677546179 CP work/debounce_btn CP work/lam_hep_xung
+FL /home/ise/Desktop/TT_TKVMS_VHDL/bai_436_dem_2bit_cach_3/cd_lam_hep_btn.vhd 2023/02/28.00:33:16 P.20131013
+FL /home/ise/Desktop/TT_TKVMS_VHDL/bai_436_dem_2bit_cach_3/dem_2bit.vhd 2023/02/28.01:02:53 P.20131013
+EN work/dem_2bit 1677546181 \
+      FL /home/ise/Desktop/TT_TKVMS_VHDL/bai_436_dem_2bit_cach_3/dem_2bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dem_2bit/Behavioral 1677546182 \
+      FL /home/ise/Desktop/TT_TKVMS_VHDL/bai_436_dem_2bit_cach_3/dem_2bit.vhd \
+      EN work/dem_2bit 1677546181
+FL /home/ise/Desktop/TT_TKVMS_VHDL/bai_436_dem_2bit_cach_3/dem_2bit_btn.vhd 2023/02/28.00:59:52 P.20131013
+EN work/dem_2bit_btn 1677546183 \
+      FL /home/ise/Desktop/TT_TKVMS_VHDL/bai_436_dem_2bit_cach_3/dem_2bit_btn.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dem_2bit_btn/Behavioral 1677546184 \
+      FL /home/ise/Desktop/TT_TKVMS_VHDL/bai_436_dem_2bit_cach_3/dem_2bit_btn.vhd \
+      EN work/dem_2bit_btn 1677546183 CP work/cd_lam_hep_btn CP work/dem_2bit
+FL /home/ise/Desktop/TT_TKVMS_VHDL/bai_436_dem_2bit_cach_3/dem_2bit_btn_cach_3.vhd 2023/02/28.00:57:39 P.20131013
+EN work/dem_2bit_btn_cach_3 1677546185 \
+      FL /home/ise/Desktop/TT_TKVMS_VHDL/bai_436_dem_2bit_cach_3/dem_2bit_btn_cach_3.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dem_2bit_btn_cach_3/Behavioral 1677546186 \
+      FL /home/ise/Desktop/TT_TKVMS_VHDL/bai_436_dem_2bit_cach_3/dem_2bit_btn_cach_3.vhd \
+      EN work/dem_2bit_btn_cach_3 1677546185 CP work/dem_2bit_btn

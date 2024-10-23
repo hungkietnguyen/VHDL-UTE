@@ -1,0 +1,15 @@
+V3 7
+FL /home/ise/BT_ISE_XILINX/bai_362_hex_to_bcd_6bit/hextobcd_6bit.vhd 2023/02/14.02:35:25 P.20131013
+EN work/hextobcd_6bit 1676342210 \
+      FL /home/ise/BT_ISE_XILINX/bai_362_hex_to_bcd_6bit/hextobcd_6bit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/hextobcd_6bit/Behavioral 1676342211 \
+      FL /home/ise/BT_ISE_XILINX/bai_362_hex_to_bcd_6bit/hextobcd_6bit.vhd \
+      EN work/hextobcd_6bit 1676342210
+FL /home/ise/BT_ISE_XILINX/bai_362_hex_to_bcd_6bit/hex_to_bcd_6bit.vhd 2023/02/14.01:55:26 P.20131013
+EN work/hex_to_bcd_6bit 1676342212 \
+      FL /home/ise/BT_ISE_XILINX/bai_362_hex_to_bcd_6bit/hex_to_bcd_6bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/hex_to_bcd_6bit/Behavioral 1676342213 \
+      FL /home/ise/BT_ISE_XILINX/bai_362_hex_to_bcd_6bit/hex_to_bcd_6bit.vhd \
+      EN work/hex_to_bcd_6bit 1676342212 CP work/hextobcd_6bit

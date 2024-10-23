@@ -1,0 +1,826 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-pq208
+
+---- Source Options
+Top Module Name                    : DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEBOUNCE_BTN.vhd" in Library work.
+Architecture behavioral of Entity debounce_btn is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/LAM_HEP_XUNG.vhd" in Library work.
+Architecture behavioral of Entity lam_hep_xung is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/CD_LAM_HEP_BTN.vhd" in Library work.
+Architecture behavioral of Entity cd_lam_hep_btn is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEM_1BIT.vhd" in Library work.
+Architecture behavioral of Entity dem_1bit is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEM_3BIT.vhd" in Library work.
+Architecture behavioral of Entity dem_3bit is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DAHOP_8KENH.vhd" in Library work.
+Architecture behavioral of Entity dahop_8kenh is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/GIAIMA_38H.vhd" in Library work.
+Architecture behavioral of Entity giaima_38h is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/GIAIMA_7DOAN_ENA.vhd" in Library work.
+Architecture behavioral of Entity giaima_7doan_ena is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/XOA_SO_0_VN.vhd" in Library work.
+Architecture behavioral of Entity xoa_so_0_vn is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/HT_4TANSO.vhd" in Library work.
+Architecture behavioral of Entity ht_4tanso is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/CHIA_10ENA.vhd" in Library work.
+Architecture behavioral of Entity chia_10ena is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEM_NP_8BIT_SSUD.vhd" in Library work.
+Architecture behavioral of Entity dem_np_8bit_ssud is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/GM_HT_8LED.vhd" in Library work.
+Architecture behavioral of Entity gm_ht_8led is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEM_1BIT_BTN.vhd" in Library work.
+Architecture behavioral of Entity dem_1bit_btn is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/HEXTOBCD_8BIT.vhd" in Library work.
+Architecture behavioral of Entity hextobcd_8bit is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W.vhd" in Library work.
+Entity <dem_np_8bit_ss_ud_4ts_xvn_ht7d_3btn_2w> compiled.
+Entity <dem_np_8bit_ss_ud_4ts_xvn_ht7d_3btn_2w> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <XOA_SO_0_VN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <HT_4TANSO> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <CHIA_10ENA> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_NP_8BIT_SSUD> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <GM_HT_8LED> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_1BIT_BTN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <HEXTOBCD_8BIT> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_3BIT> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DAHOP_8KENH> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <GIAIMA_38H> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <GIAIMA_7DOAN_ENA> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <CD_LAM_HEP_BTN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_1BIT> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEBOUNCE_BTN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LAM_HEP_XUNG> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W> in library <work> (Architecture <behavioral>).
+Entity <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W> analyzed. Unit <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W> generated.
+
+Analyzing Entity <XOA_SO_0_VN> in library <work> (Architecture <Behavioral>).
+Entity <XOA_SO_0_VN> analyzed. Unit <XOA_SO_0_VN> generated.
+
+Analyzing Entity <HT_4TANSO> in library <work> (Architecture <Behavioral>).
+Entity <HT_4TANSO> analyzed. Unit <HT_4TANSO> generated.
+
+Analyzing Entity <CHIA_10ENA> in library <work> (Architecture <Behavioral>).
+Entity <CHIA_10ENA> analyzed. Unit <CHIA_10ENA> generated.
+
+Analyzing Entity <DEM_NP_8BIT_SSUD> in library <work> (Architecture <Behavioral>).
+Entity <DEM_NP_8BIT_SSUD> analyzed. Unit <DEM_NP_8BIT_SSUD> generated.
+
+Analyzing Entity <GM_HT_8LED> in library <work> (Architecture <Behavioral>).
+Entity <GM_HT_8LED> analyzed. Unit <GM_HT_8LED> generated.
+
+Analyzing Entity <DEM_3BIT> in library <work> (Architecture <Behavioral>).
+Entity <DEM_3BIT> analyzed. Unit <DEM_3BIT> generated.
+
+Analyzing Entity <DAHOP_8KENH> in library <work> (Architecture <Behavioral>).
+Entity <DAHOP_8KENH> analyzed. Unit <DAHOP_8KENH> generated.
+
+Analyzing Entity <GIAIMA_38H> in library <work> (Architecture <Behavioral>).
+Entity <GIAIMA_38H> analyzed. Unit <GIAIMA_38H> generated.
+
+Analyzing Entity <GIAIMA_7DOAN_ENA> in library <work> (Architecture <Behavioral>).
+Entity <GIAIMA_7DOAN_ENA> analyzed. Unit <GIAIMA_7DOAN_ENA> generated.
+
+Analyzing Entity <DEM_1BIT_BTN> in library <work> (Architecture <Behavioral>).
+Entity <DEM_1BIT_BTN> analyzed. Unit <DEM_1BIT_BTN> generated.
+
+Analyzing Entity <CD_LAM_HEP_BTN> in library <work> (Architecture <Behavioral>).
+Entity <CD_LAM_HEP_BTN> analyzed. Unit <CD_LAM_HEP_BTN> generated.
+
+Analyzing Entity <DEBOUNCE_BTN> in library <work> (Architecture <Behavioral>).
+Entity <DEBOUNCE_BTN> analyzed. Unit <DEBOUNCE_BTN> generated.
+
+Analyzing Entity <LAM_HEP_XUNG> in library <work> (Architecture <Behavioral>).
+Entity <LAM_HEP_XUNG> analyzed. Unit <LAM_HEP_XUNG> generated.
+
+Analyzing Entity <DEM_1BIT> in library <work> (Architecture <Behavioral>).
+Entity <DEM_1BIT> analyzed. Unit <DEM_1BIT> generated.
+
+Analyzing Entity <HEXTOBCD_8BIT> in library <work> (Architecture <Behavioral>).
+Entity <HEXTOBCD_8BIT> analyzed. Unit <HEXTOBCD_8BIT> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <XOA_SO_0_VN>.
+    Related source file is "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/XOA_SO_0_VN.vhd".
+Unit <XOA_SO_0_VN> synthesized.
+
+
+Synthesizing Unit <HT_4TANSO>.
+    Related source file is "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/HT_4TANSO.vhd".
+    Found 4x4-bit ROM for signal <CH_TS>.
+    Found 1-bit 4-to-1 multiplexer for signal <ENA_DB>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Multiplexer(s).
+Unit <HT_4TANSO> synthesized.
+
+
+Synthesizing Unit <CHIA_10ENA>.
+    Related source file is "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/CHIA_10ENA.vhd".
+    Found 23-bit adder for signal <D10HZ_N$addsub0000> created at line 94.
+    Found 23-bit register for signal <D10HZ_R>.
+    Found 26-bit adder for signal <D1HZ_N$addsub0000> created at line 88.
+    Found 26-bit register for signal <D1HZ_R>.
+    Found 16-bit adder for signal <D1KHZ_N$addsub0000> created at line 104.
+    Found 16-bit register for signal <D1KHZ_R>.
+    Found 22-bit adder for signal <D20HZ_N$addsub0000> created at line 96.
+    Found 22-bit register for signal <D20HZ_R>.
+    Found 24-bit adder for signal <D5HZ_N$addsub0000> created at line 92.
+    Found 24-bit register for signal <D5HZ_R>.
+    Summary:
+	inferred 111 D-type flip-flop(s).
+	inferred   5 Adder/Subtractor(s).
+Unit <CHIA_10ENA> synthesized.
+
+
+Synthesizing Unit <DEM_NP_8BIT_SSUD>.
+    Related source file is "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEM_NP_8BIT_SSUD.vhd".
+WARNING:Xst:647 - Input <ENA_DB> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 8-bit updown counter for signal <DEM_R>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <DEM_NP_8BIT_SSUD> synthesized.
+
+
+Synthesizing Unit <HEXTOBCD_8BIT>.
+    Related source file is "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/HEXTOBCD_8BIT.vhd".
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0000> created at line 44.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0001> created at line 44.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0002> created at line 44.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0003> created at line 44.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0004> created at line 44.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0000> created at line 45.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0001> created at line 45.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0002> created at line 45.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0003> created at line 45.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0004> created at line 45.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_15$cmp_ge0000> created at line 47.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_15$cmp_ge0001> created at line 47.
+    Found 4-bit adder for signal <BCD_HEX_15_12$add0000> created at line 48.
+    Found 4-bit adder for signal <BCD_HEX_15_12$add0001> created at line 48.
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred   7 Comparator(s).
+Unit <HEXTOBCD_8BIT> synthesized.
+
+
+Synthesizing Unit <DEM_3BIT>.
+    Related source file is "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEM_3BIT.vhd".
+    Found 3-bit up counter for signal <Q_R>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <DEM_3BIT> synthesized.
+
+
+Synthesizing Unit <DAHOP_8KENH>.
+    Related source file is "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DAHOP_8KENH.vhd".
+    Found 4-bit 8-to-1 multiplexer for signal <o>.
+    Found 1-bit 8-to-1 multiplexer for signal <ena1>.
+    Summary:
+	inferred   5 Multiplexer(s).
+Unit <DAHOP_8KENH> synthesized.
+
+
+Synthesizing Unit <GIAIMA_38H>.
+    Related source file is "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/GIAIMA_38H.vhd".
+    Found 1-of-8 decoder for signal <O>.
+    Summary:
+	inferred   1 Decoder(s).
+Unit <GIAIMA_38H> synthesized.
+
+
+Synthesizing Unit <GIAIMA_7DOAN_ENA>.
+    Related source file is "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/GIAIMA_7DOAN_ENA.vhd".
+    Found 16x7-bit ROM for signal <SS7>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <GIAIMA_7DOAN_ENA> synthesized.
+
+
+Synthesizing Unit <DEM_1BIT>.
+    Related source file is "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEM_1BIT.vhd".
+    Found 1-bit register for signal <Q_R>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <DEM_1BIT> synthesized.
+
+
+Synthesizing Unit <DEBOUNCE_BTN>.
+    Related source file is "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEBOUNCE_BTN.vhd".
+    Found finite state machine <FSM_0> for signal <DB_R>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 5                                              |
+    | Clock              | CKHT                      (falling_edge)       |
+    | Power Up State     | zero                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 20-bit register for signal <DL_R>.
+    Found 20-bit subtractor for signal <DL_R$addsub0000>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <DEBOUNCE_BTN> synthesized.
+
+
+Synthesizing Unit <LAM_HEP_XUNG>.
+    Related source file is "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/LAM_HEP_XUNG.vhd".
+    Found 1-bit register for signal <QFF>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <LAM_HEP_XUNG> synthesized.
+
+
+Synthesizing Unit <GM_HT_8LED>.
+    Related source file is "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/GM_HT_8LED.vhd".
+Unit <GM_HT_8LED> synthesized.
+
+
+Synthesizing Unit <CD_LAM_HEP_BTN>.
+    Related source file is "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/CD_LAM_HEP_BTN.vhd".
+Unit <CD_LAM_HEP_BTN> synthesized.
+
+
+Synthesizing Unit <DEM_1BIT_BTN>.
+    Related source file is "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEM_1BIT_BTN.vhd".
+Unit <DEM_1BIT_BTN> synthesized.
+
+
+Synthesizing Unit <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+    Related source file is "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W.vhd".
+Unit <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 1
+ 4x4-bit ROM                                           : 1
+# Adders/Subtractors                                   : 14
+ 16-bit adder                                          : 1
+ 20-bit subtractor                                     : 2
+ 22-bit adder                                          : 1
+ 23-bit adder                                          : 1
+ 24-bit adder                                          : 1
+ 26-bit adder                                          : 1
+ 4-bit adder                                           : 7
+# Counters                                             : 2
+ 3-bit up counter                                      : 1
+ 8-bit updown counter                                  : 1
+# Registers                                            : 11
+ 1-bit register                                        : 4
+ 16-bit register                                       : 1
+ 20-bit register                                       : 2
+ 22-bit register                                       : 1
+ 23-bit register                                       : 1
+ 24-bit register                                       : 1
+ 26-bit register                                       : 1
+# Comparators                                          : 7
+ 4-bit comparator greatequal                           : 7
+# Multiplexers                                         : 3
+ 1-bit 4-to-1 multiplexer                              : 1
+ 1-bit 8-to-1 multiplexer                              : 1
+ 4-bit 8-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-8 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <IC6/U1/U1/DB_R/FSM> on signal <DB_R[1:2]> with sequential encoding.
+Optimizing FSM <IC7/U1/U1/DB_R/FSM> on signal <DB_R[1:2]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ zero  | 00
+ wait0 | 11
+ one   | 10
+ wait1 | 01
+-------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 1
+ 4x4-bit ROM                                           : 1
+# Adders/Subtractors                                   : 14
+ 16-bit adder                                          : 1
+ 20-bit subtractor                                     : 2
+ 22-bit adder                                          : 1
+ 23-bit adder                                          : 1
+ 24-bit adder                                          : 1
+ 26-bit adder                                          : 1
+ 4-bit adder                                           : 7
+# Counters                                             : 2
+ 3-bit up counter                                      : 1
+ 8-bit updown counter                                  : 1
+# Registers                                            : 155
+ Flip-Flops                                            : 155
+# Comparators                                          : 7
+ 4-bit comparator greatequal                           : 7
+# Multiplexers                                         : 3
+ 1-bit 4-to-1 multiplexer                              : 1
+ 1-bit 8-to-1 multiplexer                              : 1
+ 4-bit 8-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-8 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W> ...
+
+Optimizing unit <CHIA_10ENA> ...
+
+Optimizing unit <HEXTOBCD_8BIT> ...
+
+Optimizing unit <DEBOUNCE_BTN> ...
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_25> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_24> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_23> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_22> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_21> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_20> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_19> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_18> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_17> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_16> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_15> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_14> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_13> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_12> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_11> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_10> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_9> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_8> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_7> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_6> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_5> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_4> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_3> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_2> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_1> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D1HZ_R_0> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D5HZ_R_23> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D5HZ_R_22> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D5HZ_R_21> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D5HZ_R_20> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D5HZ_R_19> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D5HZ_R_18> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D5HZ_R_17> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D5HZ_R_16> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D5HZ_R_15> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D5HZ_R_14> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D5HZ_R_13> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D5HZ_R_12> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D5HZ_R_11> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D5HZ_R_10> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D5HZ_R_9> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D5HZ_R_8> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D5HZ_R_7> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D5HZ_R_6> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D5HZ_R_5> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D5HZ_R_4> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D5HZ_R_3> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D5HZ_R_2> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D5HZ_R_1> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D5HZ_R_0> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D20HZ_R_21> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D20HZ_R_20> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D20HZ_R_19> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D20HZ_R_18> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D20HZ_R_17> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D20HZ_R_16> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D20HZ_R_15> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D20HZ_R_14> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D20HZ_R_13> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D20HZ_R_12> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D20HZ_R_11> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D20HZ_R_10> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D20HZ_R_9> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D20HZ_R_8> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D20HZ_R_7> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D20HZ_R_6> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D20HZ_R_5> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D20HZ_R_4> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D20HZ_R_3> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D20HZ_R_2> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D20HZ_R_1> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D20HZ_R_0> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D10HZ_R_22> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D10HZ_R_21> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D10HZ_R_20> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D10HZ_R_19> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D10HZ_R_18> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D10HZ_R_17> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D10HZ_R_16> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D10HZ_R_15> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D10HZ_R_14> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D10HZ_R_13> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D10HZ_R_12> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D10HZ_R_11> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D10HZ_R_10> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D10HZ_R_9> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D10HZ_R_8> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D10HZ_R_7> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D10HZ_R_6> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D10HZ_R_5> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D10HZ_R_4> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D10HZ_R_3> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D10HZ_R_2> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D10HZ_R_1> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+WARNING:Xst:2677 - Node <IC3/D10HZ_R_0> of sequential type is unconnected in block <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 75
+ Flip-Flops                                            : 75
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W.ngr
+Top Level Output File Name         : DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 24
+
+Cell Usage :
+# BELS                             : 322
+#      GND                         : 1
+#      INV                         : 44
+#      LUT1                        : 17
+#      LUT2                        : 10
+#      LUT2_L                      : 2
+#      LUT3                        : 22
+#      LUT3_L                      : 4
+#      LUT4                        : 79
+#      LUT4_D                      : 2
+#      LUT4_L                      : 5
+#      MUXCY                       : 63
+#      MUXF5                       : 16
+#      VCC                         : 1
+#      XORCY                       : 56
+# FlipFlops/Latches                : 75
+#      FD_1                        : 4
+#      FDCE_1                      : 2
+#      FDCPE                       : 8
+#      FDE                         : 3
+#      FDR_1                       : 16
+#      FDSE_1                      : 42
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 23
+#      IBUF                        : 5
+#      OBUF                        : 18
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500epq208-5 
+
+ Number of Slices:                       98  out of   4656     2%  
+ Number of Slice Flip Flops:             75  out of   9312     0%  
+ Number of 4 input LUTs:                185  out of   9312     1%  
+ Number of IOs:                          24
+ Number of bonded IOBs:                  24  out of    158    15%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CKHT                               | BUFGP                  | 75    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+------------------------------------------------+------------------------+-------+
+Control Signal                                  | Buffer(FF name)        | Load  |
+------------------------------------------------+------------------------+-------+
+IC4/DEM_R_0__and0000(IC4/DEM_R_0__and000011:O)  | NONE(IC4/DEM_R_0)      | 8     |
+IC4/DEM_R_0__and0001(IC4/DEM_R_Q_mux0000<0>11:O)| NONE(IC4/DEM_R_0)      | 8     |
+BTN<0>                                          | IBUF                   | 2     |
+------------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.042ns (Maximum Frequency: 198.342MHz)
+   Minimum input arrival time before clock: 4.491ns
+   Maximum output required time after clock: 22.086ns
+   Maximum combinational path delay: 7.895ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CKHT'
+  Clock period: 5.042ns (frequency: 198.342MHz)
+  Total number of paths / destination ports: 1192 / 186
+-------------------------------------------------------------------------
+Delay:               5.042ns (Levels of Logic = 3)
+  Source:            IC3/D1KHZ_R_12 (FF)
+  Destination:       IC3/D1KHZ_R_15 (FF)
+  Source Clock:      CKHT falling
+  Destination Clock: CKHT falling
+
+  Data Path: IC3/D1KHZ_R_12 to IC3/D1KHZ_R_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR_1:C->Q            2   0.514   0.532  IC3/D1KHZ_R_12 (IC3/D1KHZ_R_12)
+     LUT4_L:I0->LO         1   0.612   0.103  IC3/D1KHZ_N_cmp_eq00001_SW0 (N0)
+     LUT4:I3->O            2   0.612   0.383  IC3/D1KHZ_N_cmp_eq00001 (IC3/N4)
+     LUT4:I3->O           16   0.612   0.879  IC3/D1KHZ_N_cmp_eq000029 (IC3/D1KHZ_N_cmp_eq0000)
+     FDR_1:R                   0.795          IC3/D1KHZ_R_15
+    ----------------------------------------
+    Total                      5.042ns (3.145ns logic, 1.897ns route)
+                                       (62.4% logic, 37.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CKHT'
+  Total number of paths / destination ports: 59 / 52
+-------------------------------------------------------------------------
+Offset:              4.491ns (Levels of Logic = 3)
+  Source:            BTN<0> (PAD)
+  Destination:       IC4/DEM_R_7 (FF)
+  Destination Clock: CKHT falling
+
+  Data Path: BTN<0> to IC4/DEM_R_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.106   0.948  BTN_0_IBUF (BTN_0_IBUF)
+     LUT2:I1->O           11   0.612   0.945  IC4/DEM_R_Q_mux0000<0>11 (IC4/DEM_R_0__and0001)
+     LUT4:I0->O            1   0.612   0.000  IC4/DEM_R_Q_mux0000<6>1 (IC4/DEM_R_Q_mux0000<6>)
+     FDCPE:D                   0.268          IC4/DEM_R_6
+    ----------------------------------------
+    Total                      4.491ns (2.598ns logic, 1.893ns route)
+                                       (57.8% logic, 42.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CKHT'
+  Total number of paths / destination ports: 123037 / 17
+-------------------------------------------------------------------------
+Offset:              22.086ns (Levels of Logic = 17)
+  Source:            IC4/DEM_R_5 (FF)
+  Destination:       SSEG<6> (PAD)
+  Source Clock:      CKHT falling
+
+  Data Path: IC4/DEM_R_5 to SSEG<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE:C->Q           12   0.514   0.969  IC4/DEM_R_5 (IC4/DEM_R_5)
+     LUT4:I0->O            4   0.612   0.529  IC8/BCD_HEX_11_mux00011 (IC8/BCD_HEX_11_mux0001)
+     LUT4:I2->O            4   0.612   0.651  IC8/BCD_HEX_11_mux000211 (IC8/N7)
+     LUT2:I0->O            3   0.612   0.603  IC8/BCD_HEX_11_cmp_ge00021 (IC8/BCD_HEX_11_cmp_ge0002)
+     LUT4:I0->O            4   0.612   0.529  IC8/BCD_HEX_9_mux00021 (IC8/Madd_BCD_HEX_11_8_add0003_lut<2>)
+     LUT3:I2->O            3   0.612   0.603  IC8/BCD_HEX_11_cmp_ge00031 (IC8/BCD_HEX_11_cmp_ge0003)
+     LUT4:I0->O            3   0.612   0.454  IC8/BCD_HEX_9_mux00031 (IC8/Madd_BCD_HEX_11_8_add0004_lut<2>)
+     LUT4:I3->O            6   0.612   0.599  IC8/BCD_HEX_11_mux000411 (IC8/N9)
+     LUT3:I2->O            4   0.612   0.568  IC8/BCD_HEX_8_mux00041 (DONVI<1>)
+     LUT4:I1->O            1   0.612   0.387  IC8/BCD_HEX_15_mux0001_SW1 (N79)
+     LUT4:I2->O            3   0.612   0.481  IC8/BCD_HEX_15_mux0001 (TRAM<0>)
+     LUT4:I2->O            1   0.612   0.360  IC5/K2/Mmux_ena1217_SW0 (N77)
+     LUT4:I3->O            1   0.612   0.426  IC5/K2/Mmux_ena1217_SW1 (N81)
+     LUT4:I1->O            1   0.612   0.426  IC5/K2/Mmux_ena1217 (IC5/K2/Mmux_ena1217)
+     LUT4:I1->O           14   0.612   1.002  IC5/K2/Mmux_ena1259 (IC5/ENA_1LED)
+     LUT4:I0->O            1   0.612   0.000  IC5/K4/SSEG<4>1 (IC5/K4/SSEG<4>)
+     MUXF5:I1->O           1   0.278   0.357  IC5/K4/SSEG<4>_f5 (SSEG_4_OBUF)
+     OBUF:I->O                 3.169          SSEG_4_OBUF (SSEG<4>)
+    ----------------------------------------
+    Total                     22.086ns (13.141ns logic, 8.945ns route)
+                                       (59.5% logic, 40.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 84 / 7
+-------------------------------------------------------------------------
+Delay:               7.895ns (Levels of Logic = 6)
+  Source:            SW<0> (PAD)
+  Destination:       SSEG<3> (PAD)
+
+  Data Path: SW<0> to SSEG<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.106   0.481  SW_0_IBUF (SW_0_IBUF)
+     LUT4:I2->O            1   0.612   0.000  IC5/S3B<2>3 (IC5/S3B<2>)
+     MUXF5:I1->O          14   0.278   1.002  IC5/S3B<2>_f5 (IC5/SO_GMA<0>)
+     LUT4:I0->O            1   0.612   0.000  IC5/K4/SSEG<2>1 (IC5/K4/SSEG<2>)
+     MUXF5:I1->O           1   0.278   0.357  IC5/K4/SSEG<2>_f5 (SSEG_2_OBUF)
+     OBUF:I->O                 3.169          SSEG_2_OBUF (SSEG<2>)
+    ----------------------------------------
+    Total                      7.895ns (6.055ns logic, 1.840ns route)
+                                       (76.7% logic, 23.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.92 secs
+ 
+--> 
+
+Total memory usage is 4513368 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   96 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

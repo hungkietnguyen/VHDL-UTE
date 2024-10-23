@@ -1,0 +1,15 @@
+V3 7
+FL /home/ise/BT_ISE_XILINX/bai_412_chia_2xung_ena1hz_ck1hz/chia_2xung_ena1hz_ckh1z.vhd 2023/02/20.03:29:42 P.20131013
+EN work/chia_2xung_ena1hz_ckh1z 1676864030 \
+      FL /home/ise/BT_ISE_XILINX/bai_412_chia_2xung_ena1hz_ck1hz/chia_2xung_ena1hz_ckh1z.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/chia_2xung_ena1hz_ckh1z/Behavioral 1676864031 \
+      FL /home/ise/BT_ISE_XILINX/bai_412_chia_2xung_ena1hz_ck1hz/chia_2xung_ena1hz_ckh1z.vhd \
+      EN work/chia_2xung_ena1hz_ckh1z 1676864030 CP work/chia_ena1hz_ck1hz
+FL /home/ise/BT_ISE_XILINX/bai_412_chia_2xung_ena1hz_ck1hz/chia_ena1hz_ck1hz.vhd 2023/02/20.03:32:57 P.20131013
+EN work/chia_ena1hz_ck1hz 1676864028 \
+      FL /home/ise/BT_ISE_XILINX/bai_412_chia_2xung_ena1hz_ck1hz/chia_ena1hz_ck1hz.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/chia_ena1hz_ck1hz/Behavioral 1676864029 \
+      FL /home/ise/BT_ISE_XILINX/bai_412_chia_2xung_ena1hz_ck1hz/chia_ena1hz_ck1hz.vhd \
+      EN work/chia_ena1hz_ck1hz 1676864028

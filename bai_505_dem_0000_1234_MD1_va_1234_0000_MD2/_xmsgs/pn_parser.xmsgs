@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/chia_10ena.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/dahop_8kenh.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/dem_3bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/dem_4so_1.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/dem_4so_2.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/giaima_38h.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/giaima_7doan.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

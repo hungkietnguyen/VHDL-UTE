@@ -1,0 +1,15 @@
+V3 7
+FL /home/ise/BT_ISE_XILINX/bai_331_giaidahop_4kenh_1bit_case/giaidahop_4kenh_1bit.vhd 2023/02/13.01:43:01 P.20131013
+EN work/giaidahop_4kenh_1bit 1676252816 \
+      FL /home/ise/BT_ISE_XILINX/bai_331_giaidahop_4kenh_1bit_case/giaidahop_4kenh_1bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/giaidahop_4kenh_1bit/Behavioral 1676252817 \
+      FL /home/ise/BT_ISE_XILINX/bai_331_giaidahop_4kenh_1bit_case/giaidahop_4kenh_1bit.vhd \
+      EN work/giaidahop_4kenh_1bit 1676252816
+FL /home/ise/BT_ISE_XILINX/bai_331_giaidahop_4kenh_1bit_case/giaidahop_4kenh_1bit_case.vhd 2023/02/13.01:45:41 P.20131013
+EN work/giaidahop_4kenh_1bit_case 1676252818 \
+      FL /home/ise/BT_ISE_XILINX/bai_331_giaidahop_4kenh_1bit_case/giaidahop_4kenh_1bit_case.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/giaidahop_4kenh_1bit_case/Behavioral 1676252819 \
+      FL /home/ise/BT_ISE_XILINX/bai_331_giaidahop_4kenh_1bit_case/giaidahop_4kenh_1bit_case.vhd \
+      EN work/giaidahop_4kenh_1bit_case 1676252818 CP work/giaidahop_4kenh_1bit

@@ -1,0 +1,8 @@
+AR dem_4bit_btn_cach_1 behavioral /home/ise/BT_ISE_XILINX/bai_432_dem_4bit_btn_cach_1/dem_4bit_btn_cach_1.vhd sub00/vhpl07 1677555690
+AR debounce_btn behavioral /home/ise/BT_ISE_XILINX/bai_432_dem_4bit_btn_cach_1/debounce_btn.vhd sub00/vhpl05 1677555684
+EN debounce_btn NULL /home/ise/BT_ISE_XILINX/bai_432_dem_4bit_btn_cach_1/debounce_btn.vhd sub00/vhpl02 1677555683
+EN dem_4bit NULL /home/ise/BT_ISE_XILINX/bai_432_dem_4bit_btn_cach_1/dem_4bit.vhd sub00/vhpl03 1677555687
+EN dem_4bit_btn_cach_1 NULL /home/ise/BT_ISE_XILINX/bai_432_dem_4bit_btn_cach_1/dem_4bit_btn_cach_1.vhd sub00/vhpl06 1677555689
+AR dem_4bit behavioral /home/ise/BT_ISE_XILINX/bai_432_dem_4bit_btn_cach_1/dem_4bit.vhd sub00/vhpl04 1677555688
+EN lam_dep_xung NULL /home/ise/BT_ISE_XILINX/bai_432_dem_4bit_btn_cach_1/lam_dep_xung.vhd sub00/vhpl00 1677555685
+AR lam_dep_xung behavioral /home/ise/BT_ISE_XILINX/bai_432_dem_4bit_btn_cach_1/lam_dep_xung.vhd sub00/vhpl01 1677555686

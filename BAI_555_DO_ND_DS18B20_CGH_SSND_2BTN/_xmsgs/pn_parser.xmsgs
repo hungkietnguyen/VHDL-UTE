@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_555_DO_ND_DS18B20_CGH_SSND_2BTN/CHIA_10ENA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_555_DO_ND_DS18B20_CGH_SSND_2BTN/DAHOP_8KENH.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_555_DO_ND_DS18B20_CGH_SSND_2BTN/DEBOUNCE_BTN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_555_DO_ND_DS18B20_CGH_SSND_2BTN/DEM_3BIT.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_555_DO_ND_DS18B20_CGH_SSND_2BTN/DEM_NP_6BIT_UD.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_555_DO_ND_DS18B20_CGH_SSND_2BTN/DEM_NP_6BIT_UD_2BTN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_555_DO_ND_DS18B20_CGH_SSND_2BTN/DO_ND_DS18B20_CGH_SSND_2BTN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_555_DO_ND_DS18B20_CGH_SSND_2BTN/DS18B20_CONTROL.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_555_DO_ND_DS18B20_CGH_SSND_2BTN/GIAIMA_38H.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_555_DO_ND_DS18B20_CGH_SSND_2BTN/GIAIMA_7DOAN_ENA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_555_DO_ND_DS18B20_CGH_SSND_2BTN/GM_HT_8LED.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_555_DO_ND_DS18B20_CGH_SSND_2BTN/HEXTOBCD_6BIT.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_555_DO_ND_DS18B20_CGH_SSND_2BTN/HEXTOBCD_8BIT.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_555_DO_ND_DS18B20_CGH_SSND_2BTN/LAM_HEP_XUNG.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

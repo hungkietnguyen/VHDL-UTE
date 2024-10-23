@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3530" delta="old" >Time stamp of file &quot;<arg fmt="%s" index="1">/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/DS18B20_CONTROL.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/DO_ND_DS_18B20_HT7D.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/DO_ND_DS_18B20_HT7D.vhd</arg>&quot; line <arg fmt="%d" index="2">80</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ENA1HZ</arg>&apos; of component &apos;<arg fmt="%s" index="4">CHIA_10ENA</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/DO_ND_DS_18B20_HT7D.vhd</arg>&quot; line <arg fmt="%d" index="2">80</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ENA2HZ</arg>&apos; of component &apos;<arg fmt="%s" index="4">CHIA_10ENA</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/DO_ND_DS_18B20_HT7D.vhd</arg>&quot; line <arg fmt="%d" index="2">80</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ENA5HZ</arg>&apos; of component &apos;<arg fmt="%s" index="4">CHIA_10ENA</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/DO_ND_DS_18B20_HT7D.vhd</arg>&quot; line <arg fmt="%d" index="2">80</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ENA20HZ</arg>&apos; of component &apos;<arg fmt="%s" index="4">CHIA_10ENA</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/DO_ND_DS_18B20_HT7D.vhd</arg>&quot; line <arg fmt="%d" index="2">80</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ENA50HZ</arg>&apos; of component &apos;<arg fmt="%s" index="4">CHIA_10ENA</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/DO_ND_DS_18B20_HT7D.vhd</arg>&quot; line <arg fmt="%d" index="2">80</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ENA100HZ</arg>&apos; of component &apos;<arg fmt="%s" index="4">CHIA_10ENA</arg>&apos;.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">DS_OUT</arg>&gt; in unit &lt;<arg fmt="%s" index="2">DS18B20_CONTROL</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="new" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D1HZ_R_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D5HZ_R_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D5HZ_R_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D5HZ_R_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D5HZ_R_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D5HZ_R_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D5HZ_R_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D5HZ_R_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D5HZ_R_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D5HZ_R_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D5HZ_R_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D5HZ_R_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D5HZ_R_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D5HZ_R_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D5HZ_R_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D5HZ_R_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D5HZ_R_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D5HZ_R_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D5HZ_R_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D5HZ_R_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D5HZ_R_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D5HZ_R_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D5HZ_R_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D5HZ_R_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D5HZ_R_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D50HZ_R_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D50HZ_R_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D50HZ_R_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D50HZ_R_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D50HZ_R_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D50HZ_R_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D50HZ_R_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D50HZ_R_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D50HZ_R_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D50HZ_R_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D50HZ_R_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D50HZ_R_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D50HZ_R_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D50HZ_R_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D50HZ_R_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D50HZ_R_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D50HZ_R_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D50HZ_R_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D50HZ_R_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D50HZ_R_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D100HZ_R_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D100HZ_R_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D100HZ_R_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D100HZ_R_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D100HZ_R_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D100HZ_R_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D100HZ_R_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D100HZ_R_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D100HZ_R_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D100HZ_R_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D100HZ_R_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D100HZ_R_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D100HZ_R_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D100HZ_R_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D100HZ_R_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D100HZ_R_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D100HZ_R_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D100HZ_R_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D100HZ_R_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D20HZ_R_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D20HZ_R_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D20HZ_R_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D20HZ_R_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D20HZ_R_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D20HZ_R_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D20HZ_R_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D20HZ_R_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D20HZ_R_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D20HZ_R_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D20HZ_R_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D20HZ_R_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D20HZ_R_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D20HZ_R_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D20HZ_R_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D20HZ_R_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D20HZ_R_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D20HZ_R_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D20HZ_R_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D20HZ_R_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D20HZ_R_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D20HZ_R_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">IC2/D2HZ_R_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DO_ND_DS_18B20_HT7D</arg>&gt;.
+</msg>
+
+</messages>
+

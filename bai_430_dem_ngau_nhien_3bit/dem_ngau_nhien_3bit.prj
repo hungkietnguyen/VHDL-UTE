@@ -1,0 +1,3 @@
+vhdl work "dem_ngau_nhien.vhd"
+vhdl work "chia_ena1hz.vhd"
+vhdl work "dem_ngau_nhien_3bit.vhd"

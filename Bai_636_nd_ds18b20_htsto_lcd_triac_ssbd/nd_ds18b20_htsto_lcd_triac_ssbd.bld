@@ -1,0 +1,38 @@
+Release 14.7 ngdbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
+ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5
+nd_ds18b20_htsto_lcd_triac_ssbd.ngc nd_ds18b20_htsto_lcd_triac_ssbd.ngd
+
+Reading NGO file
+"/home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/nd_ds18b20_htst
+o_lcd_triac_ssbd.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "KIT_XC3S500E_PQ208.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 490972 kilobytes
+
+Writing NGD file "nd_ds18b20_htsto_lcd_triac_ssbd.ngd" ...
+Total REAL time to NGDBUILD completion:  1 sec
+Total CPU time to NGDBUILD completion:   1 sec
+
+Writing NGDBUILD log file "nd_ds18b20_htsto_lcd_triac_ssbd.bld"...

@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/DEM_3SO_HT_LCD_SO_TO_XVN.xst" -ofn "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/DEM_3SO_HT_LCD_SO_TO_XVN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "DEM_3SO_HT_LCD_SO_TO_XVN.ngc" DEM_3SO_HT_LCD_SO_TO_XVN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DEM_3SO_HT_LCD_SO_TO_XVN_map.ncd DEM_3SO_HT_LCD_SO_TO_XVN.ngd DEM_3SO_HT_LCD_SO_TO_XVN.pcf 
+par -w -intstyle ise -ol high -t 1 DEM_3SO_HT_LCD_SO_TO_XVN_map.ncd DEM_3SO_HT_LCD_SO_TO_XVN.ncd DEM_3SO_HT_LCD_SO_TO_XVN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEM_3SO_HT_LCD_SO_TO_XVN.twx DEM_3SO_HT_LCD_SO_TO_XVN.ncd -o DEM_3SO_HT_LCD_SO_TO_XVN.twr DEM_3SO_HT_LCD_SO_TO_XVN.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/DEM_3SO_HT_LCD_SO_TO_XVN.xst" -ofn "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/DEM_3SO_HT_LCD_SO_TO_XVN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "DEM_3SO_HT_LCD_SO_TO_XVN.ngc" DEM_3SO_HT_LCD_SO_TO_XVN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DEM_3SO_HT_LCD_SO_TO_XVN_map.ncd DEM_3SO_HT_LCD_SO_TO_XVN.ngd DEM_3SO_HT_LCD_SO_TO_XVN.pcf 
+par -w -intstyle ise -ol high -t 1 DEM_3SO_HT_LCD_SO_TO_XVN_map.ncd DEM_3SO_HT_LCD_SO_TO_XVN.ncd DEM_3SO_HT_LCD_SO_TO_XVN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEM_3SO_HT_LCD_SO_TO_XVN.twx DEM_3SO_HT_LCD_SO_TO_XVN.ncd -o DEM_3SO_HT_LCD_SO_TO_XVN.twr DEM_3SO_HT_LCD_SO_TO_XVN.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DEM_3SO_HT_LCD_SO_TO_XVN.ut DEM_3SO_HT_LCD_SO_TO_XVN.ncd 

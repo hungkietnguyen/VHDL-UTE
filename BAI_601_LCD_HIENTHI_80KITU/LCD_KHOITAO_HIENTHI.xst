@@ -1,0 +1,5 @@
+set -tmpdir "D:/BT_TTVHDL/BAI_601_LCD_HIENTHI_80KITU/xst/projnav.tmp"
+set -xsthdpdir "D:/BT_TTVHDL/BAI_601_LCD_HIENTHI_80KITU/xst"
+elaborate
+-ifn LCD_KHOITAO_HIENTHI.prj
+-ifmt mixed

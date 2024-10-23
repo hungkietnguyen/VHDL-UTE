@@ -1,0 +1,4 @@
+EN binary_to_gray_4bit NULL /home/ise/BT_ISE_XILINX/bai_365_binary_to_gray_4bit/binary_to_gray_4bit.vhd sub00/vhpl02 1676529279
+EN binary_gray_4bit NULL /home/ise/BT_ISE_XILINX/bai_365_binary_to_gray_4bit/binary_gray_4bit.vhd sub00/vhpl00 1676529277
+AR binary_gray_4bit behavioral /home/ise/BT_ISE_XILINX/bai_365_binary_to_gray_4bit/binary_gray_4bit.vhd sub00/vhpl01 1676529278
+AR binary_to_gray_4bit behavioral /home/ise/BT_ISE_XILINX/bai_365_binary_to_gray_4bit/binary_to_gray_4bit.vhd sub00/vhpl03 1676529280

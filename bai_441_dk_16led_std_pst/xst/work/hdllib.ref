@@ -1,0 +1,6 @@
+AR chia_10ena behavioral /home/ise/BT_ISE_XILINX/bai_441_dk_16led_std_pst/chia_10ena.vhd sub00/vhpl03 1678678187
+EN js_pst NULL /home/ise/BT_ISE_XILINX/bai_441_dk_16led_std_pst/js_pst.vhd sub00/vhpl00 1678678188
+EN dk_16led_std_pst NULL /home/ise/BT_ISE_XILINX/bai_441_dk_16led_std_pst/dk_16led_std_pst.vhd sub00/vhpl04 1678678190
+AR js_pst behavioral /home/ise/BT_ISE_XILINX/bai_441_dk_16led_std_pst/js_pst.vhd sub00/vhpl01 1678678189
+EN chia_10ena NULL /home/ise/BT_ISE_XILINX/bai_441_dk_16led_std_pst/chia_10ena.vhd sub00/vhpl02 1678678186
+AR dk_16led_std_pst behavioral /home/ise/BT_ISE_XILINX/bai_441_dk_16led_std_pst/dk_16led_std_pst.vhd sub00/vhpl05 1678678191

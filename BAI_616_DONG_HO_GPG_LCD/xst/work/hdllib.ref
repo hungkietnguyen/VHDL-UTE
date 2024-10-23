@@ -1,0 +1,14 @@
+EN hextobcd_gpg NULL C:/.Xilinx/BAI_616_DONG_HO_GPG_LCD/HEXTOBCD_GPG.vhd sub00/vhpl06 1680924593
+EN hextobcd_6bit NULL C:/.Xilinx/BAI_616_DONG_HO_GPG_LCD/HEXTOBCD_6BIT.vhd sub00/vhpl00 1680924587
+AR chia_10ena behavioral C:/.Xilinx/BAI_616_DONG_HO_GPG_LCD/CHIA_10ENA.vhd sub00/vhpl03 1680924590
+EN dong_ho_gpg_lcd NULL C:/.Xilinx/BAI_616_DONG_HO_GPG_LCD/DONG_HO_GPG_LCD.vhd sub00/vhpl12 1680924599
+AR lcd_gan_dulieu_gpg behavioral C:/.Xilinx/BAI_616_DONG_HO_GPG_LCD/LCD_GAN_DULIEU_GPG.vhd sub00/vhpl09 1680924596
+AR lcd_khoitao_hienthi behavioral C:/.Xilinx/BAI_616_DONG_HO_GPG_LCD/LCD_KHOITAO_HIENTHI.vhd sub00/vhpl11 1680924598
+EN lcd_gan_dulieu_gpg NULL C:/.Xilinx/BAI_616_DONG_HO_GPG_LCD/LCD_GAN_DULIEU_GPG.vhd sub00/vhpl08 1680924595
+EN dem_gpg NULL C:/.Xilinx/BAI_616_DONG_HO_GPG_LCD/DEM_GPG.vhd sub00/vhpl04 1680924591
+EN lcd_khoitao_hienthi NULL C:/.Xilinx/BAI_616_DONG_HO_GPG_LCD/LCD_KHOITAO_HIENTHI.vhd sub00/vhpl10 1680924597
+AR hextobcd_gpg behavioral C:/.Xilinx/BAI_616_DONG_HO_GPG_LCD/HEXTOBCD_GPG.vhd sub00/vhpl07 1680924594
+AR dem_gpg behavioral C:/.Xilinx/BAI_616_DONG_HO_GPG_LCD/DEM_GPG.vhd sub00/vhpl05 1680924592
+AR dong_ho_gpg_lcd behavioral C:/.Xilinx/BAI_616_DONG_HO_GPG_LCD/DONG_HO_GPG_LCD.vhd sub00/vhpl13 1680924600
+AR hextobcd_6bit behavioral C:/.Xilinx/BAI_616_DONG_HO_GPG_LCD/HEXTOBCD_6BIT.vhd sub00/vhpl01 1680924588
+EN chia_10ena NULL C:/.Xilinx/BAI_616_DONG_HO_GPG_LCD/CHIA_10ENA.vhd sub00/vhpl02 1680924589

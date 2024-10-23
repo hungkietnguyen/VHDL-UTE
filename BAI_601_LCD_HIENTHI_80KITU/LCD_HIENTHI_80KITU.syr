@@ -1,0 +1,485 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Reading design: LCD_HIENTHI_80KITU.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "LCD_HIENTHI_80KITU.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "LCD_HIENTHI_80KITU"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-pq208
+
+---- Source Options
+Top Module Name                    : LCD_HIENTHI_80KITU
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/LCD_HIENTHI_80KITU is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_601_LCD_HIENTHI_80KITU/LCD_HIENTHI_80KITU.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_601_LCD_HIENTHI_80KITU/LCD_HIENTHI_80KITU.vhd".
+WARNING:HDLParsers:3607 - Unit work/LCD_HIENTHI_80KITU/Behavioral is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_601_LCD_HIENTHI_80KITU/LCD_HIENTHI_80KITU.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_601_LCD_HIENTHI_80KITU/LCD_HIENTHI_80KITU.vhd".
+WARNING:HDLParsers:3607 - Unit work/LCD_GAN_DULIEU is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_601_LCD_HIENTHI_80KITU/LCD_GAN_DULIEU.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_601_LCD_HIENTHI_80KITU/LCD_GAN_DULIEU.vhd".
+WARNING:HDLParsers:3607 - Unit work/LCD_GAN_DULIEU/Behavioral is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_601_LCD_HIENTHI_80KITU/LCD_GAN_DULIEU.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_601_LCD_HIENTHI_80KITU/LCD_GAN_DULIEU.vhd".
+WARNING:HDLParsers:3607 - Unit work/LCD_KHOITAO_HIENTHI is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_601_LCD_HIENTHI_80KITU/LCD_KHOITAO_HIENTHI.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_601_LCD_HIENTHI_80KITU/LCD_KHOITAO_HIENTHI.vhd".
+WARNING:HDLParsers:3607 - Unit work/LCD_KHOITAO_HIENTHI/Behavioral is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_601_LCD_HIENTHI_80KITU/LCD_KHOITAO_HIENTHI.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_601_LCD_HIENTHI_80KITU/LCD_KHOITAO_HIENTHI.vhd".
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_601_LCD_HIENTHI_80KITU/LCD_GAN_DULIEU.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/BT_ISE_XILINX/BAI_601_LCD_HIENTHI_80KITU/LCD_GAN_DULIEU.vhd" is newer than current system time.
+Entity <lcd_gan_dulieu> compiled.
+Entity <lcd_gan_dulieu> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_601_LCD_HIENTHI_80KITU/LCD_KHOITAO_HIENTHI.vhd" in Library work.
+Architecture behavioral of Entity lcd_khoitao_hienthi is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_601_LCD_HIENTHI_80KITU/LCD_HIENTHI_80KITU.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/BT_ISE_XILINX/BAI_601_LCD_HIENTHI_80KITU/LCD_HIENTHI_80KITU.vhd" is newer than current system time.
+Entity <lcd_hienthi_80kitu> compiled.
+Entity <lcd_hienthi_80kitu> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <LCD_HIENTHI_80KITU> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <LCD_GAN_DULIEU> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LCD_KHOITAO_HIENTHI> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <LCD_HIENTHI_80KITU> in library <work> (Architecture <behavioral>).
+Entity <LCD_HIENTHI_80KITU> analyzed. Unit <LCD_HIENTHI_80KITU> generated.
+
+Analyzing Entity <LCD_GAN_DULIEU> in library <work> (Architecture <Behavioral>).
+Entity <LCD_GAN_DULIEU> analyzed. Unit <LCD_GAN_DULIEU> generated.
+
+Analyzing Entity <LCD_KHOITAO_HIENTHI> in library <work> (Architecture <Behavioral>).
+Entity <LCD_KHOITAO_HIENTHI> analyzed. Unit <LCD_KHOITAO_HIENTHI> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <LCD_GAN_DULIEU>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_601_LCD_HIENTHI_80KITU/LCD_GAN_DULIEU.vhd".
+Unit <LCD_GAN_DULIEU> synthesized.
+
+
+Synthesizing Unit <LCD_KHOITAO_HIENTHI>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_601_LCD_HIENTHI_80KITU/LCD_KHOITAO_HIENTHI.vhd".
+    Found finite state machine <FSM_0> for signal <LCD_STATE>.
+    -----------------------------------------------------------------------
+    | States             | 10                                             |
+    | Transitions        | 25                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 10                                             |
+    | Clock              | CKHT                      (falling_edge)       |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | lcd_initial                                    |
+    | Power Up State     | lcd_initial                                    |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <LCD_E>.
+    Found 1-bit register for signal <LCD_RS>.
+    Found 8-bit register for signal <LCD_DB>.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0000> created at line 122.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0001> created at line 145.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0002> created at line 168.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0003> created at line 191.
+    Found 5-bit register for signal <PTR>.
+    Found 5-bit adder for signal <PTR$share0000> created at line 99.
+    Found 20-bit register for signal <SLX>.
+    Found 20-bit adder for signal <SLX$add0000> created at line 113.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  35 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred  32 Multiplexer(s).
+Unit <LCD_KHOITAO_HIENTHI> synthesized.
+
+
+Synthesizing Unit <LCD_HIENTHI_80KITU>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_601_LCD_HIENTHI_80KITU/LCD_HIENTHI_80KITU.vhd".
+Unit <LCD_HIENTHI_80KITU> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 20-bit adder                                          : 1
+ 5-bit adder                                           : 1
+# Registers                                            : 5
+ 1-bit register                                        : 2
+ 20-bit register                                       : 1
+ 5-bit register                                        : 1
+ 8-bit register                                        : 1
+# Multiplexers                                         : 4
+ 8-bit 20-to-1 multiplexer                             : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <IC2/LCD_STATE/FSM> on signal <LCD_STATE[1:4]> with gray encoding.
+-------------------------
+ State       | Encoding
+-------------------------
+ lcd_initial | 0000
+ lcd_addr_l0 | 0001
+ lcd_data_l0 | 0011
+ lcd_addr_l1 | 0010
+ lcd_data_l1 | 0110
+ lcd_addr_l2 | 0111
+ lcd_data_l2 | 0101
+ lcd_addr_l3 | 0100
+ lcd_data_l3 | 1100
+ lcd_stop    | 1101
+-------------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 2
+ 20-bit adder                                          : 1
+ 5-bit adder                                           : 1
+# Registers                                            : 35
+ Flip-Flops                                            : 35
+# Multiplexers                                         : 4
+ 8-bit 20-to-1 multiplexer                             : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <LCD_HIENTHI_80KITU> ...
+
+Optimizing unit <LCD_KHOITAO_HIENTHI> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block LCD_HIENTHI_80KITU, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 39
+ Flip-Flops                                            : 39
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : LCD_HIENTHI_80KITU.ngr
+Top Level Output File Name         : LCD_HIENTHI_80KITU
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 14
+
+Cell Usage :
+# BELS                             : 292
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 19
+#      LUT2                        : 27
+#      LUT2_D                      : 5
+#      LUT2_L                      : 2
+#      LUT3                        : 26
+#      LUT3_D                      : 5
+#      LUT3_L                      : 6
+#      LUT4                        : 106
+#      LUT4_D                      : 17
+#      LUT4_L                      : 25
+#      MUXCY                       : 19
+#      MUXF5                       : 11
+#      VCC                         : 1
+#      XORCY                       : 20
+# FlipFlops/Latches                : 39
+#      FDC_1                       : 29
+#      FDE_1                       : 10
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 13
+#      IBUF                        : 2
+#      OBUF                        : 11
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500epq208-5 
+
+ Number of Slices:                      125  out of   4656     2%  
+ Number of Slice Flip Flops:             39  out of   9312     0%  
+ Number of 4 input LUTs:                240  out of   9312     2%  
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    158     8%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CKHT                               | BUFGP                  | 39    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+BTN0                               | IBUF                   | 29    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 7.839ns (Maximum Frequency: 127.570MHz)
+   Minimum input arrival time before clock: 4.023ns
+   Maximum output required time after clock: 4.134ns
+   Maximum combinational path delay: 4.632ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CKHT'
+  Clock period: 7.839ns (frequency: 127.570MHz)
+  Total number of paths / destination ports: 4188 / 39
+-------------------------------------------------------------------------
+Delay:               7.839ns (Levels of Logic = 6)
+  Source:            IC2/SLX_18 (FF)
+  Destination:       IC2/SLX_19 (FF)
+  Source Clock:      CKHT falling
+  Destination Clock: CKHT falling
+
+  Data Path: IC2/SLX_18 to IC2/SLX_19
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            3   0.514   0.603  IC2/SLX_18 (IC2/SLX_18)
+     LUT2:I0->O            2   0.612   0.383  IC2/LCD_STATE_cmp_eq00001_SW0_SW0 (N42)
+     LUT4:I3->O           10   0.612   0.819  IC2/LCD_STATE_cmp_eq00001 (IC2/N14)
+     LUT4_L:I1->LO         1   0.612   0.130  IC2/SLX_mux0006<16>277 (IC2/SLX_mux0006<16>277)
+     LUT4:I2->O            4   0.612   0.502  IC2/SLX_mux0006<16>2111 (IC2/N6)
+     LUT4_D:I3->O         16   0.612   0.948  IC2/N021 (IC2/N02)
+     LUT2:I1->O            1   0.612   0.000  IC2/SLX_mux0006<8>1 (IC2/SLX_mux0006<8>)
+     FDC_1:D                   0.268          IC2/SLX_11
+    ----------------------------------------
+    Total                      7.839ns (4.454ns logic, 3.385ns route)
+                                       (56.8% logic, 43.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CKHT'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              4.023ns (Levels of Logic = 2)
+  Source:            BTN0 (PAD)
+  Destination:       IC2/LCD_RS (FF)
+  Destination Clock: CKHT falling
+
+  Data Path: BTN0 to IC2/LCD_RS
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            30   1.106   1.072  BTN0_IBUF (BTN0_IBUF)
+     INV:I->O             10   0.612   0.750  IC2/RST_inv1_INV_0 (IC2/RST_inv)
+     FDE_1:CE                  0.483          IC2/LCD_E
+    ----------------------------------------
+    Total                      4.023ns (2.201ns logic, 1.822ns route)
+                                       (54.7% logic, 45.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CKHT'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              4.134ns (Levels of Logic = 1)
+  Source:            IC2/LCD_DB_7 (FF)
+  Destination:       LCD_DB<7> (PAD)
+  Source Clock:      CKHT falling
+
+  Data Path: IC2/LCD_DB_7 to LCD_DB<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE_1:C->Q            3   0.514   0.451  IC2/LCD_DB_7 (IC2/LCD_DB_7)
+     OBUF:I->O                 3.169          LCD_DB_7_OBUF (LCD_DB<7>)
+    ----------------------------------------
+    Total                      4.134ns (3.683ns logic, 0.451ns route)
+                                       (89.1% logic, 10.9% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               4.632ns (Levels of Logic = 2)
+  Source:            SWP (PAD)
+  Destination:       LCD_P (PAD)
+
+  Data Path: SWP to LCD_P
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.357  SWP_IBUF (LCD_P_OBUF)
+     OBUF:I->O                 3.169          LCD_P_OBUF (LCD_P)
+    ----------------------------------------
+    Total                      4.632ns (4.275ns logic, 0.357ns route)
+                                       (92.3% logic, 7.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 7.57 secs
+ 
+--> 
+
+
+Total memory usage is 623852 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    8 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

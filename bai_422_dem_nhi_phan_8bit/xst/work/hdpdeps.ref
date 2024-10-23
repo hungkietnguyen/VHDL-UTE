@@ -1,0 +1,22 @@
+V3 11
+FL /home/ise/BT_ISE_XILINX/bai_422_dem_nhi_phan_8bit/chia_ena5hz.vhd 2023/02/20.17:57:35 P.20131013
+EN work/chia_ena5hz 1676938367 \
+      FL /home/ise/BT_ISE_XILINX/bai_422_dem_nhi_phan_8bit/chia_ena5hz.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/chia_ena5hz/Behavioral 1676938368 \
+      FL /home/ise/BT_ISE_XILINX/bai_422_dem_nhi_phan_8bit/chia_ena5hz.vhd \
+      EN work/chia_ena5hz 1676938367
+FL /home/ise/BT_ISE_XILINX/bai_422_dem_nhi_phan_8bit/dem_8bit.vhd 2023/02/20.17:58:06 P.20131013
+EN work/dem_8bit 1676938369 \
+      FL /home/ise/BT_ISE_XILINX/bai_422_dem_nhi_phan_8bit/dem_8bit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/dem_8bit/Behavioral 1676938370 \
+      FL /home/ise/BT_ISE_XILINX/bai_422_dem_nhi_phan_8bit/dem_8bit.vhd \
+      EN work/dem_8bit 1676938369
+FL /home/ise/BT_ISE_XILINX/bai_422_dem_nhi_phan_8bit/dem_nhi_phan_8bit.vhd 2023/02/20.17:59:42 P.20131013
+EN work/dem_nhi_phan_8bit 1676938371 \
+      FL /home/ise/BT_ISE_XILINX/bai_422_dem_nhi_phan_8bit/dem_nhi_phan_8bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dem_nhi_phan_8bit/Behavioral 1676938372 \
+      FL /home/ise/BT_ISE_XILINX/bai_422_dem_nhi_phan_8bit/dem_nhi_phan_8bit.vhd \
+      EN work/dem_nhi_phan_8bit 1676938371 CP work/chia_ena5hz CP work/dem_8bit

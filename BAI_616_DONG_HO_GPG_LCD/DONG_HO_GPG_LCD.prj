@@ -1,0 +1,7 @@
+vhdl work "HEXTOBCD_6BIT.vhd"
+vhdl work "LCD_KHOITAO_HIENTHI.vhd"
+vhdl work "LCD_GAN_DULIEU_GPG.vhd"
+vhdl work "HEXTOBCD_GPG.vhd"
+vhdl work "DEM_GPG.vhd"
+vhdl work "CHIA_10ENA.vhd"
+vhdl work "DONG_HO_GPG_LCD.vhd"

@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_554_DO_ND_DS18B20_CGH_SSND_2BTN/DO_ND_DS18B20_CGH_SSND_2BTN.xst" -ofn "C:/.Xilinx/BAI_554_DO_ND_DS18B20_CGH_SSND_2BTN/DO_ND_DS18B20_CGH_SSND_2BTN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 DO_ND_DS18B20_CGH_SSND_2BTN.ngc DO_ND_DS18B20_CGH_SSND_2BTN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DO_ND_DS18B20_CGH_SSND_2BTN_map.ncd DO_ND_DS18B20_CGH_SSND_2BTN.ngd DO_ND_DS18B20_CGH_SSND_2BTN.pcf 
+par -w -intstyle ise -ol high -t 1 DO_ND_DS18B20_CGH_SSND_2BTN_map.ncd DO_ND_DS18B20_CGH_SSND_2BTN.ncd DO_ND_DS18B20_CGH_SSND_2BTN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DO_ND_DS18B20_CGH_SSND_2BTN.twx DO_ND_DS18B20_CGH_SSND_2BTN.ncd -o DO_ND_DS18B20_CGH_SSND_2BTN.twr DO_ND_DS18B20_CGH_SSND_2BTN.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_554_DO_ND_DS18B20_CGH_SSND_2BTN/DO_ND_DS18B20_CGH_SSND_2BTN.xst" -ofn "C:/.Xilinx/BAI_554_DO_ND_DS18B20_CGH_SSND_2BTN/DO_ND_DS18B20_CGH_SSND_2BTN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 DO_ND_DS18B20_CGH_SSND_2BTN.ngc DO_ND_DS18B20_CGH_SSND_2BTN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DO_ND_DS18B20_CGH_SSND_2BTN_map.ncd DO_ND_DS18B20_CGH_SSND_2BTN.ngd DO_ND_DS18B20_CGH_SSND_2BTN.pcf 
+par -w -intstyle ise -ol high -t 1 DO_ND_DS18B20_CGH_SSND_2BTN_map.ncd DO_ND_DS18B20_CGH_SSND_2BTN.ncd DO_ND_DS18B20_CGH_SSND_2BTN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DO_ND_DS18B20_CGH_SSND_2BTN.twx DO_ND_DS18B20_CGH_SSND_2BTN.ncd -o DO_ND_DS18B20_CGH_SSND_2BTN.twr DO_ND_DS18B20_CGH_SSND_2BTN.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_554_DO_ND_DS18B20_CGH_SSND_2BTN/DO_ND_DS18B20_CGH_SSND_2BTN.xst" -ofn "C:/.Xilinx/BAI_554_DO_ND_DS18B20_CGH_SSND_2BTN/DO_ND_DS18B20_CGH_SSND_2BTN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 DO_ND_DS18B20_CGH_SSND_2BTN.ngc DO_ND_DS18B20_CGH_SSND_2BTN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DO_ND_DS18B20_CGH_SSND_2BTN_map.ncd DO_ND_DS18B20_CGH_SSND_2BTN.ngd DO_ND_DS18B20_CGH_SSND_2BTN.pcf 
+par -w -intstyle ise -ol high -t 1 DO_ND_DS18B20_CGH_SSND_2BTN_map.ncd DO_ND_DS18B20_CGH_SSND_2BTN.ncd DO_ND_DS18B20_CGH_SSND_2BTN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DO_ND_DS18B20_CGH_SSND_2BTN.twx DO_ND_DS18B20_CGH_SSND_2BTN.ncd -o DO_ND_DS18B20_CGH_SSND_2BTN.twr DO_ND_DS18B20_CGH_SSND_2BTN.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DO_ND_DS18B20_CGH_SSND_2BTN.ut DO_ND_DS18B20_CGH_SSND_2BTN.ncd 

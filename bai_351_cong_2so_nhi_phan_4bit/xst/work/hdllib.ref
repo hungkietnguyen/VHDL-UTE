@@ -1,0 +1,4 @@
+EN cong_2so_nhi_phan_4bit NULL /home/ise/BT_ISE_XILINX/bai_351_cong_2so_nhi_phan_4bit/cong_2so_nhi_phan_4bit.vhd sub00/vhpl02 1676261687
+EN cong_2so_4bit NULL /home/ise/BT_ISE_XILINX/bai_351_cong_2so_nhi_phan_4bit/cong_2so_4bit.vhd sub00/vhpl00 1676333455
+AR cong_2so_nhi_phan_4bit behavioral /home/ise/BT_ISE_XILINX/bai_351_cong_2so_nhi_phan_4bit/cong_2so_nhi_phan_4bit.vhd sub00/vhpl03 1676261688
+AR cong_2so_4bit behavioral /home/ise/BT_ISE_XILINX/bai_351_cong_2so_nhi_phan_4bit/cong_2so_4bit.vhd sub00/vhpl01 1676333456

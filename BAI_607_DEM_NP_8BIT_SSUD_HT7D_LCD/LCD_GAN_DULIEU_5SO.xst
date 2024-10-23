@@ -1,0 +1,5 @@
+set -tmpdir "C:/.Xilinx/BAI_607_DEM_NP_8BIT_SSUD_HT7D_LCD/xst/projnav.tmp"
+set -xsthdpdir "C:/.Xilinx/BAI_607_DEM_NP_8BIT_SSUD_HT7D_LCD/xst"
+elaborate
+-ifn LCD_GAN_DULIEU_5SO.prj
+-ifmt mixed

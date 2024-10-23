@@ -1,0 +1,938 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: DONG_HO_GPG_LCD_NN_BELL_DHT11.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "DONG_HO_GPG_LCD_NN_BELL_DHT11.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "DONG_HO_GPG_LCD_NN_BELL_DHT11"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-pq208
+
+---- Source Options
+Top Module Name                    : DONG_HO_GPG_LCD_NN_BELL_DHT11
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/DEBOUNCE_BTN.vhd" in Library work.
+Architecture behavioral of Entity debounce_btn is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/LAM_HEP_XUNG.vhd" in Library work.
+Architecture behavioral of Entity lam_hep_xung is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/DEM_2BIT.vhd" in Library work.
+Architecture behavioral of Entity dem_2bit is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/HEXTOBCD_6BIT.vhd" in Library work.
+Architecture behavioral of Entity hextobcd_6bit is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/XULY_MOD.vhd" in Library work.
+Architecture behavioral of Entity xuly_mod is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/SS_PHUT_XBELL.vhd" in Library work.
+Architecture behavioral of Entity ss_phut_xbell is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_618_DONG_HO_GPG_3KEY_NN/RESET_GT_MOD.vhd" in Library work.
+Architecture behavioral of Entity reset_gt_mod is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/DEM_GPG_MUD.vhd" in Library work.
+Architecture behavioral of Entity dem_gpg_mud is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/CHIA_10ENA.vhd" in Library work.
+Architecture behavioral of Entity chia_10ena is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/DEM_GPG_3KEY_NN.vhd" in Library work.
+Architecture behavioral of Entity dem_gpg_3key_nn is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/HEXTOBCD_GPG.vhd" in Library work.
+Architecture behavioral of Entity hextobcd_gpg is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/BELL_BIP.vhd" in Library work.
+Architecture behavioral of Entity bell_bip is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/DHT11_HUMI_TEMP.vhd" in Library work.
+Architecture behavioral of Entity dht11_humi_temp is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/HEXTOBCD_8BIT.vhd" in Library work.
+Architecture behavioral of Entity hextobcd_8bit is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/LCD_GAN_DULIEU_GPG_NN.vhd" in Library work.
+Entity <lcd_gan_dulieu_gpg_nn> compiled.
+Entity <lcd_gan_dulieu_gpg_nn> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/LCD_KHOITAO_HIENTHI.vhd" in Library work.
+Architecture behavioral of Entity lcd_khoitao_hienthi is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/DONG_HO_GPG_LCD_NN_BELL_DHT11.vhd" in Library work.
+Entity <dong_ho_gpg_lcd_nn_bell_dht11> compiled.
+Entity <dong_ho_gpg_lcd_nn_bell_dht11> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <DONG_HO_GPG_LCD_NN_BELL_DHT11> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CHIA_10ENA> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_GPG_3KEY_NN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <HEXTOBCD_GPG> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <BELL_BIP> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DHT11_HUMI_TEMP> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <HEXTOBCD_8BIT> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LCD_GAN_DULIEU_GPG_NN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LCD_KHOITAO_HIENTHI> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEBOUNCE_BTN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <XULY_MOD> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <SS_PHUT_XBELL> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <RESET_GT_MOD> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_GPG_MUD> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <HEXTOBCD_6BIT> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEBOUNCE_BTN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LAM_HEP_XUNG> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_2BIT> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <DONG_HO_GPG_LCD_NN_BELL_DHT11> in library <work> (Architecture <behavioral>).
+Entity <DONG_HO_GPG_LCD_NN_BELL_DHT11> analyzed. Unit <DONG_HO_GPG_LCD_NN_BELL_DHT11> generated.
+
+Analyzing Entity <CHIA_10ENA> in library <work> (Architecture <Behavioral>).
+Entity <CHIA_10ENA> analyzed. Unit <CHIA_10ENA> generated.
+
+Analyzing Entity <DEM_GPG_3KEY_NN> in library <work> (Architecture <Behavioral>).
+Entity <DEM_GPG_3KEY_NN> analyzed. Unit <DEM_GPG_3KEY_NN> generated.
+
+Analyzing Entity <DEBOUNCE_BTN> in library <work> (Architecture <Behavioral>).
+Entity <DEBOUNCE_BTN> analyzed. Unit <DEBOUNCE_BTN> generated.
+
+Analyzing Entity <XULY_MOD> in library <work> (Architecture <Behavioral>).
+Entity <XULY_MOD> analyzed. Unit <XULY_MOD> generated.
+
+Analyzing Entity <LAM_HEP_XUNG> in library <work> (Architecture <Behavioral>).
+Entity <LAM_HEP_XUNG> analyzed. Unit <LAM_HEP_XUNG> generated.
+
+Analyzing Entity <DEM_2BIT> in library <work> (Architecture <Behavioral>).
+Entity <DEM_2BIT> analyzed. Unit <DEM_2BIT> generated.
+
+Analyzing Entity <SS_PHUT_XBELL> in library <work> (Architecture <Behavioral>).
+Entity <SS_PHUT_XBELL> analyzed. Unit <SS_PHUT_XBELL> generated.
+
+Analyzing Entity <RESET_GT_MOD> in library <work> (Architecture <Behavioral>).
+Entity <RESET_GT_MOD> analyzed. Unit <RESET_GT_MOD> generated.
+
+Analyzing Entity <DEM_GPG_MUD> in library <work> (Architecture <Behavioral>).
+Entity <DEM_GPG_MUD> analyzed. Unit <DEM_GPG_MUD> generated.
+
+Analyzing Entity <HEXTOBCD_GPG> in library <work> (Architecture <Behavioral>).
+Entity <HEXTOBCD_GPG> analyzed. Unit <HEXTOBCD_GPG> generated.
+
+Analyzing Entity <HEXTOBCD_6BIT> in library <work> (Architecture <Behavioral>).
+Entity <HEXTOBCD_6BIT> analyzed. Unit <HEXTOBCD_6BIT> generated.
+
+Analyzing Entity <BELL_BIP> in library <work> (Architecture <Behavioral>).
+Entity <BELL_BIP> analyzed. Unit <BELL_BIP> generated.
+
+Analyzing Entity <DHT11_HUMI_TEMP> in library <work> (Architecture <Behavioral>).
+INFO:Xst:2679 - Register <DHT_OUT> in unit <DHT11_HUMI_TEMP> has a constant value of 0 during circuit operation. The register is replaced by logic.
+Entity <DHT11_HUMI_TEMP> analyzed. Unit <DHT11_HUMI_TEMP> generated.
+
+Analyzing Entity <HEXTOBCD_8BIT> in library <work> (Architecture <Behavioral>).
+Entity <HEXTOBCD_8BIT> analyzed. Unit <HEXTOBCD_8BIT> generated.
+
+Analyzing Entity <LCD_GAN_DULIEU_GPG_NN> in library <work> (Architecture <Behavioral>).
+Entity <LCD_GAN_DULIEU_GPG_NN> analyzed. Unit <LCD_GAN_DULIEU_GPG_NN> generated.
+
+Analyzing Entity <LCD_KHOITAO_HIENTHI> in library <work> (Architecture <Behavioral>).
+Entity <LCD_KHOITAO_HIENTHI> analyzed. Unit <LCD_KHOITAO_HIENTHI> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <CHIA_10ENA>.
+    Related source file is "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/CHIA_10ENA.vhd".
+    Found 19-bit adder for signal <D100HZ_N$addsub0000> created at line 102.
+    Found 19-bit register for signal <D100HZ_R>.
+    Found 26-bit adder for signal <D1HZ_N$addsub0000> created at line 88.
+    Found 26-bit register for signal <D1HZ_R>.
+    Found 22-bit adder for signal <D20HZ_N$addsub0000> created at line 96.
+    Found 22-bit register for signal <D20HZ_R>.
+    Found 25-bit adder for signal <D2HZ_N$addsub0000> created at line 90.
+    Found 25-bit register for signal <D2HZ_R>.
+    Found 20-bit adder for signal <D50HZ_N$addsub0000> created at line 100.
+    Found 20-bit register for signal <D50HZ_R>.
+    Found 24-bit adder for signal <D5HZ_N$addsub0000> created at line 92.
+    Found 24-bit register for signal <D5HZ_R>.
+    Summary:
+	inferred 136 D-type flip-flop(s).
+	inferred   6 Adder/Subtractor(s).
+Unit <CHIA_10ENA> synthesized.
+
+
+Synthesizing Unit <BELL_BIP>.
+    Related source file is "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/BELL_BIP.vhd".
+    Found 1-bit register for signal <Q_R>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <BELL_BIP> synthesized.
+
+
+Synthesizing Unit <DHT11_HUMI_TEMP>.
+    Related source file is "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/DHT11_HUMI_TEMP.vhd".
+    Found finite state machine <FSM_0> for signal <STATE>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 15                                             |
+    | Inputs             | 14                                             |
+    | Outputs            | 6                                              |
+    | Clock              | CKHT                      (falling_edge)       |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | reset                                          |
+    | Power Up State     | reset                                          |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <TT_RD>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 22                                             |
+    | Inputs             | 6                                              |
+    | Outputs            | 4                                              |
+    | Clock              | CKHT                      (falling_edge)       |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00                                             |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_2> for signal <TT_RST>.
+    -----------------------------------------------------------------------
+    | States             | 8                                              |
+    | Transitions        | 47                                             |
+    | Inputs             | 9                                              |
+    | Outputs            | 8                                              |
+    | Clock              | CKHT                      (falling_edge)       |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 000                                            |
+    | Power Up State     | 000                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 40-bit register for signal <DA_ND5>.
+    Found 1-bit tristate buffer for signal <DHT11>.
+    Found 1-bit register for signal <DHT_PR>.
+    Found 1-bit register for signal <DHT_DATA>.
+    Found 27-bit comparator greater for signal <DHT_DATA$cmp_gt0000> created at line 162.
+    Found 1-bit register for signal <DHT_ENA>.
+    Found 1-bit register for signal <DHT_IN>.
+    Found 27-bit register for signal <J>.
+    Found 27-bit adder for signal <J$share0000> created at line 69.
+    Found 6-bit register for signal <PTR>.
+    Found 6-bit adder for signal <PTR$addsub0000> created at line 138.
+    Found 6-bit comparator greatequal for signal <STATE$cmp_ge0000>.
+    Found 27-bit comparator greatequal for signal <STATE$cmp_ge0001> created at line 174.
+    Found 6-bit comparator lessequal for signal <STATE$cmp_le0000>.
+    Summary:
+	inferred   3 Finite State Machine(s).
+	inferred  77 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   4 Comparator(s).
+	inferred   1 Tristate(s).
+Unit <DHT11_HUMI_TEMP> synthesized.
+
+
+Synthesizing Unit <HEXTOBCD_8BIT>.
+    Related source file is "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/HEXTOBCD_8BIT.vhd".
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0000> created at line 44.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0001> created at line 44.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0002> created at line 44.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0003> created at line 44.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0004> created at line 44.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0000> created at line 45.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0001> created at line 45.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0002> created at line 45.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0003> created at line 45.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0004> created at line 45.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_15$cmp_ge0000> created at line 47.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_15$cmp_ge0001> created at line 47.
+    Found 4-bit adder for signal <BCD_HEX_15_12$add0000> created at line 48.
+    Found 4-bit adder for signal <BCD_HEX_15_12$add0001> created at line 48.
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred   7 Comparator(s).
+Unit <HEXTOBCD_8BIT> synthesized.
+
+
+Synthesizing Unit <LCD_GAN_DULIEU_GPG_NN>.
+    Related source file is "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/LCD_GAN_DULIEU_GPG_NN.vhd".
+    Found 3-bit register for signal <Q_R>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <LCD_GAN_DULIEU_GPG_NN> synthesized.
+
+
+Synthesizing Unit <LCD_KHOITAO_HIENTHI>.
+    Related source file is "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/LCD_KHOITAO_HIENTHI.vhd".
+    Found finite state machine <FSM_3> for signal <LCD_STATE>.
+    -----------------------------------------------------------------------
+    | States             | 10                                             |
+    | Transitions        | 25                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 10                                             |
+    | Clock              | CKHT                      (falling_edge)       |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | lcd_initial                                    |
+    | Power Up State     | lcd_initial                                    |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <LCD_E>.
+    Found 1-bit register for signal <LCD_RS>.
+    Found 8-bit register for signal <LCD_DB>.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0000> created at line 122.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0001> created at line 145.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0002> created at line 168.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0003> created at line 191.
+    Found 5-bit register for signal <PTR>.
+    Found 5-bit adder for signal <PTR$share0000> created at line 99.
+    Found 20-bit register for signal <SLX>.
+    Found 20-bit adder for signal <SLX$add0000> created at line 113.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  35 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred  32 Multiplexer(s).
+Unit <LCD_KHOITAO_HIENTHI> synthesized.
+
+
+Synthesizing Unit <DEBOUNCE_BTN>.
+    Related source file is "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/DEBOUNCE_BTN.vhd".
+    Found finite state machine <FSM_4> for signal <DB_R>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 4                                              |
+    | Clock              | CKHT                      (falling_edge)       |
+    | Power Up State     | zero                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 20-bit register for signal <DL_R>.
+    Found 20-bit subtractor for signal <DL_R$addsub0000>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <DEBOUNCE_BTN> synthesized.
+
+
+Synthesizing Unit <SS_PHUT_XBELL>.
+    Related source file is "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/SS_PHUT_XBELL.vhd".
+    Found 6-bit register for signal <PHUT2_R>.
+    Found 6-bit comparator not equal for signal <XKT$cmp_ne0000> created at line 53.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <SS_PHUT_XBELL> synthesized.
+
+
+Synthesizing Unit <RESET_GT_MOD>.
+    Related source file is "C:/.Xilinx/BAI_618_DONG_HO_GPG_3KEY_NN/RESET_GT_MOD.vhd".
+    Found 4-bit register for signal <DEM_R>.
+    Found 4-bit adder for signal <DEM_R$addsub0000> created at line 60.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <RESET_GT_MOD> synthesized.
+
+
+Synthesizing Unit <DEM_GPG_MUD>.
+    Related source file is "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/DEM_GPG_MUD.vhd".
+    Found 6-bit adder for signal <GIAY_N$addsub0000> created at line 70.
+    Found 6-bit register for signal <GIAY_R>.
+    Found 6-bit subtractor for signal <GIAY_R$addsub0000> created at line 74.
+    Found 5-bit adder for signal <GIO_N$addsub0000> created at line 106.
+    Found 5-bit register for signal <GIO_R>.
+    Found 5-bit subtractor for signal <GIO_R$addsub0000> created at line 110.
+    Found 6-bit adder for signal <PHUT_N$addsub0000> created at line 88.
+    Found 6-bit register for signal <PHUT_R>.
+    Found 6-bit subtractor for signal <PHUT_R$addsub0000> created at line 92.
+    Summary:
+	inferred  17 D-type flip-flop(s).
+	inferred   6 Adder/Subtractor(s).
+Unit <DEM_GPG_MUD> synthesized.
+
+
+Synthesizing Unit <LAM_HEP_XUNG>.
+    Related source file is "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/LAM_HEP_XUNG.vhd".
+    Found 1-bit register for signal <QFF>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <LAM_HEP_XUNG> synthesized.
+
+
+Synthesizing Unit <DEM_2BIT>.
+    Related source file is "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/DEM_2BIT.vhd".
+    Found 2-bit up counter for signal <Q_REG>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <DEM_2BIT> synthesized.
+
+
+Synthesizing Unit <HEXTOBCD_6BIT>.
+    Related source file is "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/HEXTOBCD_6BIT.vhd".
+    Found 4-bit comparator greatequal for signal <BCD_HEX_9$cmp_ge0000> created at line 44.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_9$cmp_ge0001> created at line 44.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_9$cmp_ge0002> created at line 44.
+    Found 4-bit adder for signal <BCD_HEX_9_6$add0000> created at line 45.
+    Found 4-bit adder for signal <BCD_HEX_9_6$add0001> created at line 45.
+    Found 4-bit adder for signal <BCD_HEX_9_6$add0002> created at line 45.
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+Unit <HEXTOBCD_6BIT> synthesized.
+
+
+Synthesizing Unit <HEXTOBCD_GPG>.
+    Related source file is "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/HEXTOBCD_GPG.vhd".
+Unit <HEXTOBCD_GPG> synthesized.
+
+
+Synthesizing Unit <XULY_MOD>.
+    Related source file is "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/XULY_MOD.vhd".
+Unit <XULY_MOD> synthesized.
+
+
+Synthesizing Unit <DEM_GPG_3KEY_NN>.
+    Related source file is "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/DEM_GPG_3KEY_NN.vhd".
+Unit <DEM_GPG_3KEY_NN> synthesized.
+
+
+Synthesizing Unit <DONG_HO_GPG_LCD_NN_BELL_DHT11>.
+    Related source file is "C:/.Xilinx/BAI_621_DONG_HO_GPG_LCD_NN_BELL_DHT1/DONG_HO_GPG_LCD_NN_BELL_DHT11.vhd".
+    Found 8-bit adder for signal <CH_SM2>.
+    Found 8-bit adder for signal <CH_SM2$addsub0000> created at line 100.
+    Found 8-bit adder for signal <CH_SM2$addsub0001> created at line 100.
+    Found 1-bit 4-to-1 multiplexer for signal <ENA_DB>.
+    Found 8-bit comparator equal for signal <TT_CS$cmp_eq0000> created at line 101.
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <DONG_HO_GPG_LCD_NN_BELL_DHT11> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 46
+ 19-bit adder                                          : 1
+ 20-bit adder                                          : 2
+ 20-bit subtractor                                     : 3
+ 22-bit adder                                          : 1
+ 24-bit adder                                          : 1
+ 25-bit adder                                          : 1
+ 26-bit adder                                          : 1
+ 27-bit adder                                          : 1
+ 4-bit adder                                           : 24
+ 5-bit adder                                           : 2
+ 5-bit subtractor                                      : 1
+ 6-bit adder                                           : 3
+ 6-bit subtractor                                      : 2
+ 8-bit adder                                           : 3
+# Counters                                             : 1
+ 2-bit up counter                                      : 1
+# Registers                                            : 68
+ 1-bit register                                        : 48
+ 19-bit register                                       : 1
+ 20-bit register                                       : 5
+ 22-bit register                                       : 1
+ 24-bit register                                       : 1
+ 25-bit register                                       : 1
+ 26-bit register                                       : 1
+ 27-bit register                                       : 1
+ 3-bit register                                        : 1
+ 4-bit register                                        : 1
+ 5-bit register                                        : 2
+ 6-bit register                                        : 4
+ 8-bit register                                        : 1
+# Comparators                                          : 29
+ 27-bit comparator greatequal                          : 1
+ 27-bit comparator greater                             : 1
+ 4-bit comparator greatequal                           : 23
+ 6-bit comparator greatequal                           : 1
+ 6-bit comparator lessequal                            : 1
+ 6-bit comparator not equal                            : 1
+ 8-bit comparator equal                                : 1
+# Multiplexers                                         : 5
+ 1-bit 4-to-1 multiplexer                              : 1
+ 8-bit 20-to-1 multiplexer                             : 4
+# Tristates                                            : 1
+ 1-bit tristate buffer                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_4> for best encoding.
+Optimizing FSM <IC2/K3/U1/DB_R/FSM> on signal <DB_R[1:2]> with user encoding.
+Optimizing FSM <IC2/K1/DB_R/FSM> on signal <DB_R[1:2]> with user encoding.
+Optimizing FSM <IC2/K2/DB_R/FSM> on signal <DB_R[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ zero  | 00
+ wait0 | 01
+ one   | 10
+ wait1 | 11
+-------------------
+Analyzing FSM <FSM_3> for best encoding.
+Optimizing FSM <ICB/LCD_STATE/FSM> on signal <LCD_STATE[1:4]> with gray encoding.
+-------------------------
+ State       | Encoding
+-------------------------
+ lcd_initial | 0000
+ lcd_addr_l0 | 0001
+ lcd_data_l0 | 0011
+ lcd_addr_l1 | 0010
+ lcd_data_l1 | 0110
+ lcd_addr_l2 | 0111
+ lcd_data_l2 | 0101
+ lcd_addr_l3 | 0100
+ lcd_data_l3 | 1100
+ lcd_stop    | 1101
+-------------------------
+Analyzing FSM <FSM_2> for best encoding.
+Optimizing FSM <IC5/TT_RST/FSM> on signal <TT_RST[1:3]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000
+ 001   | 001
+ 010   | 011
+ 011   | 010
+ 100   | 111
+ 101   | 101
+ 110   | 100
+ 111   | 110
+-------------------
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <IC5/TT_RD/FSM> on signal <TT_RD[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 10
+ 11    | 11
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <IC5/STATE/FSM> on signal <STATE[1:2]> with gray encoding.
+---------------------------
+ State         | Encoding
+---------------------------
+ reset         | 00
+ get_humi_temp | 01
+ read_bit      | 11
+ wait_ms       | 10
+---------------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 5
+# Adders/Subtractors                                   : 46
+ 19-bit adder                                          : 1
+ 20-bit adder                                          : 2
+ 20-bit subtractor                                     : 3
+ 22-bit adder                                          : 1
+ 24-bit adder                                          : 1
+ 25-bit adder                                          : 1
+ 26-bit adder                                          : 1
+ 27-bit adder                                          : 1
+ 4-bit adder                                           : 24
+ 5-bit adder                                           : 2
+ 5-bit subtractor                                      : 1
+ 6-bit adder                                           : 3
+ 6-bit subtractor                                      : 2
+ 8-bit adder                                           : 3
+# Counters                                             : 1
+ 2-bit up counter                                      : 1
+# Registers                                            : 340
+ Flip-Flops                                            : 340
+# Comparators                                          : 29
+ 27-bit comparator greatequal                          : 1
+ 27-bit comparator greater                             : 1
+ 4-bit comparator greatequal                           : 23
+ 6-bit comparator greatequal                           : 1
+ 6-bit comparator lessequal                            : 1
+ 6-bit comparator not equal                            : 1
+ 8-bit comparator equal                                : 1
+# Multiplexers                                         : 5
+ 1-bit 4-to-1 multiplexer                              : 1
+ 8-bit 20-to-1 multiplexer                             : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <DONG_HO_GPG_LCD_NN_BELL_DHT11> ...
+
+Optimizing unit <CHIA_10ENA> ...
+
+Optimizing unit <HEXTOBCD_8BIT> ...
+
+Optimizing unit <LCD_GAN_DULIEU_GPG_NN> ...
+
+Optimizing unit <LCD_KHOITAO_HIENTHI> ...
+
+Optimizing unit <DEBOUNCE_BTN> ...
+
+Optimizing unit <RESET_GT_MOD> ...
+
+Optimizing unit <DEM_GPG_MUD> ...
+
+Optimizing unit <HEXTOBCD_6BIT> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block DONG_HO_GPG_LCD_NN_BELL_DHT11, actual ratio is 13.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 359
+ Flip-Flops                                            : 359
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : DONG_HO_GPG_LCD_NN_BELL_DHT11.ngr
+Top Level Output File Name         : DONG_HO_GPG_LCD_NN_BELL_DHT11
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 21
+
+Cell Usage :
+# BELS                             : 1847
+#      GND                         : 1
+#      INV                         : 125
+#      LUT1                        : 230
+#      LUT2                        : 78
+#      LUT2_D                      : 2
+#      LUT3                        : 161
+#      LUT3_D                      : 7
+#      LUT3_L                      : 2
+#      LUT4                        : 430
+#      LUT4_D                      : 22
+#      LUT4_L                      : 17
+#      MUXCY                       : 273
+#      MUXF5                       : 156
+#      MUXF6                       : 55
+#      MUXF7                       : 28
+#      VCC                         : 1
+#      XORCY                       : 259
+# FlipFlops/Latches                : 359
+#      FD_1                        : 1
+#      FDC_1                       : 42
+#      FDCE                        : 19
+#      FDCE_1                      : 5
+#      FDE_1                       : 93
+#      FDR_1                       : 136
+#      FDS_1                       : 3
+#      FDSE_1                      : 60
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 20
+#      IBUF                        : 7
+#      IOBUF                       : 1
+#      OBUF                        : 12
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500epq208-5 
+
+ Number of Slices:                      600  out of   4656    12%  
+ Number of Slice Flip Flops:            359  out of   9312     3%  
+ Number of 4 input LUTs:               1074  out of   9312    11%  
+ Number of IOs:                          21
+ Number of bonded IOBs:                  21  out of    158    13%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CKHT                               | BUFGP                  | 359   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+BTN<0>                             | IBUF                   | 64    |
+IC2/RST_MOD(IC2/RST_MOD_f5:O)      | NONE(IC2/K3/U3/Q_REG_0)| 2     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 16.054ns (Maximum Frequency: 62.289MHz)
+   Minimum input arrival time before clock: 6.577ns
+   Maximum output required time after clock: 5.103ns
+   Maximum combinational path delay: 4.632ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CKHT'
+  Clock period: 16.054ns (frequency: 62.289MHz)
+  Total number of paths / destination ports: 42855 / 693
+-------------------------------------------------------------------------
+Delay:               8.027ns (Levels of Logic = 8)
+  Source:            IC1/D20HZ_R_13 (FF)
+  Destination:       IC2/K6/GIO_R_2 (FF)
+  Source Clock:      CKHT falling
+  Destination Clock: CKHT rising
+
+  Data Path: IC1/D20HZ_R_13 to IC2/K6/GIO_R_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR_1:C->Q            3   0.514   0.603  IC1/D20HZ_R_13 (IC1/D20HZ_R_13)
+     LUT4:I0->O            1   0.612   0.360  IC1/ENA20HZ_cmp_eq000010 (IC1/ENA20HZ_cmp_eq000010)
+     LUT4_L:I3->LO         1   0.612   0.103  IC1/ENA20HZ_cmp_eq000068_SW0 (N153)
+     LUT4:I3->O            1   0.612   0.360  IC1/ENA20HZ_cmp_eq000068 (ENA20HZ)
+     LUT4:I3->O            1   0.612   0.000  Mmux_ENA_DB_2_f5_F (N206)
+     MUXF5:I0->O           8   0.278   0.673  Mmux_ENA_DB_2_f5 (ENA_DB)
+     LUT3_D:I2->LO         1   0.612   0.103  IC2/K6/GIO_R_and00021 (N322)
+     LUT4:I3->O            3   0.612   0.451  IC2/K6/GIO_R_mux0000<1>1 (IC2/K6/N21)
+     MUXF5:S->O            1   0.641   0.000  IC2/K6/GIO_R_mux0000<2>53 (IC2/K6/GIO_R_mux0000<2>)
+     FDCE:D                    0.268          IC2/K6/GIO_R_2
+    ----------------------------------------
+    Total                      8.027ns (5.373ns logic, 2.654ns route)
+                                       (66.9% logic, 33.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CKHT'
+  Total number of paths / destination ports: 277 / 183
+-------------------------------------------------------------------------
+Offset:              6.577ns (Levels of Logic = 4)
+  Source:            BTN<0> (PAD)
+  Destination:       IC5/DA_ND5_21 (FF)
+  Destination Clock: CKHT falling
+
+  Data Path: BTN<0> to IC5/DA_ND5_21
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            72   1.106   1.236  BTN_0_IBUF (BTN_0_IBUF)
+     LUT4:I0->O           16   0.612   0.909  IC5/DA_ND5_10_and000011 (N6)
+     LUT4:I2->O            4   0.612   0.651  IC5/DA_ND5_17_and000021 (N55)
+     LUT3:I0->O            1   0.612   0.357  IC5/DA_ND5_33_and00001 (IC5/DA_ND5_33_and0000)
+     FDE_1:CE                  0.483          IC5/DA_ND5_33
+    ----------------------------------------
+    Total                      6.577ns (3.425ns logic, 3.152ns route)
+                                       (52.1% logic, 47.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CKHT'
+  Total number of paths / destination ports: 12 / 12
+-------------------------------------------------------------------------
+Offset:              5.103ns (Levels of Logic = 2)
+  Source:            IC5/DHT_ENA (FF)
+  Destination:       DHT11 (PAD)
+  Source Clock:      CKHT falling
+
+  Data Path: IC5/DHT_ENA to DHT11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE_1:C->Q            3   0.514   0.451  IC5/DHT_ENA (IC5/DHT_ENA)
+     INV:I->O              1   0.612   0.357  IC5/DHT_ENA_inv1_INV_0 (IC5/DHT_ENA_inv)
+     IOBUF:T->IO               3.169          DHT11_IOBUF (DHT11)
+    ----------------------------------------
+    Total                      5.103ns (4.295ns logic, 0.808ns route)
+                                       (84.2% logic, 15.8% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               4.632ns (Levels of Logic = 2)
+  Source:            SWP (PAD)
+  Destination:       LCD_P (PAD)
+
+  Data Path: SWP to LCD_P
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.357  SWP_IBUF (LCD_P_OBUF)
+     OBUF:I->O                 3.169          LCD_P_OBUF (LCD_P)
+    ----------------------------------------
+    Total                      4.632ns (4.275ns logic, 0.357ns route)
+                                       (92.3% logic, 7.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 15.00 secs
+Total CPU time to Xst completion: 15.68 secs
+ 
+--> 
+
+Total memory usage is 4545776 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

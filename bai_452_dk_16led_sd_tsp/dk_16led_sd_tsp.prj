@@ -1,0 +1,3 @@
+vhdl work "sd_tsp.vhd"
+vhdl work "chia_10ena.vhd"
+vhdl work "dk_16led_sd_tsp.vhd"

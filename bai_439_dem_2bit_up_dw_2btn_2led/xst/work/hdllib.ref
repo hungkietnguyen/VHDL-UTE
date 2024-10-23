@@ -1,0 +1,12 @@
+EN dem_2bit NULL /home/ise/BT_ISE_XILINX/bai_439_dem_2bit_up_dw_2btn_2led/dem_2bit.vhd sub00/vhpl00 1678673768
+EN dem_2bit_up_dw_2btn_2led NULL /home/ise/BT_ISE_XILINX/bai_439_dem_2bit_up_dw_2btn_2led/dem_2bit_up_dw_2btn_2led.vhd sub00/vhpl10 1678673772
+AR lam_hep_xung behavioral /home/ise/BT_ISE_XILINX/bai_439_dem_2bit_up_dw_2btn_2led/lam_hep_xung.vhd sub00/vhpl03 1678673765
+EN dem_2bit_up_dw_2btn NULL /home/ise/BT_ISE_XILINX/bai_439_dem_2bit_up_dw_2btn_2led/dem_2bit_up_dw_2btn.vhd sub00/vhpl08 1678673770
+EN bounce_btn NULL /home/ise/BT_ISE_XILINX/bai_439_dem_2bit_up_dw_2btn_2led/bounce_btn.vhd sub00/vhpl04 1678673762
+AR dem_2bit_up_dw_2btn_2led behavioral /home/ise/BT_ISE_XILINX/bai_439_dem_2bit_up_dw_2btn_2led/dem_2bit_up_dw_2btn_2led.vhd sub00/vhpl11 1678673773
+AR dem_2bit_up_dw_2btn behavioral /home/ise/BT_ISE_XILINX/bai_439_dem_2bit_up_dw_2btn_2led/dem_2bit_up_dw_2btn.vhd sub00/vhpl09 1678673771
+AR bounce_btn behavioral /home/ise/BT_ISE_XILINX/bai_439_dem_2bit_up_dw_2btn_2led/bounce_btn.vhd sub00/vhpl05 1678673763
+AR cd_lam_hep_btn behavioral /home/ise/BT_ISE_XILINX/bai_439_dem_2bit_up_dw_2btn_2led/cd_lam_hep_btn.vhd sub00/vhpl07 1678673767
+EN lam_hep_xung NULL /home/ise/BT_ISE_XILINX/bai_439_dem_2bit_up_dw_2btn_2led/lam_hep_xung.vhd sub00/vhpl02 1678673764
+AR dem_2bit behavioral /home/ise/BT_ISE_XILINX/bai_439_dem_2bit_up_dw_2btn_2led/dem_2bit.vhd sub00/vhpl01 1678673769
+EN cd_lam_hep_btn NULL /home/ise/BT_ISE_XILINX/bai_439_dem_2bit_up_dw_2btn_2led/cd_lam_hep_btn.vhd sub00/vhpl06 1678673766

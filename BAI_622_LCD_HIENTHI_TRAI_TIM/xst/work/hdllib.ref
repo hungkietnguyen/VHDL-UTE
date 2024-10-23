@@ -1,0 +1,6 @@
+AR lcd_hienthi_trai_tim behavioral C:/.Xilinx/BAI_622_LCD_HIENTHI_TRAI_TIM/LCD_HIENTHI_TRAI_TIM.vhd sub00/vhpl05 1681373784
+EN lcd_khoitao_ht_ttim NULL C:/.Xilinx/BAI_622_LCD_HIENTHI_TRAI_TIM/LCD_KHOITAO_HT_TTIM.vhd sub00/vhpl02 1681373781
+EN lcd_hienthi_trai_tim NULL C:/.Xilinx/BAI_622_LCD_HIENTHI_TRAI_TIM/LCD_HIENTHI_TRAI_TIM.vhd sub00/vhpl04 1681373783
+AR lcd_khoitao_ht_ttim behavioral C:/.Xilinx/BAI_622_LCD_HIENTHI_TRAI_TIM/LCD_KHOITAO_HT_TTIM.vhd sub00/vhpl03 1681373782
+AR lcd_gan_dl_ttim behavioral C:/.Xilinx/BAI_622_LCD_HIENTHI_TRAI_TIM/LCD_GAN_DL_TTIM.vhd sub00/vhpl01 1681373780
+EN lcd_gan_dl_ttim NULL C:/.Xilinx/BAI_622_LCD_HIENTHI_TRAI_TIM/LCD_GAN_DL_TTIM.vhd sub00/vhpl00 1681373779

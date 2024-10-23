@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Feb 16 09:08:18 2023
+
+drc -z chia_10xung_ck1hz_ck1mhz.ncd chia_10xung_ck1hz_ck1mhz.pcf
+
+DRC detected 0 errors and 0 warnings.

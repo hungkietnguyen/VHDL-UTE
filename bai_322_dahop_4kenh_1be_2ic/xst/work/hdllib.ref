@@ -1,0 +1,6 @@
+EN dahop_4kenh_1be_if NULL /home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_if.vhd sub00/vhpl00 1676251215
+AR dahop_4kenh_1be_case behavioral /home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_case.vhd sub00/vhpl03 1676251252
+EN dahop_4kenh_1be_case NULL /home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_case.vhd sub00/vhpl02 1676251251
+AR dahop_4kenh_1be_if behavioral /home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_if.vhd sub00/vhpl01 1676251216
+EN dahop_4kenh_1be_2ic NULL /home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.vhd sub00/vhpl04 1676251219
+AR dahop_4kenh_1be_2ic behavioral /home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.vhd sub00/vhpl05 1676251220

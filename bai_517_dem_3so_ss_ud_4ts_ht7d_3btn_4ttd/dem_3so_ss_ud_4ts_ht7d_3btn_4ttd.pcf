@@ -1,0 +1,32 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Apr 14 02:50:17 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "ckht" LOCATE = SITE "P183" LEVEL 1;
+COMP "cathode<0>" LOCATE = SITE "P3" LEVEL 1;
+COMP "cathode<1>" LOCATE = SITE "P2" LEVEL 1;
+COMP "cathode<2>" LOCATE = SITE "P5" LEVEL 1;
+COMP "cathode<3>" LOCATE = SITE "P4" LEVEL 1;
+COMP "cathode<4>" LOCATE = SITE "P8" LEVEL 1;
+COMP "cathode<5>" LOCATE = SITE "P11" LEVEL 1;
+COMP "cathode<6>" LOCATE = SITE "P9" LEVEL 1;
+COMP "cathode<7>" LOCATE = SITE "P12" LEVEL 1;
+COMP "sseg<0>" LOCATE = SITE "P16" LEVEL 1;
+COMP "sseg<1>" LOCATE = SITE "P15" LEVEL 1;
+COMP "sseg<2>" LOCATE = SITE "P19" LEVEL 1;
+COMP "sseg<3>" LOCATE = SITE "P18" LEVEL 1;
+COMP "sseg<4>" LOCATE = SITE "P22" LEVEL 1;
+COMP "sseg<5>" LOCATE = SITE "P24" LEVEL 1;
+COMP "sseg<6>" LOCATE = SITE "P23" LEVEL 1;
+COMP "sseg<7>" LOCATE = SITE "P25" LEVEL 1;
+COMP "led<0>" LOCATE = SITE "P28" LEVEL 1;
+COMP "btn<0>" LOCATE = SITE "P51" LEVEL 1;
+COMP "led<1>" LOCATE = SITE "P29" LEVEL 1;
+COMP "btn<1>" LOCATE = SITE "P43" LEVEL 1;
+COMP "led<2>" LOCATE = SITE "P30" LEVEL 1;
+COMP "btn<2>" LOCATE = SITE "P32" LEVEL 1;
+COMP "led<3>" LOCATE = SITE "P31" LEVEL 1;
+NET "ckht_BUFGP/IBUFG" BEL "ckht_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

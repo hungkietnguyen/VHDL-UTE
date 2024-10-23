@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_304_giaima_24h1e_2ic/giaima_24h1e_2ic.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_304_giaima_24h1e_2ic/giaima_24h1e_2ic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 giaima_24h1e_2ic.ngc giaima_24h1e_2ic.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o giaima_24h1e_2ic_map.ncd giaima_24h1e_2ic.ngd giaima_24h1e_2ic.pcf 
+par -w -intstyle ise -ol high -t 1 giaima_24h1e_2ic_map.ncd giaima_24h1e_2ic.ncd giaima_24h1e_2ic.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml giaima_24h1e_2ic.twx giaima_24h1e_2ic.ncd -o giaima_24h1e_2ic.twr giaima_24h1e_2ic.pcf 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_304_giaima_24h1e_2ic/giaima_24h1e_2ic.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_304_giaima_24h1e_2ic/giaima_24h1e_2ic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 giaima_24h1e_2ic.ngc giaima_24h1e_2ic.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o giaima_24h1e_2ic_map.ncd giaima_24h1e_2ic.ngd giaima_24h1e_2ic.pcf 
+par -w -intstyle ise -ol high -t 1 giaima_24h1e_2ic_map.ncd giaima_24h1e_2ic.ncd giaima_24h1e_2ic.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml giaima_24h1e_2ic.twx giaima_24h1e_2ic.ncd -o giaima_24h1e_2ic.twr giaima_24h1e_2ic.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f giaima_24h1e_2ic.ut giaima_24h1e_2ic.ncd 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_304_giaima_24h1e_2ic/giaima_24h1e_2ic.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_304_giaima_24h1e_2ic/giaima_24h1e_2ic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 giaima_24h1e_2ic.ngc giaima_24h1e_2ic.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o giaima_24h1e_2ic_map.ncd giaima_24h1e_2ic.ngd giaima_24h1e_2ic.pcf 
+par -w -intstyle ise -ol high -t 1 giaima_24h1e_2ic_map.ncd giaima_24h1e_2ic.ncd giaima_24h1e_2ic.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml giaima_24h1e_2ic.twx giaima_24h1e_2ic.ncd -o giaima_24h1e_2ic.twr giaima_24h1e_2ic.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f giaima_24h1e_2ic.ut giaima_24h1e_2ic.ncd 

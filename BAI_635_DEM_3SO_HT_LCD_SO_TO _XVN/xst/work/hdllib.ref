@@ -1,0 +1,32 @@
+EN lcd_giai_ma_so_to NULL C:/.Xilinx/BAI_633_DEM_2SO_HT_LCD_SO_TO/LCD_GIAI_MA_SO_TO.vhd sub00/vhpl14 1681438521
+EN lcd_khoitao_hienthi_so_to NULL "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/LCD_KHOITAO_HIENTHI_SO_TO.vhd" sub00/vhpl18 1681440872
+EN giai_ma_so_to_xvn NULL "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/GIAI_MA_SO_TO_XVN.vhd" sub00/vhpl22 1681440868
+AR debounce_btn behavioral "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/DEBOUNCE_BTN.vhd" sub00/vhpl01 1681440855
+AR chia_10ena behavioral "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/CHIA_10ENA.vhd" sub00/vhpl09 1681440863
+AR lam_hep_xung behavioral "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/LAM_HEP_XUNG.vhd" sub00/vhpl03 1681440857
+EN dem_1bit_btn NULL "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/DEM_1BIT_BTN.vhd" sub00/vhpl10 1681440864
+AR lcd_giai_ma_so_to behavioral C:/.Xilinx/BAI_633_DEM_2SO_HT_LCD_SO_TO/LCD_GIAI_MA_SO_TO.vhd sub00/vhpl15 1681438522
+AR dem_3so_ssud behavioral "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/DEM_3SO_SSUD.vhd" sub00/vhpl27 1681440867
+EN debounce_btn NULL "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/DEBOUNCE_BTN.vhd" sub00/vhpl00 1681440854
+AR dem_1bit_btn behavioral "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/DEM_1BIT_BTN.vhd" sub00/vhpl11 1681440865
+AR lcd_gan_dulieu_2so_to behavioral "C:/.Xilinx/BAI_634_DEM_2SO_HT_LCD_SO_TO _XVN/LCD_GAN_DULIEU_2SO_TO.vhd" sub00/vhpl17 1681440167
+EN dem_3so_ssud NULL "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/DEM_3SO_SSUD.vhd" sub00/vhpl26 1681440866
+EN dem_1bit NULL "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/DEM_1BIT.vhd" sub00/vhpl06 1681440860
+EN lcd_gan_dulieu_2so_to NULL "C:/.Xilinx/BAI_634_DEM_2SO_HT_LCD_SO_TO _XVN/LCD_GAN_DULIEU_2SO_TO.vhd" sub00/vhpl16 1681440166
+AR giai_ma_so_to_xvn behavioral "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/GIAI_MA_SO_TO_XVN.vhd" sub00/vhpl23 1681440869
+EN dem_2so_ht_lcd_so_to NULL "C:/.Xilinx/BAI_634_DEM_2SO_HT_LCD_SO_TO _XVN/DEM_2SO_HT_LCD_SO_TO_XVN.vhd" sub00/vhpl20 1681439719
+AR lcd_khoitao_hienthi_so_to behavioral "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/LCD_KHOITAO_HIENTHI_SO_TO.vhd" sub00/vhpl19 1681440873
+EN dem_2so_ssud NULL "C:/.Xilinx/BAI_634_DEM_2SO_HT_LCD_SO_TO _XVN/DEM_2SO_SSUD.vhd" sub00/vhpl12 1681440162
+AR lcd_gan_dulieu_3so_to behavioral "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/LCD_GAN_DULIEU_3SO_TO.vhd" sub00/vhpl29 1681440871
+EN dem_3so_ht_lcd_so_to_xvn NULL "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/DEM_2SO_HT_LCD_SO_TO_XVN.vhd" sub00/vhpl30 1681440874
+AR dem_2so_ht_lcd_so_to behavioral "C:/.Xilinx/BAI_634_DEM_2SO_HT_LCD_SO_TO _XVN/DEM_2SO_HT_LCD_SO_TO_XVN.vhd" sub00/vhpl21 1681439720
+AR dem_1bit behavioral "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/DEM_1BIT.vhd" sub00/vhpl07 1681440861
+EN lcd_gan_dulieu_3so_to NULL "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/LCD_GAN_DULIEU_3SO_TO.vhd" sub00/vhpl28 1681440870
+AR cd_lam_hep_btn behavioral "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/CD_LAM_HEP_BTN.vhd" sub00/vhpl05 1681440859
+EN lam_hep_xung NULL "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/LAM_HEP_XUNG.vhd" sub00/vhpl02 1681440856
+EN dem_2so_ht_lcd_so_to_xvn NULL "C:/.Xilinx/BAI_634_DEM_2SO_HT_LCD_SO_TO _XVN/DEM_2SO_HT_LCD_SO_TO_XVN.vhd" sub00/vhpl24 1681440170
+EN chia_10ena NULL "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/CHIA_10ENA.vhd" sub00/vhpl08 1681440862
+AR dem_2so_ht_lcd_so_to_xvn behavioral "C:/.Xilinx/BAI_634_DEM_2SO_HT_LCD_SO_TO _XVN/DEM_2SO_HT_LCD_SO_TO_XVN.vhd" sub00/vhpl25 1681440171
+AR dem_2so_ssud behavioral "C:/.Xilinx/BAI_634_DEM_2SO_HT_LCD_SO_TO _XVN/DEM_2SO_SSUD.vhd" sub00/vhpl13 1681440163
+AR dem_3so_ht_lcd_so_to_xvn behavioral "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/DEM_2SO_HT_LCD_SO_TO_XVN.vhd" sub00/vhpl31 1681440875
+EN cd_lam_hep_btn NULL "C:/.Xilinx/BAI_635_DEM_3SO_HT_LCD_SO_TO _XVN/CD_LAM_HEP_BTN.vhd" sub00/vhpl04 1681440858

@@ -1,0 +1,5 @@
+set -tmpdir "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/xst/projnav.tmp"
+set -xsthdpdir "C:/.Xilinx/BAI_531_DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/xst"
+elaborate
+-ifn HEXTOBCD_8BIT.prj
+-ifmt mixed

@@ -1,0 +1,23 @@
+xst -intstyle ise -ifn "D:/BT_TTVHDL/BAI_622_DHT11_HIENTHI_LCD_SO_TO/DHT11_HIENTHI_LCD_SO_TO.xst" -ofn "D:/BT_TTVHDL/BAI_622_DHT11_HIENTHI_LCD_SO_TO/DHT11_HIENTHI_LCD_SO_TO.syr" 
+xst -intstyle ise -ifn "D:/BT_TTVHDL/BAI_622_DHT11_HIENTHI_LCD_SO_TO/DHT11_HIENTHI_LCD_SO_TO.xst" -ofn "D:/BT_TTVHDL/BAI_622_DHT11_HIENTHI_LCD_SO_TO/DHT11_HIENTHI_LCD_SO_TO.syr" 
+xst -intstyle ise -ifn "D:/BT_TTVHDL/BAI_622_DHT11_HIENTHI_LCD_SO_TO/DHT11_HIENTHI_LCD_SO_TO.xst" -ofn "D:/BT_TTVHDL/BAI_622_DHT11_HIENTHI_LCD_SO_TO/DHT11_HIENTHI_LCD_SO_TO.syr" 
+xst -intstyle ise -ifn "D:/BT_TTVHDL/BAI_622_DHT11_HIENTHI_LCD_SO_TO/DHT11_HIENTHI_LCD_SO_TO.xst" -ofn "D:/BT_TTVHDL/BAI_622_DHT11_HIENTHI_LCD_SO_TO/DHT11_HIENTHI_LCD_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 DHT11_HIENTHI_LCD_SO_TO.ngc DHT11_HIENTHI_LCD_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DHT11_HIENTHI_LCD_SO_TO_map.ncd DHT11_HIENTHI_LCD_SO_TO.ngd DHT11_HIENTHI_LCD_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 DHT11_HIENTHI_LCD_SO_TO_map.ncd DHT11_HIENTHI_LCD_SO_TO.ncd DHT11_HIENTHI_LCD_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DHT11_HIENTHI_LCD_SO_TO.twx DHT11_HIENTHI_LCD_SO_TO.ncd -o DHT11_HIENTHI_LCD_SO_TO.twr DHT11_HIENTHI_LCD_SO_TO.pcf 
+xst -intstyle ise -ifn "D:/BT_TTVHDL/BAI_622_DHT11_HIENTHI_LCD_SO_TO/DHT11_HIENTHI_LCD_SO_TO.xst" -ofn "D:/BT_TTVHDL/BAI_622_DHT11_HIENTHI_LCD_SO_TO/DHT11_HIENTHI_LCD_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 DHT11_HIENTHI_LCD_SO_TO.ngc DHT11_HIENTHI_LCD_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DHT11_HIENTHI_LCD_SO_TO_map.ncd DHT11_HIENTHI_LCD_SO_TO.ngd DHT11_HIENTHI_LCD_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 DHT11_HIENTHI_LCD_SO_TO_map.ncd DHT11_HIENTHI_LCD_SO_TO.ncd DHT11_HIENTHI_LCD_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DHT11_HIENTHI_LCD_SO_TO.twx DHT11_HIENTHI_LCD_SO_TO.ncd -o DHT11_HIENTHI_LCD_SO_TO.twr DHT11_HIENTHI_LCD_SO_TO.pcf 
+xst -intstyle ise -ifn "D:/BT_TTVHDL/BAI_622_DHT11_HIENTHI_LCD_SO_TO/DHT11_HIENTHI_LCD_SO_TO.xst" -ofn "D:/BT_TTVHDL/BAI_622_DHT11_HIENTHI_LCD_SO_TO/DHT11_HIENTHI_LCD_SO_TO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 DHT11_HIENTHI_LCD_SO_TO.ngc DHT11_HIENTHI_LCD_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DHT11_HIENTHI_LCD_SO_TO_map.ncd DHT11_HIENTHI_LCD_SO_TO.ngd DHT11_HIENTHI_LCD_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 DHT11_HIENTHI_LCD_SO_TO_map.ncd DHT11_HIENTHI_LCD_SO_TO.ncd DHT11_HIENTHI_LCD_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DHT11_HIENTHI_LCD_SO_TO.twx DHT11_HIENTHI_LCD_SO_TO.ncd -o DHT11_HIENTHI_LCD_SO_TO.twr DHT11_HIENTHI_LCD_SO_TO.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc D:/BT_TTVHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 DHT11_HIENTHI_LCD_SO_TO.ngc DHT11_HIENTHI_LCD_SO_TO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DHT11_HIENTHI_LCD_SO_TO_map.ncd DHT11_HIENTHI_LCD_SO_TO.ngd DHT11_HIENTHI_LCD_SO_TO.pcf 
+par -w -intstyle ise -ol high -t 1 DHT11_HIENTHI_LCD_SO_TO_map.ncd DHT11_HIENTHI_LCD_SO_TO.ncd DHT11_HIENTHI_LCD_SO_TO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DHT11_HIENTHI_LCD_SO_TO.twx DHT11_HIENTHI_LCD_SO_TO.ncd -o DHT11_HIENTHI_LCD_SO_TO.twr DHT11_HIENTHI_LCD_SO_TO.pcf 
+bitgen -intstyle ise -f DHT11_HIENTHI_LCD_SO_TO.ut DHT11_HIENTHI_LCD_SO_TO.ncd 

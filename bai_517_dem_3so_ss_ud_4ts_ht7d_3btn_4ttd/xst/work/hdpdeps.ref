@@ -1,0 +1,113 @@
+V3 59
+FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/bounce_btn.vhd 2023/03/07.02:59:37 P.20131013
+EN work/bounce_btn 1681440594 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/bounce_btn.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/bounce_btn/Behavioral 1681440595 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/bounce_btn.vhd \
+      EN work/bounce_btn 1681440594
+FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/cd_lam_hep_btn.vhd 2023/03/07.03:14:19 P.20131013
+EN work/cd_lam_hep_btn 1681440598 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/cd_lam_hep_btn.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/cd_lam_hep_btn/Behavioral 1681440599 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/cd_lam_hep_btn.vhd \
+      EN work/cd_lam_hep_btn 1681440598 CP work/bounce_btn CP work/lam_hep_xung
+FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/chia_10ena.vhd 2023/04/11.02:11:21 P.20131013
+EN work/chia_10ena 1681440614 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/chia_10ena.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/chia_10ena/Behavioral 1681440615 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/chia_10ena.vhd \
+      EN work/chia_10ena 1681440614
+FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/dahop_8kenh.vhd 2023/04/11.02:25:40 P.20131013
+EN work/dahop_8kenh 1681440606 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/dahop_8kenh.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dahop_8kenh/Behavioral 1681440607 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/dahop_8kenh.vhd \
+      EN work/dahop_8kenh 1681440606
+FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/dem_2bit.vhd 2023/04/14.01:50:48 P.20131013
+EN work/dem_2bit 1681440600 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/dem_2bit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/dem_2bit/Behavioral 1681440601 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/dem_2bit.vhd \
+      EN work/dem_2bit 1681440600
+FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/dem_2bit_btn.vhd 2023/04/14.01:47:15 P.20131013
+EN work/dem_2bit_btn 1681440620 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/dem_2bit_btn.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dem_2bit_btn/Behavioral 1681440621 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/dem_2bit_btn.vhd \
+      EN work/dem_2bit_btn 1681440620 CP work/cd_lam_hep_btn CP work/dem_2bit
+FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/dem_3bit.vhd 2023/04/11.02:20:02 P.20131013
+EN work/dem_3bit 1681440602 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/dem_3bit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/dem_3bit/Behavioral 1681440603 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/dem_3bit.vhd \
+      EN work/dem_3bit 1681440602
+FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/dem_3so_ssud.vhd 2023/04/11.02:13:34 P.20131013
+EN work/dem_3so_ssud 1681440616 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/dem_3so_ssud.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/dem_3so_ssud/Behavioral 1681440617 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/dem_3so_ssud.vhd \
+      EN work/dem_3so_ssud 1681440616
+FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/dem_3so_ss_ud_4ts_ht7d_3btn_4ttd.vhd 2023/04/14.02:49:44 P.20131013
+EN work/dem_3so_ss_ud_4ts_ht7d_3btn_4ttd 1681440622 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/dem_3so_ss_ud_4ts_ht7d_3btn_4ttd.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/Behavioral 1681440623 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/dem_3so_ss_ud_4ts_ht7d_3btn_4ttd.vhd \
+      EN work/dem_3so_ss_ud_4ts_ht7d_3btn_4ttd 1681440622 CP work/xoa_so_0_vn \
+      CP work/ht_4tanso CP work/chia_10ena CP work/dem_3so_ssud CP work/gm_ht_8led \
+      CP work/dem_2bit_btn
+FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/giaima_38h.vhd 2023/04/11.02:22:07 P.20131013
+EN work/giaima_38h 1681440604 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/giaima_38h.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/giaima_38h/Behavioral 1681440605 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/giaima_38h.vhd \
+      EN work/giaima_38h 1681440604
+FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/giaima_7doan_ena.vhd 2023/04/11.02:26:58 P.20131013
+EN work/giaima_7doan_ena 1681440608 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/giaima_7doan_ena.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/giaima_7doan_ena/Behavioral 1681440609 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/giaima_7doan_ena.vhd \
+      EN work/giaima_7doan_ena 1681440608
+FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/gm_ht_8led.vhd 2023/04/11.02:16:36 P.20131013
+EN work/gm_ht_8led 1681440618 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/gm_ht_8led.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/gm_ht_8led/Behavioral 1681440619 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/gm_ht_8led.vhd \
+      EN work/gm_ht_8led 1681440618 CP work/dem_3bit CP work/giaima_38h \
+      CP work/dahop_8kenh CP work/giaima_7doan_ena
+FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/ht_4tanso.vhd 2023/04/11.02:09:40 P.20131013
+EN work/ht_4tanso 1681440612 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/ht_4tanso.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ht_4tanso/Behavioral 1681440613 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/ht_4tanso.vhd \
+      EN work/ht_4tanso 1681440612
+FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/lam_hep_xung.vhd 2023/03/07.02:55:54 P.20131013
+EN work/lam_hep_xung 1681440596 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/lam_hep_xung.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/lam_hep_xung/Behavioral 1681440597 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/lam_hep_xung.vhd \
+      EN work/lam_hep_xung 1681440596
+FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/xoa_so_0_vn.vhd 2023/04/11.02:07:35 P.20131013
+EN work/xoa_so_0_vn 1681440610 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/xoa_so_0_vn.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/xoa_so_0_vn/Behavioral 1681440611 \
+      FL /home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/xoa_so_0_vn.vhd \
+      EN work/xoa_so_0_vn 1681440610

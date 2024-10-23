@@ -1,0 +1,5 @@
+vhdl work "js_tsp.vhd"
+vhdl work "js_pst.vhd"
+vhdl work "dieukhien_chophep.vhd"
+vhdl work "chia_10ena.vhd"
+vhdl work "dk_16led_2ct_auto_std_pst_tsp.vhd"

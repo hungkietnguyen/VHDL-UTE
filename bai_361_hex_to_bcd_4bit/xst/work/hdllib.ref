@@ -1,0 +1,4 @@
+EN hex_to_bcd_4bit NULL /home/ise/BT_ISE_XILINX/bai_361_hex_to_bcd_4bit/hex_to_bcd_4bit.vhd sub00/vhpl02 1676338565
+AR hextobcd_4bit behavioral /home/ise/BT_ISE_XILINX/bai_361_hex_to_bcd_4bit/hextobcd_4bit.vhd sub00/vhpl01 1676338564
+AR hex_to_bcd_4bit behavioral /home/ise/BT_ISE_XILINX/bai_361_hex_to_bcd_4bit/hex_to_bcd_4bit.vhd sub00/vhpl03 1676338566
+EN hextobcd_4bit NULL /home/ise/BT_ISE_XILINX/bai_361_hex_to_bcd_4bit/hextobcd_4bit.vhd sub00/vhpl00 1676338563

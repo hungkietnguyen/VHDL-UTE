@@ -1,0 +1,3 @@
+vhdl work "dahop_4kenh_1be_if.vhd"
+vhdl work "dahop_4kenh_1be_case.vhd"
+vhdl work "dahop_4kenh_1be_2ic.vhd"

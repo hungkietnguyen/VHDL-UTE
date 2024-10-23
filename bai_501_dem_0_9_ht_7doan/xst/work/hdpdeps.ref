@@ -1,0 +1,31 @@
+V3 15
+FL /home/ise/BT_ISE_XILINX/bai_501_dem_0_9_ht_7doan/chia_10ena.vhd 2023/03/27.01:04:56 P.20131013
+EN work/chia_10ena 1679879982 \
+      FL /home/ise/BT_ISE_XILINX/bai_501_dem_0_9_ht_7doan/chia_10ena.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/chia_10ena/Behavioral 1679879983 \
+      FL /home/ise/BT_ISE_XILINX/bai_501_dem_0_9_ht_7doan/chia_10ena.vhd \
+      EN work/chia_10ena 1679879982
+FL /home/ise/BT_ISE_XILINX/bai_501_dem_0_9_ht_7doan/dem_0_9_ht_7doan.vhd 2023/03/27.01:19:36 P.20131013
+EN work/dem_0_9_ht_7doan 1679879988 \
+      FL /home/ise/BT_ISE_XILINX/bai_501_dem_0_9_ht_7doan/dem_0_9_ht_7doan.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dem_0_9_ht_7doan/Behavioral 1679879989 \
+      FL /home/ise/BT_ISE_XILINX/bai_501_dem_0_9_ht_7doan/dem_0_9_ht_7doan.vhd \
+      EN work/dem_0_9_ht_7doan 1679879988 CP work/chia_10ena CP work/dem_1so \
+      CP work/giama_7doan
+FL /home/ise/BT_ISE_XILINX/bai_501_dem_0_9_ht_7doan/dem_1so.vhd 2023/03/27.01:19:42 P.20131013
+EN work/dem_1so 1679879984 \
+      FL /home/ise/BT_ISE_XILINX/bai_501_dem_0_9_ht_7doan/dem_1so.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/dem_1so/Behavioral 1679879985 \
+      FL /home/ise/BT_ISE_XILINX/bai_501_dem_0_9_ht_7doan/dem_1so.vhd \
+      EN work/dem_1so 1679879984
+FL /home/ise/BT_ISE_XILINX/bai_501_dem_0_9_ht_7doan/giama_7doan.vhd 2023/03/27.01:04:56 P.20131013
+EN work/giama_7doan 1679879986 \
+      FL /home/ise/BT_ISE_XILINX/bai_501_dem_0_9_ht_7doan/giama_7doan.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/giama_7doan/Behavioral 1679879987 \
+      FL /home/ise/BT_ISE_XILINX/bai_501_dem_0_9_ht_7doan/giama_7doan.vhd \
+      EN work/giama_7doan 1679879986

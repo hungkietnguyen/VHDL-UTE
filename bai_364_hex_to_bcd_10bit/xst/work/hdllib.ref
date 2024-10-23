@@ -1,0 +1,4 @@
+AR hextobcd_10bit behavioral /home/ise/BT_ISE_XILINX/bai_364_hex_to_bcd_10bit/hextobcd_10bit.vhd sub00/vhpl01 1676527393
+EN hextobcd_10bit NULL /home/ise/BT_ISE_XILINX/bai_364_hex_to_bcd_10bit/hextobcd_10bit.vhd sub00/vhpl00 1676527392
+AR hex_to_bcd_10bit behavioral /home/ise/BT_ISE_XILINX/bai_364_hex_to_bcd_10bit/hex_to_bcd_10bit.vhd sub00/vhpl03 1676527395
+EN hex_to_bcd_10bit NULL /home/ise/BT_ISE_XILINX/bai_364_hex_to_bcd_10bit/hex_to_bcd_10bit.vhd sub00/vhpl02 1676527394

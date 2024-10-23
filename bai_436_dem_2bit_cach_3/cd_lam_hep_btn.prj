@@ -1,0 +1,3 @@
+vhdl work "../bai_432_dem_4bit_btn_cach_1/lam_hep_xung.vhd"
+vhdl work "../bai_432_dem_4bit_btn_cach_1/debounce_btn.vhd"
+vhdl work "cd_lam_hep_btn.vhd"

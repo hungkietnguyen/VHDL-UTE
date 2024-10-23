@@ -1,0 +1,3 @@
+vhdl work "giaima_24h2e_if.vhd"
+vhdl work "giaima_24h2e_case.vhd"
+vhdl work "giaima_24h2e_2ic.vhd"

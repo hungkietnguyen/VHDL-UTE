@@ -1,0 +1,5 @@
+vhdl work "GIAIMA_7DOAN_ENA.vhd"
+vhdl work "GIAIMA_38H.vhd"
+vhdl work "DEM_3BIT.vhd"
+vhdl work "DAHOP_8KENH.vhd"
+vhdl work "GM_HT_8LED.vhd"

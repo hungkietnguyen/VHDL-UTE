@@ -1,0 +1,46 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/.Xilinx/BAI_542_DONG_HO_GPG_3KEY/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to C:/.Xilinx/BAI_542_DONG_HO_GPG_3KEY/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/.Xilinx/BAI_542_DONG_HO_GPG_3KEY/DEBOUNCE_BTN.vhd" in Library work.
+Architecture behavioral of Entity debounce_btn is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_542_DONG_HO_GPG_3KEY/LAM_HEP_XUNG.vhd" in Library work.
+Architecture behavioral of Entity lam_hep_xung is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_542_DONG_HO_GPG_3KEY/CD_LAM_HEP_BTN.vhd" in Library work.
+Architecture behavioral of Entity cd_lam_hep_btn is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_542_DONG_HO_GPG_3KEY/DEM_2BIT.vhd" in Library work.
+Architecture behavioral of Entity dem_2bit is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_542_DONG_HO_GPG_3KEY/DEM_2BIT_BTN.vhd" in Library work.
+Architecture behavioral of Entity dem_2bit_btn is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_542_DONG_HO_GPG_3KEY/DAU_CHAM.vhd" in Library work.
+Architecture behavioral of Entity dau_cham is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_542_DONG_HO_GPG_3KEY/XULY_MOD_DC.vhd" in Library work.
+Architecture behavioral of Entity xuly_mod_dc is up to date.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.26 secs
+ 
+--> 
+
+Total memory usage is 4476172 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/ht_8so_8l7d_8dp_8ena.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/ht_8so_8l7d_8dp_8ena.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/ht_8so_8l7d_8dp_8ena.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/ht_8so_8l7d_8dp_8ena.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/ht_8so_8l7d_8dp_8ena.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/ht_8so_8l7d_8dp_8ena.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/ht_8so_8l7d_8dp_8ena.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/ht_8so_8l7d_8dp_8ena.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/ht_8so_8l7d_8dp_8ena.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/ht_8so_8l7d_8dp_8ena.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "KIT_XC3S500E_PQ208 .ucf" -p xc3s500e-pq208-5 ht_8so_8l7d_8dp_8ena.ngc ht_8so_8l7d_8dp_8ena.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o ht_8so_8l7d_8dp_8ena_map.ncd ht_8so_8l7d_8dp_8ena.ngd ht_8so_8l7d_8dp_8ena.pcf 
+par -w -intstyle ise -ol high -t 1 ht_8so_8l7d_8dp_8ena_map.ncd ht_8so_8l7d_8dp_8ena.ncd ht_8so_8l7d_8dp_8ena.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ht_8so_8l7d_8dp_8ena.twx ht_8so_8l7d_8dp_8ena.ncd -o ht_8so_8l7d_8dp_8ena.twr ht_8so_8l7d_8dp_8ena.pcf -ucf {KIT_XC3S500E_PQ208 .ucf} 
+bitgen -intstyle ise -f ht_8so_8l7d_8dp_8ena.ut ht_8so_8l7d_8dp_8ena.ncd 

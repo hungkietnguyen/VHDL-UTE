@@ -1,0 +1,6 @@
+EN giaima_24h_if NULL /home/ise/BT_ISE_XILINX/bai_302_giaima_24h_2ic/giaima_24h_if.vhd sub00/vhpl00 1675571239
+AR giaima_24h_if behavioral /home/ise/BT_ISE_XILINX/bai_302_giaima_24h_2ic/giaima_24h_if.vhd sub00/vhpl01 1675571240
+EN giaima_24h_case NULL /home/ise/BT_ISE_XILINX/bai_302_giaima_24h_2ic/giaima_24h_case.vhd sub00/vhpl02 1675571241
+AR giaima_24h_case behavioral /home/ise/BT_ISE_XILINX/bai_302_giaima_24h_2ic/giaima_24h_case.vhd sub00/vhpl03 1675571242
+EN giaima_24h_2ic NULL /home/ise/BT_ISE_XILINX/bai_302_giaima_24h_2ic/giaima_24h_2ic.vhd sub00/vhpl04 1675571243
+AR giaima_24h_2ic behavioral /home/ise/BT_ISE_XILINX/bai_302_giaima_24h_2ic/giaima_24h_2ic.vhd sub00/vhpl05 1675571244

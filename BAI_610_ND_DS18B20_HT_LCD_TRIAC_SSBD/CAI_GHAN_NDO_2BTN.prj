@@ -1,0 +1,4 @@
+vhdl work "LAM_HEP_XUNG.vhd"
+vhdl work "DEM_NP_6BIT_UD.vhd"
+vhdl work "DEBOUNCE_BTN.vhd"
+vhdl work "CAI_GHAN_NDO_2BTN.vhd"

@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Apr 06 08:26:23 2023
+
+drc -z DO_ND_DS18B20_CGH_SSND_2BTN.ncd DO_ND_DS18B20_CGH_SSND_2BTN.pcf
+
+DRC detected 0 errors and 0 warnings.

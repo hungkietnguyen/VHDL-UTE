@@ -1,0 +1,543 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Reading design: dk_16led_6ct.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "dk_16led_6ct.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "dk_16led_6ct"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-pq208
+
+---- Source Options
+Top Module Name                    : dk_16led_6ct
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/chia_10ena.vhd" in Library work.
+Architecture behavioral of Entity chia_10ena is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/js_pst.vhd" in Library work.
+Architecture behavioral of Entity js_pst is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/js_tsp.vhd" in Library work.
+Architecture behavioral of Entity js_tsp is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/js_tnv.vhd" in Library work.
+Architecture behavioral of Entity js_tnv is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/js_ttr.vhd" in Library work.
+Architecture behavioral of Entity js_ttr is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/dv_pst.vhd" in Library work.
+Architecture behavioral of Entity dv_pst is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/dv_tsp.vhd" in Library work.
+Architecture behavioral of Entity dv_tsp is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/dieukhien_chophep.vhd" in Library work.
+Architecture behavioral of Entity dieukhien_chophep is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/dk_16led_6ct.vhd" in Library work.
+Architecture behavioral of Entity dk_16led_6ct is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <dk_16led_6ct> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <chia_10ena> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <js_pst> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <js_tsp> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <js_tnv> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <js_ttr> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <dv_pst> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <dv_tsp> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <dieukhien_chophep> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <dk_16led_6ct> in library <work> (Architecture <behavioral>).
+Entity <dk_16led_6ct> analyzed. Unit <dk_16led_6ct> generated.
+
+Analyzing Entity <chia_10ena> in library <work> (Architecture <Behavioral>).
+Entity <chia_10ena> analyzed. Unit <chia_10ena> generated.
+
+Analyzing Entity <js_pst> in library <work> (Architecture <Behavioral>).
+Entity <js_pst> analyzed. Unit <js_pst> generated.
+
+Analyzing Entity <js_tsp> in library <work> (Architecture <Behavioral>).
+Entity <js_tsp> analyzed. Unit <js_tsp> generated.
+
+Analyzing Entity <js_tnv> in library <work> (Architecture <Behavioral>).
+Entity <js_tnv> analyzed. Unit <js_tnv> generated.
+
+Analyzing Entity <js_ttr> in library <work> (Architecture <Behavioral>).
+Entity <js_ttr> analyzed. Unit <js_ttr> generated.
+
+Analyzing Entity <dv_pst> in library <work> (Architecture <Behavioral>).
+Entity <dv_pst> analyzed. Unit <dv_pst> generated.
+
+Analyzing Entity <dv_tsp> in library <work> (Architecture <Behavioral>).
+Entity <dv_tsp> analyzed. Unit <dv_tsp> generated.
+
+Analyzing Entity <dieukhien_chophep> in library <work> (Architecture <Behavioral>).
+Entity <dieukhien_chophep> analyzed. Unit <dieukhien_chophep> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <chia_10ena>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/chia_10ena.vhd".
+    Found 24-bit up counter for signal <d5hz_r>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <chia_10ena> synthesized.
+
+
+Synthesizing Unit <js_pst>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/js_pst.vhd".
+    Found 16-bit register for signal <q_r>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <js_pst> synthesized.
+
+
+Synthesizing Unit <js_tsp>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/js_tsp.vhd".
+    Found 16-bit register for signal <q_r>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <js_tsp> synthesized.
+
+
+Synthesizing Unit <js_tnv>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/js_tnv.vhd".
+    Found 16-bit register for signal <q_r>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <js_tnv> synthesized.
+
+
+Synthesizing Unit <js_ttr>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/js_ttr.vhd".
+    Found 16-bit register for signal <q_r>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <js_ttr> synthesized.
+
+
+Synthesizing Unit <dv_pst>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/dv_pst.vhd".
+    Found 16-bit register for signal <q_r>.
+Unit <dv_pst> synthesized.
+
+
+Synthesizing Unit <dv_tsp>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/dv_tsp.vhd".
+    Found 16-bit register for signal <q_r>.
+Unit <dv_tsp> synthesized.
+
+
+Synthesizing Unit <dieukhien_chophep>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/dieukhien_chophep.vhd".
+    Found 7-bit up counter for signal <dem_r>.
+    Found 7-bit comparator less for signal <oe$cmp_lt0000> created at line 54.
+    Found 7-bit comparator less for signal <oe$cmp_lt0001> created at line 55.
+    Found 7-bit comparator less for signal <oe$cmp_lt0002> created at line 56.
+    Found 7-bit comparator less for signal <oe$cmp_lt0003> created at line 57.
+    Found 7-bit comparator less for signal <oe$cmp_lt0004> created at line 58.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   5 Comparator(s).
+Unit <dieukhien_chophep> synthesized.
+
+
+Synthesizing Unit <dk_16led_6ct>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/dk_16led_6ct.vhd".
+Unit <dk_16led_6ct> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 24-bit up counter                                     : 1
+ 7-bit up counter                                      : 1
+# Registers                                            : 6
+ 16-bit register                                       : 6
+# Comparators                                          : 5
+ 7-bit comparator less                                 : 5
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 24-bit up counter                                     : 1
+ 7-bit up counter                                      : 1
+# Registers                                            : 96
+ Flip-Flops                                            : 96
+# Comparators                                          : 5
+ 7-bit comparator less                                 : 5
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <dk_16led_6ct> ...
+
+Optimizing unit <js_pst> ...
+
+Optimizing unit <js_tsp> ...
+
+Optimizing unit <js_tnv> ...
+
+Optimizing unit <js_ttr> ...
+
+Optimizing unit <dieukhien_chophep> ...
+
+Optimizing unit <dv_pst> ...
+
+Optimizing unit <dv_tsp> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block dk_16led_6ct, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 127
+ Flip-Flops                                            : 127
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : dk_16led_6ct.ngr
+Top Level Output File Name         : dk_16led_6ct
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 18
+
+Cell Usage :
+# BELS                             : 238
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 23
+#      LUT2                        : 71
+#      LUT3                        : 3
+#      LUT3_D                      : 2
+#      LUT4                        : 76
+#      LUT4_D                      : 4
+#      LUT4_L                      : 1
+#      MUXCY                       : 29
+#      VCC                         : 1
+#      XORCY                       : 24
+# FlipFlops/Latches                : 127
+#      FD                          : 24
+#      FDCE                        : 7
+#      FDCE_1                      : 94
+#      FDPE_1                      : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 17
+#      IBUF                        : 1
+#      OBUF                        : 16
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500epq208-5 
+
+ Number of Slices:                      100  out of   4656     2%  
+ Number of Slice Flip Flops:            127  out of   9312     1%  
+ Number of 4 input LUTs:                183  out of   9312     1%  
+ Number of IOs:                          18
+ Number of bonded IOBs:                  18  out of    158    11%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+ckht                               | BUFGP                  | 127   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+btn0                               | IBUF                   | 103   |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.518ns (Maximum Frequency: 181.228MHz)
+   Minimum input arrival time before clock: 5.198ns
+   Maximum output required time after clock: 9.626ns
+   Maximum combinational path delay: 10.367ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ckht'
+  Clock period: 5.518ns (frequency: 181.228MHz)
+  Total number of paths / destination ports: 3408 / 230
+-------------------------------------------------------------------------
+Delay:               5.518ns (Levels of Logic = 8)
+  Source:            IC1/d5hz_r_4 (FF)
+  Destination:       IC4/q_r_15 (FF)
+  Source Clock:      ckht falling
+  Destination Clock: ckht falling
+
+  Data Path: IC1/d5hz_r_4 to IC4/q_r_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.514   0.532  IC1/d5hz_r_4 (IC1/d5hz_r_4)
+     LUT4:I0->O            1   0.612   0.000  IC1/ena5hz_cmp_eq0000_wg_lut<0> (IC1/ena5hz_cmp_eq0000_wg_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  IC1/ena5hz_cmp_eq0000_wg_cy<0> (IC1/ena5hz_cmp_eq0000_wg_cy<0>)
+     MUXCY:CI->O           1   0.052   0.000  IC1/ena5hz_cmp_eq0000_wg_cy<1> (IC1/ena5hz_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  IC1/ena5hz_cmp_eq0000_wg_cy<2> (IC1/ena5hz_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  IC1/ena5hz_cmp_eq0000_wg_cy<3> (IC1/ena5hz_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  IC1/ena5hz_cmp_eq0000_wg_cy<4> (IC1/ena5hz_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O          13   0.289   0.988  IC1/ena5hz_cmp_eq0000_wg_cy<5> (IC1/ena5hz_cmp_eq0000_wg_cy<5>)
+     LUT2:I0->O           16   0.612   0.879  IC7/q_r_not00011 (IC7/q_r_not0001)
+     FDCE_1:CE                 0.483          IC7/q_r_0
+    ----------------------------------------
+    Total                      5.518ns (3.119ns logic, 2.398ns route)
+                                       (56.5% logic, 43.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'ckht'
+  Total number of paths / destination ports: 192 / 192
+-------------------------------------------------------------------------
+Offset:              5.198ns (Levels of Logic = 3)
+  Source:            btn0 (PAD)
+  Destination:       IC2/q_r_15 (FF)
+  Destination Clock: ckht falling
+
+  Data Path: btn0 to IC2/q_r_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           142   1.106   1.254  btn0_IBUF (btn0_IBUF)
+     LUT3_D:I0->LO         1   0.612   0.252  IC8/oe<1>1 (N34)
+     LUT2:I0->O           16   0.612   0.879  IC3/q_r_not00011 (IC3/q_r_not0001)
+     FDCE_1:CE                 0.483          IC3/q_r_0
+    ----------------------------------------
+    Total                      5.198ns (2.813ns logic, 2.385ns route)
+                                       (54.1% logic, 45.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'ckht'
+  Total number of paths / destination ports: 352 / 16
+-------------------------------------------------------------------------
+Offset:              9.626ns (Levels of Logic = 5)
+  Source:            IC8/dem_r_6 (FF)
+  Destination:       led<9> (PAD)
+  Source Clock:      ckht falling
+
+  Data Path: IC8/dem_r_6 to led<9>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            40   0.514   1.105  IC8/dem_r_6 (IC8/dem_r_6)
+     LUT4_D:I2->O         28   0.612   1.141  IC8/oe<3>1 (oe<3>)
+     LUT2:I1->O            2   0.612   0.532  IC5/q<9>1 (q_js_ttr<9>)
+     LUT4:I0->O            1   0.612   0.360  led<9>_SW0 (N2)
+     LUT4:I3->O            1   0.612   0.357  led<9> (led_9_OBUF)
+     OBUF:I->O                 3.169          led_9_OBUF (led<9>)
+    ----------------------------------------
+    Total                      9.626ns (6.131ns logic, 3.495ns route)
+                                       (63.7% logic, 36.3% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 96 / 16
+-------------------------------------------------------------------------
+Delay:               10.367ns (Levels of Logic = 6)
+  Source:            btn0 (PAD)
+  Destination:       led<9> (PAD)
+
+  Data Path: btn0 to led<9>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           142   1.106   1.254  btn0_IBUF (btn0_IBUF)
+     LUT4_D:I0->O         28   0.612   1.141  IC8/oe<3>1 (oe<3>)
+     LUT2:I1->O            2   0.612   0.532  IC5/q<9>1 (q_js_ttr<9>)
+     LUT4:I0->O            1   0.612   0.360  led<9>_SW0 (N2)
+     LUT4:I3->O            1   0.612   0.357  led<9> (led_9_OBUF)
+     OBUF:I->O                 3.169          led_9_OBUF (led<9>)
+    ----------------------------------------
+    Total                     10.367ns (6.723ns logic, 3.644ns route)
+                                       (64.8% logic, 35.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 5.06 secs
+ 
+--> 
+
+
+Total memory usage is 612576 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

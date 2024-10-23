@@ -1,0 +1,4 @@
+AR chia_ck1hz_ck10hz behavioral /home/ise/BT_ISE_XILINX/bai_402_chia_2xung_ck1hz_ck10hz/chia_ck1hz_ck10hz.vhd sub00/vhpl01 1676536552
+EN chia_2xung_ck1hz_ck10hz NULL /home/ise/BT_ISE_XILINX/bai_402_chia_2xung_ck1hz_ck10hz/chia_2xung_ck1hz_ck10hz.vhd sub00/vhpl02 1676536553
+AR chia_2xung_ck1hz_ck10hz behavioral /home/ise/BT_ISE_XILINX/bai_402_chia_2xung_ck1hz_ck10hz/chia_2xung_ck1hz_ck10hz.vhd sub00/vhpl03 1676536554
+EN chia_ck1hz_ck10hz NULL /home/ise/BT_ISE_XILINX/bai_402_chia_2xung_ck1hz_ck10hz/chia_ck1hz_ck10hz.vhd sub00/vhpl00 1676536551

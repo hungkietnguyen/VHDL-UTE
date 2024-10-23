@@ -1,0 +1,78 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 5 -n
+3 -fastpaths -xml mahoauutien_42h_2ic.twx mahoauutien_42h_2ic.ncd -o
+mahoauutien_42h_2ic.twr mahoauutien_42h_2ic.pcf -ucf KIT_XC3S500E_PQ208.ucf
+
+Design file:              mahoauutien_42h_2ic.ncd
+Physical constraint file: mahoauutien_42h_2ic.pcf
+Device,package,speed:     xc3s500e,pq208,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+sw<0>          |led<2>         |    8.207|
+sw<1>          |led<0>         |    8.231|
+sw<1>          |led<2>         |    8.496|
+sw<2>          |led<0>         |    8.535|
+sw<2>          |led<1>         |    8.552|
+sw<2>          |led<2>         |    8.795|
+sw<3>          |led<0>         |    8.949|
+sw<3>          |led<1>         |    8.881|
+sw<3>          |led<2>         |    9.265|
+sw<4>          |led<5>         |    8.495|
+sw<5>          |led<3>         |    7.895|
+sw<5>          |led<5>         |    8.001|
+sw<6>          |led<3>         |    8.029|
+sw<6>          |led<4>         |    8.525|
+sw<6>          |led<5>         |    8.079|
+sw<7>          |led<3>         |    8.198|
+sw<7>          |led<4>         |    8.893|
+sw<7>          |led<5>         |    8.254|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Feb 13 00:29:27 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 347 MB
+
+
+

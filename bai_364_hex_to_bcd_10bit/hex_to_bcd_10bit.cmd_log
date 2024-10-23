@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_364_hex_to_bcd_10bit/hex_to_bcd_10bit.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_364_hex_to_bcd_10bit/hex_to_bcd_10bit.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_364_hex_to_bcd_10bit/hex_to_bcd_10bit.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_364_hex_to_bcd_10bit/hex_to_bcd_10bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "KIT_XC3S500E_PQ208 .ucf" -p xc3s500e-pq208-5 hex_to_bcd_10bit.ngc hex_to_bcd_10bit.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o hex_to_bcd_10bit_map.ncd hex_to_bcd_10bit.ngd hex_to_bcd_10bit.pcf 
+par -w -intstyle ise -ol high -t 1 hex_to_bcd_10bit_map.ncd hex_to_bcd_10bit.ncd hex_to_bcd_10bit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hex_to_bcd_10bit.twx hex_to_bcd_10bit.ncd -o hex_to_bcd_10bit.twr hex_to_bcd_10bit.pcf -ucf {KIT_XC3S500E_PQ208 .ucf} 
+bitgen -intstyle ise -f hex_to_bcd_10bit.ut hex_to_bcd_10bit.ncd 

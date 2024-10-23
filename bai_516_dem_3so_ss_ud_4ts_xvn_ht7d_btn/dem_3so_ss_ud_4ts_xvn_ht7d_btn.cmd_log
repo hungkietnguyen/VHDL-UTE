@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_516_dem_3so_ss_ud_4ts_xvn_ht7d_btn/dem_3so_ss_ud_4ts_xvn_ht7d_btn.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_516_dem_3so_ss_ud_4ts_xvn_ht7d_btn/dem_3so_ss_ud_4ts_xvn_ht7d_btn.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_516_dem_3so_ss_ud_4ts_xvn_ht7d_btn/dem_3so_ss_ud_4ts_xvn_ht7d_btn.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_516_dem_3so_ss_ud_4ts_xvn_ht7d_btn/dem_3so_ss_ud_4ts_xvn_ht7d_btn.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_516_dem_3so_ss_ud_4ts_xvn_ht7d_btn/dem_3so_ss_ud_4ts_xvn_ht7d_btn.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_516_dem_3so_ss_ud_4ts_xvn_ht7d_btn/dem_3so_ss_ud_4ts_xvn_ht7d_btn.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_516_dem_3so_ss_ud_4ts_xvn_ht7d_btn/dem_3so_ss_ud_4ts_xvn_ht7d_btn.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_516_dem_3so_ss_ud_4ts_xvn_ht7d_btn/dem_3so_ss_ud_4ts_xvn_ht7d_btn.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 dem_3so_ss_ud_4ts_xvn_ht7d_btn.ngc dem_3so_ss_ud_4ts_xvn_ht7d_btn.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o dem_3so_ss_ud_4ts_xvn_ht7d_btn_map.ncd dem_3so_ss_ud_4ts_xvn_ht7d_btn.ngd dem_3so_ss_ud_4ts_xvn_ht7d_btn.pcf 
+par -w -intstyle ise -ol high -t 1 dem_3so_ss_ud_4ts_xvn_ht7d_btn_map.ncd dem_3so_ss_ud_4ts_xvn_ht7d_btn.ncd dem_3so_ss_ud_4ts_xvn_ht7d_btn.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml dem_3so_ss_ud_4ts_xvn_ht7d_btn.twx dem_3so_ss_ud_4ts_xvn_ht7d_btn.ncd -o dem_3so_ss_ud_4ts_xvn_ht7d_btn.twr dem_3so_ss_ud_4ts_xvn_ht7d_btn.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f dem_3so_ss_ud_4ts_xvn_ht7d_btn.ut dem_3so_ss_ud_4ts_xvn_ht7d_btn.ncd 

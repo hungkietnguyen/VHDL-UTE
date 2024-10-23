@@ -1,0 +1,428 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Reading design: dem_ngau_nhien_3bit.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "dem_ngau_nhien_3bit.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "dem_ngau_nhien_3bit"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-pq208
+
+---- Source Options
+Top Module Name                    : dem_ngau_nhien_3bit
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_430_dem_ngau_nhien_3bit/chia_ena1hz.vhd" in Library work.
+Architecture behavioral of Entity chia_ena1hz is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_430_dem_ngau_nhien_3bit/dem_ngau_nhien.vhd" in Library work.
+Architecture behavioral of Entity dem_ngau_nhien is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_430_dem_ngau_nhien_3bit/dem_ngau_nhien_3bit.vhd" in Library work.
+Architecture behavioral of Entity dem_ngau_nhien_3bit is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <dem_ngau_nhien_3bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <chia_ena1hz> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <dem_ngau_nhien> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <dem_ngau_nhien_3bit> in library <work> (Architecture <behavioral>).
+Entity <dem_ngau_nhien_3bit> analyzed. Unit <dem_ngau_nhien_3bit> generated.
+
+Analyzing Entity <chia_ena1hz> in library <work> (Architecture <Behavioral>).
+Entity <chia_ena1hz> analyzed. Unit <chia_ena1hz> generated.
+
+Analyzing Entity <dem_ngau_nhien> in library <work> (Architecture <Behavioral>).
+Entity <dem_ngau_nhien> analyzed. Unit <dem_ngau_nhien> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <chia_ena1hz>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_430_dem_ngau_nhien_3bit/chia_ena1hz.vhd".
+    Found 26-bit comparator less for signal <ck1hz$cmp_lt0000> created at line 52.
+    Found 26-bit adder for signal <d1hz_n$addsub0000> created at line 49.
+    Found 26-bit register for signal <d1hz_r>.
+    Summary:
+	inferred  26 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <chia_ena1hz> synthesized.
+
+
+Synthesizing Unit <dem_ngau_nhien>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_430_dem_ngau_nhien_3bit/dem_ngau_nhien.vhd".
+    Found finite state machine <FSM_0> for signal <tt_reg>.
+    -----------------------------------------------------------------------
+    | States             | 8                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 3                                              |
+    | Clock              | ckht                      (falling_edge)       |
+    | Clock enable       | ena_db                    (positive)           |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | a                                              |
+    | Power Up State     | a                                              |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <dem_ngau_nhien> synthesized.
+
+
+Synthesizing Unit <dem_ngau_nhien_3bit>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_430_dem_ngau_nhien_3bit/dem_ngau_nhien_3bit.vhd".
+Unit <dem_ngau_nhien_3bit> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 26-bit adder                                          : 1
+# Registers                                            : 1
+ 26-bit register                                       : 1
+# Comparators                                          : 1
+ 26-bit comparator less                                : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <IC2/tt_reg/FSM> on signal <tt_reg[1:8]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ a     | 00000001
+ b     | 00000010
+ c     | 00000100
+ d     | 00001000
+ e     | 00010000
+ f     | 00100000
+ g     | 01000000
+ h     | 10000000
+-------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 1
+ 26-bit adder                                          : 1
+# Registers                                            : 26
+ Flip-Flops                                            : 26
+# Comparators                                          : 1
+ 26-bit comparator less                                : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <dem_ngau_nhien_3bit> ...
+
+Optimizing unit <chia_ena1hz> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block dem_ngau_nhien_3bit, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 34
+ Flip-Flops                                            : 34
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : dem_ngau_nhien_3bit.ngr
+Top Level Output File Name         : dem_ngau_nhien_3bit
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 6
+
+Cell Usage :
+# BELS                             : 118
+#      GND                         : 1
+#      INV                         : 6
+#      LUT1                        : 29
+#      LUT2                        : 2
+#      LUT4                        : 15
+#      LUT4_D                      : 1
+#      LUT4_L                      : 1
+#      MUXCY                       : 36
+#      VCC                         : 1
+#      XORCY                       : 26
+# FlipFlops/Latches                : 34
+#      FDCE_1                      : 7
+#      FDPE_1                      : 1
+#      FDR_1                       : 26
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 5
+#      IBUF                        : 1
+#      OBUF                        : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500epq208-5 
+
+ Number of Slices:                       28  out of   4656     0%  
+ Number of Slice Flip Flops:             34  out of   9312     0%  
+ Number of 4 input LUTs:                 54  out of   9312     0%  
+ Number of IOs:                           6
+ Number of bonded IOBs:                   6  out of    158     3%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+ckht                               | BUFGP                  | 34    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+btn0                               | IBUF                   | 8     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.360ns (Maximum Frequency: 186.560MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 7.539ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ckht'
+  Clock period: 5.360ns (frequency: 186.560MHz)
+  Total number of paths / destination ports: 1243 / 68
+-------------------------------------------------------------------------
+Delay:               5.360ns (Levels of Logic = 3)
+  Source:            IC1/d1hz_r_5 (FF)
+  Destination:       IC1/d1hz_r_25 (FF)
+  Source Clock:      ckht falling
+  Destination Clock: ckht falling
+
+  Data Path: IC1/d1hz_r_5 to IC1/d1hz_r_25
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR_1:C->Q            2   0.514   0.532  IC1/d1hz_r_5 (IC1/d1hz_r_5)
+     LUT4:I0->O            1   0.612   0.509  IC1/d1hz_n_cmp_eq0000146 (IC1/d1hz_n_cmp_eq0000146)
+     LUT4_D:I0->LO         1   0.612   0.103  IC1/d1hz_n_cmp_eq0000160 (N01)
+     LUT4:I3->O           26   0.612   1.071  IC1/d1hz_n_cmp_eq000049 (IC1/d1hz_n_cmp_eq0000)
+     FDR_1:R                   0.795          IC1/d1hz_r_25
+    ----------------------------------------
+    Total                      5.360ns (3.145ns logic, 2.215ns route)
+                                       (58.7% logic, 41.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'ckht'
+  Total number of paths / destination ports: 32 / 4
+-------------------------------------------------------------------------
+Offset:              7.539ns (Levels of Logic = 14)
+  Source:            IC1/d1hz_r_6 (FF)
+  Destination:       led<3> (PAD)
+  Source Clock:      ckht falling
+
+  Data Path: IC1/d1hz_r_6 to led<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR_1:C->Q            4   0.514   0.651  IC1/d1hz_r_6 (IC1/d1hz_r_6)
+     LUT1:I0->O            1   0.612   0.000  IC1/Mcompar_ck1hz_cmp_lt0000_cy<0>_rt (IC1/Mcompar_ck1hz_cmp_lt0000_cy<0>_rt)
+     MUXCY:S->O            1   0.404   0.000  IC1/Mcompar_ck1hz_cmp_lt0000_cy<0> (IC1/Mcompar_ck1hz_cmp_lt0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcompar_ck1hz_cmp_lt0000_cy<1> (IC1/Mcompar_ck1hz_cmp_lt0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcompar_ck1hz_cmp_lt0000_cy<2> (IC1/Mcompar_ck1hz_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcompar_ck1hz_cmp_lt0000_cy<3> (IC1/Mcompar_ck1hz_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcompar_ck1hz_cmp_lt0000_cy<4> (IC1/Mcompar_ck1hz_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcompar_ck1hz_cmp_lt0000_cy<5> (IC1/Mcompar_ck1hz_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcompar_ck1hz_cmp_lt0000_cy<6> (IC1/Mcompar_ck1hz_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcompar_ck1hz_cmp_lt0000_cy<7> (IC1/Mcompar_ck1hz_cmp_lt0000_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcompar_ck1hz_cmp_lt0000_cy<8> (IC1/Mcompar_ck1hz_cmp_lt0000_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcompar_ck1hz_cmp_lt0000_cy<9> (IC1/Mcompar_ck1hz_cmp_lt0000_cy<9>)
+     MUXCY:CI->O           1   0.399   0.357  IC1/Mcompar_ck1hz_cmp_lt0000_cy<10> (IC1/Mcompar_ck1hz_cmp_lt0000_cy<10>)
+     INV:I->O              1   0.612   0.357  IC1/Mcompar_ck1hz_cmp_lt0000_cy<10>_inv_INV_0 (led_3_OBUF)
+     OBUF:I->O                 3.169          led_3_OBUF (led<3>)
+    ----------------------------------------
+    Total                      7.539ns (6.174ns logic, 1.365ns route)
+                                       (81.9% logic, 18.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 4.46 secs
+ 
+--> 
+
+
+Total memory usage is 609608 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,791 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Reading design: DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-pq208
+
+---- Source Options
+Top Module Name                    : DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW.vhd".
+WARNING:HDLParsers:3607 - Unit work/DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/Behavioral is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW.vhd".
+WARNING:HDLParsers:3607 - Unit work/CHIA_10ENA is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/CHIA_10ENA.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/CHIA_10ENA.vhd".
+WARNING:HDLParsers:3607 - Unit work/CHIA_10ENA/Behavioral is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/CHIA_10ENA.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/CHIA_10ENA.vhd".
+WARNING:HDLParsers:3607 - Unit work/DEM_1BIT_BTN is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEM_1BIT_BTN.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEM_1BIT_BTN.vhd".
+WARNING:HDLParsers:3607 - Unit work/DEM_1BIT_BTN/Behavioral is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEM_1BIT_BTN.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEM_1BIT_BTN.vhd".
+WARNING:HDLParsers:3607 - Unit work/DEM_NP_10BIT_SSUD is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEM_NP_10BIT_SSUD.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEM_NP_10BIT_SSUD.vhd".
+WARNING:HDLParsers:3607 - Unit work/DEM_NP_10BIT_SSUD/Behavioral is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEM_NP_10BIT_SSUD.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEM_NP_10BIT_SSUD.vhd".
+WARNING:HDLParsers:3607 - Unit work/GM_HT_8LED is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/GM_HT_8LED.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/GM_HT_8LED.vhd".
+WARNING:HDLParsers:3607 - Unit work/GM_HT_8LED/Behavioral is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/GM_HT_8LED.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/GM_HT_8LED.vhd".
+WARNING:HDLParsers:3607 - Unit work/HEXTOBCD_10BIT is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/HEXTOBCD_10BIT.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/HEXTOBCD_10BIT.vhd".
+WARNING:HDLParsers:3607 - Unit work/HEXTOBCD_10BIT/Behavioral is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/HEXTOBCD_10BIT.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/HEXTOBCD_10BIT.vhd".
+WARNING:HDLParsers:3607 - Unit work/HT_4TANSO is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/HT_4TANSO.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/HT_4TANSO.vhd".
+WARNING:HDLParsers:3607 - Unit work/HT_4TANSO/Behavioral is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/HT_4TANSO.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/HT_4TANSO.vhd".
+WARNING:HDLParsers:3607 - Unit work/XOA_SO_0_VN is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/XOA_SO_0_VN.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/XOA_SO_0_VN.vhd".
+WARNING:HDLParsers:3607 - Unit work/XOA_SO_0_VN/Behavioral is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/XOA_SO_0_VN.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/XOA_SO_0_VN.vhd".
+WARNING:HDLParsers:3607 - Unit work/CD_LAM_HEP_BTN is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/CD_LAM_HEP_BTN.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/CD_LAM_HEP_BTN.vhd".
+WARNING:HDLParsers:3607 - Unit work/CD_LAM_HEP_BTN/Behavioral is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/CD_LAM_HEP_BTN.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/CD_LAM_HEP_BTN.vhd".
+WARNING:HDLParsers:3607 - Unit work/DAHOP_8KENH is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DAHOP_8KENH.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DAHOP_8KENH.vhd".
+WARNING:HDLParsers:3607 - Unit work/DAHOP_8KENH/Behavioral is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DAHOP_8KENH.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DAHOP_8KENH.vhd".
+WARNING:HDLParsers:3607 - Unit work/DEM_1BIT is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEM_1BIT.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEM_1BIT.vhd".
+WARNING:HDLParsers:3607 - Unit work/DEM_1BIT/Behavioral is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEM_1BIT.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEM_1BIT.vhd".
+WARNING:HDLParsers:3607 - Unit work/DEM_3BIT is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEM_3BIT.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEM_3BIT.vhd".
+WARNING:HDLParsers:3607 - Unit work/DEM_3BIT/Behavioral is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEM_3BIT.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEM_3BIT.vhd".
+WARNING:HDLParsers:3607 - Unit work/GIAIMA_38H is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/GIAIMA_38H.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/GIAIMA_38H.vhd".
+WARNING:HDLParsers:3607 - Unit work/GIAIMA_38H/Behavioral is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/GIAIMA_38H.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/GIAIMA_38H.vhd".
+WARNING:HDLParsers:3607 - Unit work/GIAIMA_7DOAN_ENA is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/GIAIMA_7DOAN_ENA.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/GIAIMA_7DOAN_ENA.vhd".
+WARNING:HDLParsers:3607 - Unit work/GIAIMA_7DOAN_ENA/Behavioral is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/GIAIMA_7DOAN_ENA.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/GIAIMA_7DOAN_ENA.vhd".
+WARNING:HDLParsers:3607 - Unit work/DEBOUNCE_BTN is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEBOUNCE_BTN.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEBOUNCE_BTN.vhd".
+WARNING:HDLParsers:3607 - Unit work/DEBOUNCE_BTN/Behavioral is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/DEBOUNCE_BTN.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEBOUNCE_BTN.vhd".
+WARNING:HDLParsers:3607 - Unit work/LAM_HEP_XUNG is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/LAM_HEP_XUNG.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/LAM_HEP_XUNG.vhd".
+WARNING:HDLParsers:3607 - Unit work/LAM_HEP_XUNG/Behavioral is now defined in a different file.  It was defined in "C:/.Xilinx/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2W/LAM_HEP_XUNG.vhd", and is now defined in "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/LAM_HEP_XUNG.vhd".
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEBOUNCE_BTN.vhd" in Library work.
+Architecture behavioral of Entity debounce_btn is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/LAM_HEP_XUNG.vhd" in Library work.
+Architecture behavioral of Entity lam_hep_xung is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/CD_LAM_HEP_BTN.vhd" in Library work.
+Architecture behavioral of Entity cd_lam_hep_btn is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEM_1BIT.vhd" in Library work.
+Architecture behavioral of Entity dem_1bit is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEM_3BIT.vhd" in Library work.
+Architecture behavioral of Entity dem_3bit is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DAHOP_8KENH.vhd" in Library work.
+Architecture behavioral of Entity dahop_8kenh is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/GIAIMA_38H.vhd" in Library work.
+Architecture behavioral of Entity giaima_38h is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/GIAIMA_7DOAN_ENA.vhd" in Library work.
+Architecture behavioral of Entity giaima_7doan_ena is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/XOA_SO_0_VN.vhd" in Library work.
+Architecture behavioral of Entity xoa_so_0_vn is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/HT_4TANSO.vhd" in Library work.
+Architecture behavioral of Entity ht_4tanso is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/CHIA_10ENA.vhd" in Library work.
+Architecture behavioral of Entity chia_10ena is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEM_NP_10BIT_SSUD.vhd" in Library work.
+Architecture behavioral of Entity dem_np_10bit_ssud is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/GM_HT_8LED.vhd" in Library work.
+Architecture behavioral of Entity gm_ht_8led is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEM_1BIT_BTN.vhd" in Library work.
+Architecture behavioral of Entity dem_1bit_btn is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/HEXTOBCD_10BIT.vhd" in Library work.
+Architecture behavioral of Entity hextobcd_10bit is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW.vhd" in Library work.
+Architecture behavioral of Entity dem_np_8bit_ss_ud_4ts_xvn_ht7d_3btn_2sw is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <XOA_SO_0_VN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <HT_4TANSO> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <CHIA_10ENA> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_NP_10BIT_SSUD> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <GM_HT_8LED> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_1BIT_BTN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <HEXTOBCD_10BIT> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_3BIT> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DAHOP_8KENH> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <GIAIMA_38H> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <GIAIMA_7DOAN_ENA> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <CD_LAM_HEP_BTN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_1BIT> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEBOUNCE_BTN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LAM_HEP_XUNG> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW> in library <work> (Architecture <behavioral>).
+Entity <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW> analyzed. Unit <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW> generated.
+
+Analyzing Entity <XOA_SO_0_VN> in library <work> (Architecture <Behavioral>).
+Entity <XOA_SO_0_VN> analyzed. Unit <XOA_SO_0_VN> generated.
+
+Analyzing Entity <HT_4TANSO> in library <work> (Architecture <Behavioral>).
+Entity <HT_4TANSO> analyzed. Unit <HT_4TANSO> generated.
+
+Analyzing Entity <CHIA_10ENA> in library <work> (Architecture <Behavioral>).
+Entity <CHIA_10ENA> analyzed. Unit <CHIA_10ENA> generated.
+
+Analyzing Entity <DEM_NP_10BIT_SSUD> in library <work> (Architecture <Behavioral>).
+Entity <DEM_NP_10BIT_SSUD> analyzed. Unit <DEM_NP_10BIT_SSUD> generated.
+
+Analyzing Entity <GM_HT_8LED> in library <work> (Architecture <Behavioral>).
+Entity <GM_HT_8LED> analyzed. Unit <GM_HT_8LED> generated.
+
+Analyzing Entity <DEM_3BIT> in library <work> (Architecture <Behavioral>).
+Entity <DEM_3BIT> analyzed. Unit <DEM_3BIT> generated.
+
+Analyzing Entity <DAHOP_8KENH> in library <work> (Architecture <Behavioral>).
+Entity <DAHOP_8KENH> analyzed. Unit <DAHOP_8KENH> generated.
+
+Analyzing Entity <GIAIMA_38H> in library <work> (Architecture <Behavioral>).
+Entity <GIAIMA_38H> analyzed. Unit <GIAIMA_38H> generated.
+
+Analyzing Entity <GIAIMA_7DOAN_ENA> in library <work> (Architecture <Behavioral>).
+Entity <GIAIMA_7DOAN_ENA> analyzed. Unit <GIAIMA_7DOAN_ENA> generated.
+
+Analyzing Entity <DEM_1BIT_BTN> in library <work> (Architecture <Behavioral>).
+Entity <DEM_1BIT_BTN> analyzed. Unit <DEM_1BIT_BTN> generated.
+
+Analyzing Entity <CD_LAM_HEP_BTN> in library <work> (Architecture <Behavioral>).
+Entity <CD_LAM_HEP_BTN> analyzed. Unit <CD_LAM_HEP_BTN> generated.
+
+Analyzing Entity <DEBOUNCE_BTN> in library <work> (Architecture <Behavioral>).
+Entity <DEBOUNCE_BTN> analyzed. Unit <DEBOUNCE_BTN> generated.
+
+Analyzing Entity <LAM_HEP_XUNG> in library <work> (Architecture <Behavioral>).
+Entity <LAM_HEP_XUNG> analyzed. Unit <LAM_HEP_XUNG> generated.
+
+Analyzing Entity <DEM_1BIT> in library <work> (Architecture <Behavioral>).
+Entity <DEM_1BIT> analyzed. Unit <DEM_1BIT> generated.
+
+Analyzing Entity <HEXTOBCD_10BIT> in library <work> (Architecture <Behavioral>).
+Entity <HEXTOBCD_10BIT> analyzed. Unit <HEXTOBCD_10BIT> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <XOA_SO_0_VN>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/XOA_SO_0_VN.vhd".
+Unit <XOA_SO_0_VN> synthesized.
+
+
+Synthesizing Unit <HT_4TANSO>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/HT_4TANSO.vhd".
+    Found 4x4-bit ROM for signal <CH_TS>.
+    Found 1-bit 4-to-1 multiplexer for signal <ENA_DB>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Multiplexer(s).
+Unit <HT_4TANSO> synthesized.
+
+
+Synthesizing Unit <CHIA_10ENA>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/CHIA_10ENA.vhd".
+    Found 23-bit adder for signal <D10HZ_N$addsub0000> created at line 94.
+    Found 23-bit register for signal <D10HZ_R>.
+    Found 26-bit adder for signal <D1HZ_N$addsub0000> created at line 88.
+    Found 26-bit register for signal <D1HZ_R>.
+    Found 16-bit adder for signal <D1KHZ_N$addsub0000> created at line 104.
+    Found 16-bit register for signal <D1KHZ_R>.
+    Found 22-bit adder for signal <D20HZ_N$addsub0000> created at line 96.
+    Found 22-bit register for signal <D20HZ_R>.
+    Found 24-bit adder for signal <D5HZ_N$addsub0000> created at line 92.
+    Found 24-bit register for signal <D5HZ_R>.
+    Summary:
+	inferred 111 D-type flip-flop(s).
+	inferred   5 Adder/Subtractor(s).
+Unit <CHIA_10ENA> synthesized.
+
+
+Synthesizing Unit <DEM_NP_10BIT_SSUD>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEM_NP_10BIT_SSUD.vhd".
+    Found 10-bit up counter for signal <DEM_R>.
+    Found 10-bit subtractor for signal <DEM_R$addsub0000> created at line 67.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <DEM_NP_10BIT_SSUD> synthesized.
+
+
+Synthesizing Unit <HEXTOBCD_10BIT>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/HEXTOBCD_10BIT.vhd".
+    Found 4-bit comparator greatequal for signal <BCD_HEX_13$cmp_ge0000> created at line 44.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_13$cmp_ge0001> created at line 44.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_13$cmp_ge0002> created at line 44.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_13$cmp_ge0003> created at line 44.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_13$cmp_ge0004> created at line 44.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_13$cmp_ge0005> created at line 44.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_13$cmp_ge0006> created at line 44.
+    Found 4-bit adder for signal <BCD_HEX_13_10$add0000> created at line 45.
+    Found 4-bit adder for signal <BCD_HEX_13_10$add0001> created at line 45.
+    Found 4-bit adder for signal <BCD_HEX_13_10$add0002> created at line 45.
+    Found 4-bit adder for signal <BCD_HEX_13_10$add0003> created at line 45.
+    Found 4-bit adder for signal <BCD_HEX_13_10$add0004> created at line 45.
+    Found 4-bit adder for signal <BCD_HEX_13_10$add0005> created at line 45.
+    Found 4-bit adder for signal <BCD_HEX_13_10$add0006> created at line 45.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_17$cmp_ge0000> created at line 48.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_17$cmp_ge0001> created at line 48.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_17$cmp_ge0002> created at line 48.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_17$cmp_ge0003> created at line 48.
+    Found 4-bit adder for signal <BCD_HEX_17_14$add0000> created at line 49.
+    Found 4-bit adder for signal <BCD_HEX_17_14$add0001> created at line 49.
+    Found 4-bit adder for signal <BCD_HEX_17_14$add0002> created at line 49.
+    Found 4-bit adder for signal <BCD_HEX_17_14$add0003> created at line 49.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_19$cmp_ge0000> created at line 51.
+    Found 4-bit adder for signal <BCD_HEX_21_18$add0000> created at line 52.
+    Summary:
+	inferred  12 Adder/Subtractor(s).
+	inferred  12 Comparator(s).
+Unit <HEXTOBCD_10BIT> synthesized.
+
+
+Synthesizing Unit <DEM_3BIT>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEM_3BIT.vhd".
+    Found 3-bit up counter for signal <Q_R>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <DEM_3BIT> synthesized.
+
+
+Synthesizing Unit <DAHOP_8KENH>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DAHOP_8KENH.vhd".
+    Found 4-bit 8-to-1 multiplexer for signal <o>.
+    Found 1-bit 8-to-1 multiplexer for signal <ena1>.
+    Summary:
+	inferred   5 Multiplexer(s).
+Unit <DAHOP_8KENH> synthesized.
+
+
+Synthesizing Unit <GIAIMA_38H>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/GIAIMA_38H.vhd".
+    Found 1-of-8 decoder for signal <O>.
+    Summary:
+	inferred   1 Decoder(s).
+Unit <GIAIMA_38H> synthesized.
+
+
+Synthesizing Unit <GIAIMA_7DOAN_ENA>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/GIAIMA_7DOAN_ENA.vhd".
+    Found 16x7-bit ROM for signal <SS7>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <GIAIMA_7DOAN_ENA> synthesized.
+
+
+Synthesizing Unit <DEM_1BIT>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEM_1BIT.vhd".
+    Found 1-bit register for signal <Q_R>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <DEM_1BIT> synthesized.
+
+
+Synthesizing Unit <DEBOUNCE_BTN>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEBOUNCE_BTN.vhd".
+    Found finite state machine <FSM_0> for signal <DB_R>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 5                                              |
+    | Clock              | CKHT                      (falling_edge)       |
+    | Power Up State     | zero                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 20-bit register for signal <DL_R>.
+    Found 20-bit subtractor for signal <DL_R$addsub0000>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <DEBOUNCE_BTN> synthesized.
+
+
+Synthesizing Unit <LAM_HEP_XUNG>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/LAM_HEP_XUNG.vhd".
+    Found 1-bit register for signal <QFF>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <LAM_HEP_XUNG> synthesized.
+
+
+Synthesizing Unit <GM_HT_8LED>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/GM_HT_8LED.vhd".
+Unit <GM_HT_8LED> synthesized.
+
+
+Synthesizing Unit <CD_LAM_HEP_BTN>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/CD_LAM_HEP_BTN.vhd".
+Unit <CD_LAM_HEP_BTN> synthesized.
+
+
+Synthesizing Unit <DEM_1BIT_BTN>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEM_1BIT_BTN.vhd".
+Unit <DEM_1BIT_BTN> synthesized.
+
+
+Synthesizing Unit <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_532_DEM_NP_10BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW/DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW.vhd".
+Unit <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 1
+ 4x4-bit ROM                                           : 1
+# Adders/Subtractors                                   : 20
+ 10-bit subtractor                                     : 1
+ 16-bit adder                                          : 1
+ 20-bit subtractor                                     : 2
+ 22-bit adder                                          : 1
+ 23-bit adder                                          : 1
+ 24-bit adder                                          : 1
+ 26-bit adder                                          : 1
+ 4-bit adder                                           : 12
+# Counters                                             : 2
+ 10-bit up counter                                     : 1
+ 3-bit up counter                                      : 1
+# Registers                                            : 11
+ 1-bit register                                        : 4
+ 16-bit register                                       : 1
+ 20-bit register                                       : 2
+ 22-bit register                                       : 1
+ 23-bit register                                       : 1
+ 24-bit register                                       : 1
+ 26-bit register                                       : 1
+# Comparators                                          : 12
+ 4-bit comparator greatequal                           : 12
+# Multiplexers                                         : 3
+ 1-bit 4-to-1 multiplexer                              : 1
+ 1-bit 8-to-1 multiplexer                              : 1
+ 4-bit 8-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-8 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <IC6/U1/U1/DB_R/FSM> on signal <DB_R[1:2]> with sequential encoding.
+Optimizing FSM <IC7/U1/U1/DB_R/FSM> on signal <DB_R[1:2]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ zero  | 00
+ wait0 | 11
+ one   | 10
+ wait1 | 01
+-------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 1
+ 4x4-bit ROM                                           : 1
+# Adders/Subtractors                                   : 20
+ 10-bit subtractor                                     : 1
+ 16-bit adder                                          : 1
+ 20-bit subtractor                                     : 2
+ 22-bit adder                                          : 1
+ 23-bit adder                                          : 1
+ 24-bit adder                                          : 1
+ 26-bit adder                                          : 1
+ 4-bit adder                                           : 12
+# Counters                                             : 2
+ 10-bit up counter                                     : 1
+ 3-bit up counter                                      : 1
+# Registers                                            : 155
+ Flip-Flops                                            : 155
+# Comparators                                          : 12
+ 4-bit comparator greatequal                           : 12
+# Multiplexers                                         : 3
+ 1-bit 4-to-1 multiplexer                              : 1
+ 1-bit 8-to-1 multiplexer                              : 1
+ 4-bit 8-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-8 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW> ...
+
+Optimizing unit <CHIA_10ENA> ...
+
+Optimizing unit <HEXTOBCD_10BIT> ...
+
+Optimizing unit <DEBOUNCE_BTN> ...
+
+Optimizing unit <DEM_NP_10BIT_SSUD> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW, actual ratio is 5.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 172
+ Flip-Flops                                            : 172
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW.ngr
+Top Level Output File Name         : DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 24
+
+Cell Usage :
+# BELS                             : 802
+#      GND                         : 1
+#      INV                         : 59
+#      LUT1                        : 119
+#      LUT2                        : 21
+#      LUT2_D                      : 1
+#      LUT3                        : 45
+#      LUT4                        : 154
+#      LUT4_D                      : 8
+#      LUT4_L                      : 13
+#      MUXCY                       : 182
+#      MUXF5                       : 26
+#      MUXF6                       : 1
+#      VCC                         : 1
+#      XORCY                       : 171
+# FlipFlops/Latches                : 172
+#      FD_1                        : 4
+#      FDCE_1                      : 2
+#      FDCPE                       : 10
+#      FDE                         : 3
+#      FDR_1                       : 111
+#      FDSE_1                      : 42
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 23
+#      IBUF                        : 5
+#      OBUF                        : 18
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500epq208-5 
+
+ Number of Slices:                      221  out of   4656     4%  
+ Number of Slice Flip Flops:            172  out of   9312     1%  
+ Number of 4 input LUTs:                420  out of   9312     4%  
+ Number of IOs:                          24
+ Number of bonded IOBs:                  24  out of    158    15%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CKHT                               | BUFGP                  | 172   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------------------+------------------------+-------+
+Control Signal                                 | Buffer(FF name)        | Load  |
+-----------------------------------------------+------------------------+-------+
+IC4/DEM_R_0__and0001(IC4/DEM_R_0__and000111:O) | NONE(IC4/DEM_R_0)      | 8     |
+IC4/DEM_R_0__and0002(IC4/DEM_R_0__and0000211:O)| NONE(IC4/DEM_R_0)      | 8     |
+BTN<0>                                         | IBUF                   | 4     |
+CH_TS<2>(XST_GND:G)                            | NONE(IC4/DEM_R_3)      | 2     |
+-----------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 9.372ns (Maximum Frequency: 106.697MHz)
+   Minimum input arrival time before clock: 7.042ns
+   Maximum output required time after clock: 22.152ns
+   Maximum combinational path delay: 8.728ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CKHT'
+  Clock period: 9.372ns (frequency: 106.697MHz)
+  Total number of paths / destination ports: 10339 / 380
+-------------------------------------------------------------------------
+Delay:               9.372ns (Levels of Logic = 8)
+  Source:            IC3/D10HZ_R_17 (FF)
+  Destination:       IC4/DEM_R_0 (FF)
+  Source Clock:      CKHT falling
+  Destination Clock: CKHT falling
+
+  Data Path: IC3/D10HZ_R_17 to IC4/DEM_R_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR_1:C->Q            3   0.514   0.603  IC3/D10HZ_R_17 (IC3/D10HZ_R_17)
+     LUT3:I0->O            1   0.612   0.426  IC3/ENA10HZ_cmp_eq000018 (IC3/ENA10HZ_cmp_eq000018)
+     LUT3:I1->O            1   0.612   0.360  IC3/ENA10HZ_cmp_eq000077_SW0 (N106)
+     LUT4:I3->O            1   0.612   0.387  IC3/ENA10HZ_cmp_eq000077 (ENA10HZ)
+     LUT3:I2->O            1   0.612   0.000  IC2/Mmux_ENA_DB_2_f5_G (N109)
+     MUXF5:I1->O          15   0.278   0.867  IC2/Mmux_ENA_DB_2_f5 (ENA_DB)
+     LUT4_D:I3->O         10   0.612   0.753  IC4/DEM_R_and000041 (IC4/DEM_R_and0000)
+     LUT4_D:I3->O          7   0.612   0.632  IC4/DEM_R_0__and00002 (IC4/N2)
+     LUT3:I2->O            1   0.612   0.000  IC4/DEM_R_8__and000041 (IC4/DEM_R_8__and0000)
+     FDCPE:D                   0.268          IC4/DEM_R_8
+    ----------------------------------------
+    Total                      9.372ns (5.344ns logic, 4.028ns route)
+                                       (57.0% logic, 43.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CKHT'
+  Total number of paths / destination ports: 240 / 64
+-------------------------------------------------------------------------
+Offset:              7.042ns (Levels of Logic = 6)
+  Source:            SW<0> (PAD)
+  Destination:       IC4/DEM_R_0 (FF)
+  Destination Clock: CKHT falling
+
+  Data Path: SW<0> to IC4/DEM_R_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   1.106   0.690  SW_0_IBUF (SW_0_IBUF)
+     LUT4:I0->O            1   0.612   0.000  IC2/Mmux_ENA_DB_2_f5_F (N108)
+     MUXF5:I0->O          15   0.278   0.867  IC2/Mmux_ENA_DB_2_f5 (ENA_DB)
+     LUT4_D:I3->O         10   0.612   0.753  IC4/DEM_R_and000041 (IC4/DEM_R_and0000)
+     LUT4_D:I3->O          7   0.612   0.632  IC4/DEM_R_0__and00002 (IC4/N2)
+     LUT3:I2->O            1   0.612   0.000  IC4/DEM_R_8__and000041 (IC4/DEM_R_8__and0000)
+     FDCPE:D                   0.268          IC4/DEM_R_8
+    ----------------------------------------
+    Total                      7.042ns (4.100ns logic, 2.942ns route)
+                                       (58.2% logic, 41.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CKHT'
+  Total number of paths / destination ports: 475132 / 17
+-------------------------------------------------------------------------
+Offset:              22.152ns (Levels of Logic = 18)
+  Source:            IC4/DEM_R_8 (FF)
+  Destination:       SSEG<4> (PAD)
+  Source Clock:      CKHT falling
+
+  Data Path: IC4/DEM_R_8 to SSEG<4>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE:C->Q           20   0.514   1.089  IC4/DEM_R_8 (IC4/DEM_R_8)
+     LUT4:I0->O            3   0.612   0.520  IC8/BCD_HEX_12_mux0002_SW0 (N56)
+     LUT3:I1->O            6   0.612   0.638  IC8/BCD_HEX_12_mux0002 (IC8/Madd_BCD_HEX_13_10_add0003_lut<3>)
+     LUT4:I1->O            1   0.612   0.387  IC8/BCD_HEX_13_mux00052_SW1 (N75)
+     LUT4:I2->O            5   0.612   0.568  IC8/BCD_HEX_13_mux00052 (IC8/N111)
+     LUT3:I2->O            7   0.612   0.671  IC8/BCD_HEX_13_cmp_ge00041 (IC8/BCD_HEX_13_cmp_ge0004)
+     LUT3:I1->O            1   0.612   0.426  IC8/BCD_HEX_13_cmp_ge000553_SW0_SW0 (N154)
+     LUT4:I1->O            1   0.612   0.426  IC8/BCD_HEX_13_cmp_ge000553_SW0 (N138)
+     LUT4:I1->O            5   0.612   0.541  IC8/BCD_HEX_13_cmp_ge000553 (IC8/BCD_HEX_13_cmp_ge0005)
+     LUT4:I3->O            3   0.612   0.520  IC8/BCD_HEX_12_mux0005106_SW0 (N150)
+     LUT2:I1->O            2   0.612   0.410  IC8/BCD_HEX_12_mux0005106 (IC8/Madd_BCD_HEX_13_10_add0006_lut<3>)
+     LUT4:I2->O            1   0.612   0.426  IC8/BCD_HEX_11_mux00061 (DONVI<2>)
+     LUT3:I1->O            1   0.612   0.000  IC5/K2/Mmux_o_72 (IC5/K2/Mmux_o_72)
+     MUXF5:I0->O           2   0.278   0.380  IC5/K2/Mmux_o_5_f5_1 (IC5/K2/Mmux_o_5_f52)
+     INV:I->O              1   0.612   0.000  IC5/S3B<2>22_INV_0 (IC5/S3B<2>21)
+     MUXF5:I0->O          13   0.278   0.988  IC5/S3B<2>2_f5 (IC5/SO_GMA<2>)
+     LUT4:I0->O            1   0.612   0.387  IC5/K4/SSEG<4>_SW0 (N17)
+     LUT4:I2->O            1   0.612   0.357  IC5/K4/SSEG<4> (SSEG_4_OBUF)
+     OBUF:I->O                 3.169          SSEG_4_OBUF (SSEG<4>)
+    ----------------------------------------
+    Total                     22.152ns (13.419ns logic, 8.733ns route)
+                                       (60.6% logic, 39.4% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 78 / 7
+-------------------------------------------------------------------------
+Delay:               8.728ns (Levels of Logic = 6)
+  Source:            SW<0> (PAD)
+  Destination:       SSEG<4> (PAD)
+
+  Data Path: SW<0> to SSEG<4>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   1.106   0.607  SW_0_IBUF (SW_0_IBUF)
+     LUT4:I1->O            1   0.612   0.000  IC5/S3B<2>21 (IC5/S3B<2>2)
+     MUXF5:I1->O          13   0.278   0.988  IC5/S3B<2>2_f5 (IC5/SO_GMA<2>)
+     LUT4:I0->O            1   0.612   0.387  IC5/K4/SSEG<4>_SW0 (N17)
+     LUT4:I2->O            1   0.612   0.357  IC5/K4/SSEG<4> (SSEG_4_OBUF)
+     OBUF:I->O                 3.169          SSEG_4_OBUF (SSEG<4>)
+    ----------------------------------------
+    Total                      8.728ns (6.389ns logic, 2.339ns route)
+                                       (73.2% logic, 26.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 6.99 secs
+ 
+--> 
+
+
+Total memory usage is 623244 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   32 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

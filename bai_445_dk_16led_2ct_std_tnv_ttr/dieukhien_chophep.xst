@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/BT_ISE_XILINX/bai_445_dk_16led_2ct_std_tnv_ttr/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/BT_ISE_XILINX/bai_445_dk_16led_2ct_std_tnv_ttr/xst"
+elaborate
+-ifn dieukhien_chophep.prj
+-ifmt mixed

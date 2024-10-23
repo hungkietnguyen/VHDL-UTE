@@ -1,0 +1,10 @@
+AR chia_10ena behavioral /home/ise/BT_ISE_XILINX/bai_444_dk_16led_2ct_auto_std_pst_tsp/chia_10ena.vhd sub00/vhpl01 1678758866
+EN dieukhien_chophep NULL /home/ise/BT_ISE_XILINX/bai_444_dk_16led_2ct_auto_std_pst_tsp/dieukhien_chophep.vhd sub00/vhpl06 1678758871
+EN js_pst NULL /home/ise/BT_ISE_XILINX/bai_444_dk_16led_2ct_auto_std_pst_tsp/js_pst.vhd sub00/vhpl02 1678758867
+EN dk_16led_2ct_auto_std_pst_tsp NULL /home/ise/BT_ISE_XILINX/bai_444_dk_16led_2ct_auto_std_pst_tsp/dk_16led_2ct_auto_std_pst_tsp.vhd sub00/vhpl08 1678758873
+AR js_tsp behavioral /home/ise/BT_ISE_XILINX/bai_444_dk_16led_2ct_auto_std_pst_tsp/js_tsp.vhd sub00/vhpl05 1678758870
+AR js_pst behavioral /home/ise/BT_ISE_XILINX/bai_444_dk_16led_2ct_auto_std_pst_tsp/js_pst.vhd sub00/vhpl03 1678758868
+EN js_tsp NULL /home/ise/BT_ISE_XILINX/bai_444_dk_16led_2ct_auto_std_pst_tsp/js_tsp.vhd sub00/vhpl04 1678758869
+AR dk_16led_2ct_auto_std_pst_tsp behavioral /home/ise/BT_ISE_XILINX/bai_444_dk_16led_2ct_auto_std_pst_tsp/dk_16led_2ct_auto_std_pst_tsp.vhd sub00/vhpl09 1678758874
+EN chia_10ena NULL /home/ise/BT_ISE_XILINX/bai_444_dk_16led_2ct_auto_std_pst_tsp/chia_10ena.vhd sub00/vhpl00 1678758865
+AR dieukhien_chophep behavioral /home/ise/BT_ISE_XILINX/bai_444_dk_16led_2ct_auto_std_pst_tsp/dieukhien_chophep.vhd sub00/vhpl07 1678758872

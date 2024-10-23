@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/BT_ISE_XILINX/bai_438_dem_4bit_up_dw_2btn_4led/dem_4bit_up_dw_2btn_c3.ncd
+OUTFILE=/home/ise/BT_ISE_XILINX/bai_438_dem_4bit_up_dw_2btn_4led/dem_4bit_up_dw_2btn_c3.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5pq208
+WORKINGDIR=/home/ise/BT_ISE_XILINX/bai_438_dem_4bit_up_dw_2btn_4led
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

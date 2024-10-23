@@ -1,0 +1,51 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/ise/BT_ISE_XILINX/bai_507_1_ht_8so_8l7d_8dp_8ena/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/ise/BT_ISE_XILINX/bai_507_1_ht_8so_8l7d_8dp_8ena/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_507_1_ht_8so_8l7d_8dp_8ena/dem_3bit.vhd" in Library work.
+Architecture behavioral of Entity dem_3bit is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_507_1_ht_8so_8l7d_8dp_8ena/giaima_38h.vhd" in Library work.
+Architecture behavioral of Entity giaima_38h is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_507_1_ht_8so_8l7d_8dp_8ena/dahop_8kenh.vhd" in Library work.
+Architecture behavioral of Entity dahop_8kenh is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_507_1_ht_8so_8l7d_8dp_8ena/dahop_8c.vhd" in Library work.
+Architecture behavioral of Entity dahop_8c is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_507_1_ht_8so_8l7d_8dp_8ena/dahop_8ena.vhd" in Library work.
+Architecture behavioral of Entity dahop_8ena is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_507_1_ht_8so_8l7d_8dp_8ena/giaima_7doan_ena.vhd" in Library work.
+Architecture behavioral of Entity giaima_7doan_ena is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_507_1_ht_8so_8l7d_8dp_8ena/gm_ht_8led.vhd" in Library work.
+Entity <gm_ht_8led> compiled.
+Entity <gm_ht_8led> (Architecture <Behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+
+
+Total memory usage is 568092 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

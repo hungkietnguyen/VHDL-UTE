@@ -1,0 +1,5 @@
+set -tmpdir "C:/.Xilinx/BAI_636_ND_DS18B20_HTSTO_TRIAC_SSBD/xst/projnav.tmp"
+set -xsthdpdir "C:/.Xilinx/BAI_636_ND_DS18B20_HTSTO_TRIAC_SSBD/xst"
+elaborate
+-ifn LCD_GAN_DULIEU_4SO_TO.prj
+-ifmt mixed

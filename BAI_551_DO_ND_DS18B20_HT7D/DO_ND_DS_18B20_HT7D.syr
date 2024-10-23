@@ -1,0 +1,899 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: DO_ND_DS_18B20_HT7D.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "DO_ND_DS_18B20_HT7D.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "DO_ND_DS_18B20_HT7D"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-pq208
+
+---- Source Options
+Top Module Name                    : DO_ND_DS_18B20_HT7D
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/DEM_3BIT.vhd" in Library work.
+Architecture behavioral of Entity dem_3bit is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/DAHOP_8KENH.vhd" in Library work.
+Architecture behavioral of Entity dahop_8kenh is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/GIAIMA_38H.vhd" in Library work.
+Architecture behavioral of Entity giaima_38h is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/GIAIMA_7DOAN_ENA.vhd" in Library work.
+Architecture behavioral of Entity giaima_7doan_ena is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/DS18B20_CONTROL.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/DS18B20_CONTROL.vhd" is newer than current system time.
+Entity <ds18b20_control> compiled.
+Entity <DS18B20_CONTROL> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/CHIA_10ENA.vhd" in Library work.
+Entity <CHIA_10ENA> compiled.
+Entity <CHIA_10ENA> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/HEXTOBCD_8BIT.vhd" in Library work.
+Entity <HEXTOBCD_8BIT> compiled.
+Entity <HEXTOBCD_8BIT> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/GM_HT_8LED.vhd" in Library work.
+Entity <GM_HT_8LED> compiled.
+Entity <GM_HT_8LED> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/DO_ND_DS_18B20_HT7D.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/DO_ND_DS_18B20_HT7D.vhd" is newer than current system time.
+Entity <DO_ND_DS_18B20_HT7D> compiled.
+Entity <DO_ND_DS_18B20_HT7D> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <DO_ND_DS_18B20_HT7D> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DS18B20_CONTROL> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <CHIA_10ENA> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <HEXTOBCD_8BIT> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <GM_HT_8LED> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_3BIT> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DAHOP_8KENH> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <GIAIMA_38H> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <GIAIMA_7DOAN_ENA> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <DO_ND_DS_18B20_HT7D> in library <work> (Architecture <Behavioral>).
+WARNING:Xst:753 - "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/DO_ND_DS_18B20_HT7D.vhd" line 80: Unconnected output port 'ENA1HZ' of component 'CHIA_10ENA'.
+WARNING:Xst:753 - "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/DO_ND_DS_18B20_HT7D.vhd" line 80: Unconnected output port 'ENA2HZ' of component 'CHIA_10ENA'.
+WARNING:Xst:753 - "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/DO_ND_DS_18B20_HT7D.vhd" line 80: Unconnected output port 'ENA5HZ' of component 'CHIA_10ENA'.
+WARNING:Xst:753 - "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/DO_ND_DS_18B20_HT7D.vhd" line 80: Unconnected output port 'ENA20HZ' of component 'CHIA_10ENA'.
+WARNING:Xst:753 - "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/DO_ND_DS_18B20_HT7D.vhd" line 80: Unconnected output port 'ENA50HZ' of component 'CHIA_10ENA'.
+WARNING:Xst:753 - "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/DO_ND_DS_18B20_HT7D.vhd" line 80: Unconnected output port 'ENA100HZ' of component 'CHIA_10ENA'.
+Entity <DO_ND_DS_18B20_HT7D> analyzed. Unit <DO_ND_DS_18B20_HT7D> generated.
+
+Analyzing Entity <DS18B20_CONTROL> in library <work> (Architecture <Behavioral>).
+INFO:Xst:2679 - Register <DS_OUT> in unit <DS18B20_CONTROL> has a constant value of 0 during circuit operation. The register is replaced by logic.
+Entity <DS18B20_CONTROL> analyzed. Unit <DS18B20_CONTROL> generated.
+
+Analyzing Entity <CHIA_10ENA> in library <work> (Architecture <Behavioral>).
+Entity <CHIA_10ENA> analyzed. Unit <CHIA_10ENA> generated.
+
+Analyzing Entity <HEXTOBCD_8BIT> in library <work> (Architecture <Behavioral>).
+Entity <HEXTOBCD_8BIT> analyzed. Unit <HEXTOBCD_8BIT> generated.
+
+Analyzing Entity <GM_HT_8LED> in library <work> (Architecture <Behavioral>).
+Entity <GM_HT_8LED> analyzed. Unit <GM_HT_8LED> generated.
+
+Analyzing Entity <DEM_3BIT> in library <work> (Architecture <Behavioral>).
+Entity <DEM_3BIT> analyzed. Unit <DEM_3BIT> generated.
+
+Analyzing Entity <DAHOP_8KENH> in library <work> (Architecture <Behavioral>).
+Entity <DAHOP_8KENH> analyzed. Unit <DAHOP_8KENH> generated.
+
+Analyzing Entity <GIAIMA_38H> in library <work> (Architecture <Behavioral>).
+Entity <GIAIMA_38H> analyzed. Unit <GIAIMA_38H> generated.
+
+Analyzing Entity <GIAIMA_7DOAN_ENA> in library <work> (Architecture <Behavioral>).
+Entity <GIAIMA_7DOAN_ENA> analyzed. Unit <GIAIMA_7DOAN_ENA> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <DS18B20_CONTROL>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/DS18B20_CONTROL.vhd".
+    Found finite state machine <FSM_0> for signal <STATE>.
+    -----------------------------------------------------------------------
+    | States             | 10                                             |
+    | Transitions        | 53                                             |
+    | Inputs             | 28                                             |
+    | Outputs            | 13                                             |
+    | Clock              | CKHT                      (rising_edge)        |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | reset                                          |
+    | Power Up State     | reset                                          |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <TT>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 4                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 4                                              |
+    | Clock              | CKHT                      (rising_edge)        |
+    | Clock enable       | TT$not0000                (positive)           |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 000                                            |
+    | Power Up State     | 000                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_2> for signal <TT_RST>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 4                                              |
+    | Clock              | CKHT                      (rising_edge)        |
+    | Clock enable       | TT_RST$and0000            (positive)           |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_3> for signal <TT_RD_B>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 4                                              |
+    | Clock              | CKHT                      (rising_edge)        |
+    | Clock enable       | STATE$cmp_eq0027          (positive)           |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00                                             |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit tristate buffer for signal <DS18B20>.
+    Found 1-bit register for signal <DS_PRE>.
+    Found 8-bit register for signal <DLG>.
+    Found 1-bit 8-to-1 multiplexer for signal <DLG$mux0000> created at line 126.
+    Found 12-bit register for signal <DLN>.
+    Found 1-bit register for signal <DS_ENA>.
+    Found 1-bit register for signal <DS_IN>.
+    Found 18-bit register for signal <J>.
+    Found 18-bit adder for signal <J$add0000> created at line 189.
+    Found 18-bit comparator less for signal <J$cmp_lt0000> created at line 151.
+    Found 18-bit comparator less for signal <J$cmp_lt0001> created at line 167.
+    Found 4-bit register for signal <K>.
+    Found 4-bit adder for signal <K$share0000> created at line 87.
+    Found 18-bit comparator less for signal <STATE$cmp_lt0000> created at line 156.
+    Found 18-bit comparator less for signal <STATE$cmp_lt0001> created at line 173.
+    Found 18-bit comparator less for signal <STATE$cmp_lt0002> created at line 207.
+    Found 18-bit comparator less for signal <STATE$cmp_lt0003> created at line 224.
+    Found 18-bit comparator less for signal <TT_RD_B$cmp_lt0000> created at line 189.
+    Found 18-bit comparator less for signal <TT_RD_B$cmp_lt0001> created at line 201.
+    Found 18-bit comparator less for signal <TT_RST$cmp_lt0000> created at line 93.
+    Found 18-bit comparator less for signal <TT_RST$cmp_lt0001> created at line 99.
+    Found 18-bit comparator less for signal <TT_RST$cmp_lt0002> created at line 106.
+    Found 1-bit register for signal <TT_WR_B0<0>>.
+    Found 1-bit register for signal <TT_WR_B1<0>>.
+    Summary:
+	inferred   4 Finite State Machine(s).
+	inferred  39 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred  11 Comparator(s).
+	inferred   1 Multiplexer(s).
+	inferred   1 Tristate(s).
+Unit <DS18B20_CONTROL> synthesized.
+
+
+Synthesizing Unit <CHIA_10ENA>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/CHIA_10ENA.vhd".
+    Found 19-bit adder for signal <D100HZ_N$addsub0000> created at line 102.
+    Found 19-bit register for signal <D100HZ_R>.
+    Found 26-bit adder for signal <D1HZ_N$addsub0000> created at line 88.
+    Found 26-bit register for signal <D1HZ_R>.
+    Found 16-bit adder for signal <D1KHZ_N$addsub0000> created at line 104.
+    Found 16-bit register for signal <D1KHZ_R>.
+    Found 22-bit adder for signal <D20HZ_N$addsub0000> created at line 96.
+    Found 22-bit register for signal <D20HZ_R>.
+    Found 25-bit adder for signal <D2HZ_N$addsub0000> created at line 90.
+    Found 25-bit register for signal <D2HZ_R>.
+    Found 20-bit adder for signal <D50HZ_N$addsub0000> created at line 100.
+    Found 20-bit register for signal <D50HZ_R>.
+    Found 24-bit adder for signal <D5HZ_N$addsub0000> created at line 92.
+    Found 24-bit register for signal <D5HZ_R>.
+    Summary:
+	inferred 152 D-type flip-flop(s).
+	inferred   7 Adder/Subtractor(s).
+Unit <CHIA_10ENA> synthesized.
+
+
+Synthesizing Unit <HEXTOBCD_8BIT>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/HEXTOBCD_8BIT.vhd".
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0000> created at line 44.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0001> created at line 44.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0002> created at line 44.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0003> created at line 44.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0004> created at line 44.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0000> created at line 45.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0001> created at line 45.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0002> created at line 45.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0003> created at line 45.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0004> created at line 45.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_15$cmp_ge0000> created at line 47.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_15$cmp_ge0001> created at line 47.
+    Found 4-bit adder for signal <BCD_HEX_15_12$add0000> created at line 48.
+    Found 4-bit adder for signal <BCD_HEX_15_12$add0001> created at line 48.
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred   7 Comparator(s).
+Unit <HEXTOBCD_8BIT> synthesized.
+
+
+Synthesizing Unit <DEM_3BIT>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/DEM_3BIT.vhd".
+    Found 3-bit up counter for signal <Q_R>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <DEM_3BIT> synthesized.
+
+
+Synthesizing Unit <DAHOP_8KENH>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/DAHOP_8KENH.vhd".
+    Found 4-bit 8-to-1 multiplexer for signal <o>.
+    Found 1-bit 8-to-1 multiplexer for signal <ena1>.
+    Found 1-bit 8-to-1 multiplexer for signal <dc1>.
+    Summary:
+	inferred   6 Multiplexer(s).
+Unit <DAHOP_8KENH> synthesized.
+
+
+Synthesizing Unit <GIAIMA_38H>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/GIAIMA_38H.vhd".
+    Found 1-of-8 decoder for signal <O>.
+    Summary:
+	inferred   1 Decoder(s).
+Unit <GIAIMA_38H> synthesized.
+
+
+Synthesizing Unit <GIAIMA_7DOAN_ENA>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/GIAIMA_7DOAN_ENA.vhd".
+    Found 16x7-bit ROM for signal <SS7>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <GIAIMA_7DOAN_ENA> synthesized.
+
+
+Synthesizing Unit <GM_HT_8LED>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/GM_HT_8LED.vhd".
+Unit <GM_HT_8LED> synthesized.
+
+
+Synthesizing Unit <DO_ND_DS_18B20_HT7D>.
+    Related source file is "/home/ise/BT_ISE_XILINX/BAI_551_DO_ND_DS18B20_HT7D/DO_ND_DS_18B20_HT7D.vhd".
+Unit <DO_ND_DS_18B20_HT7D> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 16
+ 16-bit adder                                          : 1
+ 18-bit adder                                          : 1
+ 19-bit adder                                          : 1
+ 20-bit adder                                          : 1
+ 22-bit adder                                          : 1
+ 24-bit adder                                          : 1
+ 25-bit adder                                          : 1
+ 26-bit adder                                          : 1
+ 4-bit adder                                           : 8
+# Counters                                             : 1
+ 3-bit up counter                                      : 1
+# Registers                                            : 27
+ 1-bit register                                        : 17
+ 16-bit register                                       : 1
+ 18-bit register                                       : 1
+ 19-bit register                                       : 1
+ 20-bit register                                       : 1
+ 22-bit register                                       : 1
+ 24-bit register                                       : 1
+ 25-bit register                                       : 1
+ 26-bit register                                       : 1
+ 4-bit register                                        : 1
+ 8-bit register                                        : 1
+# Comparators                                          : 18
+ 18-bit comparator less                                : 11
+ 4-bit comparator greatequal                           : 7
+# Multiplexers                                         : 4
+ 1-bit 8-to-1 multiplexer                              : 3
+ 4-bit 8-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-8 decoder                                        : 1
+# Tristates                                            : 1
+ 1-bit tristate buffer                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_3> for best encoding.
+Optimizing FSM <IC1/TT_RD_B/FSM> on signal <TT_RD_B[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+ 11    | 10
+-------------------
+Analyzing FSM <FSM_2> for best encoding.
+Optimizing FSM <IC1/TT_RST/FSM> on signal <TT_RST[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+ 11    | 10
+-------------------
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <IC1/TT/FSM> on signal <TT[1:4]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 0001
+ 001   | 0010
+ 010   | 0100
+ 011   | 1000
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <IC1/STATE/FSM> on signal <STATE[1:10]> with one-hot encoding.
+--------------------------
+ State      | Encoding
+--------------------------
+ reset      | 0000000001
+ skip_rom   | 0000000010
+ write_byte | 0000000100
+ write_bit0 | 0000001000
+ write_bit1 | 0000010000
+ read_bit   | 0100000000
+ convert_t  | 0000100000
+ read_scrat | 0001000000
+ get_temp   | 0010000000
+ wait_4ms   | 1000000000
+--------------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 4
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 16
+ 16-bit adder                                          : 1
+ 18-bit adder                                          : 1
+ 19-bit adder                                          : 1
+ 20-bit adder                                          : 1
+ 22-bit adder                                          : 1
+ 24-bit adder                                          : 1
+ 25-bit adder                                          : 1
+ 26-bit adder                                          : 1
+ 4-bit adder                                           : 8
+# Counters                                             : 1
+ 3-bit up counter                                      : 1
+# Registers                                            : 199
+ Flip-Flops                                            : 199
+# Comparators                                          : 18
+ 18-bit comparator less                                : 11
+ 4-bit comparator greatequal                           : 7
+# Multiplexers                                         : 4
+ 1-bit 8-to-1 multiplexer                              : 3
+ 4-bit 8-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-8 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <DO_ND_DS_18B20_HT7D> ...
+
+Optimizing unit <CHIA_10ENA> ...
+
+Optimizing unit <HEXTOBCD_8BIT> ...
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_25> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_24> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_23> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_22> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_21> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_20> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_19> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_18> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_17> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_16> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_15> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_14> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_13> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_12> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_11> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_10> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_9> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_8> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_7> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_6> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_5> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_4> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_3> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_2> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_1> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D1HZ_R_0> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D5HZ_R_23> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D5HZ_R_22> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D5HZ_R_21> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D5HZ_R_20> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D5HZ_R_19> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D5HZ_R_18> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D5HZ_R_17> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D5HZ_R_16> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D5HZ_R_15> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D5HZ_R_14> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D5HZ_R_13> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D5HZ_R_12> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D5HZ_R_11> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D5HZ_R_10> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D5HZ_R_9> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D5HZ_R_8> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D5HZ_R_7> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D5HZ_R_6> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D5HZ_R_5> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D5HZ_R_4> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D5HZ_R_3> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D5HZ_R_2> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D5HZ_R_1> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D5HZ_R_0> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D50HZ_R_19> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D50HZ_R_18> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D50HZ_R_17> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D50HZ_R_16> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D50HZ_R_15> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D50HZ_R_14> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D50HZ_R_13> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D50HZ_R_12> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D50HZ_R_11> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D50HZ_R_10> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D50HZ_R_9> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D50HZ_R_8> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D50HZ_R_7> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D50HZ_R_6> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D50HZ_R_5> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D50HZ_R_4> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D50HZ_R_3> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D50HZ_R_2> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D50HZ_R_1> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D50HZ_R_0> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D100HZ_R_18> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D100HZ_R_17> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D100HZ_R_16> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D100HZ_R_15> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D100HZ_R_14> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D100HZ_R_13> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D100HZ_R_12> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D100HZ_R_11> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D100HZ_R_10> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D100HZ_R_9> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D100HZ_R_8> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D100HZ_R_7> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D100HZ_R_6> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D100HZ_R_5> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D100HZ_R_4> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D100HZ_R_3> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D100HZ_R_2> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D100HZ_R_1> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D100HZ_R_0> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D20HZ_R_21> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D20HZ_R_20> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D20HZ_R_19> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D20HZ_R_18> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D20HZ_R_17> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D20HZ_R_16> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D20HZ_R_15> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D20HZ_R_14> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D20HZ_R_13> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D20HZ_R_12> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D20HZ_R_11> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D20HZ_R_10> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D20HZ_R_9> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D20HZ_R_8> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D20HZ_R_7> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D20HZ_R_6> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D20HZ_R_5> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D20HZ_R_4> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D20HZ_R_3> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D20HZ_R_2> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D20HZ_R_1> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D20HZ_R_0> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_24> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_23> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_22> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_21> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_20> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_19> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_18> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_17> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_16> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_15> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_14> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_13> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_12> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_11> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_10> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_9> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_8> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_7> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_6> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_5> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_4> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_3> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_2> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_1> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+WARNING:Xst:2677 - Node <IC2/D2HZ_R_0> of sequential type is unconnected in block <DO_ND_DS_18B20_HT7D>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block DO_ND_DS_18B20_HT7D, actual ratio is 4.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 84
+ Flip-Flops                                            : 84
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : DO_ND_DS_18B20_HT7D.ngr
+Top Level Output File Name         : DO_ND_DS_18B20_HT7D
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 25
+
+Cell Usage :
+# BELS                             : 501
+#      GND                         : 1
+#      INV                         : 22
+#      LUT1                        : 50
+#      LUT2                        : 35
+#      LUT2_L                      : 1
+#      LUT3                        : 48
+#      LUT3_D                      : 3
+#      LUT3_L                      : 5
+#      LUT4                        : 149
+#      LUT4_D                      : 4
+#      LUT4_L                      : 6
+#      MUXCY                       : 114
+#      MUXF5                       : 25
+#      MUXF6                       : 3
+#      VCC                         : 1
+#      XORCY                       : 34
+# FlipFlops/Latches                : 84
+#      FDC                         : 20
+#      FDCE                        : 7
+#      FDE                         : 38
+#      FDP                         : 2
+#      FDPE                        : 1
+#      FDR_1                       : 16
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 24
+#      IBUF                        : 2
+#      IOBUF                       : 1
+#      OBUF                        : 21
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500epq208-5 
+
+ Number of Slices:                      171  out of   4656     3%  
+ Number of Slice Flip Flops:             84  out of   9312     0%  
+ Number of 4 input LUTs:                323  out of   9312     3%  
+ Number of IOs:                          25
+ Number of bonded IOBs:                  25  out of    158    15%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CKHT                               | BUFGP                  | 84    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+BTN0                               | IBUF                   | 30    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 7.657ns (Maximum Frequency: 130.597MHz)
+   Minimum input arrival time before clock: 4.835ns
+   Maximum output required time after clock: 14.677ns
+   Maximum combinational path delay: 4.632ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CKHT'
+  Clock period: 7.657ns (frequency: 130.597MHz)
+  Total number of paths / destination ports: 4785 / 125
+-------------------------------------------------------------------------
+Delay:               7.657ns (Levels of Logic = 10)
+  Source:            IC1/J_4 (FF)
+  Destination:       IC1/J_17 (FF)
+  Source Clock:      CKHT rising
+  Destination Clock: CKHT rising
+
+  Data Path: IC1/J_4 to IC1/J_17
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             12   0.514   0.969  IC1/J_4 (IC1/J_4)
+     LUT1:I0->O            1   0.612   0.000  IC1/Mcompar_STATE_cmp_lt0000_cy<0>_0_rt (IC1/Mcompar_STATE_cmp_lt0000_cy<0>_0_rt)
+     MUXCY:S->O            1   0.404   0.000  IC1/Mcompar_STATE_cmp_lt0000_cy<0>_0 (IC1/Mcompar_STATE_cmp_lt0000_cy<0>1)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcompar_STATE_cmp_lt0000_cy<1>_0 (IC1/Mcompar_STATE_cmp_lt0000_cy<1>1)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcompar_STATE_cmp_lt0000_cy<2>_0 (IC1/Mcompar_STATE_cmp_lt0000_cy<2>1)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcompar_STATE_cmp_lt0000_cy<3>_0 (IC1/Mcompar_STATE_cmp_lt0000_cy<3>1)
+     MUXCY:CI->O           4   0.399   0.529  IC1/Mcompar_STATE_cmp_lt0000_cy<4>_0 (IC1/Mcompar_STATE_cmp_lt0000_cy<4>1)
+     LUT3_L:I2->LO         1   0.612   0.103  IC1/J_mux0004<0>113_SW0 (N70)
+     LUT4:I3->O            1   0.612   0.360  IC1/J_mux0004<0>135_SW0 (N68)
+     LUT4_D:I3->O         17   0.612   0.896  IC1/J_mux0004<0>1130 (N0)
+     LUT4:I3->O            1   0.612   0.000  IC1/J_mux0004<8>1 (IC1/J_mux0004<8>)
+     FDE:D                     0.268          IC1/J_9
+    ----------------------------------------
+    Total                      7.657ns (4.800ns logic, 2.857ns route)
+                                       (62.7% logic, 37.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CKHT'
+  Total number of paths / destination ports: 37 / 37
+-------------------------------------------------------------------------
+Offset:              4.835ns (Levels of Logic = 3)
+  Source:            BTN0 (PAD)
+  Destination:       IC1/DLN_8 (FF)
+  Destination Clock: CKHT rising
+
+  Data Path: BTN0 to IC1/DLN_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            43   1.106   1.145  BTN0_IBUF (BTN0_IBUF)
+     LUT2:I1->O            3   0.612   0.520  IC1/DLN_0_and000011 (N11)
+     LUT4:I1->O            1   0.612   0.357  IC1/DLN_8_and00001 (IC1/DLN_8_and0000)
+     FDE:CE                    0.483          IC1/DLN_8
+    ----------------------------------------
+    Total                      4.835ns (2.813ns logic, 2.022ns route)
+                                       (58.2% logic, 41.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CKHT'
+  Total number of paths / destination ports: 11502 / 21
+-------------------------------------------------------------------------
+Offset:              14.677ns (Levels of Logic = 13)
+  Source:            IC1/DLN_10 (FF)
+  Destination:       SSEG<4> (PAD)
+  Source Clock:      CKHT rising
+
+  Data Path: IC1/DLN_10 to SSEG<4>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             16   0.514   1.031  IC1/DLN_10 (IC1/DLN_10)
+     LUT4:I0->O            1   0.612   0.000  IC3/BCD_HEX_10_mux00021 (IC3/BCD_HEX_10_mux0002)
+     MUXF5:I1->O           1   0.278   0.000  IC3/BCD_HEX_10_mux0002_f5 (IC3/BCD_HEX_10_mux0002_f5)
+     MUXF6:I1->O          10   0.451   0.750  IC3/BCD_HEX_10_mux0002_f6 (IC3/Madd_BCD_HEX_11_8_add0003_lut<3>)
+     MUXF5:S->O            9   0.641   0.849  IC3/BCD_HEX_11_mux0003_f5 (IC3/Madd_BCD_HEX_15_12_add0001_cy<0>)
+     LUT4:I0->O            1   0.612   0.000  IC4/K2/Mmux_o_72_SW0_SW0_G (N126)
+     MUXF5:I1->O           1   0.278   0.426  IC4/K2/Mmux_o_72_SW0_SW0 (N109)
+     LUT4:I1->O            1   0.612   0.360  IC4/K2/Mmux_o_72_SW0 (N99)
+     LUT4:I3->O            1   0.612   0.000  IC4/K2/Mmux_o_72 (IC4/K2/Mmux_o_72)
+     MUXF5:I0->O           1   0.278   0.426  IC4/K2/Mmux_o_5_f5_1 (IC4/K2/Mmux_o_5_f52)
+     LUT3:I1->O           14   0.612   0.919  IC4/S3B<2>21 (IC4/SO_GMA<2>)
+     LUT4:I1->O            1   0.612   0.000  IC4/K4/SSEG<3>2 (IC4/K4/SSEG<3>1)
+     MUXF5:I0->O           1   0.278   0.357  IC4/K4/SSEG<3>_f5 (SSEG_3_OBUF)
+     OBUF:I->O                 3.169          SSEG_3_OBUF (SSEG<3>)
+    ----------------------------------------
+    Total                     14.677ns (9.559ns logic, 5.118ns route)
+                                       (65.1% logic, 34.9% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               4.632ns (Levels of Logic = 2)
+  Source:            SW0 (PAD)
+  Destination:       TRIAC (PAD)
+
+  Data Path: SW0 to TRIAC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.357  SW0_IBUF (TRIAC_OBUF)
+     OBUF:I->O                 3.169          TRIAC_OBUF (TRIAC)
+    ----------------------------------------
+    Total                      4.632ns (4.275ns logic, 0.357ns route)
+                                       (92.3% logic, 7.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 9.30 secs
+ 
+--> 
+
+
+Total memory usage is 630976 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  144 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

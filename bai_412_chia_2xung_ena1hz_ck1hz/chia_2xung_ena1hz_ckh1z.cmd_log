@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_412_chia_2xung_ena1hz_ck1hz/chia_2xung_ena1hz_ckh1z.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_412_chia_2xung_ena1hz_ck1hz/chia_2xung_ena1hz_ckh1z.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "KIT_XC3S500E_PQ208 .ucf" -p xc3s500e-pq208-5 chia_2xung_ena1hz_ckh1z.ngc chia_2xung_ena1hz_ckh1z.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o chia_2xung_ena1hz_ckh1z_map.ncd chia_2xung_ena1hz_ckh1z.ngd chia_2xung_ena1hz_ckh1z.pcf 
+par -w -intstyle ise -ol high -t 1 chia_2xung_ena1hz_ckh1z_map.ncd chia_2xung_ena1hz_ckh1z.ncd chia_2xung_ena1hz_ckh1z.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml chia_2xung_ena1hz_ckh1z.twx chia_2xung_ena1hz_ckh1z.ncd -o chia_2xung_ena1hz_ckh1z.twr chia_2xung_ena1hz_ckh1z.pcf -ucf {KIT_XC3S500E_PQ208 .ucf} 
+bitgen -intstyle ise -f chia_2xung_ena1hz_ckh1z.ut chia_2xung_ena1hz_ckh1z.ncd 

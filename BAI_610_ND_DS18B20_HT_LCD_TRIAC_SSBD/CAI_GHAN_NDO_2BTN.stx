@@ -1,0 +1,40 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/.Xilinx/BAI_610_ND_DS18B20_HT_LCD_TRIAC_SSBD/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> Parameter xsthdpdir set to C:/.Xilinx/BAI_610_ND_DS18B20_HT_LCD_TRIAC_SSBD/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/.Xilinx/BAI_610_ND_DS18B20_HT_LCD_TRIAC_SSBD/DEBOUNCE_BTN.vhd" in Library work.
+Architecture behavioral of Entity debounce_btn is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_610_ND_DS18B20_HT_LCD_TRIAC_SSBD/DEM_NP_6BIT_UD.vhd" in Library work.
+Architecture behavioral of Entity dem_np_6bit_ud is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_610_ND_DS18B20_HT_LCD_TRIAC_SSBD/LAM_HEP_XUNG.vhd" in Library work.
+Architecture behavioral of Entity lam_hep_xung is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_610_ND_DS18B20_HT_LCD_TRIAC_SSBD/CAI_GHAN_NDO_2BTN.vhd" in Library work.
+Architecture behavioral of Entity cai_ghan_ndo_2btn is up to date.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> 
+
+Total memory usage is 4476136 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,39 @@
+V3 19
+FL /home/ise/BT_ISE_XILINX/bai_453_dk_16led_sd_au_2ct/chia_10ena.vhd 2023/03/21.03:11:28 P.20131013
+EN work/chia_10ena 1679876405 \
+      FL /home/ise/BT_ISE_XILINX/bai_453_dk_16led_sd_au_2ct/chia_10ena.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/chia_10ena/Behavioral 1679876406 \
+      FL /home/ise/BT_ISE_XILINX/bai_453_dk_16led_sd_au_2ct/chia_10ena.vhd \
+      EN work/chia_10ena 1679876405
+FL /home/ise/BT_ISE_XILINX/bai_453_dk_16led_sd_au_2ct/dieukhien_chophep.vhd 2023/03/21.03:28:45 P.20131013
+EN work/dieukhien_chophep 1679876411 \
+      FL /home/ise/BT_ISE_XILINX/bai_453_dk_16led_sd_au_2ct/dieukhien_chophep.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dieukhien_chophep/Behavioral 1679876412 \
+      FL /home/ise/BT_ISE_XILINX/bai_453_dk_16led_sd_au_2ct/dieukhien_chophep.vhd \
+      EN work/dieukhien_chophep 1679876411
+FL /home/ise/BT_ISE_XILINX/bai_453_dk_16led_sd_au_2ct/dk_16led_sd_au_2ct.vhd 2023/03/21.03:24:10 P.20131013
+EN work/dk_16led_sd_au_2ct 1679876413 \
+      FL /home/ise/BT_ISE_XILINX/bai_453_dk_16led_sd_au_2ct/dk_16led_sd_au_2ct.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dk_16led_sd_au_2ct/Behavioral 1679876414 \
+      FL /home/ise/BT_ISE_XILINX/bai_453_dk_16led_sd_au_2ct/dk_16led_sd_au_2ct.vhd \
+      EN work/dk_16led_sd_au_2ct 1679876413 CP work/chia_10ena CP work/sd_pst \
+      CP work/sd_tsp CP work/dieukhien_chophep
+FL /home/ise/BT_ISE_XILINX/bai_453_dk_16led_sd_au_2ct/sd_pst.vhd 2023/03/21.03:11:44 P.20131013
+EN work/sd_pst 1679876407 \
+      FL /home/ise/BT_ISE_XILINX/bai_453_dk_16led_sd_au_2ct/sd_pst.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sd_pst/Behavioral 1679876408 \
+      FL /home/ise/BT_ISE_XILINX/bai_453_dk_16led_sd_au_2ct/sd_pst.vhd \
+      EN work/sd_pst 1679876407
+FL /home/ise/BT_ISE_XILINX/bai_453_dk_16led_sd_au_2ct/sd_tsp.vhd 2023/03/21.03:11:28 P.20131013
+EN work/sd_tsp 1679876409 \
+      FL /home/ise/BT_ISE_XILINX/bai_453_dk_16led_sd_au_2ct/sd_tsp.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sd_tsp/Behavioral 1679876410 \
+      FL /home/ise/BT_ISE_XILINX/bai_453_dk_16led_sd_au_2ct/sd_tsp.vhd \
+      EN work/sd_tsp 1679876409

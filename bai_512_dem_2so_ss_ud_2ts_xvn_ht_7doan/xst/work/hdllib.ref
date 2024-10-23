@@ -1,0 +1,16 @@
+AR chia_10ena behavioral /home/ise/BT_ISE_XILINX/bai_512_dem_2so_ss_ud_2ts_xvn_ht_7doan/chia_10ena.vhd sub00/vhpl13 1680846651
+AR dem_3bit behavioral /home/ise/BT_ISE_XILINX/bai_512_dem_2so_ss_ud_2ts_xvn_ht_7doan/dem_3bit.vhd sub00/vhpl04 1680846643
+EN giaima_38h NULL /home/ise/BT_ISE_XILINX/bai_512_dem_2so_ss_ud_2ts_xvn_ht_7doan/giaima_38h.vhd sub00/vhpl05 1680846644
+AR giaima_38h behavioral /home/ise/BT_ISE_XILINX/bai_512_dem_2so_ss_ud_2ts_xvn_ht_7doan/giaima_38h.vhd sub00/vhpl06 1680846645
+EN dem_2so_ss_ud_2ts_xvn_ht_7doan NULL /home/ise/BT_ISE_XILINX/bai_512_dem_2so_ss_ud_2ts_xvn_ht_7doan/dem_2so_ss_ud_2ts_xvn_ht_7doan.vhd sub00/vhpl14 1680846656
+AR gm_ht_8led behavioral /home/ise/BT_ISE_XILINX/bai_512_dem_2so_ss_ud_2ts_xvn_ht_7doan/gm_ht_8led.vhd sub00/vhpl12 1680846655
+AR giaima_7doan_ena behavioral /home/ise/BT_ISE_XILINX/bai_512_dem_2so_ss_ud_2ts_xvn_ht_7doan/giaima_7doan_ena.vhd sub00/vhpl10 1680846649
+EN dem_2so_ssud NULL /home/ise/BT_ISE_XILINX/bai_512_dem_2so_ss_ud_2ts_xvn_ht_7doan/dem_2so_ssud.vhd sub00/vhpl00 1680846652
+EN gm_ht_8led NULL /home/ise/BT_ISE_XILINX/bai_512_dem_2so_ss_ud_2ts_xvn_ht_7doan/gm_ht_8led.vhd sub00/vhpl11 1680846654
+EN dahop_8kenh NULL /home/ise/BT_ISE_XILINX/bai_512_dem_2so_ss_ud_2ts_xvn_ht_7doan/dahop_8kenh.vhd sub00/vhpl07 1680846646
+EN giaima_7doan_ena NULL /home/ise/BT_ISE_XILINX/bai_512_dem_2so_ss_ud_2ts_xvn_ht_7doan/giaima_7doan_ena.vhd sub00/vhpl09 1680846648
+EN dem_3bit NULL /home/ise/BT_ISE_XILINX/bai_512_dem_2so_ss_ud_2ts_xvn_ht_7doan/dem_3bit.vhd sub00/vhpl03 1680846642
+AR dahop_8kenh behavioral /home/ise/BT_ISE_XILINX/bai_512_dem_2so_ss_ud_2ts_xvn_ht_7doan/dahop_8kenh.vhd sub00/vhpl08 1680846647
+AR dem_2so_ss_ud_2ts_xvn_ht_7doan behavioral /home/ise/BT_ISE_XILINX/bai_512_dem_2so_ss_ud_2ts_xvn_ht_7doan/dem_2so_ss_ud_2ts_xvn_ht_7doan.vhd sub00/vhpl15 1680846657
+EN chia_10ena NULL /home/ise/BT_ISE_XILINX/bai_512_dem_2so_ss_ud_2ts_xvn_ht_7doan/chia_10ena.vhd sub00/vhpl02 1680846650
+AR dem_2so_ssud behavioral /home/ise/BT_ISE_XILINX/bai_512_dem_2so_ss_ud_2ts_xvn_ht_7doan/dem_2so_ssud.vhd sub00/vhpl01 1680846653

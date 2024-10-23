@@ -1,0 +1,15 @@
+V3 7
+FL /home/ise/BT_ISE_XILINX/bai_351_cong_2so_nhi_phan_4bit/cong_2so_4bit.vhd 2023/02/13.04:04:39 P.20131013
+EN work/cong_2so_4bit 1676333455 \
+      FL /home/ise/BT_ISE_XILINX/bai_351_cong_2so_nhi_phan_4bit/cong_2so_4bit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/cong_2so_4bit/Behavioral 1676333456 \
+      FL /home/ise/BT_ISE_XILINX/bai_351_cong_2so_nhi_phan_4bit/cong_2so_4bit.vhd \
+      EN work/cong_2so_4bit 1676333455
+FL /home/ise/BT_ISE_XILINX/bai_351_cong_2so_nhi_phan_4bit/cong_2so_nhi_phan_4bit.vhd 2023/02/13.03:58:42 P.20131013
+EN work/cong_2so_nhi_phan_4bit 1676261687 \
+      FL /home/ise/BT_ISE_XILINX/bai_351_cong_2so_nhi_phan_4bit/cong_2so_nhi_phan_4bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/cong_2so_nhi_phan_4bit/Behavioral 1676261688 \
+      FL /home/ise/BT_ISE_XILINX/bai_351_cong_2so_nhi_phan_4bit/cong_2so_nhi_phan_4bit.vhd \
+      EN work/cong_2so_nhi_phan_4bit 1676261687 CP work/cong_2so_4bit

@@ -1,0 +1,71 @@
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_520_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_520_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_520_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_520_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_520_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_520_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_520_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_520_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_520_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_520_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_520_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_520_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_520_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_520_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_520_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_520_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_520_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_520_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_520_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_520_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 DEM_UD_AU_00_99_HT_7DOAN.ngc DEM_UD_AU_00_99_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DEM_UD_AU_00_99_HT_7DOAN_map.ncd DEM_UD_AU_00_99_HT_7DOAN.ngd DEM_UD_AU_00_99_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DEM_UD_AU_00_99_HT_7DOAN_map.ncd DEM_UD_AU_00_99_HT_7DOAN.ncd DEM_UD_AU_00_99_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEM_UD_AU_00_99_HT_7DOAN.twx DEM_UD_AU_00_99_HT_7DOAN.ncd -o DEM_UD_AU_00_99_HT_7DOAN.twr DEM_UD_AU_00_99_HT_7DOAN.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DEM_UD_AU_00_99_HT_7DOAN.ut DEM_UD_AU_00_99_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_520_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_520_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 DEM_UD_AU_00_99_HT_7DOAN.ngc DEM_UD_AU_00_99_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DEM_UD_AU_00_99_HT_7DOAN_map.ncd DEM_UD_AU_00_99_HT_7DOAN.ngd DEM_UD_AU_00_99_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DEM_UD_AU_00_99_HT_7DOAN_map.ncd DEM_UD_AU_00_99_HT_7DOAN.ncd DEM_UD_AU_00_99_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEM_UD_AU_00_99_HT_7DOAN.twx DEM_UD_AU_00_99_HT_7DOAN.ncd -o DEM_UD_AU_00_99_HT_7DOAN.twr DEM_UD_AU_00_99_HT_7DOAN.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_520_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_520_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 DEM_UD_AU_00_99_HT_7DOAN.ngc DEM_UD_AU_00_99_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DEM_UD_AU_00_99_HT_7DOAN_map.ncd DEM_UD_AU_00_99_HT_7DOAN.ngd DEM_UD_AU_00_99_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DEM_UD_AU_00_99_HT_7DOAN_map.ncd DEM_UD_AU_00_99_HT_7DOAN.ncd DEM_UD_AU_00_99_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEM_UD_AU_00_99_HT_7DOAN.twx DEM_UD_AU_00_99_HT_7DOAN.ncd -o DEM_UD_AU_00_99_HT_7DOAN.twr DEM_UD_AU_00_99_HT_7DOAN.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DEM_UD_AU_00_99_HT_7DOAN.ut DEM_UD_AU_00_99_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 DEM_UD_AU_00_99_HT_7DOAN.ngc DEM_UD_AU_00_99_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DEM_UD_AU_00_99_HT_7DOAN_map.ncd DEM_UD_AU_00_99_HT_7DOAN.ngd DEM_UD_AU_00_99_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DEM_UD_AU_00_99_HT_7DOAN_map.ncd DEM_UD_AU_00_99_HT_7DOAN.ncd DEM_UD_AU_00_99_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEM_UD_AU_00_99_HT_7DOAN.twx DEM_UD_AU_00_99_HT_7DOAN.ncd -o DEM_UD_AU_00_99_HT_7DOAN.twr DEM_UD_AU_00_99_HT_7DOAN.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DEM_UD_AU_00_99_HT_7DOAN.ut DEM_UD_AU_00_99_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 DEM_UD_AU_00_99_HT_7DOAN.ngc DEM_UD_AU_00_99_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DEM_UD_AU_00_99_HT_7DOAN_map.ncd DEM_UD_AU_00_99_HT_7DOAN.ngd DEM_UD_AU_00_99_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DEM_UD_AU_00_99_HT_7DOAN_map.ncd DEM_UD_AU_00_99_HT_7DOAN.ncd DEM_UD_AU_00_99_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEM_UD_AU_00_99_HT_7DOAN.twx DEM_UD_AU_00_99_HT_7DOAN.ncd -o DEM_UD_AU_00_99_HT_7DOAN.twr DEM_UD_AU_00_99_HT_7DOAN.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DEM_UD_AU_00_99_HT_7DOAN.ut DEM_UD_AU_00_99_HT_7DOAN.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 DEM_UD_AU_00_99_HT_7DOAN.ngc DEM_UD_AU_00_99_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DEM_UD_AU_00_99_HT_7DOAN_map.ncd DEM_UD_AU_00_99_HT_7DOAN.ngd DEM_UD_AU_00_99_HT_7DOAN.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 DEM_UD_AU_00_99_HT_7DOAN.ngc DEM_UD_AU_00_99_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DEM_UD_AU_00_99_HT_7DOAN_map.ncd DEM_UD_AU_00_99_HT_7DOAN.ngd DEM_UD_AU_00_99_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DEM_UD_AU_00_99_HT_7DOAN_map.ncd DEM_UD_AU_00_99_HT_7DOAN.ncd DEM_UD_AU_00_99_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEM_UD_AU_00_99_HT_7DOAN.twx DEM_UD_AU_00_99_HT_7DOAN.ncd -o DEM_UD_AU_00_99_HT_7DOAN.twr DEM_UD_AU_00_99_HT_7DOAN.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DEM_UD_AU_00_99_HT_7DOAN.ut DEM_UD_AU_00_99_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 DEM_UD_AU_00_99_HT_7DOAN.ngc DEM_UD_AU_00_99_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DEM_UD_AU_00_99_HT_7DOAN_map.ncd DEM_UD_AU_00_99_HT_7DOAN.ngd DEM_UD_AU_00_99_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DEM_UD_AU_00_99_HT_7DOAN_map.ncd DEM_UD_AU_00_99_HT_7DOAN.ncd DEM_UD_AU_00_99_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEM_UD_AU_00_99_HT_7DOAN.twx DEM_UD_AU_00_99_HT_7DOAN.ncd -o DEM_UD_AU_00_99_HT_7DOAN.twr DEM_UD_AU_00_99_HT_7DOAN.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DEM_UD_AU_00_99_HT_7DOAN.ut DEM_UD_AU_00_99_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 DEM_UD_AU_00_99_HT_7DOAN.ngc DEM_UD_AU_00_99_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DEM_UD_AU_00_99_HT_7DOAN_map.ncd DEM_UD_AU_00_99_HT_7DOAN.ngd DEM_UD_AU_00_99_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DEM_UD_AU_00_99_HT_7DOAN_map.ncd DEM_UD_AU_00_99_HT_7DOAN.ncd DEM_UD_AU_00_99_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEM_UD_AU_00_99_HT_7DOAN.twx DEM_UD_AU_00_99_HT_7DOAN.ncd -o DEM_UD_AU_00_99_HT_7DOAN.twr DEM_UD_AU_00_99_HT_7DOAN.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DEM_UD_AU_00_99_HT_7DOAN.ut DEM_UD_AU_00_99_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 DEM_UD_AU_00_99_HT_7DOAN.ngc DEM_UD_AU_00_99_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DEM_UD_AU_00_99_HT_7DOAN_map.ncd DEM_UD_AU_00_99_HT_7DOAN.ngd DEM_UD_AU_00_99_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DEM_UD_AU_00_99_HT_7DOAN_map.ncd DEM_UD_AU_00_99_HT_7DOAN.ncd DEM_UD_AU_00_99_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEM_UD_AU_00_99_HT_7DOAN.twx DEM_UD_AU_00_99_HT_7DOAN.ncd -o DEM_UD_AU_00_99_HT_7DOAN.twr DEM_UD_AU_00_99_HT_7DOAN.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DEM_UD_AU_00_99_HT_7DOAN.ut DEM_UD_AU_00_99_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.xst" -ofn "C:/.Xilinx/BAI_518_DEM_UD_AU_00_99_HT_7DOAN/DEM_UD_AU_00_99_HT_7DOAN.syr" 

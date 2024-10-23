@@ -1,0 +1,8 @@
+EN chia_ena5hz NULL /home/ise/BT_ISE_XILINX/bai_425_dem_nhi_phan_8bit_ssud_auto/chia_ena5hz.vhd sub00/vhpl03 1677397695
+AR dem_nhi_phan_8bit_ssud_auto behavioral /home/ise/BT_ISE_XILINX/bai_425_dem_nhi_phan_8bit_ssud_auto/dem_nhi_phan_8bit_ssud_auto.vhd sub00/vhpl07 1677397702
+AR chia_ena5hz behavioral /home/ise/BT_ISE_XILINX/bai_425_dem_nhi_phan_8bit_ssud_auto/chia_ena5hz.vhd sub00/vhpl04 1677397696
+AR auto_dao_ena_ud behavioral /home/ise/BT_ISE_XILINX/bai_425_dem_nhi_phan_8bit_ssud_auto/auto_dao_ena_ud.vhd sub00/vhpl05 1677397700
+EN dem_nhi_phan_8bit_ssud_auto NULL /home/ise/BT_ISE_XILINX/bai_425_dem_nhi_phan_8bit_ssud_auto/dem_nhi_phan_8bit_ssud_auto.vhd sub00/vhpl06 1677397701
+AR dem_8bit behavioral /home/ise/BT_ISE_XILINX/bai_425_dem_nhi_phan_8bit_ssud_auto/dem_8bit.vhd sub00/vhpl02 1677397698
+EN auto_dao_ena_ud NULL /home/ise/BT_ISE_XILINX/bai_425_dem_nhi_phan_8bit_ssud_auto/auto_dao_ena_ud.vhd sub00/vhpl00 1677397699
+EN dem_8bit NULL /home/ise/BT_ISE_XILINX/bai_425_dem_nhi_phan_8bit_ssud_auto/dem_8bit.vhd sub00/vhpl01 1677397697

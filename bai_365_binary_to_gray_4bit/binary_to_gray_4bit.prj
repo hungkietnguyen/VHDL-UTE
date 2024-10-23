@@ -1,0 +1,2 @@
+vhdl work "binary_gray_4bit.vhd"
+vhdl work "binary_to_gray_4bit.vhd"

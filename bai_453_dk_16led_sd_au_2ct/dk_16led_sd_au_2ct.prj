@@ -1,0 +1,5 @@
+vhdl work "sd_tsp.vhd"
+vhdl work "sd_pst.vhd"
+vhdl work "dieukhien_chophep.vhd"
+vhdl work "chia_10ena.vhd"
+vhdl work "dk_16led_sd_au_2ct.vhd"

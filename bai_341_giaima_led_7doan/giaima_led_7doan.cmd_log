@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_341_giaima_led_7doan/giaima_led_7doan.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_341_giaima_led_7doan/giaima_led_7doan.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_341_giaima_led_7doan/giaima_led_7doan.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_341_giaima_led_7doan/giaima_led_7doan.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "KIT_XC3S500E_PQ208 .ucf" -p xc3s500e-pq208-5 giaima_led_7doan.ngc giaima_led_7doan.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o giaima_led_7doan_map.ncd giaima_led_7doan.ngd giaima_led_7doan.pcf 
+par -w -intstyle ise -ol high -t 1 giaima_led_7doan_map.ncd giaima_led_7doan.ncd giaima_led_7doan.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml giaima_led_7doan.twx giaima_led_7doan.ncd -o giaima_led_7doan.twr giaima_led_7doan.pcf -ucf {KIT_XC3S500E_PQ208 .ucf} 
+bitgen -intstyle ise -f giaima_led_7doan.ut giaima_led_7doan.ncd 

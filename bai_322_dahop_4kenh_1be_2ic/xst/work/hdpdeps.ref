@@ -1,0 +1,23 @@
+V3 11
+FL /home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.vhd 2023/02/13.01:20:20 P.20131013
+EN work/dahop_4kenh_1be_2ic 1676251219 \
+      FL /home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dahop_4kenh_1be_2ic/Behavioral 1676251220 \
+      FL /home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_2ic.vhd \
+      EN work/dahop_4kenh_1be_2ic 1676251219 CP work/dahop_4kenh_1be_if \
+      CP work/dahop_4kenh_1be_case
+FL /home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_case.vhd 2023/02/13.01:20:20 P.20131013
+EN work/dahop_4kenh_1be_case 1676251251 \
+      FL /home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_case.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dahop_4kenh_1be_case/Behavioral 1676251252 \
+      FL /home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_case.vhd \
+      EN work/dahop_4kenh_1be_case 1676251251
+FL /home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_if.vhd 2023/02/11.09:17:54 P.20131013
+EN work/dahop_4kenh_1be_if 1676251215 \
+      FL /home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_if.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dahop_4kenh_1be_if/Behavioral 1676251216 \
+      FL /home/ise/BT_ISE_XILINX/bai_322_dahop_4kenh_1be_2ic/dahop_4kenh_1be_if.vhd \
+      EN work/dahop_4kenh_1be_if 1676251215

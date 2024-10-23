@@ -1,0 +1,44 @@
+V3 23
+FL /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/bounce_btn.vhd 2023/03/07.02:59:37 P.20131013
+EN work/bounce_btn 1678159024 \
+      FL /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/bounce_btn.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/bounce_btn/Behavioral 1678159025 \
+      FL /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/bounce_btn.vhd \
+      EN work/bounce_btn 1678159024
+FL /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/cd_lam_hep_btn.vhd 2023/03/07.03:14:19 P.20131013
+EN work/cd_lam_hep_btn 1678159028 \
+      FL /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/cd_lam_hep_btn.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/cd_lam_hep_btn/Behavioral 1678159029 \
+      FL /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/cd_lam_hep_btn.vhd \
+      EN work/cd_lam_hep_btn 1678159028 CP work/bounce_btn CP work/lam_hep_xung
+FL /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/dem_1bit.vhd 2023/03/07.02:56:46 P.20131013
+EN work/dem_1bit 1678159030 \
+      FL /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/dem_1bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dem_1bit/Behavioral 1678159031 \
+      FL /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/dem_1bit.vhd \
+      EN work/dem_1bit 1678159030
+FL /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/dem_1bit_btn.vhd 2023/03/07.03:14:54 P.20131013
+EN work/dem_1bit_btn 1678159032 \
+      FL /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/dem_1bit_btn.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dem_1bit_btn/Behavioral 1678159033 \
+      FL /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/dem_1bit_btn.vhd \
+      EN work/dem_1bit_btn 1678159032 CP work/cd_lam_hep_btn CP work/dem_1bit
+FL /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/dem_1bit_btn_cach_3.vhd 2023/03/07.03:17:03 P.20131013
+EN work/dem_1bit_btn_cach_3 1678159034 \
+      FL /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/dem_1bit_btn_cach_3.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dem_1bit_btn_cach_3/Behavioral 1678159035 \
+      FL /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/dem_1bit_btn_cach_3.vhd \
+      EN work/dem_1bit_btn_cach_3 1678159034 CP work/dem_1bit_btn
+FL /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/lam_hep_xung.vhd 2023/03/07.02:55:54 P.20131013
+EN work/lam_hep_xung 1678159026 \
+      FL /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/lam_hep_xung.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/lam_hep_xung/Behavioral 1678159027 \
+      FL /home/ise/BT_ISE_XILINX/bai_435_dem_1bit_cach_3/lam_hep_xung.vhd \
+      EN work/lam_hep_xung 1678159026

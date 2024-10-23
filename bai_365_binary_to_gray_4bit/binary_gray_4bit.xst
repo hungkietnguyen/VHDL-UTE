@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/BT_ISE_XILINX/bai_365_binary_to_gray_4bit/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/BT_ISE_XILINX/bai_365_binary_to_gray_4bit/xst"
+elaborate
+-ifn binary_gray_4bit.prj
+-ifmt mixed

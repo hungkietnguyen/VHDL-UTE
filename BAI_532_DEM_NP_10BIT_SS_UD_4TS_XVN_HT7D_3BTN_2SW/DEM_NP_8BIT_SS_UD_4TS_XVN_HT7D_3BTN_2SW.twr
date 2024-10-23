@@ -1,0 +1,120 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 5 -n
+3 -fastpaths -xml DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW.twx
+DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW.ncd -o
+DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW.twr
+DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW.pcf -ucf KIT_XC3S500E_PQ208.ucf
+
+Design file:              DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW.ncd
+Physical constraint file: DEM_NP_8BIT_SS_UD_4TS_XVN_HT7D_3BTN_2SW.pcf
+Device,package,speed:     xc3s500e,pq208,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CKHT
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+BTN<0>      |    5.468(F)|   -1.035(F)|CKHT_BUFGP        |   0.000|
+BTN<1>      |    2.523(F)|    0.793(F)|CKHT_BUFGP        |   0.000|
+BTN<2>      |    1.961(F)|    0.684(F)|CKHT_BUFGP        |   0.000|
+SW<0>       |    5.555(F)|   -1.970(F)|CKHT_BUFGP        |   0.000|
+SW<1>       |    5.151(F)|   -1.650(F)|CKHT_BUFGP        |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock CKHT to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+CATHODE<0>  |    8.319(F)|CKHT_BUFGP        |   0.000|
+CATHODE<1>  |    8.004(F)|CKHT_BUFGP        |   0.000|
+CATHODE<2>  |    8.373(F)|CKHT_BUFGP        |   0.000|
+CATHODE<3>  |    8.953(F)|CKHT_BUFGP        |   0.000|
+CATHODE<4>  |    8.456(F)|CKHT_BUFGP        |   0.000|
+CATHODE<5>  |    9.097(F)|CKHT_BUFGP        |   0.000|
+CATHODE<6>  |    8.524(F)|CKHT_BUFGP        |   0.000|
+CATHODE<7>  |    9.503(F)|CKHT_BUFGP        |   0.000|
+LED<0>      |    7.478(F)|CKHT_BUFGP        |   0.000|
+LED<1>      |    7.914(F)|CKHT_BUFGP        |   0.000|
+SSEG<0>     |   27.866(F)|CKHT_BUFGP        |   0.000|
+SSEG<1>     |   28.298(F)|CKHT_BUFGP        |   0.000|
+SSEG<2>     |   28.300(F)|CKHT_BUFGP        |   0.000|
+SSEG<3>     |   27.726(F)|CKHT_BUFGP        |   0.000|
+SSEG<4>     |   28.306(F)|CKHT_BUFGP        |   0.000|
+SSEG<5>     |   28.798(F)|CKHT_BUFGP        |   0.000|
+SSEG<6>     |   28.553(F)|CKHT_BUFGP        |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CKHT
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CKHT           |         |         |         |    8.303|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+SW<0>          |SSEG<0>        |   10.289|
+SW<0>          |SSEG<1>        |   10.636|
+SW<0>          |SSEG<2>        |   10.638|
+SW<0>          |SSEG<3>        |   10.064|
+SW<0>          |SSEG<4>        |   10.688|
+SW<0>          |SSEG<5>        |   11.136|
+SW<0>          |SSEG<6>        |   10.891|
+SW<1>          |SSEG<0>        |   10.170|
+SW<1>          |SSEG<1>        |   10.576|
+SW<1>          |SSEG<2>        |   10.578|
+SW<1>          |SSEG<3>        |   10.004|
+SW<1>          |SSEG<4>        |   10.584|
+SW<1>          |SSEG<5>        |   11.076|
+SW<1>          |SSEG<6>        |   10.831|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Apr 17 04:57:32 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 351 MB
+
+
+

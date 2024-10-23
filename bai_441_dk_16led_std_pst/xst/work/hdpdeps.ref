@@ -1,0 +1,22 @@
+V3 11
+FL /home/ise/BT_ISE_XILINX/bai_441_dk_16led_std_pst/chia_10ena.vhd 2023/03/13.03:19:18 P.20131013
+EN work/chia_10ena 1678678186 \
+      FL /home/ise/BT_ISE_XILINX/bai_441_dk_16led_std_pst/chia_10ena.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/chia_10ena/Behavioral 1678678187 \
+      FL /home/ise/BT_ISE_XILINX/bai_441_dk_16led_std_pst/chia_10ena.vhd \
+      EN work/chia_10ena 1678678186
+FL /home/ise/BT_ISE_XILINX/bai_441_dk_16led_std_pst/dk_16led_std_pst.vhd 2023/03/13.03:26:39 P.20131013
+EN work/dk_16led_std_pst 1678678190 \
+      FL /home/ise/BT_ISE_XILINX/bai_441_dk_16led_std_pst/dk_16led_std_pst.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dk_16led_std_pst/Behavioral 1678678191 \
+      FL /home/ise/BT_ISE_XILINX/bai_441_dk_16led_std_pst/dk_16led_std_pst.vhd \
+      EN work/dk_16led_std_pst 1678678190 CP work/chia_10ena CP work/js_pst
+FL /home/ise/BT_ISE_XILINX/bai_441_dk_16led_std_pst/js_pst.vhd 2023/03/13.03:29:41 P.20131013
+EN work/js_pst 1678678188 \
+      FL /home/ise/BT_ISE_XILINX/bai_441_dk_16led_std_pst/js_pst.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/js_pst/Behavioral 1678678189 \
+      FL /home/ise/BT_ISE_XILINX/bai_441_dk_16led_std_pst/js_pst.vhd \
+      EN work/js_pst 1678678188

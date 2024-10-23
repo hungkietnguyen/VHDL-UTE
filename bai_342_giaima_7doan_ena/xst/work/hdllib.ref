@@ -1,0 +1,4 @@
+EN giaima_led_7doan_ena NULL /home/ise/BT_ISE_XILINX/bai_342_giaima_7doan_ena/giaima_led_7doan_ena.vhd sub00/vhpl02 1676257125
+AR giaima_led_7doan_ena behavioral /home/ise/BT_ISE_XILINX/bai_342_giaima_7doan_ena/giaima_led_7doan_ena.vhd sub00/vhpl03 1676257126
+AR giaima_7doan_ena behavioral /home/ise/BT_ISE_XILINX/bai_342_giaima_7doan_ena/giaima_7doan_ena.vhd sub00/vhpl01 1676257124
+EN giaima_7doan_ena NULL /home/ise/BT_ISE_XILINX/bai_342_giaima_7doan_ena/giaima_7doan_ena.vhd sub00/vhpl00 1676257123

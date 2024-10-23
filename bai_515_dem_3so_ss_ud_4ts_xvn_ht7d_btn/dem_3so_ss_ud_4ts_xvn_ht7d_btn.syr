@@ -1,0 +1,708 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Reading design: dem_3so_ss_ud_4ts_xvn_ht7d_btn.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "dem_3so_ss_ud_4ts_xvn_ht7d_btn.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "dem_3so_ss_ud_4ts_xvn_ht7d_btn"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-pq208
+
+---- Source Options
+Top Module Name                    : dem_3so_ss_ud_4ts_xvn_ht7d_btn
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/bounce_btn.vhd" in Library work.
+Entity <bounce_btn> compiled.
+Entity <bounce_btn> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/lam_hep_xung.vhd" in Library work.
+Entity <lam_hep_xung> compiled.
+Entity <lam_hep_xung> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/cd_lam_hep_btn.vhd" in Library work.
+Entity <cd_lam_hep_btn> compiled.
+Entity <cd_lam_hep_btn> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/dem_1bit.vhd" in Library work.
+Entity <dem_1bit> compiled.
+Entity <dem_1bit> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/dem_3bit.vhd" in Library work.
+Architecture behavioral of Entity dem_3bit is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/giaima_38h.vhd" in Library work.
+Architecture behavioral of Entity giaima_38h is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/dahop_8kenh.vhd" in Library work.
+Architecture behavioral of Entity dahop_8kenh is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/giaima_7doan_ena.vhd" in Library work.
+Architecture behavioral of Entity giaima_7doan_ena is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/xoa_so_0_vn.vhd" in Library work.
+Architecture behavioral of Entity xoa_so_0_vn is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/ht_4tanso.vhd" in Library work.
+Architecture behavioral of Entity ht_4tanso is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/chia_10ena.vhd" in Library work.
+Architecture behavioral of Entity chia_10ena is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/dem_3so_ssud.vhd" in Library work.
+Architecture behavioral of Entity dem_3so_ssud is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/gm_ht_8led.vhd" in Library work.
+Architecture behavioral of Entity gm_ht_8led is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/dem_1bit_btn.vhd" in Library work.
+Architecture behavioral of Entity dem_1bit_btn is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/dem_3so_ss_ud_4ts_xvn_ht7d_btn.vhd" in Library work.
+Entity <dem_3so_ss_ud_4ts_xvn_ht7d_btn> compiled.
+Entity <dem_3so_ss_ud_4ts_xvn_ht7d_btn> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <dem_3so_ss_ud_4ts_xvn_ht7d_btn> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <xoa_so_0_vn> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <ht_4tanso> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <chia_10ena> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <dem_3so_ssud> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <gm_ht_8led> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <dem_1bit_btn> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <dem_3bit> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <giaima_38h> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <dahop_8kenh> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <giaima_7doan_ena> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <cd_lam_hep_btn> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <dem_1bit> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <bounce_btn> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <lam_hep_xung> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <dem_3so_ss_ud_4ts_xvn_ht7d_btn> in library <work> (Architecture <behavioral>).
+Entity <dem_3so_ss_ud_4ts_xvn_ht7d_btn> analyzed. Unit <dem_3so_ss_ud_4ts_xvn_ht7d_btn> generated.
+
+Analyzing Entity <xoa_so_0_vn> in library <work> (Architecture <Behavioral>).
+Entity <xoa_so_0_vn> analyzed. Unit <xoa_so_0_vn> generated.
+
+Analyzing Entity <ht_4tanso> in library <work> (Architecture <Behavioral>).
+Entity <ht_4tanso> analyzed. Unit <ht_4tanso> generated.
+
+Analyzing Entity <chia_10ena> in library <work> (Architecture <Behavioral>).
+Entity <chia_10ena> analyzed. Unit <chia_10ena> generated.
+
+Analyzing Entity <dem_3so_ssud> in library <work> (Architecture <Behavioral>).
+Entity <dem_3so_ssud> analyzed. Unit <dem_3so_ssud> generated.
+
+Analyzing Entity <gm_ht_8led> in library <work> (Architecture <Behavioral>).
+Entity <gm_ht_8led> analyzed. Unit <gm_ht_8led> generated.
+
+Analyzing Entity <dem_3bit> in library <work> (Architecture <Behavioral>).
+Entity <dem_3bit> analyzed. Unit <dem_3bit> generated.
+
+Analyzing Entity <giaima_38h> in library <work> (Architecture <Behavioral>).
+Entity <giaima_38h> analyzed. Unit <giaima_38h> generated.
+
+Analyzing Entity <dahop_8kenh> in library <work> (Architecture <Behavioral>).
+Entity <dahop_8kenh> analyzed. Unit <dahop_8kenh> generated.
+
+Analyzing Entity <giaima_7doan_ena> in library <work> (Architecture <Behavioral>).
+Entity <giaima_7doan_ena> analyzed. Unit <giaima_7doan_ena> generated.
+
+Analyzing Entity <dem_1bit_btn> in library <work> (Architecture <Behavioral>).
+Entity <dem_1bit_btn> analyzed. Unit <dem_1bit_btn> generated.
+
+Analyzing Entity <cd_lam_hep_btn> in library <work> (Architecture <Behavioral>).
+Entity <cd_lam_hep_btn> analyzed. Unit <cd_lam_hep_btn> generated.
+
+Analyzing Entity <bounce_btn> in library <work> (Architecture <Behavioral>).
+Entity <bounce_btn> analyzed. Unit <bounce_btn> generated.
+
+Analyzing Entity <lam_hep_xung> in library <work> (Architecture <Behavioral>).
+Entity <lam_hep_xung> analyzed. Unit <lam_hep_xung> generated.
+
+Analyzing Entity <dem_1bit> in library <work> (Architecture <Behavioral>).
+Entity <dem_1bit> analyzed. Unit <dem_1bit> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <xoa_so_0_vn>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/xoa_so_0_vn.vhd".
+Unit <xoa_so_0_vn> synthesized.
+
+
+Synthesizing Unit <ht_4tanso>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/ht_4tanso.vhd".
+    Found 4x4-bit ROM for signal <ch_ts>.
+    Found 1-bit 4-to-1 multiplexer for signal <ena_db>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Multiplexer(s).
+Unit <ht_4tanso> synthesized.
+
+
+Synthesizing Unit <chia_10ena>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/chia_10ena.vhd".
+    Found 23-bit adder for signal <d10hz_n$addsub0000> created at line 64.
+    Found 23-bit register for signal <d10hz_r>.
+    Found 26-bit adder for signal <d1hz_n$addsub0000> created at line 60.
+    Found 26-bit register for signal <d1hz_r>.
+    Found 16-bit adder for signal <d1khz_n$addsub0000> created at line 68.
+    Found 16-bit register for signal <d1khz_r>.
+    Found 22-bit adder for signal <d20hz_n$addsub0000> created at line 66.
+    Found 22-bit register for signal <d20hz_r>.
+    Found 24-bit adder for signal <d5hz_n$addsub0000> created at line 62.
+    Found 24-bit register for signal <d5hz_r>.
+    Summary:
+	inferred 111 D-type flip-flop(s).
+	inferred   5 Adder/Subtractor(s).
+Unit <chia_10ena> synthesized.
+
+
+Synthesizing Unit <dem_3so_ssud>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/dem_3so_ssud.vhd".
+    Found 4-bit register for signal <chuc_r>.
+    Found 4-bit addsub for signal <chuc_r$addsub0000>.
+    Found 4-bit up counter for signal <donvi_r>.
+    Found 4-bit subtractor for signal <donvi_r$addsub0000> created at line 97.
+    Found 4-bit updown counter for signal <tram_r>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   2 Adder/Subtractor(s).
+Unit <dem_3so_ssud> synthesized.
+
+
+Synthesizing Unit <dem_3bit>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/dem_3bit.vhd".
+    Found 3-bit up counter for signal <q_r>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <dem_3bit> synthesized.
+
+
+Synthesizing Unit <giaima_38h>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/giaima_38h.vhd".
+    Found 1-of-8 decoder for signal <o>.
+    Summary:
+	inferred   1 Decoder(s).
+Unit <giaima_38h> synthesized.
+
+
+Synthesizing Unit <dahop_8kenh>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/dahop_8kenh.vhd".
+    Found 4-bit 8-to-1 multiplexer for signal <o>.
+    Found 1-bit 8-to-1 multiplexer for signal <ena1>.
+    Summary:
+	inferred   5 Multiplexer(s).
+Unit <dahop_8kenh> synthesized.
+
+
+Synthesizing Unit <giaima_7doan_ena>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/giaima_7doan_ena.vhd".
+Unit <giaima_7doan_ena> synthesized.
+
+
+Synthesizing Unit <dem_1bit>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/dem_1bit.vhd".
+    Found 1-bit register for signal <q_r>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <dem_1bit> synthesized.
+
+
+Synthesizing Unit <bounce_btn>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/bounce_btn.vhd".
+    Found finite state machine <FSM_0> for signal <db_r>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 5                                              |
+    | Clock              | ckht                      (falling_edge)       |
+    | Power Up State     | zero                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 20-bit register for signal <dl_r>.
+    Found 20-bit subtractor for signal <dl_r$addsub0000>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <bounce_btn> synthesized.
+
+
+Synthesizing Unit <lam_hep_xung>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/lam_hep_xung.vhd".
+    Found 1-bit register for signal <qff>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <lam_hep_xung> synthesized.
+
+
+Synthesizing Unit <gm_ht_8led>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/gm_ht_8led.vhd".
+Unit <gm_ht_8led> synthesized.
+
+
+Synthesizing Unit <cd_lam_hep_btn>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/cd_lam_hep_btn.vhd".
+Unit <cd_lam_hep_btn> synthesized.
+
+
+Synthesizing Unit <dem_1bit_btn>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/dem_1bit_btn.vhd".
+Unit <dem_1bit_btn> synthesized.
+
+
+Synthesizing Unit <dem_3so_ss_ud_4ts_xvn_ht7d_btn>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_515_dem_3so_ss_ud_4ts_xvn_ht7d_btn/dem_3so_ss_ud_4ts_xvn_ht7d_btn.vhd".
+Unit <dem_3so_ss_ud_4ts_xvn_ht7d_btn> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 4x4-bit ROM                                           : 1
+# Adders/Subtractors                                   : 9
+ 16-bit adder                                          : 1
+ 20-bit subtractor                                     : 2
+ 22-bit adder                                          : 1
+ 23-bit adder                                          : 1
+ 24-bit adder                                          : 1
+ 26-bit adder                                          : 1
+ 4-bit addsub                                          : 1
+ 4-bit subtractor                                      : 1
+# Counters                                             : 3
+ 3-bit up counter                                      : 1
+ 4-bit up counter                                      : 1
+ 4-bit updown counter                                  : 1
+# Registers                                            : 12
+ 1-bit register                                        : 4
+ 16-bit register                                       : 1
+ 20-bit register                                       : 2
+ 22-bit register                                       : 1
+ 23-bit register                                       : 1
+ 24-bit register                                       : 1
+ 26-bit register                                       : 1
+ 4-bit register                                        : 1
+# Multiplexers                                         : 3
+ 1-bit 4-to-1 multiplexer                              : 1
+ 1-bit 8-to-1 multiplexer                              : 1
+ 4-bit 8-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-8 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <IC6/IC1/K1/db_r/FSM> on signal <db_r[1:2]> with sequential encoding.
+Optimizing FSM <IC7/IC1/K1/db_r/FSM> on signal <db_r[1:2]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ zero  | 00
+ wait0 | 11
+ one   | 10
+ wait1 | 01
+-------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 1
+ 4x4-bit ROM                                           : 1
+# Adders/Subtractors                                   : 9
+ 16-bit adder                                          : 1
+ 20-bit subtractor                                     : 2
+ 22-bit adder                                          : 1
+ 23-bit adder                                          : 1
+ 24-bit adder                                          : 1
+ 26-bit adder                                          : 1
+ 4-bit addsub                                          : 1
+ 4-bit subtractor                                      : 1
+# Counters                                             : 3
+ 3-bit up counter                                      : 1
+ 4-bit up counter                                      : 1
+ 4-bit updown counter                                  : 1
+# Registers                                            : 155
+ Flip-Flops                                            : 155
+# Multiplexers                                         : 3
+ 1-bit 4-to-1 multiplexer                              : 1
+ 1-bit 8-to-1 multiplexer                              : 1
+ 4-bit 8-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-8 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <dem_3so_ss_ud_4ts_xvn_ht7d_btn> ...
+
+Optimizing unit <chia_10ena> ...
+
+Optimizing unit <bounce_btn> ...
+
+Optimizing unit <dem_3so_ssud> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block dem_3so_ss_ud_4ts_xvn_ht7d_btn, actual ratio is 4.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 174
+ Flip-Flops                                            : 174
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : dem_3so_ss_ud_4ts_xvn_ht7d_btn.ngr
+Top Level Output File Name         : dem_3so_ss_ud_4ts_xvn_ht7d_btn
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 24
+
+Cell Usage :
+# BELS                             : 643
+#      GND                         : 1
+#      INV                         : 48
+#      LUT1                        : 108
+#      LUT2                        : 20
+#      LUT3                        : 24
+#      LUT3_L                      : 2
+#      LUT4                        : 107
+#      LUT4_D                      : 6
+#      LUT4_L                      : 12
+#      MUXCY                       : 154
+#      MUXF5                       : 9
+#      VCC                         : 1
+#      XORCY                       : 151
+# FlipFlops/Latches                : 174
+#      FD_1                        : 4
+#      FDCE_1                      : 2
+#      FDCPE                       : 12
+#      FDE                         : 3
+#      FDR_1                       : 111
+#      FDSE_1                      : 42
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 23
+#      IBUF                        : 5
+#      OBUF                        : 18
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500epq208-5 
+
+ Number of Slices:                      170  out of   4656     3%  
+ Number of Slice Flip Flops:            174  out of   9312     1%  
+ Number of 4 input LUTs:                327  out of   9312     3%  
+ Number of IOs:                          24
+ Number of bonded IOBs:                  24  out of    158    15%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+ckht                               | BUFGP                  | 174   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+---------------------------------------------------+------------------------+-------+
+Control Signal                                     | Buffer(FF name)        | Load  |
+---------------------------------------------------+------------------------+-------+
+btn<0>                                             | IBUF                   | 8     |
+IC2/Mrom_ch_ts2(XST_GND:G)                         | NONE(IC4/chuc_r_1)     | 6     |
+IC4/chuc_r_0__and0001(IC4/chuc_r_0__and000111:O)   | NONE(IC4/chuc_r_0)     | 6     |
+IC4/chuc_r_0__and0002(IC4/donvi_r_Q_mux0000<3>11:O)| NONE(IC4/chuc_r_0)     | 6     |
+---------------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 8.718ns (Maximum Frequency: 114.707MHz)
+   Minimum input arrival time before clock: 7.013ns
+   Maximum output required time after clock: 9.672ns
+   Maximum combinational path delay: 8.533ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ckht'
+  Clock period: 8.718ns (frequency: 114.707MHz)
+  Total number of paths / destination ports: 9582 / 384
+-------------------------------------------------------------------------
+Delay:               8.718ns (Levels of Logic = 8)
+  Source:            IC3/d10hz_r_21 (FF)
+  Destination:       IC4/tram_r_3 (FF)
+  Source Clock:      ckht falling
+  Destination Clock: ckht falling
+
+  Data Path: IC3/d10hz_r_21 to IC4/tram_r_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR_1:C->Q            3   0.514   0.603  IC3/d10hz_r_21 (IC3/d10hz_r_21)
+     LUT4:I0->O            1   0.612   0.426  IC3/ena10hz_cmp_eq000021 (IC3/ena10hz_cmp_eq000021)
+     LUT3:I1->O            1   0.612   0.360  IC3/ena10hz_cmp_eq000063_SW0 (N52)
+     LUT4:I3->O            1   0.612   0.000  IC2/Mmux_ena_db_3_F (N118)
+     MUXF5:I0->O           1   0.278   0.360  IC2/Mmux_ena_db_3 (IC2/Mmux_ena_db_3)
+     LUT4:I3->O           24   0.612   1.067  IC4/ena1 (IC4/ena)
+     LUT4:I3->O            3   0.612   0.454  IC4/chuc_r_and0006 (IC4/chuc_r_and0006)
+     LUT4_L:I3->LO         1   0.612   0.103  IC4/tram_r_3__and0000_SW0 (N92)
+     LUT4:I3->O            1   0.612   0.000  IC4/tram_r_3__and0000 (IC4/tram_r_3__and0000)
+     FDCPE:D                   0.268          IC4/tram_r_3
+    ----------------------------------------
+    Total                      8.718ns (5.344ns logic, 3.374ns route)
+                                       (61.3% logic, 38.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'ckht'
+  Total number of paths / destination ports: 205 / 68
+-------------------------------------------------------------------------
+Offset:              7.013ns (Levels of Logic = 6)
+  Source:            sw<0> (PAD)
+  Destination:       IC4/tram_r_3 (FF)
+  Destination Clock: ckht falling
+
+  Data Path: sw<0> to IC4/tram_r_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   1.106   0.538  sw_0_IBUF (sw_0_IBUF)
+     MUXF5:S->O            1   0.641   0.387  IC2/Mmux_ena_db_4 (IC2/Mmux_ena_db_4)
+     LUT4:I2->O           24   0.612   1.067  IC4/ena1 (IC4/ena)
+     LUT4:I3->O            3   0.612   0.454  IC4/chuc_r_and0006 (IC4/chuc_r_and0006)
+     LUT4_L:I3->LO         1   0.612   0.103  IC4/tram_r_3__and0000_SW0 (N92)
+     LUT4:I3->O            1   0.612   0.000  IC4/tram_r_3__and0000 (IC4/tram_r_3__and0000)
+     FDCPE:D                   0.268          IC4/tram_r_3
+    ----------------------------------------
+    Total                      7.013ns (4.463ns logic, 2.550ns route)
+                                       (63.6% logic, 36.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'ckht'
+  Total number of paths / destination ports: 348 / 17
+-------------------------------------------------------------------------
+Offset:              9.672ns (Levels of Logic = 7)
+  Source:            IC5/K1/q_r_0 (FF)
+  Destination:       sseg<0> (PAD)
+  Source Clock:      ckht falling
+
+  Data Path: IC5/K1/q_r_0 to sseg<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             23   0.514   1.174  IC5/K1/q_r_0 (IC5/K1/q_r_0)
+     LUT3:I0->O            1   0.612   0.000  IC5/K3/Mmux_o_72 (IC5/K3/Mmux_o_72)
+     MUXF5:I0->O           1   0.278   0.357  IC5/K3/Mmux_o_5_f5_1 (IC5/K3/Mmux_o_5_f52)
+     INV:I->O              1   0.612   0.000  IC5/s3b<2>22_INV_0 (IC5/s3b<2>21)
+     MUXF5:I0->O           7   0.278   0.671  IC5/s3b<2>2_f5 (IC5/so_gma<2>)
+     LUT4:I1->O            1   0.612   0.426  IC5/K4/ss<0>_SW1 (N130)
+     LUT4:I1->O            1   0.612   0.357  IC5/K4/ss<0> (sseg_0_OBUF)
+     OBUF:I->O                 3.169          sseg_0_OBUF (sseg<0>)
+    ----------------------------------------
+    Total                      9.672ns (6.687ns logic, 2.985ns route)
+                                       (69.1% logic, 30.9% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 42 / 7
+-------------------------------------------------------------------------
+Delay:               8.533ns (Levels of Logic = 6)
+  Source:            sw<0> (PAD)
+  Destination:       sseg<0> (PAD)
+
+  Data Path: sw<0> to sseg<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   1.106   0.690  sw_0_IBUF (sw_0_IBUF)
+     LUT4:I0->O            1   0.612   0.000  IC5/s3b<2>21 (IC5/s3b<2>2)
+     MUXF5:I1->O           7   0.278   0.671  IC5/s3b<2>2_f5 (IC5/so_gma<2>)
+     LUT4:I1->O            1   0.612   0.426  IC5/K4/ss<0>_SW1 (N130)
+     LUT4:I1->O            1   0.612   0.357  IC5/K4/ss<0> (sseg_0_OBUF)
+     OBUF:I->O                 3.169          sseg_0_OBUF (sseg<0>)
+    ----------------------------------------
+    Total                      8.533ns (6.389ns logic, 2.144ns route)
+                                       (74.9% logic, 25.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 5.90 secs
+ 
+--> 
+
+
+Total memory usage is 624156 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

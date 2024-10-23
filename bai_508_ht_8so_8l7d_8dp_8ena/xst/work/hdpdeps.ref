@@ -1,0 +1,54 @@
+V3 27
+FL /home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/chia_10ena.vhd 2023/04/07.02:09:41 P.20131013
+EN work/chia_10ena 1680833806 \
+      FL /home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/chia_10ena.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/chia_10ena/Behavioral 1680833807 \
+      FL /home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/chia_10ena.vhd \
+      EN work/chia_10ena 1680833806
+FL /home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/dahop_8kenh.vhd 2023/04/07.02:08:18 P.20131013
+EN work/dahop_8kenh 1680833802 \
+      FL /home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/dahop_8kenh.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dahop_8kenh/Behavioral 1680833803 \
+      FL /home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/dahop_8kenh.vhd \
+      EN work/dahop_8kenh 1680833802
+FL /home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/dem_3bit.vhd 2023/04/07.02:08:54 P.20131013
+EN work/dem_3bit 1680833798 \
+      FL /home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/dem_3bit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/dem_3bit/Behavioral 1680833799 \
+      FL /home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/dem_3bit.vhd \
+      EN work/dem_3bit 1680833798
+FL /home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/giaima_38h.vhd 2023/04/07.02:05:54 P.20131013
+EN work/giaima_38h 1680833800 \
+      FL /home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/giaima_38h.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/giaima_38h/Behavioral 1680833801 \
+      FL /home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/giaima_38h.vhd \
+      EN work/giaima_38h 1680833800
+FL /home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/giaima_7doan_ena.vhd 2023/04/07.02:06:04 P.20131013
+EN work/giaima_7doan_ena 1680833804 \
+      FL /home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/giaima_7doan_ena.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/giaima_7doan_ena/Behavioral 1680833805 \
+      FL /home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/giaima_7doan_ena.vhd \
+      EN work/giaima_7doan_ena 1680833804
+FL /home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/gm_ht_8led.vhd 2023/04/07.02:16:37 P.20131013
+EN work/gm_ht_8led 1680833808 \
+      FL /home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/gm_ht_8led.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/gm_ht_8led/Behavioral 1680833809 \
+      FL /home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/gm_ht_8led.vhd \
+      EN work/gm_ht_8led 1680833808 CP work/dem_3bit CP work/giaima_38h \
+      CP work/dahop_8kenh CP work/giaima_7doan_ena
+FL /home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/ht_8so_8l7d_8dp_8ena.vhd 2023/04/07.02:15:17 P.20131013
+EN work/ht_8so_8l7d_8dp_8ena 1680833810 \
+      FL /home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/ht_8so_8l7d_8dp_8ena.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ht_8so_8l7d_8dp_8ena/Behavioral 1680833811 \
+      FL /home/ise/BT_ISE_XILINX/bai_508_ht_8so_8l7d_8dp_8ena/ht_8so_8l7d_8dp_8ena.vhd \
+      EN work/ht_8so_8l7d_8dp_8ena 1680833810 CP work/chia_10ena \
+      CP work/gm_ht_8led

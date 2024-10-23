@@ -1,0 +1,153 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: BAI_543_DONG_HO_GPG_3KEY_NN.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "BAI_543_DONG_HO_GPG_3KEY_NN.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "BAI_543_DONG_HO_GPG_3KEY_NN"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-pq208
+
+---- Source Options
+Top Module Name                    : BAI_543_DONG_HO_GPG_3KEY_NN
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DEBOUNCE_BTN.vhd" in Library work.
+Architecture behavioral of Entity debounce_btn is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/LAM_HEP_XUNG.vhd" in Library work.
+Architecture behavioral of Entity lam_hep_xung is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/CD_LAM_HEP_BTN.vhd" in Library work.
+Architecture behavioral of Entity cd_lam_hep_btn is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_2BIT.vhd" in Library work.
+Architecture behavioral of Entity dem_2bit is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_2BIT_BTN.vhd" in Library work.
+Architecture behavioral of Entity dem_2bit_btn is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DAU_CHAM.vhd" in Library work.
+Architecture behavioral of Entity dau_cham is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_MOD_20_NN.vhd" in Library work.
+Architecture behavioral of Entity dem_mod_20_nn is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_3BIT.vhd" in Library work.
+Architecture behavioral of Entity dem_3bit is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DAHOP_8KENH.vhd" in Library work.
+Architecture behavioral of Entity dahop_8kenh is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/GIAIMA_38H.vhd" in Library work.
+Architecture behavioral of Entity giaima_38h is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/GIAIMA_7DOAN_ENA.vhd" in Library work.
+Architecture behavioral of Entity giaima_7doan_ena is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/HEXTOBCD_6BIT.vhd" in Library work.
+Architecture behavioral of Entity hextobcd_6bit is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/XULY_MOD_DC_NN.vhd" in Library work.
+Architecture behavioral of Entity xuly_mod_dc_nn is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_GPG_MUD.vhd" in Library work.
+Architecture behavioral of Entity dem_gpg_mud is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/CHIA_10ENA.vhd" in Library work.
+Architecture behavioral of Entity chia_10ena is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_GPG_3KEY_NN.vhd" in Library work.
+Architecture behavioral of Entity dem_gpg_3key_nn is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/HEXTOBCD_GPG.vhd" in Library work.
+Architecture behavioral of Entity hextobcd_gpg is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/GM_HT_8LED.vhd" in Library work.
+Architecture behavioral of Entity gm_ht_8led is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/BAI_543_DONG_HO_GPG_3KEY_NN.vhd" in Library work.
+Entity <DONG_HO_GPG_3KEY_NN> compiled.
+ERROR:HDLParsers:164 - "C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/BAI_543_DONG_HO_GPG_3KEY_NN.vhd" Line 40. parse error, unexpected INTEGER_LITERAL, expecting IDENTIFIER
+--> 
+
+Total memory usage is 4494772 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

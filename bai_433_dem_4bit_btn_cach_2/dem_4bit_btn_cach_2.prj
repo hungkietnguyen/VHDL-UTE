@@ -1,0 +1,5 @@
+vhdl work "lam_hep_xung.vhd"
+vhdl work "dem_4bit.vhd"
+vhdl work "debounce_btn.vhd"
+vhdl work "dem_4bit_btn.vhd"
+vhdl work "dem_4bit_btn_cach_2.vhd"

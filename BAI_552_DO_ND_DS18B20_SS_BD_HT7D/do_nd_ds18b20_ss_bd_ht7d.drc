@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Sat Apr 08 08:19:44 2023
+
+drc -z DO_ND_DS18B20_SS_BD_HT7D.ncd DO_ND_DS18B20_SS_BD_HT7D.pcf
+
+DRC detected 0 errors and 0 warnings.

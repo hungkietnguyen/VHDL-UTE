@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit_btn_cach_2.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit_btn_cach_2.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit_btn_cach_2.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit_btn_cach_2.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit_btn_cach_2.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit_btn_cach_2.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit_btn_cach_2.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit_btn_cach_2.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit_btn_cach_2.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit_btn_cach_2.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit_btn_cach_2.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit_btn_cach_2.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit_btn_cach_2.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit_btn_cach_2.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit_btn_cach_2.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit_btn_cach_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "KIT_XC3S500E_PQ208 .ucf" -p xc3s500e-pq208-5 dem_4bit_btn_cach_2.ngc dem_4bit_btn_cach_2.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o dem_4bit_btn_cach_2_map.ncd dem_4bit_btn_cach_2.ngd dem_4bit_btn_cach_2.pcf 
+par -w -intstyle ise -ol high -t 1 dem_4bit_btn_cach_2_map.ncd dem_4bit_btn_cach_2.ncd dem_4bit_btn_cach_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml dem_4bit_btn_cach_2.twx dem_4bit_btn_cach_2.ncd -o dem_4bit_btn_cach_2.twr dem_4bit_btn_cach_2.pcf -ucf {KIT_XC3S500E_PQ208 .ucf} 
+bitgen -intstyle ise -f dem_4bit_btn_cach_2.ut dem_4bit_btn_cach_2.ncd 

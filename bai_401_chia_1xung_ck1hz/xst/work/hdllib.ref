@@ -1,0 +1,4 @@
+AR chia_1xung_ck1hz behavioral /home/ise/BT_ISE_XILINX/bai_401_chia_1xung_ck1hz/chia_1xung_ck1hz.vhd sub00/vhpl03 1676533906
+EN chia_ck1hz NULL /home/ise/BT_ISE_XILINX/bai_401_chia_1xung_ck1hz/chia_ck1hz.vhd sub00/vhpl00 1676533903
+AR chia_ck1hz behavioral /home/ise/BT_ISE_XILINX/bai_401_chia_1xung_ck1hz/chia_ck1hz.vhd sub00/vhpl01 1676533904
+EN chia_1xung_ck1hz NULL /home/ise/BT_ISE_XILINX/bai_401_chia_1xung_ck1hz/chia_1xung_ck1hz.vhd sub00/vhpl02 1676533905

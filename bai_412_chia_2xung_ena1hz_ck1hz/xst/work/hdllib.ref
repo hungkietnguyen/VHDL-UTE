@@ -1,0 +1,4 @@
+EN chia_2xung_ena1hz_ckh1z NULL /home/ise/BT_ISE_XILINX/bai_412_chia_2xung_ena1hz_ck1hz/chia_2xung_ena1hz_ckh1z.vhd sub00/vhpl02 1676864030
+AR chia_ena1hz_ck1hz behavioral /home/ise/BT_ISE_XILINX/bai_412_chia_2xung_ena1hz_ck1hz/chia_ena1hz_ck1hz.vhd sub00/vhpl01 1676864029
+AR chia_2xung_ena1hz_ckh1z behavioral /home/ise/BT_ISE_XILINX/bai_412_chia_2xung_ena1hz_ck1hz/chia_2xung_ena1hz_ckh1z.vhd sub00/vhpl03 1676864031
+EN chia_ena1hz_ck1hz NULL /home/ise/BT_ISE_XILINX/bai_412_chia_2xung_ena1hz_ck1hz/chia_ena1hz_ck1hz.vhd sub00/vhpl00 1676864028

@@ -1,0 +1,3 @@
+vhdl work "dahop_4kenh_1bit_sel.vhd"
+vhdl work "dahop_4kenh_1bit_con.vhd"
+vhdl work "dahop_4kenh_1bit_2o.vhd"

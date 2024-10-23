@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/BT_ISE_XILINX/bai_343_giaima_7doan_ena_dp/giaima_led_7doan_ena_dp.ncd
+OUTFILE=/home/ise/BT_ISE_XILINX/bai_343_giaima_7doan_ena_dp/giaima_led_7doan_ena_dp.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5pq208
+WORKINGDIR=/home/ise/BT_ISE_XILINX/bai_343_giaima_7doan_ena_dp
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

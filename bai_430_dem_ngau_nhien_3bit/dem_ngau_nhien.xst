@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/BT_ISE_XILINX/bai_430_dem_ngau_nhien_3bit/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/BT_ISE_XILINX/bai_430_dem_ngau_nhien_3bit/xst"
+elaborate
+-ifn dem_ngau_nhien.prj
+-ifmt mixed

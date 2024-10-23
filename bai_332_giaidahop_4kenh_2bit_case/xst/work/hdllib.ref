@@ -1,0 +1,4 @@
+AR giaidahop_4kenh_2bit behavioral /home/ise/BT_ISE_XILINX/bai_332_giaidahop_4kenh_2bit_case/giaidahop_4kenh_2bit.vhd sub00/vhpl01 1676253939
+AR giaidahop_4kenh_2bit_case behavioral /home/ise/BT_ISE_XILINX/bai_332_giaidahop_4kenh_2bit_case/giaidahop_4kenh_2bit_case.vhd sub00/vhpl03 1676253941
+EN giaidahop_4kenh_2bit NULL /home/ise/BT_ISE_XILINX/bai_332_giaidahop_4kenh_2bit_case/giaidahop_4kenh_2bit.vhd sub00/vhpl00 1676253938
+EN giaidahop_4kenh_2bit_case NULL /home/ise/BT_ISE_XILINX/bai_332_giaidahop_4kenh_2bit_case/giaidahop_4kenh_2bit_case.vhd sub00/vhpl02 1676253940

@@ -1,0 +1,15 @@
+V3 7
+FL /home/ise/BT_ISE_XILINX/bai_343_giaima_7doan_ena_dp/giaima_7doan_ena.vhd 2023/02/13.03:18:49 P.20131013
+EN work/giaima_7doan_ena 1676258420 \
+      FL /home/ise/BT_ISE_XILINX/bai_343_giaima_7doan_ena_dp/giaima_7doan_ena.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/giaima_7doan_ena/Behavioral 1676258421 \
+      FL /home/ise/BT_ISE_XILINX/bai_343_giaima_7doan_ena_dp/giaima_7doan_ena.vhd \
+      EN work/giaima_7doan_ena 1676258420
+FL /home/ise/BT_ISE_XILINX/bai_343_giaima_7doan_ena_dp/giaima_led_7doan_ena_dp.vhd 2023/02/13.03:18:52 P.20131013
+EN work/giaima_led_7doan_ena_dp 1676258422 \
+      FL /home/ise/BT_ISE_XILINX/bai_343_giaima_7doan_ena_dp/giaima_led_7doan_ena_dp.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/giaima_led_7doan_ena_dp/Behavioral 1676258423 \
+      FL /home/ise/BT_ISE_XILINX/bai_343_giaima_7doan_ena_dp/giaima_led_7doan_ena_dp.vhd \
+      EN work/giaima_led_7doan_ena_dp 1676258422 CP work/giaima_7doan_ena

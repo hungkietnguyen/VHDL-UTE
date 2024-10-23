@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/BT_ISE_XILINX/bai_452_dk_16led_sd_tsp/dk_16led_sd_tsp.ncd
+OUTFILE=/home/ise/BT_ISE_XILINX/bai_452_dk_16led_sd_tsp/dk_16led_sd_tsp.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5pq208
+WORKINGDIR=/home/ise/BT_ISE_XILINX/bai_452_dk_16led_sd_tsp
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

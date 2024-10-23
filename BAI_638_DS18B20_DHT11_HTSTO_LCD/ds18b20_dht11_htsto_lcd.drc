@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Fri Apr 21 08:21:16 2023
+
+drc -z DS18B20_DHT11_HTSTO_LCD.ncd DS18B20_DHT11_HTSTO_LCD.pcf
+
+DRC detected 0 errors and 0 warnings.

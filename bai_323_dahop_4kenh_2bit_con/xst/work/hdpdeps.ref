@@ -1,0 +1,15 @@
+V3 7
+FL /home/ise/BT_ISE_XILINX/bai_323_dahop_4kenh_2bit_con/dahop_4kenh_2bit.vhd 2023/02/11.08:26:40 P.20131013
+EN work/dahop_4kenh_2bit 1676251466 \
+      FL /home/ise/BT_ISE_XILINX/bai_323_dahop_4kenh_2bit_con/dahop_4kenh_2bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dahop_4kenh_2bit/Behavioral 1676251467 \
+      FL /home/ise/BT_ISE_XILINX/bai_323_dahop_4kenh_2bit_con/dahop_4kenh_2bit.vhd \
+      EN work/dahop_4kenh_2bit 1676251466
+FL /home/ise/BT_ISE_XILINX/bai_323_dahop_4kenh_2bit_con/dahop_4kenh_2bit_con.vhd 2023/02/11.08:28:16 P.20131013
+EN work/dahop_4kenh_2bit_con 1676251468 \
+      FL /home/ise/BT_ISE_XILINX/bai_323_dahop_4kenh_2bit_con/dahop_4kenh_2bit_con.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dahop_4kenh_2bit_con/Behavioral 1676251469 \
+      FL /home/ise/BT_ISE_XILINX/bai_323_dahop_4kenh_2bit_con/dahop_4kenh_2bit_con.vhd \
+      EN work/dahop_4kenh_2bit_con 1676251468 CP work/dahop_4kenh_2bit

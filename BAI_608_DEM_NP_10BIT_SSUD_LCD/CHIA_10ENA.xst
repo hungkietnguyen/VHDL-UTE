@@ -1,0 +1,5 @@
+set -tmpdir "C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/xst/projnav.tmp"
+set -xsthdpdir "C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/xst"
+elaborate
+-ifn CHIA_10ENA.prj
+-ifmt mixed

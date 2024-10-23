@@ -1,0 +1,6 @@
+EN dem_4bit NULL /home/ise/BT_ISE_XILINX/bai_421_dem_nhi_phan_4bit/dem_4bit.vhd sub00/vhpl00 1676938261
+AR dem_nhi_phan_4bit behavioral /home/ise/BT_ISE_XILINX/bai_421_dem_nhi_phan_4bit/dem_nhi_phan_4bit.vhd sub00/vhpl05 1676938264
+EN dem_nhi_phan_4bit NULL /home/ise/BT_ISE_XILINX/bai_421_dem_nhi_phan_4bit/dem_nhi_phan_4bit.vhd sub00/vhpl04 1676938263
+AR dem_4bit behavioral /home/ise/BT_ISE_XILINX/bai_421_dem_nhi_phan_4bit/dem_4bit.vhd sub00/vhpl01 1676938262
+EN chia_ena1hz NULL /home/ise/BT_ISE_XILINX/bai_421_dem_nhi_phan_4bit/chia_ena1hz.vhd sub00/vhpl02 1676938259
+AR chia_ena1hz behavioral /home/ise/BT_ISE_XILINX/bai_421_dem_nhi_phan_4bit/chia_ena1hz.vhd sub00/vhpl03 1676938260

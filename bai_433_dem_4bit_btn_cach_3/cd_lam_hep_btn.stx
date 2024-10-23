@@ -1,0 +1,43 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_3/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_3/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_3/bounce_btn.vhd" in Library work.
+Architecture behavioral of Entity bounce_btn is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_3/lam_hep_xung.vhd" in Library work.
+Architecture behavioral of Entity lam_hep_xung is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_3/cd_lam_hep_btn.vhd" in Library work.
+Entity <cd_lam_hep_btn> compiled.
+Entity <cd_lam_hep_btn> (Architecture <behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+
+
+Total memory usage is 567220 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

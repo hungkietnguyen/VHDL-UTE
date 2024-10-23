@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Tue Mar 14 03:55:36 2023
+
+drc -z dk_16led_2ct_au_dv_pst_tsp.ncd dk_16led_2ct_au_dv_pst_tsp.pcf
+
+DRC detected 0 errors and 0 warnings.

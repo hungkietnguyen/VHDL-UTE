@@ -1,0 +1,391 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Reading design: dem_nhi_phan_8bit.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "dem_nhi_phan_8bit.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "dem_nhi_phan_8bit"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-pq208
+
+---- Source Options
+Top Module Name                    : dem_nhi_phan_8bit
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_422_dem_nhi_phan_8bit/chia_ena5hz.vhd" in Library work.
+Architecture behavioral of Entity chia_ena5hz is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_422_dem_nhi_phan_8bit/dem_8bit.vhd" in Library work.
+Architecture behavioral of Entity dem_8bit is up to date.
+Compiling vhdl file "/home/ise/BT_ISE_XILINX/bai_422_dem_nhi_phan_8bit/dem_nhi_phan_8bit.vhd" in Library work.
+Architecture behavioral of Entity dem_nhi_phan_8bit is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <dem_nhi_phan_8bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <chia_ena5hz> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <dem_8bit> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <dem_nhi_phan_8bit> in library <work> (Architecture <behavioral>).
+Entity <dem_nhi_phan_8bit> analyzed. Unit <dem_nhi_phan_8bit> generated.
+
+Analyzing Entity <chia_ena5hz> in library <work> (Architecture <Behavioral>).
+Entity <chia_ena5hz> analyzed. Unit <chia_ena5hz> generated.
+
+Analyzing Entity <dem_8bit> in library <work> (Architecture <Behavioral>).
+Entity <dem_8bit> analyzed. Unit <dem_8bit> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <chia_ena5hz>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_422_dem_nhi_phan_8bit/chia_ena5hz.vhd".
+    Found 24-bit up counter for signal <d5hz_r>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <chia_ena5hz> synthesized.
+
+
+Synthesizing Unit <dem_8bit>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_422_dem_nhi_phan_8bit/dem_8bit.vhd".
+    Found 8-bit up counter for signal <q_r>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <dem_8bit> synthesized.
+
+
+Synthesizing Unit <dem_nhi_phan_8bit>.
+    Related source file is "/home/ise/BT_ISE_XILINX/bai_422_dem_nhi_phan_8bit/dem_nhi_phan_8bit.vhd".
+Unit <dem_nhi_phan_8bit> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 24-bit up counter                                     : 1
+ 8-bit up counter                                      : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 24-bit up counter                                     : 1
+ 8-bit up counter                                      : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <dem_nhi_phan_8bit> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block dem_nhi_phan_8bit, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 32
+ Flip-Flops                                            : 32
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : dem_nhi_phan_8bit.ngr
+Top Level Output File Name         : dem_nhi_phan_8bit
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 10
+
+Cell Usage :
+# BELS                             : 109
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 30
+#      LUT4                        : 6
+#      MUXCY                       : 36
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 32
+#      FD                          : 24
+#      FDCE                        : 8
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 9
+#      IBUF                        : 1
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500epq208-5 
+
+ Number of Slices:                       19  out of   4656     0%  
+ Number of Slice Flip Flops:             32  out of   9312     0%  
+ Number of 4 input LUTs:                 39  out of   9312     0%  
+ Number of IOs:                          10
+ Number of bonded IOBs:                  10  out of    158     6%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+ckht                               | BUFGP                  | 32    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+btn0                               | IBUF                   | 8     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.110ns (Maximum Frequency: 243.282MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 4.063ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ckht'
+  Clock period: 4.110ns (frequency: 243.282MHz)
+  Total number of paths / destination ports: 528 / 40
+-------------------------------------------------------------------------
+Delay:               4.110ns (Levels of Logic = 24)
+  Source:            IC1/d5hz_r_1 (FF)
+  Destination:       IC1/d5hz_r_23 (FF)
+  Source Clock:      ckht falling
+  Destination Clock: ckht falling
+
+  Data Path: IC1/d5hz_r_1 to IC1/d5hz_r_23
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.514   0.532  IC1/d5hz_r_1 (IC1/d5hz_r_1)
+     LUT1:I0->O            1   0.612   0.000  IC1/Mcount_d5hz_r_cy<1>_rt (IC1/Mcount_d5hz_r_cy<1>_rt)
+     MUXCY:S->O            1   0.404   0.000  IC1/Mcount_d5hz_r_cy<1> (IC1/Mcount_d5hz_r_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  IC1/Mcount_d5hz_r_cy<2> (IC1/Mcount_d5hz_r_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcount_d5hz_r_cy<3> (IC1/Mcount_d5hz_r_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcount_d5hz_r_cy<4> (IC1/Mcount_d5hz_r_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcount_d5hz_r_cy<5> (IC1/Mcount_d5hz_r_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcount_d5hz_r_cy<6> (IC1/Mcount_d5hz_r_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcount_d5hz_r_cy<7> (IC1/Mcount_d5hz_r_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcount_d5hz_r_cy<8> (IC1/Mcount_d5hz_r_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcount_d5hz_r_cy<9> (IC1/Mcount_d5hz_r_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcount_d5hz_r_cy<10> (IC1/Mcount_d5hz_r_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcount_d5hz_r_cy<11> (IC1/Mcount_d5hz_r_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcount_d5hz_r_cy<12> (IC1/Mcount_d5hz_r_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcount_d5hz_r_cy<13> (IC1/Mcount_d5hz_r_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcount_d5hz_r_cy<14> (IC1/Mcount_d5hz_r_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcount_d5hz_r_cy<15> (IC1/Mcount_d5hz_r_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcount_d5hz_r_cy<16> (IC1/Mcount_d5hz_r_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcount_d5hz_r_cy<17> (IC1/Mcount_d5hz_r_cy<17>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcount_d5hz_r_cy<18> (IC1/Mcount_d5hz_r_cy<18>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcount_d5hz_r_cy<19> (IC1/Mcount_d5hz_r_cy<19>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcount_d5hz_r_cy<20> (IC1/Mcount_d5hz_r_cy<20>)
+     MUXCY:CI->O           1   0.051   0.000  IC1/Mcount_d5hz_r_cy<21> (IC1/Mcount_d5hz_r_cy<21>)
+     MUXCY:CI->O           0   0.051   0.000  IC1/Mcount_d5hz_r_cy<22> (IC1/Mcount_d5hz_r_cy<22>)
+     XORCY:CI->O           1   0.699   0.000  IC1/Mcount_d5hz_r_xor<23> (Result<23>)
+     FD:D                      0.268          IC1/d5hz_r_23
+    ----------------------------------------
+    Total                      4.110ns (3.579ns logic, 0.532ns route)
+                                       (87.1% logic, 12.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'ckht'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              4.063ns (Levels of Logic = 1)
+  Source:            IC2/q_r_7 (FF)
+  Destination:       led<7> (PAD)
+  Source Clock:      ckht falling
+
+  Data Path: IC2/q_r_7 to led<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             2   0.514   0.380  IC2/q_r_7 (IC2/q_r_7)
+     OBUF:I->O                 3.169          led_7_OBUF (led<7>)
+    ----------------------------------------
+    Total                      4.063ns (3.683ns logic, 0.380ns route)
+                                       (90.6% logic, 9.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.54 secs
+ 
+--> 
+
+
+Total memory usage is 608008 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

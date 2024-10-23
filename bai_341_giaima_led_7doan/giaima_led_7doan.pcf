@@ -1,0 +1,19 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Feb 13 02:33:03 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "sseg<0>" LOCATE = SITE "P16" LEVEL 1;
+COMP "sseg<1>" LOCATE = SITE "P15" LEVEL 1;
+COMP "sseg<2>" LOCATE = SITE "P19" LEVEL 1;
+COMP "cathode" LOCATE = SITE "P12" LEVEL 1;
+COMP "sseg<3>" LOCATE = SITE "P18" LEVEL 1;
+COMP "sseg<4>" LOCATE = SITE "P22" LEVEL 1;
+COMP "sseg<5>" LOCATE = SITE "P24" LEVEL 1;
+COMP "sseg<6>" LOCATE = SITE "P23" LEVEL 1;
+COMP "sw<0>" LOCATE = SITE "P175" LEVEL 1;
+COMP "sw<1>" LOCATE = SITE "P169" LEVEL 1;
+COMP "sw<2>" LOCATE = SITE "P159" LEVEL 1;
+COMP "sw<3>" LOCATE = SITE "P154" LEVEL 1;
+SCHEMATIC END;
+

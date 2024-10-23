@@ -1,0 +1,60 @@
+V3 35
+FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/chia_10ena.vhd 2023/03/20.01:34:25 P.20131013
+EN work/chia_10ena 1679276549 \
+      FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/chia_10ena.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/chia_10ena/Behavioral 1679276550 \
+      FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/chia_10ena.vhd \
+      EN work/chia_10ena 1679276549
+FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/dieukhien_chophep.vhd 2023/03/20.01:42:19 P.20131013
+EN work/dieukhien_chophep 1679276563 \
+      FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/dieukhien_chophep.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dieukhien_chophep/Behavioral 1679276564 \
+      FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/dieukhien_chophep.vhd \
+      EN work/dieukhien_chophep 1679276563
+FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/dk_16led_6ct.vhd 2023/03/20.01:39:16 P.20131013
+EN work/dk_16led_6ct 1679276565 \
+      FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/dk_16led_6ct.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dk_16led_6ct/Behavioral 1679276566 \
+      FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/dk_16led_6ct.vhd \
+      EN work/dk_16led_6ct 1679276565 CP work/chia_10ena CP work/js_pst \
+      CP work/js_tsp CP work/js_tnv CP work/js_ttr CP work/dv_pst CP work/dv_tsp \
+      CP work/dieukhien_chophep
+FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/dv_pst.vhd 2023/03/20.01:34:25 P.20131013
+EN work/dv_pst 1679276559 \
+      FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/dv_pst.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dv_pst/Behavioral 1679276560 \
+      FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/dv_pst.vhd EN work/dv_pst 1679276559
+FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/dv_tsp.vhd 2023/03/20.01:34:25 P.20131013
+EN work/dv_tsp 1679276561 \
+      FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/dv_tsp.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dv_tsp/Behavioral 1679276562 \
+      FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/dv_tsp.vhd EN work/dv_tsp 1679276561
+FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/js_pst.vhd 2023/03/20.01:34:25 P.20131013
+EN work/js_pst 1679276551 \
+      FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/js_pst.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/js_pst/Behavioral 1679276552 \
+      FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/js_pst.vhd EN work/js_pst 1679276551
+FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/js_tnv.vhd 2023/03/20.01:34:25 P.20131013
+EN work/js_tnv 1679276555 \
+      FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/js_tnv.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/js_tnv/Behavioral 1679276556 \
+      FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/js_tnv.vhd EN work/js_tnv 1679276555
+FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/js_tsp.vhd 2023/03/20.01:34:25 P.20131013
+EN work/js_tsp 1679276553 \
+      FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/js_tsp.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/js_tsp/Behavioral 1679276554 \
+      FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/js_tsp.vhd EN work/js_tsp 1679276553
+FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/js_ttr.vhd 2023/03/20.01:34:25 P.20131013
+EN work/js_ttr 1679276557 \
+      FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/js_ttr.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/js_ttr/Behavioral 1679276558 \
+      FL /home/ise/BT_ISE_XILINX/bai_448_dk_16led_6ct/js_ttr.vhd EN work/js_ttr 1679276557

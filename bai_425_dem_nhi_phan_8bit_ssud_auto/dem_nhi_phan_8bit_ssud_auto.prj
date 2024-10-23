@@ -1,0 +1,4 @@
+vhdl work "dem_8bit.vhd"
+vhdl work "chia_ena5hz.vhd"
+vhdl work "auto_dao_ena_ud.vhd"
+vhdl work "dem_nhi_phan_8bit_ssud_auto.vhd"

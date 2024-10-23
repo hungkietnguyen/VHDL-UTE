@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/BAI_606_DEM_NP_8BIT_SSUD_LCD/CD_LAM_HEP_BTN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/BAI_606_DEM_NP_8BIT_SSUD_LCD/CHIA_10ENA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/BAI_606_DEM_NP_8BIT_SSUD_LCD/DEBOUNCE_BTN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/BAI_606_DEM_NP_8BIT_SSUD_LCD/DEM_1BIT.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/BAI_606_DEM_NP_8BIT_SSUD_LCD/DEM_1BIT_BTN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/BAI_606_DEM_NP_8BIT_SSUD_LCD/DEM_NP_8BIT_SSUD.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/BAI_606_DEM_NP_8BIT_SSUD_LCD/DEM_NP_8BIT_SSUD_HT7D_LCD.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/BAI_606_DEM_NP_8BIT_SSUD_LCD/HEXTOBCD_8BIT.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/BAI_606_DEM_NP_8BIT_SSUD_LCD/HT_4TANSO.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/BAI_606_DEM_NP_8BIT_SSUD_LCD/LAM_HEP_XUNG.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/BAI_606_DEM_NP_8BIT_SSUD_LCD/LCD_GAN_DULIEU_5SO.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/BAI_606_DEM_NP_8BIT_SSUD_LCD/LCD_KHOITAO_HIENTHI.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

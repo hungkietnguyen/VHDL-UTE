@@ -1,0 +1,3 @@
+vhdl work "js_pst.vhd"
+vhdl work "chia_10ena.vhd"
+vhdl work "dk_16led_std_pst.vhd"

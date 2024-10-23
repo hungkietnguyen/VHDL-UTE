@@ -1,0 +1,15 @@
+V3 7
+FL /home/ise/BT_ISE_XILINX/bai_365_binary_to_gray_4bit/binary_gray_4bit.vhd 2023/02/16.06:32:57 P.20131013
+EN work/binary_gray_4bit 1676529277 \
+      FL /home/ise/BT_ISE_XILINX/bai_365_binary_to_gray_4bit/binary_gray_4bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/binary_gray_4bit/Behavioral 1676529278 \
+      FL /home/ise/BT_ISE_XILINX/bai_365_binary_to_gray_4bit/binary_gray_4bit.vhd \
+      EN work/binary_gray_4bit 1676529277
+FL /home/ise/BT_ISE_XILINX/bai_365_binary_to_gray_4bit/binary_to_gray_4bit.vhd 2023/02/16.06:34:36 P.20131013
+EN work/binary_to_gray_4bit 1676529279 \
+      FL /home/ise/BT_ISE_XILINX/bai_365_binary_to_gray_4bit/binary_to_gray_4bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/binary_to_gray_4bit/Behavioral 1676529280 \
+      FL /home/ise/BT_ISE_XILINX/bai_365_binary_to_gray_4bit/binary_to_gray_4bit.vhd \
+      EN work/binary_to_gray_4bit 1676529279 CP work/binary_gray_4bit

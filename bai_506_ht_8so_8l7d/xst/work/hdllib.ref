@@ -1,0 +1,14 @@
+AR chia_10ena behavioral /home/ise/BT_ISE_XILINX/bai_506_ht_8so_8l7d/chia_10ena.vhd sub00/vhpl09 1680830276
+EN giaima_38h NULL /home/ise/BT_ISE_XILINX/bai_506_ht_8so_8l7d/giaima_38h.vhd sub00/vhpl04 1680830269
+AR dem_3bit behavioral /home/ise/BT_ISE_XILINX/bai_506_ht_8so_8l7d/dem_3bit.vhd sub00/vhpl07 1680830268
+AR giaima_7doan behavioral /home/ise/BT_ISE_XILINX/bai_506_ht_8so_8l7d/giaima_7doan.vhd sub00/vhpl01 1680830274
+AR giaima_38h behavioral /home/ise/BT_ISE_XILINX/bai_506_ht_8so_8l7d/giaima_38h.vhd sub00/vhpl05 1680830270
+EN giaima_7doan NULL /home/ise/BT_ISE_XILINX/bai_506_ht_8so_8l7d/giaima_7doan.vhd sub00/vhpl00 1680830273
+AR gm_ht_8led behavioral /home/ise/BT_ISE_XILINX/bai_506_ht_8so_8l7d/gm_ht_8led.vhd sub00/vhpl11 1680830278
+EN gm_ht_8led NULL /home/ise/BT_ISE_XILINX/bai_506_ht_8so_8l7d/gm_ht_8led.vhd sub00/vhpl10 1680830277
+EN dahop_8kenh NULL /home/ise/BT_ISE_XILINX/bai_506_ht_8so_8l7d/dahop_8kenh.vhd sub00/vhpl02 1680830271
+EN dem_3bit NULL /home/ise/BT_ISE_XILINX/bai_506_ht_8so_8l7d/dem_3bit.vhd sub00/vhpl06 1680830267
+AR ht_8so_8l7d behavioral /home/ise/BT_ISE_XILINX/bai_506_ht_8so_8l7d/ht_8so_8l7d.vhd sub00/vhpl13 1680830280
+AR dahop_8kenh behavioral /home/ise/BT_ISE_XILINX/bai_506_ht_8so_8l7d/dahop_8kenh.vhd sub00/vhpl03 1680830272
+EN chia_10ena NULL /home/ise/BT_ISE_XILINX/bai_506_ht_8so_8l7d/chia_10ena.vhd sub00/vhpl08 1680830275
+EN ht_8so_8l7d NULL /home/ise/BT_ISE_XILINX/bai_506_ht_8so_8l7d/ht_8so_8l7d.vhd sub00/vhpl12 1680830279

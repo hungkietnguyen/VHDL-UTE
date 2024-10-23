@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="BAI_622_LCD_HIENTHI_TRAI_TIM.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="LCD_HIENTHI_TRAI_TIM.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="LCD_HIENTHI_TRAI_TIM.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="LCD_HIENTHI_TRAI_TIM.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="LCD_HIENTHI_TRAI_TIM.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="LCD_HIENTHI_TRAI_TIM.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="LCD_HIENTHI_TRAI_TIM.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="LCD_HIENTHI_TRAI_TIM.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="LCD_HIENTHI_TRAI_TIM.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="LCD_HIENTHI_TRAI_TIM.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="LCD_HIENTHI_TRAI_TIM.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LCD_HIENTHI_TRAI_TIM.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="LCD_HIENTHI_TRAI_TIM.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="LCD_HIENTHI_TRAI_TIM.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="LCD_HIENTHI_TRAI_TIM.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="LCD_HIENTHI_TRAI_TIM.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="LCD_HIENTHI_TRAI_TIM.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="LCD_HIENTHI_TRAI_TIM.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="LCD_HIENTHI_TRAI_TIM.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="LCD_HIENTHI_TRAI_TIM.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="LCD_HIENTHI_TRAI_TIM.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="LCD_HIENTHI_TRAI_TIM_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="LCD_HIENTHI_TRAI_TIM_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="LCD_HIENTHI_TRAI_TIM_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="LCD_HIENTHI_TRAI_TIM_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="LCD_HIENTHI_TRAI_TIM_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="LCD_HIENTHI_TRAI_TIM_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LCD_HIENTHI_TRAI_TIM_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LCD_HIENTHI_TRAI_TIM_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="LCD_HIENTHI_TRAI_TIM_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="LCD_HIENTHI_TRAI_TIM_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LCD_HIENTHI_TRAI_TIM_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="LCD_HIENTHI_TRAI_TIM_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="LCD_HIENTHI_TRAI_TIM_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="LCD_HIENTHI_TRAI_TIM_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LCD_HIENTHI_TRAI_TIM_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LCD_HIENTHI_TRAI_TIM_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="lcd_hienthi_trai_tim.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="lcd_hienthi_trai_tim.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="lcd_hienthi_trai_tim.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1681373379" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1681373379">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1681373379" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="6374477040250832578" xil_pn:start_ts="1681373379">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1681373379" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="292628905940803618" xil_pn:start_ts="1681373379">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1681373379" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1681373379">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1681373379" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="5768824310507696192" xil_pn:start_ts="1681373379">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1681373379" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297145852409" xil_pn:start_ts="1681373379">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1681373379" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-3595941080182443668" xil_pn:start_ts="1681373379">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1681373788" xil_pn:in_ck="-3911525787356273168" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="6476100492822531637" xil_pn:start_ts="1681373776">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM.lso"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM.ngc"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM.ngr"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM.prj"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM.stx"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM.syr"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM.xst"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM_vhdl.prj"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1681373383" xil_pn:in_ck="26516141899588424" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-4770638695186894613" xil_pn:start_ts="1681373383">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1681373794" xil_pn:in_ck="-13041120859429887" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-6268575491145815739" xil_pn:start_ts="1681373788">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM.bld"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM.ngd"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1681373799" xil_pn:in_ck="-13041120859429886" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="5880003210255087717" xil_pn:start_ts="1681373794">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM.pcf"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM_map.map"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM_map.mrp"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM_map.ncd"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM_map.ngm"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM_map.xrpt"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM_summary.xml"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1681373819" xil_pn:in_ck="-7367554880552147941" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1681373799">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM.ncd"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM.pad"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM.par"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM.ptwx"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM.unroutes"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM.xpi"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM_pad.csv"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM_pad.txt"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1681373832" xil_pn:in_ck="1506219561748654134" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1681373825">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="lcd_hienthi_trai_tim.bgn"/>
+      <outfile xil_pn:name="lcd_hienthi_trai_tim.bit"/>
+      <outfile xil_pn:name="lcd_hienthi_trai_tim.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1681373863" xil_pn:in_ck="-7092627611002547168" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="5582947192412673156" xil_pn:start_ts="1681373862">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1681373819" xil_pn:in_ck="-13041120859430018" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1681373815">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM.twr"/>
+      <outfile xil_pn:name="LCD_HIENTHI_TRAI_TIM.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

@@ -1,0 +1,578 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Reading design: DONG_HO_GPG.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "DONG_HO_GPG.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "DONG_HO_GPG"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-pq208
+
+---- Source Options
+Top Module Name                    : DONG_HO_GPG
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/.Xilinx/BAI_541_DONG_HO_GPG/DEM_3BIT.vhd" in Library work.
+Architecture behavioral of Entity dem_3bit is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_541_DONG_HO_GPG/DAHOP_8KENH.vhd" in Library work.
+Architecture behavioral of Entity dahop_8kenh is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_541_DONG_HO_GPG/GIAIMA_38H.vhd" in Library work.
+Architecture behavioral of Entity giaima_38h is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_541_DONG_HO_GPG/GIAIMA_7DOAN_ENA.vhd" in Library work.
+Architecture behavioral of Entity giaima_7doan_ena is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_541_DONG_HO_GPG/HEXTOBCD_6BIT.vhd" in Library work.
+Architecture behavioral of Entity hextobcd_6bit is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_541_DONG_HO_GPG/CHIA_10ENA.vhd" in Library work.
+Architecture behavioral of Entity chia_10ena is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_541_DONG_HO_GPG/DEM_GPG.vhd" in Library work.
+Architecture behavioral of Entity dem_gpg is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_541_DONG_HO_GPG/HEXTOBCD_GPG.vhd" in Library work.
+Architecture behavioral of Entity hextobcd_gpg is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_541_DONG_HO_GPG/GM_HT_8LED.vhd" in Library work.
+Architecture behavioral of Entity gm_ht_8led is up to date.
+Compiling vhdl file "C:/.Xilinx/BAI_541_DONG_HO_GPG/DONG_HO_GPG.vhd" in Library work.
+Architecture behavioral of Entity dong_ho_gpg is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <DONG_HO_GPG> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CHIA_10ENA> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_GPG> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <HEXTOBCD_GPG> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <GM_HT_8LED> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <HEXTOBCD_6BIT> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_3BIT> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DAHOP_8KENH> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <GIAIMA_38H> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <GIAIMA_7DOAN_ENA> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <DONG_HO_GPG> in library <work> (Architecture <behavioral>).
+Entity <DONG_HO_GPG> analyzed. Unit <DONG_HO_GPG> generated.
+
+Analyzing Entity <CHIA_10ENA> in library <work> (Architecture <Behavioral>).
+Entity <CHIA_10ENA> analyzed. Unit <CHIA_10ENA> generated.
+
+Analyzing Entity <DEM_GPG> in library <work> (Architecture <Behavioral>).
+Entity <DEM_GPG> analyzed. Unit <DEM_GPG> generated.
+
+Analyzing Entity <HEXTOBCD_GPG> in library <work> (Architecture <Behavioral>).
+Entity <HEXTOBCD_GPG> analyzed. Unit <HEXTOBCD_GPG> generated.
+
+Analyzing Entity <HEXTOBCD_6BIT> in library <work> (Architecture <Behavioral>).
+Entity <HEXTOBCD_6BIT> analyzed. Unit <HEXTOBCD_6BIT> generated.
+
+Analyzing Entity <GM_HT_8LED> in library <work> (Architecture <Behavioral>).
+Entity <GM_HT_8LED> analyzed. Unit <GM_HT_8LED> generated.
+
+Analyzing Entity <DEM_3BIT> in library <work> (Architecture <Behavioral>).
+Entity <DEM_3BIT> analyzed. Unit <DEM_3BIT> generated.
+
+Analyzing Entity <DAHOP_8KENH> in library <work> (Architecture <Behavioral>).
+Entity <DAHOP_8KENH> analyzed. Unit <DAHOP_8KENH> generated.
+
+Analyzing Entity <GIAIMA_38H> in library <work> (Architecture <Behavioral>).
+Entity <GIAIMA_38H> analyzed. Unit <GIAIMA_38H> generated.
+
+Analyzing Entity <GIAIMA_7DOAN_ENA> in library <work> (Architecture <Behavioral>).
+Entity <GIAIMA_7DOAN_ENA> analyzed. Unit <GIAIMA_7DOAN_ENA> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <CHIA_10ENA>.
+    Related source file is "C:/.Xilinx/BAI_541_DONG_HO_GPG/CHIA_10ENA.vhd".
+    Found 19-bit adder for signal <D100HZ_N$addsub0000> created at line 102.
+    Found 19-bit register for signal <D100HZ_R>.
+    Found 26-bit adder for signal <D1HZ_N$addsub0000> created at line 88.
+    Found 26-bit register for signal <D1HZ_R>.
+    Found 16-bit adder for signal <D1KHZ_N$addsub0000> created at line 104.
+    Found 16-bit register for signal <D1KHZ_R>.
+    Found 22-bit adder for signal <D20HZ_N$addsub0000> created at line 96.
+    Found 22-bit register for signal <D20HZ_R>.
+    Found 20-bit adder for signal <D50HZ_N$addsub0000> created at line 100.
+    Found 20-bit register for signal <D50HZ_R>.
+    Summary:
+	inferred 103 D-type flip-flop(s).
+	inferred   5 Adder/Subtractor(s).
+Unit <CHIA_10ENA> synthesized.
+
+
+Synthesizing Unit <DEM_GPG>.
+    Related source file is "C:/.Xilinx/BAI_541_DONG_HO_GPG/DEM_GPG.vhd".
+    Found 6-bit up counter for signal <GIAY_R>.
+    Found 5-bit up counter for signal <GIO_R>.
+    Found 6-bit up counter for signal <PHUT_R>.
+    Summary:
+	inferred   3 Counter(s).
+Unit <DEM_GPG> synthesized.
+
+
+Synthesizing Unit <HEXTOBCD_6BIT>.
+    Related source file is "C:/.Xilinx/BAI_541_DONG_HO_GPG/HEXTOBCD_6BIT.vhd".
+    Found 4-bit comparator greatequal for signal <BCD_HEX_9$cmp_ge0000> created at line 44.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_9$cmp_ge0001> created at line 44.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_9$cmp_ge0002> created at line 44.
+    Found 4-bit adder for signal <BCD_HEX_9_6$add0000> created at line 45.
+    Found 4-bit adder for signal <BCD_HEX_9_6$add0001> created at line 45.
+    Found 4-bit adder for signal <BCD_HEX_9_6$add0002> created at line 45.
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+Unit <HEXTOBCD_6BIT> synthesized.
+
+
+Synthesizing Unit <DEM_3BIT>.
+    Related source file is "C:/.Xilinx/BAI_541_DONG_HO_GPG/DEM_3BIT.vhd".
+    Found 3-bit up counter for signal <Q_R>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <DEM_3BIT> synthesized.
+
+
+Synthesizing Unit <DAHOP_8KENH>.
+    Related source file is "C:/.Xilinx/BAI_541_DONG_HO_GPG/DAHOP_8KENH.vhd".
+    Found 8x1-bit ROM for signal <ena1>.
+    Found 4-bit 8-to-1 multiplexer for signal <o>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   4 Multiplexer(s).
+Unit <DAHOP_8KENH> synthesized.
+
+
+Synthesizing Unit <GIAIMA_38H>.
+    Related source file is "C:/.Xilinx/BAI_541_DONG_HO_GPG/GIAIMA_38H.vhd".
+    Found 1-of-8 decoder for signal <O>.
+    Summary:
+	inferred   1 Decoder(s).
+Unit <GIAIMA_38H> synthesized.
+
+
+Synthesizing Unit <GIAIMA_7DOAN_ENA>.
+    Related source file is "C:/.Xilinx/BAI_541_DONG_HO_GPG/GIAIMA_7DOAN_ENA.vhd".
+    Found 16x7-bit ROM for signal <SS7>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <GIAIMA_7DOAN_ENA> synthesized.
+
+
+Synthesizing Unit <HEXTOBCD_GPG>.
+    Related source file is "C:/.Xilinx/BAI_541_DONG_HO_GPG/HEXTOBCD_GPG.vhd".
+Unit <HEXTOBCD_GPG> synthesized.
+
+
+Synthesizing Unit <GM_HT_8LED>.
+    Related source file is "C:/.Xilinx/BAI_541_DONG_HO_GPG/GM_HT_8LED.vhd".
+Unit <GM_HT_8LED> synthesized.
+
+
+Synthesizing Unit <DONG_HO_GPG>.
+    Related source file is "C:/.Xilinx/BAI_541_DONG_HO_GPG/DONG_HO_GPG.vhd".
+    Found 1-bit 4-to-1 multiplexer for signal <ENA_DB>.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <DONG_HO_GPG> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 1
+ 8x1-bit ROM                                           : 1
+# Adders/Subtractors                                   : 14
+ 16-bit adder                                          : 1
+ 19-bit adder                                          : 1
+ 20-bit adder                                          : 1
+ 22-bit adder                                          : 1
+ 26-bit adder                                          : 1
+ 4-bit adder                                           : 9
+# Counters                                             : 4
+ 3-bit up counter                                      : 1
+ 5-bit up counter                                      : 1
+ 6-bit up counter                                      : 2
+# Registers                                            : 5
+ 16-bit register                                       : 1
+ 19-bit register                                       : 1
+ 20-bit register                                       : 1
+ 22-bit register                                       : 1
+ 26-bit register                                       : 1
+# Comparators                                          : 9
+ 4-bit comparator greatequal                           : 9
+# Multiplexers                                         : 2
+ 1-bit 4-to-1 multiplexer                              : 1
+ 4-bit 8-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-8 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 1
+ 8x1-bit ROM                                           : 1
+# Adders/Subtractors                                   : 14
+ 16-bit adder                                          : 1
+ 19-bit adder                                          : 1
+ 20-bit adder                                          : 1
+ 22-bit adder                                          : 1
+ 26-bit adder                                          : 1
+ 4-bit adder                                           : 9
+# Counters                                             : 4
+ 3-bit up counter                                      : 1
+ 5-bit up counter                                      : 1
+ 6-bit up counter                                      : 2
+# Registers                                            : 103
+ Flip-Flops                                            : 103
+# Comparators                                          : 9
+ 4-bit comparator greatequal                           : 9
+# Multiplexers                                         : 2
+ 1-bit 4-to-1 multiplexer                              : 1
+ 4-bit 8-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-8 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <DONG_HO_GPG> ...
+
+Optimizing unit <CHIA_10ENA> ...
+
+Optimizing unit <DEM_GPG> ...
+
+Optimizing unit <HEXTOBCD_6BIT> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block DONG_HO_GPG, actual ratio is 3.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 123
+ Flip-Flops                                            : 123
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : DONG_HO_GPG.ngr
+Top Level Output File Name         : DONG_HO_GPG
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 20
+
+Cell Usage :
+# BELS                             : 481
+#      GND                         : 1
+#      INV                         : 10
+#      LUT1                        : 99
+#      LUT2                        : 11
+#      LUT3                        : 34
+#      LUT3_L                      : 2
+#      LUT4                        : 98
+#      LUT4_D                      : 4
+#      LUT4_L                      : 2
+#      MUXCY                       : 98
+#      MUXF5                       : 14
+#      MUXF6                       : 4
+#      VCC                         : 1
+#      XORCY                       : 103
+# FlipFlops/Latches                : 123
+#      FDCE                        : 17
+#      FDE                         : 3
+#      FDR_1                       : 103
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 19
+#      IBUF                        : 3
+#      OBUF                        : 16
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500epq208-5 
+
+ Number of Slices:                      151  out of   4656     3%  
+ Number of Slice Flip Flops:            123  out of   9312     1%  
+ Number of 4 input LUTs:                260  out of   9312     2%  
+ Number of IOs:                          20
+ Number of bonded IOBs:                  20  out of    158    12%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CKHT                               | BUFGP                  | 123   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+BTN0                               | IBUF                   | 17    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 13.953ns (Maximum Frequency: 71.670MHz)
+   Minimum input arrival time before clock: 4.838ns
+   Maximum output required time after clock: 10.078ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CKHT'
+  Clock period: 13.953ns (frequency: 71.670MHz)
+  Total number of paths / destination ports: 5019 / 246
+-------------------------------------------------------------------------
+Delay:               6.976ns (Levels of Logic = 6)
+  Source:            IC1/D20HZ_R_9 (FF)
+  Destination:       IC2/PHUT_R_5 (FF)
+  Source Clock:      CKHT falling
+  Destination Clock: CKHT rising
+
+  Data Path: IC1/D20HZ_R_9 to IC2/PHUT_R_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR_1:C->Q            3   0.514   0.603  IC1/D20HZ_R_9 (IC1/D20HZ_R_9)
+     LUT4:I0->O            1   0.612   0.360  IC1/ENA20HZ_cmp_eq000010 (IC1/ENA20HZ_cmp_eq000010)
+     LUT4_L:I3->LO         1   0.612   0.103  IC1/ENA20HZ_cmp_eq000068_SW0 (N87)
+     LUT4:I3->O            1   0.612   0.360  IC1/ENA20HZ_cmp_eq000068 (ENA20HZ)
+     LUT4:I3->O            1   0.612   0.000  Mmux_ENA_DB_2_f5_F (N91)
+     MUXF5:I0->O           8   0.278   0.646  Mmux_ENA_DB_2_f5 (ENA_DB)
+     LUT4:I3->O            6   0.612   0.569  IC2/GIO_R_and00001 (IC2/PHUT_R_and0000)
+     FDCE:CE                   0.483          IC2/PHUT_R_0
+    ----------------------------------------
+    Total                      6.976ns (4.335ns logic, 2.641ns route)
+                                       (62.1% logic, 37.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CKHT'
+  Total number of paths / destination ports: 51 / 17
+-------------------------------------------------------------------------
+Offset:              4.838ns (Levels of Logic = 4)
+  Source:            SW<0> (PAD)
+  Destination:       IC2/PHUT_R_5 (FF)
+  Destination Clock: CKHT rising
+
+  Data Path: SW<0> to IC2/PHUT_R_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.106   0.532  SW_0_IBUF (SW_0_IBUF)
+     LUT4:I0->O            1   0.612   0.000  Mmux_ENA_DB_2_f5_F (N91)
+     MUXF5:I0->O           8   0.278   0.646  Mmux_ENA_DB_2_f5 (ENA_DB)
+     LUT4:I3->O            6   0.612   0.569  IC2/GIO_R_and00001 (IC2/PHUT_R_and0000)
+     FDCE:CE                   0.483          IC2/PHUT_R_0
+    ----------------------------------------
+    Total                      4.838ns (3.091ns logic, 1.747ns route)
+                                       (63.9% logic, 36.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CKHT'
+  Total number of paths / destination ports: 997 / 15
+-------------------------------------------------------------------------
+Offset:              10.078ns (Levels of Logic = 8)
+  Source:            IC2/GIAY_R_4 (FF)
+  Destination:       SSEG<6> (PAD)
+  Source Clock:      CKHT rising
+
+  Data Path: IC2/GIAY_R_4 to SSEG<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            15   0.514   1.016  IC2/GIAY_R_4 (IC2/GIAY_R_4)
+     LUT4:I0->O            1   0.612   0.000  IC3/K3/BCD_HEX_7_mux0002_F (N127)
+     MUXF5:I0->O           1   0.278   0.426  IC3/K3/BCD_HEX_7_mux0002 (DV_GIAY<2>)
+     LUT3:I1->O            1   0.612   0.000  IC4/K2/Mmux_o_62 (IC4/K2/Mmux_o_62)
+     MUXF5:I0->O           1   0.278   0.000  IC4/K2/Mmux_o_4_f5_1 (IC4/K2/Mmux_o_4_f52)
+     MUXF6:I0->O           7   0.451   0.754  IC4/K2/Mmux_o_2_f6_1 (IC4/SO_GMA<2>)
+     LUT4:I0->O            1   0.612   0.387  IC4/K4/SSEG<6>_SW2 (N101)
+     LUT4:I2->O            1   0.612   0.357  IC4/K4/SSEG<6> (SSEG_6_OBUF)
+     OBUF:I->O                 3.169          SSEG_6_OBUF (SSEG<6>)
+    ----------------------------------------
+    Total                     10.078ns (7.138ns logic, 2.940ns route)
+                                       (70.8% logic, 29.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.54 secs
+ 
+--> 
+
+Total memory usage is 4513324 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

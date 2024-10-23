@@ -1,0 +1,6 @@
+EN dahop_4kenh_1bit_sel NULL /home/ise/BT_ISE_XILINX/bai_321_dahop_4kenh_1bit_2o/dahop_4kenh_1bit_sel.vhd sub00/vhpl02 1676102722
+EN dahop_4kenh_1bit_2o NULL /home/ise/BT_ISE_XILINX/bai_321_dahop_4kenh_1bit_2o/dahop_4kenh_1bit_2o.vhd sub00/vhpl04 1676102724
+AR dahop_4kenh_1bit_2o behavioral /home/ise/BT_ISE_XILINX/bai_321_dahop_4kenh_1bit_2o/dahop_4kenh_1bit_2o.vhd sub00/vhpl05 1676102725
+EN dahop_4kenh_1bit_con NULL /home/ise/BT_ISE_XILINX/bai_321_dahop_4kenh_1bit_2o/dahop_4kenh_1bit_con.vhd sub00/vhpl00 1676102720
+AR dahop_4kenh_1bit_con behavioral /home/ise/BT_ISE_XILINX/bai_321_dahop_4kenh_1bit_2o/dahop_4kenh_1bit_con.vhd sub00/vhpl01 1676102721
+AR dahop_4kenh_1bit_sel behavioral /home/ise/BT_ISE_XILINX/bai_321_dahop_4kenh_1bit_2o/dahop_4kenh_1bit_sel.vhd sub00/vhpl03 1676102723

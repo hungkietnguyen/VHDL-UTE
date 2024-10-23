@@ -1,0 +1,8 @@
+AR dem_1so behavioral /home/ise/BT_ISE_XILINX/bai_501_dem_0_9_ht_7doan/dem_1so.vhd sub00/vhpl03 1679879985
+AR giama_7doan behavioral /home/ise/BT_ISE_XILINX/bai_501_dem_0_9_ht_7doan/giama_7doan.vhd sub00/vhpl01 1679879987
+AR chia_10ena behavioral /home/ise/BT_ISE_XILINX/bai_501_dem_0_9_ht_7doan/chia_10ena.vhd sub00/vhpl05 1679879983
+EN dem_0_9_ht_7doan NULL /home/ise/BT_ISE_XILINX/bai_501_dem_0_9_ht_7doan/dem_0_9_ht_7doan.vhd sub00/vhpl06 1679879988
+AR dem_0_9_ht_7doan behavioral /home/ise/BT_ISE_XILINX/bai_501_dem_0_9_ht_7doan/dem_0_9_ht_7doan.vhd sub00/vhpl07 1679879989
+EN dem_1so NULL /home/ise/BT_ISE_XILINX/bai_501_dem_0_9_ht_7doan/dem_1so.vhd sub00/vhpl02 1679879984
+EN chia_10ena NULL /home/ise/BT_ISE_XILINX/bai_501_dem_0_9_ht_7doan/chia_10ena.vhd sub00/vhpl04 1679879982
+EN giama_7doan NULL /home/ise/BT_ISE_XILINX/bai_501_dem_0_9_ht_7doan/giama_7doan.vhd sub00/vhpl00 1679879986

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/LCD_HIENTHI_80KITU</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_601_LCD_HIENTHI_80KITU/LCD_HIENTHI_80KITU.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_601_LCD_HIENTHI_80KITU/LCD_HIENTHI_80KITU.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/LCD_HIENTHI_80KITU/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_601_LCD_HIENTHI_80KITU/LCD_HIENTHI_80KITU.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_601_LCD_HIENTHI_80KITU/LCD_HIENTHI_80KITU.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/LCD_GAN_DULIEU</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_601_LCD_HIENTHI_80KITU/LCD_GAN_DULIEU.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_601_LCD_HIENTHI_80KITU/LCD_GAN_DULIEU.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/LCD_GAN_DULIEU/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_601_LCD_HIENTHI_80KITU/LCD_GAN_DULIEU.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_601_LCD_HIENTHI_80KITU/LCD_GAN_DULIEU.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/LCD_KHOITAO_HIENTHI</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_601_LCD_HIENTHI_80KITU/LCD_KHOITAO_HIENTHI.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_601_LCD_HIENTHI_80KITU/LCD_KHOITAO_HIENTHI.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/LCD_KHOITAO_HIENTHI/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_601_LCD_HIENTHI_80KITU/LCD_KHOITAO_HIENTHI.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_601_LCD_HIENTHI_80KITU/LCD_KHOITAO_HIENTHI.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">/home/ise/BT_ISE_XILINX/BAI_601_LCD_HIENTHI_80KITU/LCD_GAN_DULIEU.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">/home/ise/BT_ISE_XILINX/BAI_601_LCD_HIENTHI_80KITU/LCD_HIENTHI_80KITU.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+</messages>
+

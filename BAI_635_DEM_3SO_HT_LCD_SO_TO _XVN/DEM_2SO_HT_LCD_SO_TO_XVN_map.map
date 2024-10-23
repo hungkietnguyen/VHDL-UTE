@@ -1,0 +1,22 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Map Application Log File for Design 'DEM_2SO_HT_LCD_SO_TO_XVN'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off
+-c 100 -o DEM_2SO_HT_LCD_SO_TO_XVN_map.ncd DEM_2SO_HT_LCD_SO_TO_XVN.ngd
+DEM_2SO_HT_LCD_SO_TO_XVN.pcf 
+Target Device  : xc3s500e
+Target Package : pq208
+Target Speed   : -5
+Mapper Version : spartan3e -- $Revision: 1.55 $
+Mapped Date    : Fri Apr 14 09:42:51 2023
+
+Mapping design into LUTs...
+Running directed packing...
+WARNING:Pack:266 - The function generator IC8/Mrom_LCD_DB_rom00002 failed to
+   merge with F5 multiplexer IC8/Mrom_LCD_DB_rom0000_f5.  There is a conflict
+   for the GYMUX.  The design will exhibit suboptimal timing.
+Running delay-based LUT packing...
+Running related packing...
+Updating timing models...

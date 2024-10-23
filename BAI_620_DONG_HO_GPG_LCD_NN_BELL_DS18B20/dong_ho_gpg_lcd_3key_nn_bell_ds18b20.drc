@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Apr 13 10:10:13 2023
+
+drc -z DONG_HO_GPG_LCD_3KEY_NN_BELL_DS18B20.ncd DONG_HO_GPG_LCD_3KEY_NN_BELL_DS18B20.pcf
+
+DRC detected 0 errors and 0 warnings.

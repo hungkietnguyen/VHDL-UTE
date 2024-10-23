@@ -1,0 +1,7 @@
+vhdl work "giaima_7doan.vhd"
+vhdl work "giaima_12h.vhd"
+vhdl work "dem_2so.vhd"
+vhdl work "dem_1bit.vhd"
+vhdl work "dahop_2kenh.vhd"
+vhdl work "chia_10ena.vhd"
+vhdl work "dem_00_99_ht_7doan.vhd"

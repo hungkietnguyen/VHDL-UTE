@@ -1,0 +1,4 @@
+EN hextobcd_8bit NULL /home/ise/BT_ISE_XILINX/bai_363_hex_to_bcd_8bit/hextobcd_8bit.vhd sub00/vhpl00 1676347401
+AR hextobcd_8bit behavioral /home/ise/BT_ISE_XILINX/bai_363_hex_to_bcd_8bit/hextobcd_8bit.vhd sub00/vhpl01 1676347402
+EN hex_to_bcd_8bit NULL /home/ise/BT_ISE_XILINX/bai_363_hex_to_bcd_8bit/hex_to_bcd_8bit.vhd sub00/vhpl02 1676347403
+AR hex_to_bcd_8bit behavioral /home/ise/BT_ISE_XILINX/bai_363_hex_to_bcd_8bit/hex_to_bcd_8bit.vhd sub00/vhpl03 1676347404

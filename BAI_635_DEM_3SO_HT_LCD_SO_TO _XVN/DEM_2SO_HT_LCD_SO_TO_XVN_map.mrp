@@ -1,0 +1,13 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'DEM_2SO_HT_LCD_SO_TO_XVN'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off
+-c 100 -o DEM_2SO_HT_LCD_SO_TO_XVN_map.ncd DEM_2SO_HT_LCD_SO_TO_XVN.ngd
+DEM_2SO_HT_LCD_SO_TO_XVN.pcf 
+Target Device  : xc3s500e
+Target Package : pq208
+Target Speed   : -5
+Mapper Version : spartan3e -- $Revision: 1.55 $
+Mapped Date    : Fri Apr 14 09:42:51 2023

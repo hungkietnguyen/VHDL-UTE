@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/BT_ISE_XILINX/bai_413_chia_10xung_ena1hz_ena1mhz/chia_10xung_ena1hz_ena1mhz.ncd
+OUTFILE=/home/ise/BT_ISE_XILINX/bai_413_chia_10xung_ena1hz_ena1mhz/chia_10xung_ena1hz_ena1mhz.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5pq208
+WORKINGDIR=/home/ise/BT_ISE_XILINX/bai_413_chia_10xung_ena1hz_ena1mhz
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

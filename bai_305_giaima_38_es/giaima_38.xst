@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/BT_ISE_XILINX/bai_305_giaima_38_es/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/BT_ISE_XILINX/bai_305_giaima_38_es/xst"
+elaborate
+-ifn giaima_38.prj
+-ifmt mixed

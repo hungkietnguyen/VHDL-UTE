@@ -1,0 +1,114 @@
+V3 59
+FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/BELL_BIP.vhd 2023/04/21.07:12:43 P.20131013
+EN work/BELL_BIP 1684548653 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/BELL_BIP.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/BELL_BIP/Behavioral 1684548654 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/BELL_BIP.vhd \
+      EN work/BELL_BIP 1684548653
+FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/CAI_GHAN_NDO_2BTN.vhd 2023/05/16.00:34:11 P.20131013
+EN work/CAI_GHAN_NDO_2BTN 1684548659 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/CAI_GHAN_NDO_2BTN.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/CAI_GHAN_NDO_2BTN/Behavioral 1684548660 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/CAI_GHAN_NDO_2BTN.vhd \
+      EN work/CAI_GHAN_NDO_2BTN 1684548659 CP work/DEBOUNCE_BTN \
+      CP work/DEM_NP_6BIT_UD CP work/LAM_HEP_XUNG
+FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/CHIA_10ENA.vhd 2023/05/16.00:56:49 P.20131013
+EN work/CHIA_10ENA 1684548657 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/CHIA_10ENA.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/CHIA_10ENA/Behavioral 1684548658 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/CHIA_10ENA.vhd \
+      EN work/CHIA_10ENA 1684548657
+FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/DEBOUNCE_BTN.vhd 2023/02/28.00:50:58 P.20131013
+EN work/DEBOUNCE_BTN 1684548647 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/DEBOUNCE_BTN.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/DEBOUNCE_BTN/Behavioral 1684548648 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/DEBOUNCE_BTN.vhd \
+      EN work/DEBOUNCE_BTN 1684548647
+FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/DEM_NP_6BIT_UD.vhd 2023/05/20.02:10:26 P.20131013
+EN work/DEM_NP_6BIT_UD 1684548649 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/DEM_NP_6BIT_UD.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/DEM_NP_6BIT_UD/Behavioral 1684548650 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/DEM_NP_6BIT_UD.vhd \
+      EN work/DEM_NP_6BIT_UD 1684548649
+FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/DKHIEN_BELL.vhd 2023/05/16.00:22:17 P.20131013
+EN work/DKHIEN_BELL 1684548655 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/DKHIEN_BELL.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/DKHIEN_BELL/Behavioral 1684548656 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/DKHIEN_BELL.vhd \
+      EN work/DKHIEN_BELL 1684548655 CP work/BELL_BIP
+FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/DS18B20_CONTROL.vhd 2023/05/15.02:33:38 P.20131013
+EN work/DS18B20_CONTROL 1684548663 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/DS18B20_CONTROL.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/DS18B20_CONTROL/Behavioral 1684548664 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/DS18B20_CONTROL.vhd \
+      EN work/DS18B20_CONTROL 1684548663
+FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/HEXTOBCD_6BIT.vhd 2023/02/14.04:06:46 P.20131013
+EN work/HEXTOBCD_6BIT 1684548661 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/HEXTOBCD_6BIT.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/HEXTOBCD_6BIT/Behavioral 1684548662 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/HEXTOBCD_6BIT.vhd \
+      EN work/HEXTOBCD_6BIT 1684548661
+FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/HEXTOBCD_8BIT.vhd 2023/02/17.06:39:31 P.20131013
+EN work/HEXTOBCD_8BIT 1684548665 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/HEXTOBCD_8BIT.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/HEXTOBCD_8BIT/Behavioral 1684548666 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/HEXTOBCD_8BIT.vhd \
+      EN work/HEXTOBCD_8BIT 1684548665
+FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/LAM_HEP_XUNG.vhd 2023/02/28.00:53:10 P.20131013
+EN work/LAM_HEP_XUNG 1684548651 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/LAM_HEP_XUNG.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/LAM_HEP_XUNG/Behavioral 1684548652 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/LAM_HEP_XUNG.vhd \
+      EN work/LAM_HEP_XUNG 1684548651
+FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/LCD_GAN_DL_4SO_TO.vhd 2023/05/19.08:57:24 P.20131013
+EN work/LCD_GAN_DL_4SO_TO 1684548645 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/LCD_GAN_DL_4SO_TO.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177
+AR work/LCD_GAN_DL_4SO_TO/Behavioral 1684548646 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/LCD_GAN_DL_4SO_TO.vhd \
+      EN work/LCD_GAN_DL_4SO_TO 1684548645
+FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/LCD_GIAI_MA_SO_TO.vhd 2023/05/20.01:16:31 P.20131013
+EN work/LCD_GIAI_MA_SO_TO 1684548643 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/LCD_GIAI_MA_SO_TO.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/LCD_GIAI_MA_SO_TO/Behavioral 1684548644 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/LCD_GIAI_MA_SO_TO.vhd \
+      EN work/LCD_GIAI_MA_SO_TO 1684548643
+FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/LCD_GMA_STO_GAN_DL.vhd 2023/05/20.01:29:46 P.20131013
+EN work/LCD_GMA_STO_GAN_DL 1684548667 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/LCD_GMA_STO_GAN_DL.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/LCD_GMA_STO_GAN_DL/Behavioral 1684548668 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/LCD_GMA_STO_GAN_DL.vhd \
+      EN work/LCD_GMA_STO_GAN_DL 1684548667 CP work/LCD_GIAI_MA_SO_TO \
+      CP work/LCD_GAN_DL_4SO_TO
+FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/LCD_KHOITAO_HIENTHI_SO_TO.vhd 2023/05/19.01:18:55 P.20131013
+EN work/LCD_KHOITAO_HIENTHI_SO_TO 1684548669 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/LCD_KHOITAO_HIENTHI_SO_TO.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/LCD_KHOITAO_HIENTHI_SO_TO/Behavioral 1684548670 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/LCD_KHOITAO_HIENTHI_SO_TO.vhd \
+      EN work/LCD_KHOITAO_HIENTHI_SO_TO 1684548669
+FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/nd_ds18b20_htsto_lcd_triac_ssbd.vhd 2023/05/20.02:10:42 P.20131013
+EN work/nd_ds18b20_htsto_lcd_triac_ssbd 1684548671 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/nd_ds18b20_htsto_lcd_triac_ssbd.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/nd_ds18b20_htsto_lcd_triac_ssbd/Behavioral 1684548672 \
+      FL /home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/nd_ds18b20_htsto_lcd_triac_ssbd.vhd \
+      EN work/nd_ds18b20_htsto_lcd_triac_ssbd 1684548671 CP work/DKHIEN_BELL \
+      CP work/CHIA_10ENA CP work/CAI_GHAN_NDO_2BTN CP work/HEXTOBCD_6BIT \
+      CP work/DS18B20_CONTROL CP work/HEXTOBCD_8BIT CP work/LCD_GMA_STO_GAN_DL \
+      CP work/LCD_KHOITAO_HIENTHI_SO_TO

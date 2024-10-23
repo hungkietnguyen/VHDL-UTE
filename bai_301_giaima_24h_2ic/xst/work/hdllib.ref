@@ -1,0 +1,6 @@
+EN giaima_24h_con NULL /home/ise/BT_ISE_XILINX/bai_301_giaima_24h_2ic/giaima_24h_con.vhd sub00/vhpl02 1675728977
+AR giaima_24h_con behavioral /home/ise/BT_ISE_XILINX/bai_301_giaima_24h_2ic/giaima_24h_con.vhd sub00/vhpl03 1675728978
+AR giaima_24h_sel behavioral /home/ise/BT_ISE_XILINX/bai_301_giaima_24h_2ic/giaima_24h_sel.vhd sub00/vhpl01 1675728976
+EN giaima_24h_2ic NULL /home/ise/BT_ISE_XILINX/bai_301_giaima_24h_2ic/giaima_24h_2ic.vhd sub00/vhpl04 1675728979
+AR giaima_24h_2ic behavioral /home/ise/BT_ISE_XILINX/bai_301_giaima_24h_2ic/giaima_24h_2ic.vhd sub00/vhpl05 1675728980
+EN giaima_24h_sel NULL /home/ise/BT_ISE_XILINX/bai_301_giaima_24h_2ic/giaima_24h_sel.vhd sub00/vhpl00 1675728975

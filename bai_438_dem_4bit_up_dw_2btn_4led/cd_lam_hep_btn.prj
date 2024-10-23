@@ -1,0 +1,3 @@
+vhdl work "lam_hep_xung.vhd"
+vhdl work "bounce_btn.vhd"
+vhdl work "cd_lam_hep_btn.vhd"

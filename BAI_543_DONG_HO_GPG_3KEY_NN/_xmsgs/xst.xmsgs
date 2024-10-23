@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DONG_HO_GPG_3KEY_NN</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/BAI_543_DONG_HO_GPG_3KEY_NN.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/BAI_543_DONG_HO_GPG_3KEY_NN.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DONG_HO_GPG_3KEY_NN/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/BAI_543_DONG_HO_GPG_3KEY_NN.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/BAI_543_DONG_HO_GPG_3KEY_NN.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/CHIA_10ENA</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/CHIA_10ENA.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/CHIA_10ENA.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/CHIA_10ENA/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/CHIA_10ENA.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/CHIA_10ENA.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEM_GPG_3KEY_NN</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_GPG_3KEY_NN.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_GPG_3KEY_NN.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEM_GPG_3KEY_NN/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_GPG_3KEY_NN.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_GPG_3KEY_NN.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/GM_HT_8LED</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/GM_HT_8LED.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/GM_HT_8LED.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/GM_HT_8LED/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/GM_HT_8LED.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/GM_HT_8LED.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HEXTOBCD_GPG</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/HEXTOBCD_GPG.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/HEXTOBCD_GPG.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HEXTOBCD_GPG/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/HEXTOBCD_GPG.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/HEXTOBCD_GPG.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DAHOP_8KENH</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DAHOP_8KENH.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/DAHOP_8KENH.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DAHOP_8KENH/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DAHOP_8KENH.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/DAHOP_8KENH.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEM_3BIT</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_3BIT.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_3BIT.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEM_3BIT/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_3BIT.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_3BIT.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEM_GPG_MUD</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_GPG_MUD.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_GPG_MUD.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEM_GPG_MUD/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_GPG_MUD.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_GPG_MUD.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/GIAIMA_38H</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/GIAIMA_38H.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/GIAIMA_38H.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/GIAIMA_38H/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/GIAIMA_38H.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/GIAIMA_38H.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/GIAIMA_7DOAN_ENA</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/GIAIMA_7DOAN_ENA.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/GIAIMA_7DOAN_ENA.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/GIAIMA_7DOAN_ENA/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/GIAIMA_7DOAN_ENA.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/GIAIMA_7DOAN_ENA.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HEXTOBCD_6BIT</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/HEXTOBCD_6BIT.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/HEXTOBCD_6BIT.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HEXTOBCD_6BIT/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/HEXTOBCD_6BIT.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/HEXTOBCD_6BIT.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/XULY_MOD_DC_NN</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/XULY_MOD_DC_NN.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/XULY_MOD_DC_NN.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/XULY_MOD_DC_NN/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/XULY_MOD_DC_NN.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/XULY_MOD_DC_NN.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DAU_CHAM</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DAU_CHAM.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/DAU_CHAM.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DAU_CHAM/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DAU_CHAM.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/DAU_CHAM.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEM_2BIT_BTN</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_2BIT_BTN.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_2BIT_BTN.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEM_2BIT_BTN/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_2BIT_BTN.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_2BIT_BTN.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEM_MOD_20_NN</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_MOD_20_NN.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_MOD_20_NN.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEM_MOD_20_NN/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_MOD_20_NN.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_MOD_20_NN.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/CD_LAM_HEP_BTN</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/CD_LAM_HEP_BTN.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/CD_LAM_HEP_BTN.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/CD_LAM_HEP_BTN/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/CD_LAM_HEP_BTN.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/CD_LAM_HEP_BTN.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEM_2BIT</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_2BIT.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_2BIT.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEM_2BIT/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_2BIT.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/DEM_2BIT.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEBOUNCE_BTN</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DEBOUNCE_BTN.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/DEBOUNCE_BTN.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEBOUNCE_BTN/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/DEBOUNCE_BTN.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/DEBOUNCE_BTN.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/LAM_HEP_XUNG</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/LAM_HEP_XUNG.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/LAM_HEP_XUNG.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/LAM_HEP_XUNG/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_543_DONG_HO_GPG_3KEY_NN/LAM_HEP_XUNG.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_543_DONG_HO_GPG_3KEY_NN/LAM_HEP_XUNG.vhd</arg>&quot;.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+</messages>
+

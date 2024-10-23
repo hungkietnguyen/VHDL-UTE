@@ -1,0 +1,5 @@
+set -tmpdir "C:/.Xilinx/BAI_610_ND_DS18B20_HT_LCD_TRIAC_SSBD/xst/projnav.tmp"
+set -xsthdpdir "C:/.Xilinx/BAI_610_ND_DS18B20_HT_LCD_TRIAC_SSBD/xst"
+elaborate
+-ifn HEXTOBCD_6BIT.prj
+-ifmt mixed

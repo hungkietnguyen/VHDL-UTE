@@ -1,0 +1,39 @@
+V3 19
+FL /home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/debounce_btn.vhd 2023/03/03.02:05:49 P.20131013
+EN work/debounce_btn 1677565095 \
+      FL /home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/debounce_btn.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/debounce_btn/Behavioral 1677565096 \
+      FL /home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/debounce_btn.vhd \
+      EN work/debounce_btn 1677565095
+FL /home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit.vhd 2023/03/03.02:06:49 P.20131013
+EN work/dem_4bit 1677565099 \
+      FL /home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/dem_4bit/Behavioral 1677565100 \
+      FL /home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit.vhd \
+      EN work/dem_4bit 1677565099
+FL /home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit_btn.vhd 2023/03/03.02:19:27 P.20131013
+EN work/dem_4bit_btn 1677565101 \
+      FL /home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit_btn.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dem_4bit_btn/Behavioral 1677565102 \
+      FL /home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit_btn.vhd \
+      EN work/dem_4bit_btn 1677565101 CP work/debounce_btn CP work/lam_hep_xung \
+      CP work/dem_4bit
+FL /home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit_btn_cach_2.vhd 2023/03/03.02:18:27 P.20131013
+EN work/dem_4bit_btn_cach_2 1677565103 \
+      FL /home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit_btn_cach_2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dem_4bit_btn_cach_2/Behavioral 1677565104 \
+      FL /home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/dem_4bit_btn_cach_2.vhd \
+      EN work/dem_4bit_btn_cach_2 1677565103 CP work/dem_4bit_btn
+FL /home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/lam_hep_xung.vhd 2023/03/03.02:03:45 P.20131013
+EN work/lam_hep_xung 1677567805 \
+      FL /home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/lam_hep_xung.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/lam_hep_xung/Behavioral 1677567806 \
+      FL /home/ise/BT_ISE_XILINX/bai_433_dem_4bit_btn_cach_2/lam_hep_xung.vhd \
+      EN work/lam_hep_xung 1677567805

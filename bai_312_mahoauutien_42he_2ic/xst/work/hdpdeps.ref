@@ -1,0 +1,23 @@
+V3 11
+FL /home/ise/BT_ISE_XILINX/bai_312_mahoauutien_42he_2ic/mahoauutien_42he_2ic.vhd 2023/02/13.00:39:49 P.20131013
+EN work/mahoauutien_42he_2ic 1676249314 \
+      FL /home/ise/BT_ISE_XILINX/bai_312_mahoauutien_42he_2ic/mahoauutien_42he_2ic.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mahoauutien_42he_2ic/Behavioral 1676249315 \
+      FL /home/ise/BT_ISE_XILINX/bai_312_mahoauutien_42he_2ic/mahoauutien_42he_2ic.vhd \
+      EN work/mahoauutien_42he_2ic 1676249314 CP work/mahoa_42he_if \
+      CP work/mahoa_42he_case
+FL /home/ise/BT_ISE_XILINX/bai_312_mahoauutien_42he_2ic/mahoa_42he_case.vhd 2023/02/08.17:43:31 P.20131013
+EN work/mahoa_42he_case 1676249312 \
+      FL /home/ise/BT_ISE_XILINX/bai_312_mahoauutien_42he_2ic/mahoa_42he_case.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mahoa_42he_case/Behavioral 1676249313 \
+      FL /home/ise/BT_ISE_XILINX/bai_312_mahoauutien_42he_2ic/mahoa_42he_case.vhd \
+      EN work/mahoa_42he_case 1676249312
+FL /home/ise/BT_ISE_XILINX/bai_312_mahoauutien_42he_2ic/mahoa_42he_if.vhd 2023/02/08.16:56:39 P.20131013
+EN work/mahoa_42he_if 1676249310 \
+      FL /home/ise/BT_ISE_XILINX/bai_312_mahoauutien_42he_2ic/mahoa_42he_if.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mahoa_42he_if/Behavioral 1676249311 \
+      FL /home/ise/BT_ISE_XILINX/bai_312_mahoauutien_42he_2ic/mahoa_42he_if.vhd \
+      EN work/mahoa_42he_if 1676249310

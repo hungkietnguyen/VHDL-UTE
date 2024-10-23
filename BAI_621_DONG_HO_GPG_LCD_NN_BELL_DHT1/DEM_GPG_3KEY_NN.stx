@@ -1,0 +1,56 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/.Xilinx/BAI_619_DONG_HO_GPG_LCD_NN_BELL/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to C:/.Xilinx/BAI_619_DONG_HO_GPG_LCD_NN_BELL/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/.Xilinx/BAI_619_DONG_HO_GPG_LCD_NN_BELL/DEBOUNCE_BTN.vhd" in Library work.
+Entity <DEBOUNCE_BTN> compiled.
+Entity <DEBOUNCE_BTN> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/.Xilinx/BAI_619_DONG_HO_GPG_LCD_NN_BELL/LAM_HEP_XUNG.vhd" in Library work.
+Entity <LAM_HEP_XUNG> compiled.
+Entity <LAM_HEP_XUNG> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/.Xilinx/BAI_619_DONG_HO_GPG_LCD_NN_BELL/DEM_2BIT.vhd" in Library work.
+Entity <DEM_2BIT> compiled.
+Entity <DEM_2BIT> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/.Xilinx/BAI_619_DONG_HO_GPG_LCD_NN_BELL/XULY_MOD.vhd" in Library work.
+Entity <XULY_MOD> compiled.
+Entity <XULY_MOD> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/.Xilinx/BAI_619_DONG_HO_GPG_LCD_NN_BELL/SS_PHUT_XBELL.vhd" in Library work.
+Entity <SS_PHUT_XBELL> compiled.
+Entity <SS_PHUT_XBELL> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/.Xilinx/BAI_618_DONG_HO_GPG_3KEY_NN/RESET_GT_MOD.vhd" in Library work.
+Entity <RESET_GT_MOD> compiled.
+Entity <RESET_GT_MOD> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/.Xilinx/BAI_619_DONG_HO_GPG_LCD_NN_BELL/DEM_GPG_MUD.vhd" in Library work.
+Entity <DEM_GPG_MUD> compiled.
+Entity <DEM_GPG_MUD> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/.Xilinx/BAI_619_DONG_HO_GPG_LCD_NN_BELL/DEM_GPG_3KEY_NN.vhd" in Library work.
+Entity <DEM_GPG_3KEY_NN> compiled.
+Entity <DEM_GPG_3KEY_NN> (Architecture <Behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.34 secs
+ 
+--> 
+
+Total memory usage is 4476184 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

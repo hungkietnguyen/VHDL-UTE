@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="BAI_617_DONG_HO_GPG_LCD_3KEY.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="DONG_HO_GPG_LCD_3KEY.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="DONG_HO_GPG_LCD_3KEY.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="DONG_HO_GPG_LCD_3KEY.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="DONG_HO_GPG_LCD_3KEY.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="DONG_HO_GPG_LCD_3KEY.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="DONG_HO_GPG_LCD_3KEY.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="DONG_HO_GPG_LCD_3KEY.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="DONG_HO_GPG_LCD_3KEY.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="DONG_HO_GPG_LCD_3KEY.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="DONG_HO_GPG_LCD_3KEY.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DONG_HO_GPG_LCD_3KEY.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="DONG_HO_GPG_LCD_3KEY.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="DONG_HO_GPG_LCD_3KEY.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="DONG_HO_GPG_LCD_3KEY.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="DONG_HO_GPG_LCD_3KEY.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="DONG_HO_GPG_LCD_3KEY.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="DONG_HO_GPG_LCD_3KEY.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="DONG_HO_GPG_LCD_3KEY.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="DONG_HO_GPG_LCD_3KEY.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="DONG_HO_GPG_LCD_3KEY.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="DONG_HO_GPG_LCD_3KEY_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="DONG_HO_GPG_LCD_3KEY_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="DONG_HO_GPG_LCD_3KEY_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="DONG_HO_GPG_LCD_3KEY_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="DONG_HO_GPG_LCD_3KEY_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="DONG_HO_GPG_LCD_3KEY_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DONG_HO_GPG_LCD_3KEY_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DONG_HO_GPG_LCD_3KEY_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="DONG_HO_GPG_LCD_3KEY_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="DONG_HO_GPG_LCD_3KEY_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DONG_HO_GPG_LCD_3KEY_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="DONG_HO_GPG_LCD_3KEY_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="DONG_HO_GPG_LCD_3KEY_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="DONG_HO_GPG_LCD_3KEY_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DONG_HO_GPG_LCD_3KEY_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DONG_HO_GPG_LCD_3KEY_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="dong_ho_gpg_lcd_3key.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="dong_ho_gpg_lcd_3key.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="dong_ho_gpg_lcd_3key.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1680928475" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1680928475">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1680928475" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="8998168197824797367" xil_pn:start_ts="1680928475">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1680928475" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3982657280695131383" xil_pn:start_ts="1680928475">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1680928475" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1680928475">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1680928475" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="8392515468081660981" xil_pn:start_ts="1680928475">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1680928475" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297145852409" xil_pn:start_ts="1680928475">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1680928475" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="94087294571884097" xil_pn:start_ts="1680928475">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1680933133" xil_pn:in_ck="-2354813330201477259" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-986931733614254838" xil_pn:start_ts="1680933119">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY.lso"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY.ngc"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY.ngr"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY.prj"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY.stx"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY.syr"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY.xst"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY_vhdl.prj"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1680928537" xil_pn:in_ck="26516141899588424" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="3363745603246678880" xil_pn:start_ts="1680928537">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1680933171" xil_pn:in_ck="-1748579568719051114" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="7540164829466852954" xil_pn:start_ts="1680933165">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY.bld"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY.ngd"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1680933178" xil_pn:in_ck="-8976939241683262121" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="5880003210255087717" xil_pn:start_ts="1680933171">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY.pcf"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY_map.map"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY_map.mrp"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY_map.ncd"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY_map.ngm"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY_map.xrpt"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY_summary.xml"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1680933203" xil_pn:in_ck="-2550882805839862608" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1680933178">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY.ncd"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY.pad"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY.par"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY.ptwx"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY.unroutes"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY.xpi"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY_pad.csv"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY_pad.txt"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1680933210" xil_pn:in_ck="755206446097425483" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1680933203">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="dong_ho_gpg_lcd_3key.bgn"/>
+      <outfile xil_pn:name="dong_ho_gpg_lcd_3key.bit"/>
+      <outfile xil_pn:name="dong_ho_gpg_lcd_3key.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1680928591" xil_pn:in_ck="-509718194388012043" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="5582947192412673156" xil_pn:start_ts="1680928589">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1680933203" xil_pn:in_ck="4382589830405458387" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1680933199">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY.twr"/>
+      <outfile xil_pn:name="DONG_HO_GPG_LCD_3KEY.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

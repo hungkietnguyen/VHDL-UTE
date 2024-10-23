@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/xst"
+elaborate
+-ifn LCD_GAN_DL_4SO_TO.prj
+-ifmt mixed

@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_451_dk_16led_sd_pst/dk_16led_sd_pst.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_451_dk_16led_sd_pst/dk_16led_sd_pst.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_451_dk_16led_sd_pst/dk_16led_sd_pst.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_451_dk_16led_sd_pst/dk_16led_sd_pst.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "KIT_XC3S500E_PQ208 .ucf" -p xc3s500e-pq208-5 dk_16led_sd_pst.ngc dk_16led_sd_pst.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o dk_16led_sd_pst_map.ncd dk_16led_sd_pst.ngd dk_16led_sd_pst.pcf 
+par -w -intstyle ise -ol high -t 1 dk_16led_sd_pst_map.ncd dk_16led_sd_pst.ncd dk_16led_sd_pst.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml dk_16led_sd_pst.twx dk_16led_sd_pst.ncd -o dk_16led_sd_pst.twr dk_16led_sd_pst.pcf -ucf {KIT_XC3S500E_PQ208 .ucf} 
+bitgen -intstyle ise -f dk_16led_sd_pst.ut dk_16led_sd_pst.ncd 

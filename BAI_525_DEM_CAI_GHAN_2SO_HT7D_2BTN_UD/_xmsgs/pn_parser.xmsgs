@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_525_DEM_CAI_GHAN_2SO_HT7D_2BTN_UD/BELL_BIP.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_525_DEM_CAI_GHAN_2SO_HT7D_2BTN_UD/CAI_GHAN_2SO.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_525_DEM_CAI_GHAN_2SO_HT7D_2BTN_UD/CD_LAM_HEP_BTN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_525_DEM_CAI_GHAN_2SO_HT7D_2BTN_UD/CHIA_10ENA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_525_DEM_CAI_GHAN_2SO_HT7D_2BTN_UD/DAHOP_8KENH.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_525_DEM_CAI_GHAN_2SO_HT7D_2BTN_UD/DEBOUNCE_BTN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_525_DEM_CAI_GHAN_2SO_HT7D_2BTN_UD/DEM_1BIT.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_525_DEM_CAI_GHAN_2SO_HT7D_2BTN_UD/DEM_1BIT_BTN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_525_DEM_CAI_GHAN_2SO_HT7D_2BTN_UD/DEM_2SO_SSUD.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_525_DEM_CAI_GHAN_2SO_HT7D_2BTN_UD/DEM_3BIT.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_525_DEM_CAI_GHAN_2SO_HT7D_2BTN_UD/DEM_CAI_GHAN_2SO_HT7D_2BTN_UD.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_525_DEM_CAI_GHAN_2SO_HT7D_2BTN_UD/GIAIMA_38H.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_525_DEM_CAI_GHAN_2SO_HT7D_2BTN_UD/GIAIMA_7DOAN_ENA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_525_DEM_CAI_GHAN_2SO_HT7D_2BTN_UD/GM_HT_8LED.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/.Xilinx/BAI_525_DEM_CAI_GHAN_2SO_HT7D_2BTN_UD/LAM_HEP_XUNG.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

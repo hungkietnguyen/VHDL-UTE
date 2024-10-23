@@ -1,0 +1,37 @@
+V3 19
+FL /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/chia_10ena.vhd 2023/03/14.03:39:31 P.20131013
+EN work/chia_10ena 1678766095 \
+      FL /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/chia_10ena.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/chia_10ena/Behavioral 1678766096 \
+      FL /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/chia_10ena.vhd \
+      EN work/chia_10ena 1678766095
+FL /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/dieukhien_chophep.vhd 2023/03/14.03:43:45 P.20131013
+EN work/dieukhien_chophep 1678766101 \
+      FL /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/dieukhien_chophep.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dieukhien_chophep/Behavioral 1678766102 \
+      FL /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/dieukhien_chophep.vhd \
+      EN work/dieukhien_chophep 1678766101
+FL /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/dk_16led_2ct_au_dv_pst_tsp.vhd 2023/03/14.03:51:22 P.20131013
+EN work/dk_16led_2ct_au_dv_pst_tsp 1678766103 \
+      FL /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/dk_16led_2ct_au_dv_pst_tsp.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dk_16led_2ct_au_dv_pst_tsp/Behavioral 1678766104 \
+      FL /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/dk_16led_2ct_au_dv_pst_tsp.vhd \
+      EN work/dk_16led_2ct_au_dv_pst_tsp 1678766103 CP work/chia_10ena \
+      CP work/dv_pst CP work/dv_tsp CP work/dieukhien_chophep
+FL /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/dv_pst.vhd 2023/03/14.03:54:53 P.20131013
+EN work/dv_pst 1678766097 \
+      FL /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/dv_pst.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dv_pst/Behavioral 1678766098 \
+      FL /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/dv_pst.vhd \
+      EN work/dv_pst 1678766097
+FL /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/dv_tsp.vhd 2023/03/14.03:54:53 P.20131013
+EN work/dv_tsp 1678766099 \
+      FL /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/dv_tsp.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dv_tsp/Behavioral 1678766100 \
+      FL /home/ise/BT_ISE_XILINX/bai_446_dk_16led_2ct_au_dv_pst_tsp/dv_tsp.vhd \
+      EN work/dv_tsp 1678766099

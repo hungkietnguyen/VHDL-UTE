@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEM_NP_10BIT_SSUD_HT7D_LCD</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/DEM_NP_10BIT_SSUD_HT7D_LCD.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/DEM_NP_10BIT_SSUD_HT7D_LCD.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEM_NP_10BIT_SSUD_HT7D_LCD/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/DEM_NP_10BIT_SSUD_HT7D_LCD.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/DEM_NP_10BIT_SSUD_HT7D_LCD.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/CHIA_10ENA</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/CHIA_10ENA.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/CHIA_10ENA.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/CHIA_10ENA/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/CHIA_10ENA.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/CHIA_10ENA.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEM_1BIT_BTN</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/DEM_1BIT_BTN.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/DEM_1BIT_BTN.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEM_1BIT_BTN/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/DEM_1BIT_BTN.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/DEM_1BIT_BTN.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEM_NP_10BIT_SSUD</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/DEM_NP_10BIT_SSUD.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/DEM_NP_10BIT_SSUD.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEM_NP_10BIT_SSUD/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/DEM_NP_10BIT_SSUD.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/DEM_NP_10BIT_SSUD.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/GM_HT_8LED</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/GM_HT_8LED.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/GM_HT_8LED.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/GM_HT_8LED/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/GM_HT_8LED.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/GM_HT_8LED.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HEXTOBCD_10BIT</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/HEXTOBCD_10BIT.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/HEXTOBCD_10BIT.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HEXTOBCD_10BIT/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/HEXTOBCD_10BIT.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/HEXTOBCD_10BIT.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HT_4TANSO</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/HT_4TANSO.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/HT_4TANSO.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HT_4TANSO/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/HT_4TANSO.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/HT_4TANSO.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/LCD_GAN_DULIEU_6SO</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/LCD_GAN_DULIEU_6SO.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/LCD_GAN_DULIEU_6SO.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/LCD_GAN_DULIEU_6SO/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/LCD_GAN_DULIEU_6SO.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/LCD_GAN_DULIEU_6SO.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/LCD_KHOITAO_HIENTHI</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/LCD_KHOITAO_HIENTHI.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/LCD_KHOITAO_HIENTHI.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/LCD_KHOITAO_HIENTHI/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/LCD_KHOITAO_HIENTHI.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/LCD_KHOITAO_HIENTHI.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/XOA_SO_0_VN</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/XOA_SO_0_VN.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/XOA_SO_0_VN.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/XOA_SO_0_VN/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/XOA_SO_0_VN.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/XOA_SO_0_VN.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/CD_LAM_HEP_BTN</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/CD_LAM_HEP_BTN.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/CD_LAM_HEP_BTN.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/CD_LAM_HEP_BTN/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/CD_LAM_HEP_BTN.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/CD_LAM_HEP_BTN.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DAHOP_8KENH</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/DAHOP_8KENH.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/DAHOP_8KENH.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DAHOP_8KENH/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/DAHOP_8KENH.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/DAHOP_8KENH.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEM_1BIT</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/DEM_1BIT.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/DEM_1BIT.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEM_1BIT/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/DEM_1BIT.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/DEM_1BIT.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEM_3BIT</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/DEM_3BIT.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/DEM_3BIT.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEM_3BIT/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/DEM_3BIT.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/DEM_3BIT.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/GIAIMA_38H</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/GIAIMA_38H.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/GIAIMA_38H.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/GIAIMA_38H/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/GIAIMA_38H.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/GIAIMA_38H.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/GIAIMA_7DOAN_ENA</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/GIAIMA_7DOAN_ENA.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/GIAIMA_7DOAN_ENA.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/GIAIMA_7DOAN_ENA/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/GIAIMA_7DOAN_ENA.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/GIAIMA_7DOAN_ENA.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEBOUNCE_BTN</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/DEBOUNCE_BTN.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/DEBOUNCE_BTN.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DEBOUNCE_BTN/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/DEBOUNCE_BTN.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/DEBOUNCE_BTN.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/LAM_HEP_XUNG</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/LAM_HEP_XUNG.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/LAM_HEP_XUNG.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/LAM_HEP_XUNG/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/.Xilinx/BAI_608_DEM_NP_10BIT_SSUD_HT7D_LCD/LAM_HEP_XUNG.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/BT_ISE_XILINX/BAI_609_DEM_NP_10BIT_SSUD_HT7D_LCD/LAM_HEP_XUNG.vhd</arg>&quot;.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+</messages>
+

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/nd_ds18b20_htsto_lcd_triac_ssbd.ncd
+OUTFILE=/home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd/nd_ds18b20_htsto_lcd_triac_ssbd.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5pq208
+WORKINGDIR=/home/ise/TT_TKVMS_VHDL/Bai_636_nd_ds18b20_htsto_lcd_triac_ssbd
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

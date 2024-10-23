@@ -1,0 +1,85 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 5 -n
+3 -fastpaths -xml dk_16led_sd_tsp.twx dk_16led_sd_tsp.ncd -o
+dk_16led_sd_tsp.twr dk_16led_sd_tsp.pcf -ucf KIT_XC3S500E_PQ208 .ucf
+
+Design file:              dk_16led_sd_tsp.ncd
+Physical constraint file: dk_16led_sd_tsp.pcf
+Device,package,speed:     xc3s500e,pq208,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock ckht to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+led<0>      |    8.145(F)|ckht_BUFGP        |   0.000|
+led<1>      |    8.227(F)|ckht_BUFGP        |   0.000|
+led<2>      |    7.853(F)|ckht_BUFGP        |   0.000|
+led<3>      |    8.044(F)|ckht_BUFGP        |   0.000|
+led<4>      |    8.520(F)|ckht_BUFGP        |   0.000|
+led<5>      |    7.667(F)|ckht_BUFGP        |   0.000|
+led<6>      |    8.881(F)|ckht_BUFGP        |   0.000|
+led<7>      |    8.635(F)|ckht_BUFGP        |   0.000|
+led<8>      |    9.250(F)|ckht_BUFGP        |   0.000|
+led<9>      |    8.901(F)|ckht_BUFGP        |   0.000|
+led<10>     |    8.129(F)|ckht_BUFGP        |   0.000|
+led<11>     |    8.078(F)|ckht_BUFGP        |   0.000|
+led<12>     |    8.766(F)|ckht_BUFGP        |   0.000|
+led<13>     |    8.805(F)|ckht_BUFGP        |   0.000|
+led<14>     |    8.987(F)|ckht_BUFGP        |   0.000|
+led<15>     |    9.172(F)|ckht_BUFGP        |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock ckht
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ckht           |         |         |         |    5.413|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Tue Mar 21 03:00:10 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 348 MB
+
+
+

@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_622_LCD_HIENTHI_TRAI_TIM/LCD_HIENTHI_TRAI_TIM.xst" -ofn "C:/.Xilinx/BAI_622_LCD_HIENTHI_TRAI_TIM/LCD_HIENTHI_TRAI_TIM.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_622_LCD_HIENTHI_TRAI_TIM/LCD_HIENTHI_TRAI_TIM.xst" -ofn "C:/.Xilinx/BAI_622_LCD_HIENTHI_TRAI_TIM/LCD_HIENTHI_TRAI_TIM.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_622_LCD_HIENTHI_TRAI_TIM/LCD_HIENTHI_TRAI_TIM.xst" -ofn "C:/.Xilinx/BAI_622_LCD_HIENTHI_TRAI_TIM/LCD_HIENTHI_TRAI_TIM.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_622_LCD_HIENTHI_TRAI_TIM/LCD_HIENTHI_TRAI_TIM.xst" -ofn "C:/.Xilinx/BAI_622_LCD_HIENTHI_TRAI_TIM/LCD_HIENTHI_TRAI_TIM.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_622_LCD_HIENTHI_TRAI_TIM/LCD_HIENTHI_TRAI_TIM.xst" -ofn "C:/.Xilinx/BAI_622_LCD_HIENTHI_TRAI_TIM/LCD_HIENTHI_TRAI_TIM.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/BAI_622_LCD_HIENTHI_TRAI_TIM/LCD_HIENTHI_TRAI_TIM.xst" -ofn "C:/.Xilinx/BAI_622_LCD_HIENTHI_TRAI_TIM/LCD_HIENTHI_TRAI_TIM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_HIENTHI_TRAI_TIM.ngc LCD_HIENTHI_TRAI_TIM.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_HIENTHI_TRAI_TIM_map.ncd LCD_HIENTHI_TRAI_TIM.ngd LCD_HIENTHI_TRAI_TIM.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_HIENTHI_TRAI_TIM_map.ncd LCD_HIENTHI_TRAI_TIM.ncd LCD_HIENTHI_TRAI_TIM.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_HIENTHI_TRAI_TIM.twx LCD_HIENTHI_TRAI_TIM.ncd -o LCD_HIENTHI_TRAI_TIM.twr LCD_HIENTHI_TRAI_TIM.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_HIENTHI_TRAI_TIM.ut LCD_HIENTHI_TRAI_TIM.ncd 

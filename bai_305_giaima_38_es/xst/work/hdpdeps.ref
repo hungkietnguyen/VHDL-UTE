@@ -1,0 +1,15 @@
+V3 7
+FL /home/ise/BT_ISE_XILINX/bai_305_giaima_38_es/giaima_38.vhd 2023/02/13.00:25:42 P.20131013
+EN work/giaima_38 1676247949 \
+      FL /home/ise/BT_ISE_XILINX/bai_305_giaima_38_es/giaima_38.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/giaima_38/Behavioral 1676247950 \
+      FL /home/ise/BT_ISE_XILINX/bai_305_giaima_38_es/giaima_38.vhd \
+      EN work/giaima_38 1676247949
+FL /home/ise/BT_ISE_XILINX/bai_305_giaima_38_es/giaima_38_es.vhd 2023/02/08.14:22:03 P.20131013
+EN work/giaima_38_es 1676247951 \
+      FL /home/ise/BT_ISE_XILINX/bai_305_giaima_38_es/giaima_38_es.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/giaima_38_es/Behavioral 1676247952 \
+      FL /home/ise/BT_ISE_XILINX/bai_305_giaima_38_es/giaima_38_es.vhd \
+      EN work/giaima_38_es 1676247951 CP work/giaima_38

@@ -1,0 +1,3 @@
+vhdl work "mahoa_42h_sel.vhd"
+vhdl work "mahoa_42h_con.vhd"
+vhdl work "mahoauutien_42h_2ic.vhd"

@@ -1,0 +1,5 @@
+set -tmpdir "C:/.Xilinx/BAI_620_DONG_HO_GPG_LCD_NN_BELL_DS18B20/xst/projnav.tmp"
+set -xsthdpdir "C:/.Xilinx/BAI_620_DONG_HO_GPG_LCD_NN_BELL_DS18B20/xst"
+elaborate
+-ifn LCD_GAN_DULIEU_GPG_NN_DS18B20.prj
+-ifmt mixed

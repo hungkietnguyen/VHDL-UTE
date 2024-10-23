@@ -1,0 +1,163 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 5 -n
+3 -fastpaths -xml ht_8so_8l7d_8dp_8ena.twx ht_8so_8l7d_8dp_8ena.ncd -o
+ht_8so_8l7d_8dp_8ena.twr ht_8so_8l7d_8dp_8ena.pcf -ucf KIT_XC3S500E_PQ208 .ucf
+
+Design file:              ht_8so_8l7d_8dp_8ena.ncd
+Physical constraint file: ht_8so_8l7d_8dp_8ena.pcf
+Device,package,speed:     xc3s500e,pq208,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock ckht to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+cathode<0>  |    9.086(F)|ckht_BUFGP        |   0.000|
+cathode<1>  |    8.977(F)|ckht_BUFGP        |   0.000|
+cathode<2>  |    9.233(F)|ckht_BUFGP        |   0.000|
+cathode<3>  |    9.199(F)|ckht_BUFGP        |   0.000|
+cathode<4>  |   10.063(F)|ckht_BUFGP        |   0.000|
+cathode<5>  |   10.271(F)|ckht_BUFGP        |   0.000|
+cathode<6>  |   10.910(F)|ckht_BUFGP        |   0.000|
+cathode<7>  |   10.333(F)|ckht_BUFGP        |   0.000|
+sseg<0>     |   13.301(F)|ckht_BUFGP        |   0.000|
+sseg<1>     |   13.842(F)|ckht_BUFGP        |   0.000|
+sseg<2>     |   14.545(F)|ckht_BUFGP        |   0.000|
+sseg<3>     |   13.569(F)|ckht_BUFGP        |   0.000|
+sseg<4>     |   13.821(F)|ckht_BUFGP        |   0.000|
+sseg<5>     |   14.035(F)|ckht_BUFGP        |   0.000|
+sseg<6>     |   13.861(F)|ckht_BUFGP        |   0.000|
+sseg<7>     |   16.873(F)|ckht_BUFGP        |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock ckht
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ckht           |         |         |         |    4.128|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+sw<0>          |sseg<0>        |   10.002|
+sw<0>          |sseg<1>        |   10.543|
+sw<0>          |sseg<2>        |   11.246|
+sw<0>          |sseg<3>        |   10.270|
+sw<0>          |sseg<4>        |   10.522|
+sw<0>          |sseg<5>        |   10.736|
+sw<0>          |sseg<6>        |   10.562|
+sw<0>          |sseg<7>        |   11.231|
+sw<1>          |sseg<0>        |    9.547|
+sw<1>          |sseg<1>        |   10.088|
+sw<1>          |sseg<2>        |   10.791|
+sw<1>          |sseg<3>        |    9.815|
+sw<1>          |sseg<4>        |   10.067|
+sw<1>          |sseg<5>        |   10.281|
+sw<1>          |sseg<6>        |   10.107|
+sw<1>          |sseg<7>        |   10.776|
+sw<2>          |sseg<0>        |    9.579|
+sw<2>          |sseg<1>        |   10.120|
+sw<2>          |sseg<2>        |   10.823|
+sw<2>          |sseg<3>        |    9.847|
+sw<2>          |sseg<4>        |   10.099|
+sw<2>          |sseg<5>        |   10.313|
+sw<2>          |sseg<6>        |   10.139|
+sw<2>          |sseg<7>        |   10.808|
+sw<3>          |sseg<0>        |    9.676|
+sw<3>          |sseg<1>        |   10.217|
+sw<3>          |sseg<2>        |   10.920|
+sw<3>          |sseg<3>        |    9.944|
+sw<3>          |sseg<4>        |   10.196|
+sw<3>          |sseg<5>        |   10.410|
+sw<3>          |sseg<6>        |   10.236|
+sw<3>          |sseg<7>        |   10.905|
+sw<4>          |sseg<0>        |    9.450|
+sw<4>          |sseg<1>        |    9.991|
+sw<4>          |sseg<2>        |   10.694|
+sw<4>          |sseg<3>        |    9.718|
+sw<4>          |sseg<4>        |    9.970|
+sw<4>          |sseg<5>        |   10.184|
+sw<4>          |sseg<6>        |   10.010|
+sw<4>          |sseg<7>        |   10.679|
+sw<5>          |sseg<0>        |    9.907|
+sw<5>          |sseg<1>        |   10.448|
+sw<5>          |sseg<2>        |   11.151|
+sw<5>          |sseg<3>        |   10.175|
+sw<5>          |sseg<4>        |   10.427|
+sw<5>          |sseg<5>        |   10.641|
+sw<5>          |sseg<6>        |   10.467|
+sw<5>          |sseg<7>        |   11.136|
+sw<6>          |sseg<0>        |    9.994|
+sw<6>          |sseg<1>        |   10.535|
+sw<6>          |sseg<2>        |   11.238|
+sw<6>          |sseg<3>        |   10.262|
+sw<6>          |sseg<4>        |   10.514|
+sw<6>          |sseg<5>        |   10.728|
+sw<6>          |sseg<6>        |   10.554|
+sw<6>          |sseg<7>        |   11.223|
+sw<7>          |sseg<0>        |   10.264|
+sw<7>          |sseg<1>        |   10.805|
+sw<7>          |sseg<2>        |   11.508|
+sw<7>          |sseg<3>        |   10.532|
+sw<7>          |sseg<4>        |   10.784|
+sw<7>          |sseg<5>        |   10.998|
+sw<7>          |sseg<6>        |   10.824|
+sw<7>          |sseg<7>        |   11.493|
+sw<8>          |sseg<7>        |   10.792|
+sw<9>          |sseg<7>        |   10.710|
+sw<10>         |sseg<7>        |   10.068|
+sw<11>         |sseg<7>        |   10.207|
+sw<12>         |sseg<7>        |   11.225|
+sw<13>         |sseg<7>        |   11.063|
+sw<14>         |sseg<7>        |    9.842|
+sw<15>         |sseg<7>        |   10.818|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Apr  7 02:17:14 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 348 MB
+
+
+

@@ -1,0 +1,23 @@
+V3 11
+FL /home/ise/BT_ISE_XILINX/bai_304_giaima_24h1e_2ic/giaima_24h1e_2ic.vhd 2023/02/07.03:58:03 P.20131013
+EN work/giaima_24h1e_2ic 1675743315 \
+      FL /home/ise/BT_ISE_XILINX/bai_304_giaima_24h1e_2ic/giaima_24h1e_2ic.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/giaima_24h1e_2ic/Behavioral 1675743316 \
+      FL /home/ise/BT_ISE_XILINX/bai_304_giaima_24h1e_2ic/giaima_24h1e_2ic.vhd \
+      EN work/giaima_24h1e_2ic 1675743315 CP work/giaima_24he_if \
+      CP work/giaima_24he_case
+FL /home/ise/BT_ISE_XILINX/bai_304_giaima_24h1e_2ic/giaima_24he_case.vhd 2023/02/07.04:02:01 P.20131013
+EN work/giaima_24he_case 1675743327 \
+      FL /home/ise/BT_ISE_XILINX/bai_304_giaima_24h1e_2ic/giaima_24he_case.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/giaima_24he_case/Behavioral 1675743328 \
+      FL /home/ise/BT_ISE_XILINX/bai_304_giaima_24h1e_2ic/giaima_24he_case.vhd \
+      EN work/giaima_24he_case 1675743327
+FL /home/ise/BT_ISE_XILINX/bai_304_giaima_24h1e_2ic/giaima_24he_if.vhd 2023/02/07.04:02:00 P.20131013
+EN work/giaima_24he_if 1675743323 \
+      FL /home/ise/BT_ISE_XILINX/bai_304_giaima_24h1e_2ic/giaima_24he_if.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/giaima_24he_if/Behavioral 1675743324 \
+      FL /home/ise/BT_ISE_XILINX/bai_304_giaima_24h1e_2ic/giaima_24he_if.vhd \
+      EN work/giaima_24he_if 1675743323

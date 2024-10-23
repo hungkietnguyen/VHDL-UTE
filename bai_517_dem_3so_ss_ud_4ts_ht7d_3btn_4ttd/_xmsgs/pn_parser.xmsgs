@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/bounce_btn.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/cd_lam_hep_btn.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/chia_10ena.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/dahop_8kenh.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/dem_2bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/dem_2bit_btn.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/dem_3bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/dem_3so_ss_ud_4ts_ht7d_3btn_4ttd.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/dem_3so_ssud.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/giaima_38h.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/giaima_7doan_ena.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/gm_ht_8led.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/ht_4tanso.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/lam_hep_xung.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/BT_ISE_XILINX/bai_517_dem_3so_ss_ud_4ts_ht7d_3btn_4ttd/xoa_so_0_vn.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

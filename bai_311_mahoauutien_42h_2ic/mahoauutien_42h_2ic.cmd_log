@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_311_mahoauutien_42h_2ic/mahoauutien_42h_2ic.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_311_mahoauutien_42h_2ic/mahoauutien_42h_2ic.syr" 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_311_mahoauutien_42h_2ic/mahoauutien_42h_2ic.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_311_mahoauutien_42h_2ic/mahoauutien_42h_2ic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 mahoauutien_42h_2ic.ngc mahoauutien_42h_2ic.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o mahoauutien_42h_2ic_map.ncd mahoauutien_42h_2ic.ngd mahoauutien_42h_2ic.pcf 
+par -w -intstyle ise -ol high -t 1 mahoauutien_42h_2ic_map.ncd mahoauutien_42h_2ic.ncd mahoauutien_42h_2ic.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mahoauutien_42h_2ic.twx mahoauutien_42h_2ic.ncd -o mahoauutien_42h_2ic.twr mahoauutien_42h_2ic.pcf 
+bitgen -intstyle ise -f mahoauutien_42h_2ic.ut mahoauutien_42h_2ic.ncd 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_311_mahoauutien_42h_2ic/mahoauutien_42h_2ic.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_311_mahoauutien_42h_2ic/mahoauutien_42h_2ic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 mahoauutien_42h_2ic.ngc mahoauutien_42h_2ic.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o mahoauutien_42h_2ic_map.ncd mahoauutien_42h_2ic.ngd mahoauutien_42h_2ic.pcf 
+par -w -intstyle ise -ol high -t 1 mahoauutien_42h_2ic_map.ncd mahoauutien_42h_2ic.ncd mahoauutien_42h_2ic.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mahoauutien_42h_2ic.twx mahoauutien_42h_2ic.ncd -o mahoauutien_42h_2ic.twr mahoauutien_42h_2ic.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f mahoauutien_42h_2ic.ut mahoauutien_42h_2ic.ncd 
+xst -intstyle ise -ifn "/home/ise/BT_ISE_XILINX/bai_311_mahoauutien_42h_2ic/mahoauutien_42h_2ic.xst" -ofn "/home/ise/BT_ISE_XILINX/bai_311_mahoauutien_42h_2ic/mahoauutien_42h_2ic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 mahoauutien_42h_2ic.ngc mahoauutien_42h_2ic.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o mahoauutien_42h_2ic_map.ncd mahoauutien_42h_2ic.ngd mahoauutien_42h_2ic.pcf 
+par -w -intstyle ise -ol high -t 1 mahoauutien_42h_2ic_map.ncd mahoauutien_42h_2ic.ncd mahoauutien_42h_2ic.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mahoauutien_42h_2ic.twx mahoauutien_42h_2ic.ncd -o mahoauutien_42h_2ic.twr mahoauutien_42h_2ic.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f mahoauutien_42h_2ic.ut mahoauutien_42h_2ic.ncd 

@@ -1,0 +1,10 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Feb 16 07:52:38 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "led0" LOCATE = SITE "P49" LEVEL 1;
+COMP "ckht" LOCATE = SITE "P183" LEVEL 1;
+NET "ckht_BUFGP/IBUFG" BEL "ckht_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

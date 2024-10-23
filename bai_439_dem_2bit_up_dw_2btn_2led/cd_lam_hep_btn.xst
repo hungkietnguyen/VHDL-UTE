@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/BT_ISE_XILINX/bai_439_dem_2bit_up_dw_2btn_2led/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/BT_ISE_XILINX/bai_439_dem_2bit_up_dw_2btn_2led/xst"
+elaborate
+-ifn cd_lam_hep_btn.prj
+-ifmt mixed

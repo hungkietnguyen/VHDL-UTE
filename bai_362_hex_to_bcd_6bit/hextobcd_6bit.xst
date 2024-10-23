@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/BT_ISE_XILINX/bai_362_hex_to_bcd_6bit/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/BT_ISE_XILINX/bai_362_hex_to_bcd_6bit/xst"
+elaborate
+-ifn hextobcd_6bit.prj
+-ifmt mixed

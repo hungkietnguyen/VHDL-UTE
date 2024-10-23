@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Tue Feb 28 07:14:08 2023
+
+drc -z dem_4bit_cach_3.ncd dem_4bit_cach_3.pcf
+
+DRC detected 0 errors and 0 warnings.

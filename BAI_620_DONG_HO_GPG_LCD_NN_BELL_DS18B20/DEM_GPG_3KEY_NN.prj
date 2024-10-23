@@ -1,0 +1,8 @@
+vhdl work "LAM_HEP_XUNG.vhd"
+vhdl work "DEM_2BIT.vhd"
+vhdl work "DEBOUNCE_BTN.vhd"
+vhdl work "XULY_MOD.vhd"
+vhdl work "SS_PHUT_XBELL.vhd"
+vhdl work "DEM_GPG_MUD.vhd"
+vhdl work "../BAI_618_DONG_HO_GPG_3KEY_NN/RESET_GT_MOD.vhd"
+vhdl work "DEM_GPG_3KEY_NN.vhd"

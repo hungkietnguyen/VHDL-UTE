@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/Desktop/TT_TKVMS_VHDL/bai_436_dem_2bit_cach_3/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/Desktop/TT_TKVMS_VHDL/bai_436_dem_2bit_cach_3/xst"
+elaborate
+-ifn cd_lam_hep_btn.prj
+-ifmt mixed

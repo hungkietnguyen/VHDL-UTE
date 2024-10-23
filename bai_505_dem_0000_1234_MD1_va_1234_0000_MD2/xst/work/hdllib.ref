@@ -1,0 +1,16 @@
+EN dem_4so_1 NULL /home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/dem_4so_1.vhd sub00/vhpl02 1680233412
+EN dem_4so_2 NULL /home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/dem_4so_2.vhd sub00/vhpl04 1680233414
+AR chia_10ena behavioral /home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/chia_10ena.vhd sub00/vhpl01 1680233411
+AR dem_3bit behavioral /home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/dem_3bit.vhd sub00/vhpl07 1680233417
+EN giaima_38h NULL /home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/giaima_38h.vhd sub00/vhpl10 1680233420
+AR giaima_7doan behavioral /home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/giaima_7doan.vhd sub00/vhpl13 1680233423
+AR giaima_38h behavioral /home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/giaima_38h.vhd sub00/vhpl11 1680233421
+EN giaima_7doan NULL /home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/giaima_7doan.vhd sub00/vhpl12 1680233422
+AR dem_4so_2 behavioral /home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/dem_4so_2.vhd sub00/vhpl05 1680233415
+AR hai_md_bcd_4so_ht_7doan behavioral /home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.vhd sub00/vhpl15 1680233425
+EN dahop_8kenh NULL /home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/dahop_8kenh.vhd sub00/vhpl08 1680233418
+EN dem_3bit NULL /home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/dem_3bit.vhd sub00/vhpl06 1680233416
+EN hai_md_bcd_4so_ht_7doan NULL /home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/hai_md_bcd_4so_ht_7doan.vhd sub00/vhpl14 1680233424
+AR dahop_8kenh behavioral /home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/dahop_8kenh.vhd sub00/vhpl09 1680233419
+AR dem_4so_1 behavioral /home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/dem_4so_1.vhd sub00/vhpl03 1680233413
+EN chia_10ena NULL /home/ise/BT_ISE_XILINX/bai_505_dem_0000_1234_MD1_va_1234_0000_MD2/chia_10ena.vhd sub00/vhpl00 1680233410

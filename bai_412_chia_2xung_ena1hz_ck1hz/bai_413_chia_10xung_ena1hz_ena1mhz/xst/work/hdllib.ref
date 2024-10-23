@@ -1,0 +1,4 @@
+AR chia_10ena behavioral /home/ise/BT_ISE_XILINX/bai_413_chia_10xung_ena1hz_ena1mhz/chia_10ena.vhd sub00/vhpl01 1676865795
+EN chia_10xung_ena1hz_ena1mhz NULL /home/ise/BT_ISE_XILINX/bai_413_chia_10xung_ena1hz_ena1mhz/chia_10xung_ena1hz_ena1mhz.vhd sub00/vhpl02 1676865796
+AR chia_10xung_ena1hz_ena1mhz behavioral /home/ise/BT_ISE_XILINX/bai_413_chia_10xung_ena1hz_ena1mhz/chia_10xung_ena1hz_ena1mhz.vhd sub00/vhpl03 1676865797
+EN chia_10ena NULL /home/ise/BT_ISE_XILINX/bai_413_chia_10xung_ena1hz_ena1mhz/chia_10ena.vhd sub00/vhpl00 1676865794

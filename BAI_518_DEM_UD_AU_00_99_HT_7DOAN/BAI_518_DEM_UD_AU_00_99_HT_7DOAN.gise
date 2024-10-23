@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="BAI_518_DEM_UD_AU_00_99_HT_7DOAN.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="dem_ud_au_00_99_ht_7doan.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="dem_ud_au_00_99_ht_7doan.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="dem_ud_au_00_99_ht_7doan.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1678957116" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1678957116">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1678957116" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="8669210251362698549" xil_pn:start_ts="1678957116">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1678957116" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="4196954908446935861" xil_pn:start_ts="1678957116">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1678957116" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1678957116">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1678957116" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-5194445503581602381" xil_pn:start_ts="1678957116">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1678957116" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297145852409" xil_pn:start_ts="1678957116">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1678957116" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="5834916439129862527" xil_pn:start_ts="1678957116">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1678960452" xil_pn:in_ck="2301551936747746293" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-1565082011184318392" xil_pn:start_ts="1678960448">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.lso"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.ngc"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.ngr"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.prj"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.syr"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.xst"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_vhdl.prj"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1678957725" xil_pn:in_ck="26516141899588424" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="135695496556655582" xil_pn:start_ts="1678957725">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1678959235" xil_pn:in_ck="7401060188830233556" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="4344360700536275864" xil_pn:start_ts="1678959230">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.bld"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.ngd"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1678959239" xil_pn:in_ck="172700515866022549" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="5880003210255087717" xil_pn:start_ts="1678959235">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.pcf"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_map.map"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_map.mrp"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_map.ncd"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_map.ngm"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_map.xrpt"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_summary.xml"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1678959258" xil_pn:in_ck="3580992366933704942" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1678959239">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.ncd"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.pad"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.par"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.ptwx"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.unroutes"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.xpi"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_pad.csv"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_pad.txt"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1678959264" xil_pn:in_ck="9174676184263409417" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1678959258">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="dem_ud_au_00_99_ht_7doan.bgn"/>
+      <outfile xil_pn:name="dem_ud_au_00_99_ht_7doan.bit"/>
+      <outfile xil_pn:name="dem_ud_au_00_99_ht_7doan.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1678959268" xil_pn:in_ck="-2101982220145180045" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="5582947192412673156" xil_pn:start_ts="1678959264">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForced"/>
+    </transform>
+    <transform xil_pn:end_ts="1678959258" xil_pn:in_ck="-4914514485754808559" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1678959255">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.twr"/>
+      <outfile xil_pn:name="DEM_UD_AU_00_99_HT_7DOAN.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

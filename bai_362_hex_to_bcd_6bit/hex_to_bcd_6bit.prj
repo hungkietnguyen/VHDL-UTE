@@ -1,0 +1,2 @@
+vhdl work "hextobcd_6bit.vhd"
+vhdl work "hex_to_bcd_6bit.vhd"

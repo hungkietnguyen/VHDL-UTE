@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/BT_ISE_XILINX/bai_424_dem_nhi_phan_8bit_ss_ud_sw/dem_nhi_phan_8bit_ssud_auto.ncd
+OUTFILE=/home/ise/BT_ISE_XILINX/bai_424_dem_nhi_phan_8bit_ss_ud_sw/dem_nhi_phan_8bit_ssud_auto.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5pq208
+WORKINGDIR=/home/ise/BT_ISE_XILINX/bai_424_dem_nhi_phan_8bit_ss_ud_sw
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

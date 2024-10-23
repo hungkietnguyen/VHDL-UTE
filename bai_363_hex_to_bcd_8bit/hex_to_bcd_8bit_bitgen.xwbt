@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/BT_ISE_XILINX/bai_363_hex_to_bcd_8bit/hex_to_bcd_8bit.ncd
+OUTFILE=/home/ise/BT_ISE_XILINX/bai_363_hex_to_bcd_8bit/hex_to_bcd_8bit.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5pq208
+WORKINGDIR=/home/ise/BT_ISE_XILINX/bai_363_hex_to_bcd_8bit
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

@@ -1,0 +1,4 @@
+AR dahop_4kenh_2bit_con behavioral /home/ise/BT_ISE_XILINX/bai_323_dahop_4kenh_2bit_con/dahop_4kenh_2bit_con.vhd sub00/vhpl03 1676251469
+EN dahop_4kenh_2bit_con NULL /home/ise/BT_ISE_XILINX/bai_323_dahop_4kenh_2bit_con/dahop_4kenh_2bit_con.vhd sub00/vhpl02 1676251468
+EN dahop_4kenh_2bit NULL /home/ise/BT_ISE_XILINX/bai_323_dahop_4kenh_2bit_con/dahop_4kenh_2bit.vhd sub00/vhpl00 1676251466
+AR dahop_4kenh_2bit behavioral /home/ise/BT_ISE_XILINX/bai_323_dahop_4kenh_2bit_con/dahop_4kenh_2bit.vhd sub00/vhpl01 1676251467

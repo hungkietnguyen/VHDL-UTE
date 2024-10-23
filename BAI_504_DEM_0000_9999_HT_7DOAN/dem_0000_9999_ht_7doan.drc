@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Mar 09 07:27:40 2023
+
+drc -z DEM_0000_9999_HT_7DOAN.ncd DEM_0000_9999_HT_7DOAN.pcf
+
+DRC detected 0 errors and 0 warnings.
